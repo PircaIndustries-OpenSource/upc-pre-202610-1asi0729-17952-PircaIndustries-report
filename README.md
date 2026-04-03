@@ -280,11 +280,11 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 **Nombre:**  PircaIndustries
 
-**Área:**  Construcción*
+**Área:**  Innovación tecnológica en Construcción y Gestión Arquitectónica
 
-PircaIndustries es una startup que está conformada por estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC) de la facultad de ingeniería. La compañía pretende...
+PircaIndustries es una startup conformada por estudiantes de la facultad de Ingeniería de la Universidad Peruana de Ciencias Aplicadas (UPC). La compañía nace con el objetivo de modernizar y optimizar la industria de la construcción y arquitectura, tradicionalmente dependiente de procesos manuales y dispersos. Reconociendo la complejidad que implica la ejecución de obras, PircaIndustries ha desarrollado Kipu, una plataforma virtual integral diseñada para centralizar la gestión de proyectos arquitectónicos en un solo ecosistema digital.
 
-* **Misión:**  
+* **Misión:**  La misión de PircaIndustries es empoderar a arquitectos, ingenieros y gestores de proyectos mediante herramientas tecnológicas avanzadas que faciliten la planificación y ejecución de obras de manera eficiente y transparente. A través de Kipu, buscamos eliminar la fragmentación de la información, permitiendo una gestión fluida de planos, presupuestos y cronogramas. Nos esforzamos por garantizar que cada documento a firmar, avance a revisar o tarea pendiente sea gestionado con precisión, reduciendo errores operativos y optimizando los tiempos de entrega para asegurar la satisfacción total de los stakeholders involucrados en el ciclo de vida de la construcción.
 
 * **Visión:**  
 
