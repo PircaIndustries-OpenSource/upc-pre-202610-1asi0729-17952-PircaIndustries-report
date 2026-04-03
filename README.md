@@ -40,7 +40,7 @@
 
 |**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
 | - | - | - | - |
-|1\.0|02/04/2026|Diego Antonio Ramos Hinostroza| Se agregó la estructura inicial del proyecto.|
+|1\.0|02/04/2026|Diego Antonio Ramos Hinostroza y Marcelo Fausto Pareja Calloapaza| Se agregó la estructura inicial del proyecto.|
 
 
 
@@ -266,6 +266,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>
+		  <br>
       </td>
     </tr>
   </tbody>
