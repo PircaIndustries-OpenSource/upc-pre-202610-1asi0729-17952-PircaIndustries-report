@@ -271,3 +271,36 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     </tr>
   </tbody>
 </table>
+
+---
+
+# Capítulo I: Introducción
+## 1.1 Startup Profile
+### 1.1.1 Descripción de la Startup
+
+**Nombre:**  PircaIndustries
+
+**Área:**  Construcción*
+
+PircaIndustries es una startup que está conformada por estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC) de la facultad de ingeniería. La compañía pretende...
+
+* **Misión:**  
+
+* **Visión:**  
+
+* **Valores:**  
+
+  * **Valor 1:** 
+
+  * **Valor 2:**
+
+  * **Valor n:** 
+
+  ### 1.1.2 Perfiles de integrantes del equipo
+  
+| **Integrante** | **Perfil** | **Imagen** | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Francia Torres, Jhony Manuel - u202219639** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/diego.jpg?raw=true" alt="Imagen de Jhony Manuel Francia Torres"/> |
+| **Montoya Nina, Paula Fernanda - u20221a133** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/Joseph.jpg?raw=true" alt="Imagen de Paula Fernanda Montoya Nina"/> |
+| **Pareja Calloapaza, Marcelo Fausto - u202216282** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/mathias.jpg?raw=true" alt="Imagen de Pareja Calloapaza, Marcelo Fausto"/> |
+| **Ramos Hinostroza, Diego Antonio - u202214059** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/Ian.PNG?raw=true" alt="Imagen de Diego Antonio Ramos Hinostroza"/> |
+| **Ramos Mera, Neo Daniel - u202210297** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/andres.jpg?raw=true" alt="Imagen de Neo Daniel Ramos Mera"/> |
