@@ -260,13 +260,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>
+		  <br>
       </td>
       <td colspan="3">
         <b>AV1</b><p></p>
         <b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>
-		  <br>
       </td>
     </tr>
   </tbody>
