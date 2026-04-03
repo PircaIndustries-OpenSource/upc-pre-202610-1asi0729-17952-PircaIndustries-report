@@ -23,8 +23,8 @@
 |---------------------------------|----------------|
 | Francia Torres Jhony Manuel             | u202417329     |
 | Montoya Nina Paula Fernanda             | u20241d934     |
-| Pareja Calloapaza Marcelo Fausto        | u202411327     |
-| Ramos Hinostroza Diego Antonio          | U202224130     |
+| Pareja Calloapaza Marcelo Fausto        | u202411627     |
+| Ramos Hinostroza Diego Antonio          | u202224130     |
 | Ramos Mera Neo Daniel                   | u20241e418     |
 
 </div>
