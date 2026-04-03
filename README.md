@@ -40,7 +40,7 @@
 
 |**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
 | - | - | - | - |
-|1\.0|02/04/2026|Marcelo Fausto Pareja Calloapaza y Diego Antonio Ramos Hinostroza| Se agregó la estructura inicial del proyecto.|
+|1\.0|02/04/2026|Marcelo Fausto Pareja Calloapaza, Diego Antonio Ramos Hinostroza y Paula Fernanda Montoya Nina| Se agregó la estructura inicial del proyecto.|
 |1\.1|03/04/2026| | Se inició el Capítulo I: Introducción y se agregó contenido relacionado con Startup Profile.|
 
 
