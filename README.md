@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="[https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources/UPC_logo_transparente.png](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/UPC_logo_transparente.png)" alt="Logo-UPC" width="150">
+  <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/UPC_logo_transparente.png" alt="Logo-UPC" width="150">
 
 ## Universidad Peruana de Ciencias Aplicadas
 
@@ -52,9 +52,9 @@
 # Project Report Collaboration Insights
 
 URL de Organización de GITHUB del equipo PircaIndustries:
-[https://github.com/PircaIndustries](https://github.com/PircaIndustries-OpenSource)
+https://github.com/PircaIndustries-OpenSource
 
 URL de Repositorio del Project Report:
-[https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report)
+https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report
 
 <strong>*Entrega TB1:*</strong>
