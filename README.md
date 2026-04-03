@@ -40,7 +40,8 @@
 
 |**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
 | - | - | - | - |
-|1\.0|02/04/2026|Diego Antonio Ramos Hinostroza y Marcelo Fausto Pareja Calloapaza| Se agregó la estructura inicial del proyecto.|
+|1\.0|02/04/2026|Marcelo Fausto Pareja Calloapaza y Diego Antonio Ramos Hinostroza| Se agregó la estructura inicial del proyecto.|
+|1\.1|03/04/2026| | Se inició el Capítulo I: Introducción y se agregó contenido relacionado con Startup Profile.|
 
 
 
@@ -284,17 +285,25 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 PircaIndustries es una startup conformada por estudiantes de la facultad de Ingeniería de la Universidad Peruana de Ciencias Aplicadas (UPC). La compañía nace con el objetivo de modernizar y optimizar la industria de la construcción y arquitectura, tradicionalmente dependiente de procesos manuales y dispersos. Reconociendo la complejidad que implica la ejecución de obras, PircaIndustries ha desarrollado Kipu, una plataforma virtual integral diseñada para centralizar la gestión de proyectos arquitectónicos en un solo ecosistema digital.
 
-* **Misión:**  La misión de PircaIndustries es empoderar a arquitectos, ingenieros y gestores de proyectos mediante herramientas tecnológicas avanzadas que faciliten la planificación y ejecución de obras de manera eficiente y transparente. A través de Kipu, buscamos eliminar la fragmentación de la información, permitiendo una gestión fluida de planos, presupuestos y cronogramas. Nos esforzamos por garantizar que cada documento a firmar, avance a revisar o tarea pendiente sea gestionado con precisión, reduciendo errores operativos y optimizando los tiempos de entrega para asegurar la satisfacción total de los stakeholders involucrados en el ciclo de vida de la construcción.
+* **Misión:**  La misión de PircaIndustries es empoderar a los profesionales del sector construcción mediante herramientas digitales avanzadas que centralicen la información y optimicen la toma de decisiones en cada etapa de la obra. Buscamos establecer un nuevo estándar de trabajo donde la tecnología elimine la fragmentación de datos, permitiendo una ejecución de proyectos más fluida, rentable y precisa.
 
-* **Visión:**  
+Entendemos que el éxito de una construcción depende de la exactitud de los presupuestos y la fluidez en la comunicación entre los distintos actores. Por ello, nos esforzamos para asegurar que cada usuario de Kipu pueda supervisar avances, gestionar recursos y detectar riesgos en tiempo real, evitando sobrecostos e insatisfacciones en la entrega final. Además, queremos apoyar al sector facilitando una gestión más transparente que permita incluso a proyectos pequeños acceder a niveles de control y organización de grandes corporaciones.
+
+* **Visión:**  La visión de PircaIndustries es posicionarse como la plataforma líder en gestión de proyectos arquitectónicos en la región, impulsando la digitalización completa del sector construcción. Nos proyectamos como el estándar tecnológico donde la eficiencia, el control de presupuestos y la supervisión de avances en tiempo real permitan construir ciudades de manera más organizada, colaborativa y tecnológicamente avanzada.
 
 * **Valores:**  
 
-  * **Valor 1:** 
+  * **Transparencia Operativa:** Creemos en la visibilidad total de los datos. Facilitamos que la información de costos, materiales y tiempos sea clara y accesible para todos los responsables, construyendo confianza en cada proyecto.
 
-  * **Valor 2:**
+  * **Eficiencia de Recursos:** Nos enfocamos en la optimización máxima. Buscamos que cada minuto y cada material invertido en una obra sea aprovechado mediante una planificación digital inteligente.
 
-  * **Valor n:** 
+  * **Presicion Tecnica:** Valoramos el rigor en los datos. Nuestra plataforma está diseñada para minimizar el error humano, asegurando que los cálculos y reportes reflejen la realidad exacta de la construcción.
+
+  * **Colaboración Estrategica:** Fomentamos la sinergia entre arquitectos, ingenieros y clientes. Entendemos que una ciudad avanzada solo se construye cuando la comunicación entre especialistas es fluida y centralizada.
+
+  * **Trazabilidad:** Nos comprometemos con el registro histórico y el seguimiento detallado. Permitimos que cada cambio y decisión en el proyecto sea rastreable, garantizando un control de calidad superior.
+
+  * **Escalabilidad Tecnológica:** Buscamos que nuestras soluciones evolucionen al ritmo de las ciudades, adaptándose desde proyectos residenciales hasta grandes infraestructuras urbanas.
 
   ### 1.1.2 Perfiles de integrantes del equipo
   
