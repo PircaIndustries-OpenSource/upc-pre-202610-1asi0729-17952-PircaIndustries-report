@@ -398,4 +398,58 @@ PircaIndustries es una startup que está conformada por estudiantes de la Univer
 
 
 #### 1.2.2.4 Lean UX Canvas
+La aplicación ...
 
+<table>
+    <tr>
+        <td valign="top" >
+            <div align="center"> <br><b>Problema de negocios</b> </div><br>
+            <p></p><br>
+        </td>
+        <td rowspan="2" valign="top">
+            <div align="center"><br><b>Ideas de las soluciones</b> </div><br>
+            <p>
+				<br><br> 
+			</p><br>
+        </td>
+            <td valign="top">
+            <div align="center"> <br><b>Resultados Comerciales</b> </div><br>
+            <p>
+				<br><br>
+			</p><br>
+            </td>
+        </tr>
+    <tr>
+        <td valign="top">
+            <div align="center"><br><b>Usuarios y Clientes</b></div><br>
+            <p></p><br>
+        </td>
+        <td valign="top">
+            <div align="center"><br><b>Beneficios del usuario</b></div><br>
+            <p>
+				<br><br>
+				<br><br>
+			</p><br>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <div align="center"> <br><b>Hipótesis</b> </div><br>
+            <p>
+				
+			</p> <br>
+        </td>
+        <td valign="top">
+            <div align="center"> <br><b>¿Qué es lo más importante que necesitamos aprender primero? </b> </div> <br>
+			<p><br><br>
+			</p> <br>
+        </td>
+        <td valign="top">
+            <div align="center">
+			<br><b>¿Cuál es la menor cantidad de trabajo que necesitamos hacer para resolver las dudas y para hacer lo siguiente más importante?</b> </div><br
+			<p>
+			<br><br>
+			</p> <br>
+        </td>
+    </tr>
+</table>
