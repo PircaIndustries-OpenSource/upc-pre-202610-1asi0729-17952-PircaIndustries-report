@@ -5,7 +5,7 @@
 
 **Ingeniería de Software**
 
-**Ciclo:** 2026-01
+**Ciclo:** 2026-10
 
 **Curso:** Desarrollo de Aplicaciones Open Source
 
