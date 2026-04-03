@@ -413,32 +413,42 @@ La aplicación ...
     <tr>
         <td valign="top" >
             <div align="center"> <br><b>Problema de negocios</b> </div><br>
-            <p>El mayor factor de todo esto es la falta de accesibilidad y sencillez a la hora de buscar la forma de intercambiar bienes.<br><br>¿Cómo podemos crear una forma sencilla de encontrar personas que deseen intercambiar bienes?</p><br>
+            <p>
+				<br><br>
+			</p><br>
         </td>
         <td rowspan="2" valign="top">
             <div align="center"><br><b>Ideas de las soluciones</b> </div><br>
-            <p>Una aplicación con la cual se pueda realizar intercambios de productos. Además de tener un apartado donde los usuarios puedan registrar los objetos que deseen donar.<br><br> En caso el usuario no considere conveniente el intercambio, tiene la opción de cancelarlo y seguir buscando a otros usuarios.
+            <p>
+				<br><br>
             </p><br>
         </td>
             <td valign="top">
             <div align="center"> <br><b>Resultados Comerciales</b> </div><br>
-            <p>Priorizar que los usuarios estén conformes con los intercambios realizados.<br><br>Obtener un financiamiento adicional para el crecimiento de la empresa.<br><br>Aumentar el alcance de la aplicación a través de las redes sociales.</p><br>
+            <p>
+				<br><br>
+				<br><br>
+			</p><br>
             </td>
         </tr>
     <tr>
         <td valign="top">
             <div align="center"><br><b>Usuarios y Clientes</b></div><br>
-            <p>Personas que desean intercambiar objetos que ya no usan.</p><br>
+            <p>
+				
+			</p><br>
         </td>
         <td valign="top">
             <div align="center"><br><b>Beneficios del usuario</b></div><br>
-            <p>Ahorro de dinero.<br><br>Deshacerse de objetos que ya no desean<br><br>Obtención de nuevos artículos.</p><br>
+            <p><br><br><br><br>
+			</p><br>
         </td>
     </tr>
     <tr>
         <td valign="top">
             <div align="center"> <br><b>Hipótesis</b> </div><br>
-            <p>Creemos que con nuestra aplicación, ayudaremos a promover la metodología de economía cíclica y un estilo de vida sostenible.<br><br>Creemos que al utilizar nuestra aplicación, las personas podrán realizar fácilmente el intercambio de sus objetos que ya no desean.</p> <br>
+            <p><br><br>
+			</p><br>
         </td>
         <td valign="top">
             <div align="center"> <br><b>¿Qué es lo más importante que necesitamos aprender primero? </b> </div><br><p>Conocer las preguntas más comunes de los usuarios.<br><br>Conocer las características más importantes de los productos.<br><br>Implementar medidas de seguridad sólidas para proteger los datos de los usuarios.</p> <br>
