@@ -54,6 +54,14 @@
 URL de Organización de GITHUB del equipo PircaIndustries:
 https://github.com/PircaIndustries-OpenSource
 
+URL de Repositorio del Project Report:
+https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report
+
+<strong>*Entrega TB1:*</strong>
+
+
+---
+
 # Contenido
 
 - [Contenido](#contenido)
@@ -169,7 +177,95 @@ https://github.com/PircaIndustries-OpenSource
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-URL de Repositorio del Project Report:
-https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report
+---
 
-<strong>*Entrega TB1:*</strong>
+# Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:<br><br>
+**ABET – EAC - Student Outcome 3**<br>
+**Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.<br><br>
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.<br><br>
+
+<table >
+  <thead>
+    <tr>
+      <th colspan="3"><b>Criterio específico</b></th>
+      <th colspan="3"><b>Acciones realizadas</b></th>
+      <th colspan="3"><b>Conclusiones</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+	<td colspan="3">Comunica oralmente con efectividad a diferentes rangos de audiencia</td>
+      <td colspan="3" align = "justify">
+      <h3>Francia Torres, Jhony Manuel</h3>
+        <b>TB1</b><p></p>
+        <b>TP1</b><p></p>
+        <b>TB2</b><p></p>
+        <b>TF1</b><p></p>
+      <h3>Montoya Nina, Paula Fernanda</h3>
+        <b>TB1</b><p></p>
+        <b>TP1</b><p></p>
+        <b>TB2</b><p></p>
+        <b>TF1</b><p></p>
+      <h3>Pareja Calloapaza, Marcelo Fausto</h3>
+        <b>TB1</b><p></p>
+        <b>TP1</b><p></p>
+        <b>TB2</b><p></p>
+        <b>TF1</b><p></p>
+      <h3>Ramos Hinostroza, Diego Antonio</h3>
+        <b>TB1</b><p></p>
+        <b>TP1</b><p></p>
+        <b>TB2</b><p></p>
+        <b>TF1</b><p></p>
+      <h3>Ramos Mera, Neo Daniel</h3>
+        <b>TB1</b><p></p>
+        <b>TP1</b><p></p>
+        <b>TB2</b><p></p>
+        <b>TF1</b><p></p>
+          <br>
+      </td>
+      <td colspan="3">
+        <b>TB1</b><p></p>
+        <b>TP1</b><p></p>
+        <b>TB2</b><p></p>
+        <b>TF1</b><p></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
+      <td colspan="3" align = "justify">
+      <h3>Francia Torres, Jhony Manuel</h3>
+        <b>TB1</b><p></p>
+        <b>TP1</b><p></p>
+        <b>TB2</b><p></p>
+        <b>TF1</b><p></p>
+      <h3>Montoya Nina, Paula Fernanda</h3>
+        <b>TB1</b><p></p>
+        <b>TP1</b><p></p>
+        <b>TF1</b><p></p>
+      <h3>Pareja Calloapaza, Marcelo Fausto</h3>
+        <b>TB1</b><p></p>
+        <b>TP1</b><p></p>
+        <b>TB2</b><p></p>
+        <b>TF1</b><p></p>
+      <h3>Ramos Hinostroza, Diego Antonio</h3>
+        <b>TB1</b><p></p>
+        <b>TP1</b><p></p>
+        <b>TB2</b><p></p>
+        <b>TF1</b><p></p>
+      <h3>Ramos Mera, Neo Daniel</h3>
+        <b>TB1</b><p></p>
+        <b>TP1</b><p></p>
+        <b>TB2</b><p></p>
+        <b>TF1</b><p></p>
+      </td>
+      <td colspan="3">
+        <b>TB1</b><p></p>
+        <b>TP1</b><p></p>
+        <b>TB2</b><p></p>
+        <b>TF1</b><p></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
