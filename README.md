@@ -305,3 +305,97 @@ PircaIndustries es una startup que está conformada por estudiantes de la Univer
 | **Pareja Calloapaza, Marcelo Fausto - u202411627** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/mathias.jpg?raw=true" alt="Imagen de Pareja Calloapaza, Marcelo Fausto"/> |
 | **Ramos Hinostroza, Diego Antonio - u202224130** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/Ian.PNG?raw=true" alt="Imagen de Diego Antonio Ramos Hinostroza"/> |
 | **Ramos Mera, Neo Daniel - u20241e418** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/andres.jpg?raw=true" alt="Imagen de Neo Daniel Ramos Mera"/> |
+
+
+
+## 1.2 Solution Profile
+
+
+### 1.2.1 Antecedentes y problemática
+
+
+**5W's y 2H's**
+
+* **What?**
+<br>
+
+* **Why?**
+<br>
+
+* **Who?**
+<br>
+
+* **When?**
+<br>
+
+* **Where?**
+<br>
+
+* **How?**
+<br>
+
+* **How much?**
+
+
+
+
+### 1.2.2 Lean UX Process
+#### 1.2.2.1 Lean UX Problem Statement
+**Problem Statement 1:**
+<br>
+
+**Problem Statement 2:**
+
+#### 1.2.2.2 Lean UX Assumptions
+
+ + **User Assumptions:** 
+
+    + **¿Quién es el usuario?** <br> <br><br>
+
+    + **¿Dónde encaja nuestro producto en su trabajo o en su vida?** <br> <br><br>
+
+    + **¿Cuándo y cómo se utiliza nuestro producto?** <br> <br><br>
+
+    + **¿Qué problemas resuelve nuestro producto?** <br> <br><br>
+
+    + **¿Qué características son importantes?** <br> <br><br>
+
+    + **¿Cómo debe verse y comportarse nuestro producto?** <br> <br><br>
+
+ + **Business Outcomes:** 
+
+    1. **Creo que nuestros usuarios necesitan**
+
+    2. **Estas necesidades se pueden resolver con**
+
+    3. **Nuestros usuarios iniciales son**
+
+    4. **El valor #1 que un cliente quiere de nuestro servicio es que**
+
+    5. **El usuario también puede obtener beneficios adicionales como**
+
+    6. **Vamos a adquirir la mayoría de nuestros clientes a través de**
+
+    7. **Haremos dinero a través de**
+
+    8. **Nuestras competencias principales son**
+
+    9. **Los venceremos debido a**
+
+    11. **Nuestro mayor riesgo es**
+
+    12. **Resolveremos esto a través de**
+
+#### 1.2.2.3 Lean UX Hypothesis Statements
+**Creemos que**  **para**  
+**Sabremos que es cierto**  
+
+**Creemos que**  **para**  
+**Sabremos que lo habremos logrado**  
+
+**Creemos que**  **para**  
+**Sabremos que esto es cierto**  
+
+
+#### 1.2.2.4 Lean UX Canvas
+
