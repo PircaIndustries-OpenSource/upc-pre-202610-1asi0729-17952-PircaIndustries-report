@@ -440,3 +440,54 @@ La aplicación ...
     </tr>
 </table>
 
+## 1.3 Segmentos Objetivo
+Esta sección incluye la descripción de los segmentos asociados al dominio del problema, incluyendo características geográficas y demográficas. Por lo tanto, con el fin de desarrollar un producto que satisfaga las necesidades de nuestros clientes, PircaIndustries se enfocará en los siguientes segmentos de la población:
++ **Personas ...**<br>
+Las personas ...
+    + **Características demográficas:** ...
+    <br>
+    ...
+    <br><br>
+    <div align="center">	
+
+    <br><br>
+	...
+	<br><br>
+    </div>
+    <div align="center">	
+    
+    <br><br>
+    </div>
+
+    + **Características geográficas:** Personas que residen en Perú.<br><br>
+
+
++ **Personas ...**<br>
+“Kipu” es fundamental como herramienta para...
+    + **Características demográficas:** 
+    + **Características geográficas:** Personas que residen en Perú.<br><br>
+
+
+---
+
+# Capítulo II: Requirements Elicitation & Analysis
+
+
+## 2.1 Competidores
+
+En esta sección se identificarán los mejores referentes para posteriormente realizar un análisis competitivo que nos ayudará a saber nuestro posicionamiento y el valor agregado que ofreceremos en el mercado. 
+
+Según la investigación, se descubrieron apps webs y/o aplicaciones similares. Sin embargo, estamos considerando tres competidores directos o indirectos que se parezcan más a nuestra startup.
+
+* **Competidor 1**<br>
+
+
+* **Competidor 2**<br>
+
+
+* **Competidor 3**<br>
+
+
+### 2.1.1 Análisis Competitivo
+
+En esta sección se realizará el análisis competitivo de los competidores identificados en la sección inicial con el objetivo de tener una idea más clara sobre nuestro producto frente a los competidores y aprender para mejorar nuestro producto.
