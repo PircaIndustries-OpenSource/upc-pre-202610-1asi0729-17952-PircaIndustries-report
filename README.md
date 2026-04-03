@@ -21,11 +21,11 @@
 #### Relación de integrantes 
 | Integrante                  | Código         |
 |---------------------------------|----------------|
-| Francia Torres Jhony Manuel             | u202417329     |
-| Montoya Nina Paula Fernanda             | u20241d934     |
-| Pareja Calloapaza Marcelo Fausto        | u202411627     |
-| Ramos Hinostroza Diego Antonio          | u202224130     |
-| Ramos Mera Neo Daniel                   | u20241e418     |
+| Francia Torres, Jhony Manuel             | u202417329     |
+| Montoya Nina, Paula Fernanda             | u20241d934     |
+| Pareja Calloapaza, Marcelo Fausto        | u202411627     |
+| Ramos Hinostroza, Diego Antonio          | u202224130     |
+| Ramos Mera, Neo Daniel                   | u20241e418     |
 
 </div>
 
@@ -300,8 +300,8 @@ PircaIndustries es una startup que está conformada por estudiantes de la Univer
   
 | **Integrante**                         | **Perfil**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | **Imagen**                                                                                                       |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| **Francia Torres, Jhony Manuel - u202219639** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/diego.jpg?raw=true" alt="Imagen de Jhony Manuel Francia Torres"/> |
-| **Montoya Nina, Paula Fernanda - u20221a133** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/Joseph.jpg?raw=true" alt="Imagen de Paula Fernanda Montoya Nina"/> |
-| **Pareja Calloapaza, Marcelo Fausto - u202216282** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/mathias.jpg?raw=true" alt="Imagen de Pareja Calloapaza, Marcelo Fausto"/> |
-| **Ramos Hinostroza, Diego Antonio - u202214059** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/Ian.PNG?raw=true" alt="Imagen de Diego Antonio Ramos Hinostroza"/> |
-| **Ramos Mera, Neo Daniel - u202210297** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/andres.jpg?raw=true" alt="Imagen de Neo Daniel Ramos Mera"/> |
+| **Francia Torres, Jhony Manuel - u202417329** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/diego.jpg?raw=true" alt="Imagen de Jhony Manuel Francia Torres"/> |
+| **Montoya Nina, Paula Fernanda - u20241d934** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/Joseph.jpg?raw=true" alt="Imagen de Paula Fernanda Montoya Nina"/> |
+| **Pareja Calloapaza, Marcelo Fausto - u202411627** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/mathias.jpg?raw=true" alt="Imagen de Pareja Calloapaza, Marcelo Fausto"/> |
+| **Ramos Hinostroza, Diego Antonio - u202224130** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/Ian.PNG?raw=true" alt="Imagen de Diego Antonio Ramos Hinostroza"/> |
+| **Ramos Mera, Neo Daniel - u20241e418** || <img src="https://github.com/TechZoOrganization-OpenSource/upc-pre-202401-si729-SW54-techzo-report/blob/main/Resources/Profiles/andres.jpg?raw=true" alt="Imagen de Neo Daniel Ramos Mera"/> |
