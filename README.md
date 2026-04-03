@@ -199,36 +199,36 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 	<td colspan="3">Comunica oralmente con efectividad a diferentes rangos de audiencia</td>
       <td colspan="3" align = "justify">
       <h3>Francia Torres, Jhony Manuel</h3>
-        <b>TB1</b><p></p>
+        <b>AV1</b><p></p>
         <b>TP1</b><p></p>
-        <b>TB2</b><p></p>
+        <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Montoya Nina, Paula Fernanda</h3>
-        <b>TB1</b><p></p>
+        <b>AV1</b><p></p>
         <b>TP1</b><p></p>
-        <b>TB2</b><p></p>
+        <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Pareja Calloapaza, Marcelo Fausto</h3>
-        <b>TB1</b><p></p>
+        <b>AV1</b><p></p>
         <b>TP1</b><p></p>
-        <b>TB2</b><p></p>
+        <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Ramos Hinostroza, Diego Antonio</h3>
-        <b>TB1</b><p></p>
+        <b>AV1</b><p></p>
         <b>TP1</b><p></p>
-        <b>TB2</b><p></p>
+        <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Ramos Mera, Neo Daniel</h3>
-        <b>TB1</b><p></p>
+        <b>AV1</b><p></p>
         <b>TP1</b><p></p>
-        <b>TB2</b><p></p>
+        <b>AV2</b><p></p>
         <b>TF1</b><p></p>
           <br>
       </td>
       <td colspan="3">
-        <b>TB1</b><p></p>
+        <b>AV1</b><p></p>
         <b>TP1</b><p></p>
-        <b>TB2</b><p></p>
+        <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       </td>
     </tr>
@@ -236,34 +236,35 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td colspan="3">Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
       <td colspan="3" align = "justify">
       <h3>Francia Torres, Jhony Manuel</h3>
-        <b>TB1</b><p></p>
+        <b>AV1</b><p></p>
         <b>TP1</b><p></p>
-        <b>TB2</b><p></p>
+        <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Montoya Nina, Paula Fernanda</h3>
-        <b>TB1</b><p></p>
+        <b>AV1</b><p></p>
         <b>TP1</b><p></p>
+		<b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Pareja Calloapaza, Marcelo Fausto</h3>
-        <b>TB1</b><p></p>
+        <b>AV1</b><p></p>
         <b>TP1</b><p></p>
-        <b>TB2</b><p></p>
+        <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Ramos Hinostroza, Diego Antonio</h3>
-        <b>TB1</b><p></p>
+        <b>AV1</b><p></p>
         <b>TP1</b><p></p>
-        <b>TB2</b><p></p>
+        <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Ramos Mera, Neo Daniel</h3>
-        <b>TB1</b><p></p>
+        <b>AV1</b><p></p>
         <b>TP1</b><p></p>
-        <b>TB2</b><p></p>
+        <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       </td>
       <td colspan="3">
-        <b>TB1</b><p></p>
+        <b>AV1</b><p></p>
         <b>TP1</b><p></p>
-        <b>TB2</b><p></p>
+        <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       </td>
     </tr>
