@@ -44,6 +44,7 @@
 |1\.1|03/04/2026|Marcelo Fausto Pareja Calloapaz y Neo Daniel Ramos Mera| Se inició el Capítulo I: Introducción y se agregó contenido relacionado con Startup Profile.|
 |1\.1\.1|03/04/2026|Paula Fernanda Montoya Nina, Ramos Mera Neo Daniel| Se agregó contenido relacionado a los perfiles de los integrantes del equipo.|
 |1\.2\.2|03/04/2026|Ramos Mera Neo Daniel|Se agregó el contenido del Lean UX Process.|
+|1\.2\.1|03/04/2026|Jhony Manuel Francia Torres| Se agregó contenido de Antecedentes y Problemática (5Ws y 2Hs).|
 
 
 </div><br><br>
