@@ -43,7 +43,7 @@
 |1\.0|02/04/2026|Marcelo Fausto Pareja Calloapaza, Diego Antonio Ramos Hinostroza y Paula Fernanda Montoya Nina| Se agregó la estructura inicial del proyecto: Índice, Student Outcome, los capitulos I, II, III, IV, y V, Conclusiones, Bibliografía y Anexos.|
 |1\.1|03/04/2026|Marcelo Fausto Pareja Calloapaz y Neo Daniel Ramos Mera| Se inició el Capítulo I: Introducción y se agregó contenido relacionado con Startup Profile.|
 |1\.1\.1|03/04/2026|Paula Fernanda Montoya Nina| Se agregó contenido relacionado a los perfiles de los integrantes del equipo.|
-|1\.2\.2|03/04/2026| Se agregó el contenido del Lean UX Process.|
+|1\.2\.2|03/04/2026|Ramos Mera Neo Daniel|Se agregó el contenido del Lean UX Process.|
 
 
 </div><br><br>
