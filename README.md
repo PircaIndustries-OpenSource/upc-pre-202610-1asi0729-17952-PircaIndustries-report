@@ -335,100 +335,104 @@ Sucede en las obras de construcción de edificaciones privadas. En estos entorno
 #### 1.2.2.1 Lean UX Problem Statement
 **Problem Statement 1:**
 <br>
+El sector de las PYMES constructoras en proyectos privados enfrenta un alto índice de Resultados no Conformes (RNC) debido a una gestión administrativa deficiente que ignora estándares internacionales (PMBOK/ISO). Esto genera fugas de presupuesto por mal control de inventarios y riesgos legales por firmas de cierre sin trazabilidad de procesos.
+<br>
 
 **Problem Statement 2:**
+<br>
+Actualmente, los ingenieros y responsables de obra carecen de una herramienta centralizada para el seguimiento de KPIs operativos (como el PPC). Al no contar con datos en tiempo real durante las etapas de estructura y acabados, se producen errores técnicos que derivan en sobrecostos, multas elevadas y pérdida de prestigio ante los clientes finales.
+<br>
 
 #### 1.2.2.2 Lean UX Assumptions
 
  + **User Assumptions:** 
 
-    + **¿Quién es el usuario?** <br> <br><br>
+    + **¿Quién es el usuario?** <br> Ingenieros civiles, arquitectos residentes, gestores de proyectos en PYMES constructoras y dueños de pequeñas empresas de construcción.<br><br>
 
-    + **¿Dónde encaja nuestro producto en su trabajo o en su vida?** <br> <br><br>
+    + **¿Dónde encaja nuestro producto en su trabajo o en su vida?** <br>Es la herramienta principal de control diario en el campo (obra) y de supervisión administrativa en la oficina, reemplazando hojas de cálculo dispersas o registros manuales. <br><br>
 
-    + **¿Cuándo y cómo se utiliza nuestro producto?** <br> <br><br>
+    + **¿Cuándo y cómo se utiliza nuestro producto?** <br>Se utiliza durante toda la jornada laboral: en la mañana para planificar tareas, durante el día para registrar avance y uso de materiales, y al cierre para generar reportes de control de calidad. <br><br>
 
-    + **¿Qué problemas resuelve nuestro producto?** <br> <br><br>
+    + **¿Qué problemas resuelve nuestro producto?** <br>La fragmentación de la información, la falta de trazabilidad en la toma de decisiones, la imprecisión en los presupuestos y la ausencia de control sobre los indicadores operativos (KPIs). <br><br>
 
-    + **¿Qué características son importantes?** <br> <br><br>
+    + **¿Qué características son importantes?** <br>Registro de avance de obra en tiempo real, control de inventario de materiales, dashboard de indicadores (PPC), gestión de documentación técnica y alertas de riesgos/RNC. <br><br>
 
-    + **¿Cómo debe verse y comportarse nuestro producto?** <br> <br><br>
+    + **¿Cómo debe verse y comportarse nuestro producto?** <br>Debe ser robusto, intuitivo (fácil de usar en entornos de obra con alta movilidad) y ofrecer una visualización de datos clara y técnica, transmitiendo precisión y profesionalismo. <br><br>
 
  + **Business Outcomes:** 
 
-    1. **Creo que nuestros usuarios necesitan**
+    1. **Creo que nuestros usuarios necesitan** centralizar toda la información técnica y financiera de sus obras para evitar errores humanos y pérdidas económicas.
 
-    2. **Estas necesidades se pueden resolver con**
+    2. **Estas necesidades se pueden resolver con** una plataforma SaaS (Kipu) que integre la gestión de inventarios, cronogramas y KPIs bajo estándares de ingeniería.
 
-    3. **Nuestros usuarios iniciales son**
+    3. **Nuestros usuarios iniciales son** residentes de obra y administradores de PYMES constructoras de proyectos residenciales privados.
 
-    4. **El valor #1 que un cliente quiere de nuestro servicio es que**
+    4. **El valor #1 que un cliente quiere de nuestro servicio es que** seguridad y control total sobre la rentabilidad y calidad técnica de su proyecto.
 
-    5. **El usuario también puede obtener beneficios adicionales como**
+    5. **El usuario también puede obtener beneficios adicionales como** mejora de la reputación corporativa, reducción de riesgos legales y ahorro de tiempo en la generación de informes finales.
 
-    6. **Vamos a adquirir la mayoría de nuestros clientes a través de**
+    6. **Vamos a adquirir la mayoría de nuestros clientes a través de** marketing digital enfocado en LinkedIn, alianzas con colegios de ingenieros/arquitectos y demostraciones directas en ferias de construcción.
 
-    7. **Haremos dinero a través de**
+    7. **Haremos dinero a través de** un modelo de suscripción mensual o anual (SaaS) basado en el número de proyectos activos o usuarios.
 
-    8. **Nuestras competencias principales son**
+    8. **Nuestras competencias principales son** desarrollo de software ágil, conocimiento de estándares de gestión (PMBOK) y enfoque específico en la problemática de las PYMES locales.
 
-    9. **Los venceremos debido a**
+    9. **Los venceremos debido a** nuestra capacidad de ofrecer trazabilidad total y una interfaz diseñada específicamente para la realidad operativa del constructor peruano.
 
-    11. **Nuestro mayor riesgo es**
+    11. **Nuestro mayor riesgo es** la resistencia al cambio tecnológico de los operarios y profesionales acostumbrados a métodos tradicionales manuales.
 
-    12. **Resolveremos esto a través de**
+    12. **Resolveremos esto a través de** una interfaz extremadamente simplificada, soporte técnico constante y demostraciones claras del ROI (Retorno de Inversión) al usar Kipu.
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
-**Creemos que**  **para**  
-**Sabremos que es cierto**  
+**Creemos que** proporcionar un módulo de seguimiento de PPC (Porcentaje de Plan Completado) para los residentes de obra, **sabremos que es cierto** cuando veamos una reducción del 15% en los retrasos de las etapas de estructura en los proyectos piloto.
 
-**Creemos que**  **para**  
-**Sabremos que lo habremos logrado**  
+**Creemos que** centralizar el registro de materiales en tiempo real para los administradores de PYMES, **sabremos que lo habremos logrado** cuando el índice de fugas de presupuesto por materiales no contabilizados disminuya en un 20%.
 
-**Creemos que**  **para**  
-**Sabremos que esto es cierto**  
+**Creemos que** implementar una bitácora digital con evidencia fotográfica para los ingenieros firmantes, **sabremos que esto es cierto** cuando el tiempo dedicado a la auditoría de cierre de proyecto se reduzca a la mitad.
 
 
 #### 1.2.2.4 Lean UX Canvas
-#### 1.2.2.4 Lean UX Canvas
-La aplicación ...
 
 <table>
     <tr>
         <td valign="top" >
             <div align="center"> <br><b>Problema de negocios</b> </div><br>
-            <p></p><br>
+            <p>Las PYMES constructoras pierden dinero y reputación por falta de control de KPIs y trazabilidad, generando errores estructurales y multas.</p><br>
         </td>
         <td rowspan="2" valign="top">
             <div align="center"><br><b>Ideas de las soluciones</b> </div><br>
-            <p>
+            <p>Plataforma web "Kipu" para gestión centralizada, dashboards de control de inventarios, seguimiento de PPC y registro histórico de decisiones.
             </p><br>
         </td>
             <td valign="top">
             <div align="center"> <br><b>Resultados Comerciales</b> </div><br>
-            <p></p><br>
+            <p>1. Reducción de RNC. 
+			<br>2. Incremento en la retención de clientes (suscripción SaaS).
+			<br>3. Posicionamiento como estándar tecnológico local.</p><br>
             </td>
         </tr>
     <tr>
         <td valign="top">
             <div align="center"><br><b>Usuarios y Clientes</b></div><br>
-            <p></p><br>
+            <p>Ingenieros civiles, arquitectos residentes y dueños de PYMES constructoras (sector privado).</p><br>
         </td>
         <td valign="top">
             <div align="center"><br><b>Beneficios del usuario</b></div><br>
-            <p></p><br>
+            <p>	1. Control total de costos.
+			<br>2. Reducción de riesgos legales mediante trazabilidad.
+			<br>3. Toma de decisiones basada en datos reales.</p><br>
         </td>
     </tr>
     <tr>
         <td valign="top">
             <div align="center"> <br><b>Hipótesis</b> </div><br>
-            <p></p> <br>
+            <p>Creemos que al digitalizar el control de obra (PPC e Inventarios), los gestores reducirán sobrecostos y mejorarán la precisión de entrega de sus proyectos.</p> <br>
         </td>
         <td valign="top">
-            <div align="center"> <br><b>¿Qué es lo más importante que necesitamos aprender primero? </b> </div><br><p></p> <br>
+            <div align="center"> <br><b>¿Qué es lo más importante que necesitamos aprender primero? </b> </div><br><p>¿Están los usuarios dispuestos a abandonar el registro manual por una app en obra para evitar multas y pérdidas?</p> <br>
         </td>
         <td valign="top">
-            <div align="center">  <br><b>¿Cuál es la menor cantidad de trabajo que necesitamos hacer para resolver las dudas y para hacer lo siguiente más importante?</b> </div><br><p></p> <br>
+            <div align="center">  <br><b>¿Cuál es la menor cantidad de trabajo que necesitamos hacer para resolver las dudas y para hacer lo siguiente más importante?</b> </div><br><p>Crear un prototipo funcional que permita registrar el avance diario (PPC) y el uso de materiales clave, testeándolo con 2 constructoras locales.</p> <br>
         </td>
     </tr>
 </table>
