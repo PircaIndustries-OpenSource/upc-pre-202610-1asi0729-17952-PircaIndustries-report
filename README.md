@@ -512,6 +512,26 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 			<td><div align="center"><b>CYPE / Presto</b></div></td>
 		</tr>
 		<tr>
+			<td colspan="2">
+				<div align="center">Logo</div>
+			</td>
+			<td><div align="center">
+				<img src="Resources/Style%20Guidelines/logo.png?raw=true" alt="Kipu logo" />
+			</div></td>
+			<td><div align="center">
+				<b>Procore</b>
+			</div></td>
+			<td><div align="center">
+				<b>Buildertrend</b>
+			</div></td>
+			<td><div align="center">
+				<b>Monday.com</b>
+			</div></td>
+			<td><div align="center">
+				<b>CYPE / Presto</b>
+			</div></td>
+		</tr>
+		<tr>
 			<td rowspan="2">Perfil</td>
 			<td>Overview</td>
 			<td>Ecosistema abierto para gestión de obra; auditable y personalizable.</td>
