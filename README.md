@@ -41,11 +41,12 @@
 |**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
 | - | - | - | - |
 |1\.0|02/04/2026|Marcelo Fausto Pareja Calloapaza, Diego Antonio Ramos Hinostroza y Paula Fernanda Montoya Nina| Se agregó la estructura inicial del proyecto: Índice, Student Outcome, los capitulos I, II, III, IV, y V, Conclusiones, Bibliografía y Anexos.|
-|1\.1|03/04/2026|Marcelo Fausto Pareja Calloapaz y Neo Daniel Ramos Mera| Se inició el Capítulo I: Introducción y se agregó contenido relacionado con Startup Profile.|
+|1\.1|03/04/2026|Marcelo Fausto Pareja Calloapaza y Neo Daniel Ramos Mera| Se inició el Capítulo I: Introducción y se agregó contenido relacionado con Startup Profile.|
 |1\.1\.1|03/04/2026|Paula Fernanda Montoya Nina, Ramos Mera Neo Daniel| Se agregó contenido relacionado a los perfiles de los integrantes del equipo.|
 |1\.1\.2|03/04/2026|Ramos Mera Neo Daniel|Se agregó el contenido del Lean UX Process.|
 |1\.1\.3|03/04/2026|Jhony Manuel Francia Torres| Se agregó contenido de Antecedentes y Problemática (5Ws y 2Hs).|
 |1\.1\.4|03/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado con los Segmentos Objetivos.|
+|1\.1\.5|04/04/2026|Marcelo Fausto Pareja Calloapaza| Se agregó contenido relacionado con los Competidores y Análisis Competitivo.|
 
 </div><br><br>
 
