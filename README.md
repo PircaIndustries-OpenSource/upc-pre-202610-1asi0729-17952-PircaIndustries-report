@@ -516,19 +516,19 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 				<div align="center">Logo</div>
 			</td>
 			<td><div align="center">
-				<img src="Resources/Style%20Guidelines/logo.png?raw=true" alt="Kipu logo" />
+				<img src="Resources/Style%20Guidelines/logo.png?raw=true" alt="Kipu logo"/>
 			</div></td>
 			<td><div align="center">
-				<b>Procore</b>
+				<img src="Resources/Competitors/procore.png?raw=true" alt="Procore logo"/>
 			</div></td>
 			<td><div align="center">
-				<b>Buildertrend</b>
+				<img src="Resources/Competitors/buildertrend.png?raw=true" alt="Buildertrend logo"/>
 			</div></td>
 			<td><div align="center">
-				<b>Monday.com</b>
+				<img src="Resources/Competitors/mondaydotcom.png?raw=true" alt="Monday.com logo"/>
 			</div></td>
 			<td><div align="center">
-				<b>CYPE / Presto</b>
+				<img src="Resources/Competitors/cype-presto.png?raw=true" alt="Cype / Presto logos"/>
 			</div></td>
 		</tr>
 		<tr>
