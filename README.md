@@ -499,7 +499,7 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 	<tbody>
 		<tr>
 			<td colspan="2">¿Por qué llevar a cabo este análisis?</td>
-			<td colspan="5">Para identificar brechas en el mercado local, diferenciar la propuesta de valor de Kipu frente a gigantes globales, herramientas genéricas y software de escritorio especializado.</td>
+			<td colspan="5">Para identificar brechas en el mercado local, diferenciar la propuesta de valor única de Kipu como solución Open Source frente a modelos cerrados que pueden ser: aplicaciones ampliamente reconocidas, herramientas genéricas y software de escritorio especializado. De esta manera, será posible evaluar su capacidad de personalización y soberanía de datos en el sector construcción.</td>
 		</tr>
 		<tr>
 			<td colspan="2">
@@ -518,31 +518,31 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 			<td>Líder global para gestión de proyectos de gran escala y corporaciones.</td>
 			<td>Enfocado en construcción residencial y remodelaciones pequeñas.</td>
 			<td>Gestor de trabajo genérico con plantillas para construcción.</td>
-			<td>Software especializado en presupuestos, mediciones y costos.</td>
+			<td>Software de escritorio especializado en presupuestos, mediciones y costos.</td>
 		</tr>
 		<tr>
 			<td>Ventaja Competitiva</td>
-			<td>Soberanía de datos, sin "vendor lock-in" y personalización total.</td>
+			<td>Soberanía de datos, sin "vendor lock-in" (dependencia del proveedor) y personalización total.</td>
 			<td>Robustez extrema e integraciones corporativas masivas.</td>
-			<td>Gestión preventa y comunicación con el cliente final.</td>
-			<td>Extrema flexibilidad y facilidad de uso para tareas simples.</td>
-			<td>Estándar técnico y precisión matemática en presupuestos.</td>
+			<td>Enfoque de ventas y comunicación con el cliente final.</td>
+			<td>Extrema flexibilidad, facilidad de uso y automatización para tareas simples.</td>
+			<td>Precisión técnica extrema y estándares de ingeniería.</td>
 		</tr>
 		<tr>
 			<td rowspan="2">Marketing</td>
 			<td>Mercado Objetivo</td>
 			<td>Desarrolladores, PYMES tecnológicas y sector público en Perú.</td>
 			<td>Grandes constructoras y desarrolladores globales.</td>
-			<td>Contratistas residenciales y remodeladores.</td>
-			<td>Equipos de cualquier industria (uso generalista).</td>
+			<td>Contratistas y remodeladores residenciales.</td>
+			<td>Equipos de cualquier industria (uso general).</td>
 			<td>Ingenieros de costos, calculistas y jefes de obra.</td>
 		</tr>
 		<tr>
 			<td>Estrategias</td>
 			<td>Comunidad de desarrolladores (GitHub) y transparencia técnica.</td>
-			<td>Venta B2B directa y liderazgo de industria.</td>
-			<td>Marketing de contenidos y webinars para contratistas.</td>
-			<td>Publicidad masiva (YouTube/Social) y SEO agresivo.</td>
+			<td>Venta B2B (negocio a negocio) directa y liderazgo de industria.</td>
+			<td>Marketing de contenidos y webinars (seminarios web) para contratistas.</td>
+			<td>Publicidad masiva en redes sociales.</td>
 			<td>Venta de licencias y cursos de certificación técnica.</td>
 		</tr>
 		<tr>
@@ -551,14 +551,14 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 			<td>Plataforma abierta: gestión, presupuestos y control de obra.</td>
 			<td>SaaS: Seguridad, finanzas y gestión de campo.</td>
 			<td>App: CRM, cronogramas y pagos integrados.</td>
-			<td>Tableros Kanban, flujos de trabajo y automatización.</td>
-			<td>Software de escritorio: Bases de datos de precios y mediciones.</td>
+			<td>Tableros colaborativos, flujos de trabajo y automatización.</td>
+			<td>Software de escritorio: Bases de datos de precios y cálculo de mediciones.</td>
 		</tr>
 		<tr>
 			<td>Precios</td>
 			<td>Gratis (Self-hosted) / Soporte Premium o Cloud.</td>
-			<td>Costo alto (Anualizado).</td>
-			<td>Suscripción por niveles (USD).</td>
+			<td>Costo muy alto (Anualizado y basado en volúmen).</td>
+			<td>Suscripción por niveles (El pago es en dólar estadounidense).</td>
 			<td>Suscripción por usuario (Económico).</td>
 			<td>Pago por licencia única o actualización anual.</td>
 		</tr>
@@ -567,33 +567,33 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 			<td>Web / GitHub.</td>
 			<td>Web, iOS, Android.</td>
 			<td>Web, iOS, Android.</td>
-			<td>Web, iOS, Android, Desktop.</td>
-			<td>Instalación local (Desktop).</td>
+			<td>Web, iOS, Android, Escritorio.</td>
+			<td>Instalación local.</td>
 		</tr>
 		<tr>
 			<td rowspan="4">SWOT</td>
 			<td>Fortalezas</td>
 			<td>Transparencia total, comunidad y escalabilidad técnica.</td>
-			<td>Reputación y soporte global.</td>
-			<td>Interfaz intuitiva para ventas.</td>
+			<td>Reputación y soporte global validados.</td>
+			<td>Interfaz excelente, intuitiva para ventas.</td>
 			<td>Versatilidad y rapidez de adopción.</td>
-			<td>Máxima precisión técnica y legal.</td>
+			<td>Máximo rigor referente a la normativa técnica.</td>
 		</tr>
 		<tr>
 			<td>Debilidades</td>
 			<td>Requiere gestión de infraestructura por el usuario.</td>
-			<td>Demasiado complejo para PYMES.</td>
-			<td>No adaptado a normas peruanas.</td>
-			<td>Falta de herramientas técnicas AECO.</td>
-			<td>Alta curva de aprendizaje y nula nube real.</td>
+			<td>Precio prohibitivo para proyectos pequeños.</td>
+			<td>No adaptado a normas fuera de E.E.U.U.</td>
+			<td>No es una herramienta técnica de ingeniería.</td>
+			<td>Alta curva de aprendizaje y nula capacidad de colaboración en tiempo real.</td>
 		</tr>
 		<tr>
 			<td>Oportunidades</td>
 			<td>Estandarización del software público en construcción.</td>
 			<td>Adquisición de startups locales.</td>
-			<td>Alianzas con proveedores.</td>
+			<td>Mercado de remodelación en crecimiento.</td>
 			<td>Verticalización en nichos de obra.</td>
-			<td>Migración a modelos SaaS.</td>
+			<td>Modernización hacia modelos híbridos.</td>
 		</tr>
 		<tr>
 			<td>Amenazas</td>
@@ -601,7 +601,7 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 			<td>Nuevos competidores ágiles.</td>
 			<td>Saturación del mercado residencial.</td>
 			<td>Especialización de otras apps.</td>
-			<td>Nuevas plataformas en la nube (como Kipu).</td>
+			<td>Plataformas abiertas que sustituyan sus bases de datos.</td>
 		</tr>
 	</tbody>
 </table>
