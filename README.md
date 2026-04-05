@@ -484,8 +484,8 @@ PlanGrid es un software que se especializa en enriquecer la productividad de la 
 * **Monday.com**<br>
 Si bien el software se trata de una plataforma de gestión y trabajo genérica, esta también ha lanzado modelos y plantillas específicas para el sector de construcción. Es buena en el área de colaboración estratégica entre partes y gestión de tareas; sin embargo, carece de herramientas técnicas y de cálculo profundo o integraciones com presupuestos de materiales especificos en el área, las cuales son vitales para el correcto desarrollo de actividades del sector.
 
-* **Cype Arquímedes / Presto**<br>
-Es un software que se especializa en presupuestos, mediciones y control de costos. Si bien son el estándar en cuanto a precisión técnica y presupuestos, pero no ofrecen transparencia operativa ni comunicación colaborativa que Kipu propone en un sistema integral.
+* **Cype Arquímedes y Presto**<br>
+Son softwares que se especializan en presupuestos, mediciones y control de costos. Si bien son el estándar en cuanto a precisión técnica y presupuestos, no ofrecen transparencia operativa ni comunicación colaborativa que Kipu propone en un sistema integral. Además de ambas tratarse de software muy técnico y de alta curva de aprendizaje, contrarias a la versatilidad de la colaboración que Kipu ofrece.
 
 ### 2.1.1 Análisis Competitivo
 
