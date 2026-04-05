@@ -493,122 +493,120 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 
 <table>
 <thead>
-  <tr>
-    <th colspan="6">Competitive Analysis Landscape<br></th>
-  </tr>
+<tr>
+<th colspan="7">Competitive Analysis Landscape
+
+
+</th>
+</tr>
 </thead>
 <tbody>
-  <tr>
-    <td colspan="2">¿Por qué llevar a cabo este análisis?</td>
-    <td colspan="4"></td>
-  </tr>
-  <tr>
-    <td colspan="2">
-        <div align="center">Nombre</div>
-    </td>
-    <td>
-        <div align="center">Kipu<br></div>
-    </td>
-    <td>
-        <div align="center">Competidor 1</div>
-    </td>
-    <td>
-        <div align="center">Competidor 2</div>
-    </td>
-    <td>
-        <div align="center">Competidor 3</div>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-        <div align="center">Logo</div>
-    </td>
-    <td><div align="center"></div></td>
-    <td><div align="center"></div></td>
-    <td><div align="center"></div></td>
-    <td><div align="center"></div></td>
-  </tr>
-  <tr>
-    <td rowspan="2">Perfil</td>
-    <td>Overview</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Ventaja Competitiva <br>¿Qué valor ofrece a los clientes?</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="2">Perfiles de Marketing<br></td>
-    <td>Mercado Objetivo<br></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Estrategias de marketing</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="3">Perfil de Producto<br></td>
-    <td>Productos &amp; Servicios</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Precios y Costos</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Canales de Distribución (Web y/o Móvil)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="4">Análisis SWOT</td>
-    <td>Fortalezas</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Debilidades</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Oportunidades</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Amenazas</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
+<tr>
+<td colspan="2">¿Por qué llevar a cabo este análisis?</td>
+<td colspan="5">Para identificar brechas en el mercado local, diferenciar la propuesta de valor de Kipu frente a gigantes globales, herramientas genéricas y software de escritorio especializado.</td>
+</tr>
+<tr>
+<td colspan="2">
+<div align="center">Nombre</div>
+</td>
+<td><div align="center"><b>Kipu</b></div></td>
+<td><div align="center"><b>Procore</b></div></td>
+<td><div align="center"><b>Buildertrend</b></div></td>
+<td><div align="center"><b>Monday.com</b></div></td>
+<td><div align="center"><b>CYPE / Presto</b></div></td>
+</tr>
+<tr>
+<td rowspan="2">Perfil</td>
+<td>Overview</td>
+<td>Ecosistema integral para centralizar gestión y supervisión en tiempo real.</td>
+<td>Líder global para gestión de proyectos de gran escala y corporaciones.</td>
+<td>Enfocado en construcción residencial y remodelaciones pequeñas.</td>
+<td>Gestor de trabajo genérico con plantillas para construcción.</td>
+<td>Software especializado en presupuestos, mediciones y costos.</td>
+</tr>
+<tr>
+<td>Ventaja Competitiva</td>
+<td>Adaptación local (Perú) y accesibilidad para PYMES.</td>
+<td>Robustez extrema e integraciones corporativas masivas.</td>
+<td>Gestión preventa y comunicación con el cliente final.</td>
+<td>Extrema flexibilidad y facilidad de uso para tareas simples.</td>
+<td>Estándar técnico y precisión matemática en presupuestos.</td>
+</tr>
+<tr>
+<td rowspan="2">Marketing</td>
+<td>Mercado Objetivo</td>
+<td>PYMES constructoras y arquitectos en Perú/LATAM.</td>
+<td>Grandes constructoras y desarrolladores globales.</td>
+<td>Contratistas residenciales y remodeladores.</td>
+<td>Equipos de cualquier industria (uso generalista).</td>
+<td>Ingenieros de costos, calculistas y jefes de obra.</td>
+</tr>
+<tr>
+<td>Estrategias</td>
+<td>Alianzas con la UPC y gremios locales (CAPECO).</td>
+<td>Venta B2B directa y liderazgo de industria.</td>
+<td>Marketing de contenidos y webinars para contratistas.</td>
+<td>Publicidad masiva (YouTube/Social) y SEO agresivo.</td>
+<td>Venta de licencias y cursos de certificación técnica.</td>
+</tr>
+<tr>
+<td rowspan="3">Producto</td>
+<td>Servicios</td>
+<td>Web App: Presupuestos, avances y riesgos.</td>
+<td>SaaS: Seguridad, finanzas y gestión de campo.</td>
+<td>App: CRM, cronogramas y pagos integrados.</td>
+<td>Tableros Kanban, flujos de trabajo y automatización.</td>
+<td>Software de escritorio: Bases de datos de precios y mediciones.</td>
+</tr>
+<tr>
+<td>Precios</td>
+<td>Suscripción flexible (Local).</td>
+<td>Costo alto (Anualizado).</td>
+<td>Suscripción por niveles (USD).</td>
+<td>Suscripción por usuario (Económico).</td>
+<td>Pago por licencia única o actualización anual.</td>
+</tr>
+<tr>
+<td>Canales</td>
+<td>Web / Mobile Web.</td>
+<td>Web, iOS, Android.</td>
+<td>Web, iOS, Android.</td>
+<td>Web, iOS, Android, Desktop.</td>
+<td>Instalación local (Desktop).</td>
+</tr>
+<tr>
+<td rowspan="4">SWOT</td>
+<td>Fortalezas</td>
+<td>Conocimiento local y agilidad.</td>
+<td>Reputación y soporte global.</td>
+<td>Interfaz intuitiva para ventas.</td>
+<td>Versatilidad y rapidez de adopción.</td>
+<td>Máxima precisión técnica y legal.</td>
+</tr>
+<tr>
+<td>Debilidades</td>
+<td>Startup en etapa temprana.</td>
+<td>Demasiado complejo para PYMES.</td>
+<td>No adaptado a normas peruanas.</td>
+<td>Falta de herramientas técnicas AECO.</td>
+<td>Alta curva de aprendizaje y nula nube real.</td>
+</tr>
+<tr>
+<td>Oportunidades</td>
+<td>Baja digitalización en la región.</td>
+<td>Adquisición de startups locales.</td>
+<td>Alianzas con proveedores.</td>
+<td>Verticalización en nichos de obra.</td>
+<td>Migración a modelos SaaS.</td>
+</tr>
+<tr>
+<td>Amenazas</td>
+<td>Software extranjero con precios bajos.</td>
+<td>Nuevos competidores ágiles.</td>
+<td>Saturación del mercado residencial.</td>
+<td>Especialización de otras apps.</td>
+<td>Nuevas plataformas en la nube (como Kipu).</td>
+</tr>
 </tbody>
 </table>
 
