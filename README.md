@@ -470,16 +470,22 @@ Son los colaboradores encargados del flujo de abastecimiento, control de presupu
 
 En esta sección se identificarán los mejores referentes para posteriormente realizar un análisis competitivo que nos ayudará a saber nuestro posicionamiento y el valor agregado que ofreceremos en el mercado. 
 
-Según la investigación, se descubrieron apps webs y/o aplicaciones similares. Sin embargo, estamos considerando tres competidores directos o indirectos que se parezcan más a nuestra startup.
+Según la investigación, se descubrieron apps webs y/o aplicaciones similares. Sin embargo, estamos considerando cinco competidores directos o indirectos que se parezcan más a nuestra startup.
 
-* **Competidor 1**<br>
+* **Procore**<br>
+Procore es un líder global en cuanto al software relacionado a construcción. Es un competidor directo a Kipu puesto que ambos buscan la centralización de datos y supervición de obra. Su modelo de negocio es del tipo SaaS ("Software as a Service" o "Software como Servicio" en español) con módulos escalables. Ofrece gestión de presupuestos, comunicación entre equipos y visualización de avances en tiempo real. Está diseñado para el manejo de megaproyectos y grandes constructoras comerciales.
 
+* **Buildertrend**<br>
+Buildertrend es reconocida en lo que respecta al mundillo de la construcción de viviendas y remodelaciones. Su nicho principal es el apoyo a "proyectos pequeños", los cuales, también son un público objetivo de Kipu. Su modelo de negocio es la subscripción mensual por proyecto y usuario. Sus similitudes con Kipu residen en la gestión de cronogramas y control para evitar sobrecostos. Es popular es Estados Unidos pero carece de optimización para normativas en otros países.
 
-* **Competidor 2**<br>
+* **PlanGrid**<br>
+PlanGrid es un software que se especializa en enriquecer la productividad de la obra y la gestión de planos digitales. Su modelo de negocio es el licenciamiento por usuario o dispositivo. De manera similar a Kipu, prioriza la precisión técnica y trazabilidad al momento. Permiten que los arquitectos e ingenieros vean cambios en los planos y reporten incidentes desde el sitio de construcción. Sin embargo, se centra más en la documentación técnica y planos de gestión financiera y administrativa.
 
+* **Monday.com**<br>
+Si bien el software se trata de una plataforma de gestión y trabajo genérica, esta también ha lanzado modelos y plantillas específicas para el sector de construcción. Es buena en el área de colaboración estratégica entre partes y gestión de tareas; sin embargo, carece de herramientas técnicas y de cálculo profundo o integraciones com presupuestos de materiales especificos en el área, las cuales son vitales para el correcto desarrollo de actividades del sector.
 
-* **Competidor 3**<br>
-
+* **Cype Arquímedes / Presto**<br>
+Es un software que se especializa en presupuestos, mediciones y control de costos. Si bien son el estándar en cuanto a precisión técnica y presupuestos, pero no ofrecen transparencia operativa ni comunicación colaborativa que Kipu propone en un sistema integral.
 
 ### 2.1.1 Análisis Competitivo
 
