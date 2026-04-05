@@ -47,7 +47,7 @@
 |1\.1\.3|03/04/2026|Jhony Manuel Francia Torres| Se agregó contenido de Antecedentes y Problemática (5Ws y 2Hs).|
 |1\.1\.4|03/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado con los Segmentos Objetivos.|
 |1\.2|04/04/2026|Marcelo Fausto Pareja Calloapaza| Se agregó contenido relacionado con los Competidores y Análisis Competitivo.|
-|1\.2.1|04/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado con el diseño de entrevistas.|
+|1\.2.1|05/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado con el diseño de entrevistas.|
 
 </div><br><br>
 
