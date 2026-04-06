@@ -41,13 +41,14 @@
 |**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
 | - | - | - | - |
 |1\.0|02/04/2026|Marcelo Fausto Pareja Calloapaza, Diego Antonio Ramos Hinostroza y Paula Fernanda Montoya Nina| Se agregó la estructura inicial del proyecto: Índice, Student Outcome, los capitulos I, II, III, IV, y V, Conclusiones, Bibliografía y Anexos.|
-|1\.1|03/04/2026|Marcelo Fausto Pareja Calloapaza y Neo Daniel Ramos Mera| Se inició el Capítulo I: Introducción y se agregó contenido relacionado con Startup Profile.|
-|1\.1\.1|03/04/2026|Paula Fernanda Montoya Nina, Ramos Mera Neo Daniel| Se agregó contenido relacionado a los perfiles de los integrantes del equipo.|
-|1\.1\.2|03/04/2026|Ramos Mera Neo Daniel|Se agregó el contenido del Lean UX Process.|
+|1\.1\.0|03/04/2026|Marcelo Fausto Pareja Calloapaza y Neo Daniel Ramos Mera| Se inició el Capítulo I: Introducción y se agregó contenido relacionado con Startup Profile.|
+|1\.1\.1|03/04/2026|Paula Fernanda Montoya Nina, Marcelo Fausto Pareja Calloapaza, Neo Daniel Ramos Mera| Se agregó contenido relacionado a los perfiles de los integrantes del equipo.|
+|1\.1\.2|03/04/2026|Neo Daniel Ramos Mera|Se agregó el contenido del Lean UX Process.|
 |1\.1\.3|03/04/2026|Jhony Manuel Francia Torres| Se agregó contenido de Antecedentes y Problemática (5Ws y 2Hs).|
 |1\.1\.4|03/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado con los Segmentos Objetivos.|
-|1\.2|04/04/2026|Marcelo Fausto Pareja Calloapaza| Se agregó contenido relacionado con los Competidores y Análisis Competitivo.|
-|1\.2.1|05/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado con el diseño de entrevistas.|
+|1\.2\.0|04/04/2026|Marcelo Fausto Pareja Calloapaza| Se agregó contenido relacionado con los Competidores y Análisis Competitivo.|
+|1\.2\.1|05/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado con el diseño de entrevistas.|
+|1\.2\.2|05/04/2026|Marcelo Fausto Pareja Calloapaza| Se agregó contenido relacionado a las Estrategias y Tácticas frente a Competidores.|
 
 </div><br><br>
 
@@ -302,43 +303,32 @@ Entendemos que el éxito de una construcción depende de la exactitud de los pre
 
 
 **5W's y 2H's**
-
 <br>
 
 * **What?**
-<br>
 Las PYMES constructoras poseen un índice crítico de Resultados no Conformes (RNC). Estas empresas no realizan una inspección rigurosa de los Indicadores Operativos Básicos (como el PPC - Porcentaje de Plan Completado). Estos controles sirven para hacer un seguimiento del inventario ya utilizado en la construcción, por lo que un mal seguimiento de estros procesos genera fugas de presupuesto en la compra de materiales y errores estructurales y de acabados que posteriormente pueden derivar en multas elevadas para la empresa.<br><br>
-
-
+<br><br>
 * **Why?**
-<br>
 Las PYMES constructoras poseen una deficiente gestión administrativa que ignora los estándares internacionales como el PMBOK o la ISO 9001 (Guías y Normas para la gestión de proyectos). De esta manera, se realiza un nulo seguimiento de KPIs (Key Performance Indicators) lo que deriva en el alza del índice de RNC. Esto reduce el tiempo de construcción de la obra y permite ahorrar gastos en sueldos de constructores, pero también puede causar multas elevadas y pérdida del prestigio de la empresa por no realizar un seguimiento eficiente y adecuado del proyecto. <br><br>
-
+<br><br>
 * **Who?**
-<br>
 Las Pequeñas y Grandes Empresas (PYMES) constructoras con deficiente gestión administrativa y seguimiento de sus proyectos.<br><br>
-
+<br><br>
 * **When?**
-<br>
 La problemática ocurre en 3 etapas:
 Al iniciar la obra, ya que una mala inspección a los procesos de construcción de la estructura de la edificación podría causar accidentes de gran escala (Derrumbe de la edificación) y multas que supondrían una pérdida importante de dinero y prestigio en las PYMES.
 En la etapa de instalaciones y acabados, ya que un mal registro de los "extras" (Sistema eléctrico, tuberías, Gas) supondría una constante fuga de dinero en el mantenimiento de estos sistemas instalados deficientemente".
 Al cierre del proyecto, ya que, al no contar con un historial de cada proceso de la construcción, el ingeniero firma "a ciegas" un proyecto que podría significar una responsabilidad legal peligrosa para la empresa y para quienes habitarán la edificación.<br><br>
-
+<br><br>
 * **Where?**
-<br>
 Sucede en las obras de construcción de edificaciones privadas. En estos entornos, los controles son menos rigurosos, lo que permite la filtración de errores técnicos que afectan directamente en la calidad de las viviendas.<br><br>
-
+<br><br>
 * **How?**
-<br>
 Esta falta de supervisión rigurosa se manifiesta en problemas técnicos y estructurales que deben ser resueltos en la brevedad con mantenimiento o al reconstruir secciones enteras de la obra, lo que supone un fuerte golpe en el Retorno de Inversión (ROI) y en el Resultado Operativo Bruto.<br><br>
-
+<br><br>
 * **How much?**
-<br>
 La falta de inversión en controles de calidad, que Aquise et. al. (2023) estima que debería ser el 2% del costo total de la obra, genera sobrecostos de hasta el 12% del costo directo total de la obra. De esta manera, el margen de utilidad de la PYME (que suele rondar entre 10-15% del costo de la obra) es absorvido casi en su totalidad por errores que podrían ser evitados con un control de calidad adecuado, lo que deriva en pérdidas económicas reales en la empresa.
-
-
-
+<br><br>
 
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statement
@@ -453,17 +443,12 @@ Son aquellos profesionales encargados de la planificación, diseño y supervisi�
     + **Características demográficas:** Profesionales entre 28 y 55 años de edad que se desempeñan como ingenieros civiles, arquitectos, gerentes de proyecto y residentes de obra.<br>
     + **Características geográficas:** Personas pertenecientes a zonas urbanas, operando principalmente en obras de Lima Metropolitana.<br><br>
 
-
-
-
 + **Equipos de Logística y Administración:**<br>
 Son los colaboradores encargados del flujo de abastecimiento, control de presupuestos y gestión de inventarios desde la oficina central de la constructora o consultora. Utilizarían Kipu para recibir y gestionar los requerimientos de materiales en tiempo real, controlar los presupuestos operativos y agilizar la cadena de suministro interna para evitar paralizaciones.
     + **Características demográficas:** Personas entre 25 y 60 años de edad que trabajan como jefes de logística, asistentes administrativos, contadores o encargados de compras dentro del rubro de construcción.
     + **Características geográficas:** Personas que residen y laboran en oficinas de Lima Metropolitana, Perú.<br><br>
 
-
 ---
-
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -629,56 +614,61 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
+En esta sección se van a analizar estratégias y tácticas que serán usadas para aprovechar las debilidades de la competencia y afrontar sus fortalezas. Además, hemos empleado el análisis FODA para identificar las oportunidades y amenazas del mercado, evaluando las fortalezas que ofrece nuestro modelo Open Source y debilidades internas frente a empresas de mayor dominio empresarial como Procore o Buildertrend. Es así como este enfoque nos permite concebir estrategias adecuadas para nuestros segmentos objetivos.
+
 **Estrategia de Diferenciación:**
+
++ Para satisfacer las necesidades de los **Gestores Operativos de la Obra**, será necesario buscar un enfoque orientado a la **soberanía técnica y flexibilidad**. A diferencia de los softwares cerrados de nuestros competidores, los cuales imponen rigidez en demasía, Kipu ofrece a arquitectos y técnicos la personalización de los modulos de documentación técnica. Al tratarse de un software Open Source, se garantiza la total accesibilidad y auditabilidad de la información del proyecto, eliminando dependencias de proveedores foráneos.
+
++ Con el objetivo de enriquecer la experiencia de usuario de los **Equipos de Logística y Administración**, es importante distinguirnos mediante la **integración de flujos en tiempo real** sin costos por persona. Mientras la competencia suele usar estrategias que residen en la cobra de licencias adicionales para personal administrativo, Kipu decide fomentar la visibilidad total de inventarios y presupuestos de forma gratuita para equipos de trabajo, facilitando una cadena de suministro interna sin fricciones.
+
+**Estrategia de Liderazgo en Costos:**
+
++ En la búsqueda de la complacencia de los **Gestores Operativos de la Obra**, va a ser ofrecido un modelo de **implementación local gratuita (self-hosted)**. Ello nos permitirá que los residentes de obra y gerentes del proyecto adopten una herramienta profesional de alto nivel sin la necesidad de comprometer los presupuestos operativos demarcados, lo que favorece a las PYME's. Ello facilitará el escalamiento de la digitalización desde una obra pequeña o proyectos medianos. 
+
++ A manera de buscar el placer de los **Equipos de Logística y Administración**, la estrategia empleada será basada en la **eliminación de tarifas ocultas**. Pues proveemos una plataforma de control de costos operativa totalmente accesible y fácil de usar. Debido a ello, nuestra monetización será generada a través de servicios opcionales que permitirán la personalización de reportes contables o soporte técnico especializado para la oficina central de los negocios.
+
 **Estrategia de Marketing:**
+
+Para ambos segmentos, la estrategia será centrada en la **educación sobre la eficiencia operativa y reducción de sobrecostos**. Teniendo esa visión como eje central, nosotros desarrollaremos casos de estudio enfocados en proyectos reales en Lima Metropolitana; así, demostraremos como la centralización de datos que ejerce Kipu reduce y evita la paralización de proyectos por cuestiones relacionadas a la falta de materiales o errores en la documentación técnica.
+
 **Tácticas:**
+- Publicidad digital orientada a residentes de obra en Lima, resaltando la capacidad de Kipu para sustituir el seguimiento manual con una supervisión digital automatizada.
+- Talleres gratuitos dirigidos a jefes de compra y contadores sobre la manera en la que el código abierto permite la trazabilidad total de presupuestos e inventarios en tiempo real.
+- Ofrecer servicios de configuración inicial sin costo para las primeras PYME's que decidan migrar sus operaciones y procesos de oficina a Kipu; de esa manera, se podrán generar testimonios de éxito local.
+- Establecer contactos con proveedores de materiales de construcción en Lima con el objetivo de explorar integraciones de catálogos digitales dentro de la plataforma abierta de Kipu.
 
 ## 2.2 Entrevistas
 
-
 En esta sección se abordará la investigación en base a la información que se obtendrá de los segmentos entrevistados con el objetivo de conocer mejor a nuestros segmentos objetivos y aprender de ellos y sus procesos.
-
-
-
 
 ### 2.2.1 Diseño de entrevistas
 
-
 **Segmento objetivo 1:** Gestores Operativos de Obra (Arquitectos e Ingenieros)
 
-
 **Introducción:**
-
 
 Buenos días/tardes/noches, mi nombre es [Nombre del entrevistador], y en esta ocasión tengo el agrado de poder entrevistar a [Nombre del entrevistado].
 Desde ya quiero agradecerle por su presencia y tiempo que me está brindando.
 
-
 **Perfilamiento y Demografía:**
-
 
 1. ¿Podría indicarme su nombre completo, edad, distrito de residencia y estado civil?
 2. ¿Cuál es su profesión exacta y qué cargo ocupa actualmente en la empresa?
 3. ¿Cómo describiría un día típico en su trabajo?
 
-
 **Comportamiento Digital, Marcas y Canales:**
-
 
 4. ¿Qué dispositivos utiliza más en su día a día (laptop, smartphone, tablet) tanto en la oficina como en la obra?
 5. ¿Cuáles son las aplicaciones o canales digitales que más usa para interactuar con su equipo de trabajo y con sus clientes?
 
-
 **Exploración del Problema (Metas y Frustraciones):**
-
 
 6. ¿Cómo es su proceso actual para gestionar las distintas versiones de los planos y asegurarse de que el equipo en obra use la versión final?
 7. ¿Qué es lo más frustrante de coordinar el avance de un proyecto con sus clientes?
 8.  ¿Qué herramientas tecnológicas utilizan actualmente para gestionar los proyectos y cuánto invierten en licencias? ¿Estarían dispuestos a implementar una plataforma centralizada si eso automatiza sus procesos?
 
-
 **Preferencias Visuales e Interfaz:**
-
 
 9. ¿Qué características visuales necesitarías en la pantalla para no equivocarte al usarla directamente en la obra (con luz del sol, apuro o equipo de seguridad)? ¿Letras más grandes, colores muy fuertes o botones amplios?
 10.  Si una plataforma tuviera que transmitir "orden, precisión y profesionalismo", ¿qué colores corporativos se le vienen a la mente y por qué?
