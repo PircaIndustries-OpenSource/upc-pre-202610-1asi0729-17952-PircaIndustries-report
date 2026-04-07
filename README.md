@@ -742,8 +742,15 @@ Bueno esto ha sido todo por esta ocasión, una vez más quisiera agradecerle por
 
 ## 2.4. Big Picture Event Storming.
 
-De acuerdo con Qlerify (s.f.), el Big Picture Event Storming es uno de los enfoques claves en Event Storming. Es una técnica colaborativa basada en workshops (talleres) que es usada para explorar y diseñar dominios empresariales complejos. El concepto de Event Stroming fue desarollado inicialmente por Alberto Brandolini como un método cuya función es descubrir rápidamente el conocimiento del dominio en un grupo, el cual es utilizado principalmente en el Domain-Driven Design (Diseño Orientado al Dominio, también conocido como DDD).
+De acuerdo con Qlerify (s.f.), el Big Picture Event Storming es uno de los enfoques claves en Event Storming. Es una técnica colaborativa basada en workshops (talleres) que es usada para explorar y diseñar dominios empresariales complejos. El concepto de Event Stroming fue desarollado inicialmente por Alberto Brandolini como un método cuya función es descubrir rápidamente el conocimiento del dominio en un grupo, el cual es utilizado principalmente en el Domain-Driven Design (Diseño Orientado al Dominio, también conocido como DDD). El Big Picture Event Storming es un paso fundamental para utilizar DDD de manera eficiente; pues, en palabras de Chatuev (2020), es mejor empezar con el descubrimiento de dominio, intercambio de conocimientos y la recopilación del Lenguaje Ubicuo.
 
+**Metodología aplicada**
+
+**Big Picture Event Storming - Leyenda**
+
+**Big Picture Event Storming - Mapa**
+
+**Interpretación de hallazgos clave**
 
 ## 2.5. Ubiquitous Language
 
@@ -818,6 +825,8 @@ De acuerdo con Qlerify (s.f.), el Big Picture Event Storming es uno de los enfoq
 # Conclusiones
 # Bibliografía
 Aquise, J., Bustamante, G. y Cáceres, M. (2021). Control de Calidad y su Impacto en los Indicadores de Desempeño Financiero y Operativo (KPIs) de una Pequeña Empresa Constructora en el Sur del Perú. [Tesis de maestría, Universidad Peruana de Ciencias Aplicadas]. Repositorio académico UPC. https://repositorioacademico.upc.edu.pe/handle/10757/672148
+
+Chatuev, M. (2020, 21 de setiembre). *Big Picture Event Storming*. Medium. https://medium.com/@chatuev/big-picture-event-storming-7a1fe18ffabb
 
 Qlerify (s.f.). *What is Big Picture Event Storming?*. Qlerify. https://www.qlerify.com/event-storming-concepts/what-is-big-picture-event-storming
 
