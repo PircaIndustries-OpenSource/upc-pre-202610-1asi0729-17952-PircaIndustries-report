@@ -741,6 +741,10 @@ Bueno esto ha sido todo por esta ocasión, una vez más quisiera agradecerle por
 ### 2.3.5. As-is Scenario Mapping.
 
 ## 2.4. Big Picture Event Storming.
+
+De acuerdo con Qlerify (s.f.), el Big Picture Event Storming es uno de los enfoques claves en Event Storming. Es una técnica colaborativa basada en workshops (talleres) que es usada para explorar y diseñar dominios empresariales complejos. El concepto de Event Stroming fue desarollado inicialmente por Alberto Brandolini como un método cuya función es descubrir rápidamente el conocimiento del dominio en un grupo, el cual es utilizado principalmente en el Domain-Driven Design (Diseño Orientado al Dominio, también conocido como DDD).
+
+
 ## 2.5. Ubiquitous Language
 
 ---
@@ -814,4 +818,7 @@ Bueno esto ha sido todo por esta ocasión, una vez más quisiera agradecerle por
 # Conclusiones
 # Bibliografía
 Aquise, J., Bustamante, G. y Cáceres, M. (2021). Control de Calidad y su Impacto en los Indicadores de Desempeño Financiero y Operativo (KPIs) de una Pequeña Empresa Constructora en el Sur del Perú. [Tesis de maestría, Universidad Peruana de Ciencias Aplicadas]. Repositorio académico UPC. https://repositorioacademico.upc.edu.pe/handle/10757/672148
+
+Qlerify (s.f.). *What is Big Picture Event Storming?*. Qlerify. https://www.qlerify.com/event-storming-concepts/what-is-big-picture-event-storming
+
 # Anexos
