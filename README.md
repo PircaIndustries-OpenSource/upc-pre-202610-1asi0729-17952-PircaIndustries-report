@@ -503,7 +503,7 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 				<div align="center">Logo</div>
 			</td>
 			<td><div align="center">
-				<img src="Resources/Style%20Guidelines/logo.png?raw=true" alt="Kipu logo"/>
+				<img src="Resources/Style%20Guidelines/logoWithBackground.svg?raw=true" alt="Kipu logo"/>
 			</div></td>
 			<td><div align="center">
 				<img src="Resources/Competitors/procore.png?raw=true" alt="Procore logo"/>
