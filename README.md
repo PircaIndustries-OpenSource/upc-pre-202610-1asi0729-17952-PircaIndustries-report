@@ -49,6 +49,7 @@
 |1\.2\.0|04/04/2026|Marcelo Fausto Pareja Calloapaza| Se agregó contenido relacionado con los Competidores y Análisis Competitivo.|
 |1\.2\.1|05/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado con el diseño de entrevistas.|
 |1\.2\.2|05/04/2026|Marcelo Fausto Pareja Calloapaza| Se agregó contenido relacionado a las Estrategias y Tácticas frente a Competidores.|
+|1\.4\.0|09/04/2026|Paula Fernanda Montoya NIna| Se inició el Capítulo IV: Style Guidelines.|
 
 </div><br><br>
 
@@ -772,8 +773,77 @@ De acuerdo con Qlerify (s.f.), el Big Picture Event Storming es uno de los enfoq
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines.
+En esta sección se detalla la guía de estilos obligatoria para la construcción de los mockups. El objetivo es establecer un marco visual coherente que garantice la consistencia en la landing page y la aplicación web, permitiendo que la interfaz sea intuitiva y facilite la navegación del usuario final.
+
 ### 4.1.1. General Style Guidelines.
+
+A continuación, se detallan los lineamientos para garantizar la consistencia visual y la identidad de marca en nuestro producto<br>
+
+
+* **Colors:**
+
+La selección cromática para el proyecto Kipu se fundamenta en los resultados de las entrevistas realizadas, donde la mayoría de los usuarios destacó su preferencia por los tonos azules y neutros para entornos de software profesional que utilizan en su día a día. Bajo esta premisa, la paleta está orientada a garantizar el confort visual y la usabilidad. El código #212529 se emplea para establecer una jerarquía clara en la tipografía y los textos principales, evitando la fatiga visual de los contrastes absolutos. El tono #2C3E50 se integra como color primario para aportar una estética sobria y estructurada, propia de las herramientas de gestión técnica, mientras que el #F8F9FA y el #B0BEC5 funcionan como bases neutras y elementos divisorios que promueven la limpieza visual del sistema. Finalmente, el #3498DB se utiliza como color de acento y acción interactiva, guiando al usuario de manera intuitiva sin comprometer la seriedad de la plataforma.<br>
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Style%20Guidelines/color_palette.png?raw=true" alt="Imagen de la paleta de colores"/>
+
+<br>
+
+* **Branding**
+
+El diseño del logotipo de Kipu se fundamenta en la convergencia entre la identidad de la marca y las herramientas del sector. La estructura principal utiliza la letra inicial 'K', en la cual se integra de manera armónica la silueta de una regla. Este elemento fue seleccionado por ser el instrumento de medición por excelencia en la arquitectura y la construcción.
+Complementariamente, se empleó una tipografía personalizada de estilo moderno y redondo, la cual se aleja de fuentes genéricas para proyectar una imagen tecnológica y única.
+
+<br>
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Style%20Guidelines/logoWithBackground.svg?raw=true" alt="Imagen del logo"/>
+
+<br>
+
+
+* **Typography**
+
+La selección de la tipografía Inter responde a la necesidad de maximizar la legibilidad en entornos de alta densidad de datos, característica común en herramientas de gestión. Al ser una fuente de estilo sans-serif diseñada específicamente para pantallas, permite una lectura fluida y rápida, reduciendo la fatiga visual del usuario al eliminar ornamentos innecesarios que podrían comprometer la claridad. Para garantizar una jerarquía visual estructurada dentro de la aplicación, se han integrado las variantes Regular, Medium, Semi-Bold y Bold.
+
+**Inter - Google fonts**
+
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Style%20Guidelines/typography.png?raw=true" alt="Imagen del logo"/>
+
+Referencia: [Inter - Google fonts](https://fonts.google.com/specimen/Inter?query=Inter&lang=es_Latn&categoryFilters=Sans+Serif:%2FSans%2F*&preview.lang=en_Latn)<br>
+<br>
+* **Spacing**
+
+El sistema de espaciado se basa en una grilla de 8px para garantizar la consistencia técnica y visual en toda la plataforma. El uso de la unidad relativa `rem` es obligatorio para asegurar la adaptabilidad y accesibilidad del software.
+
+| Categoría   | Medida (rem / px) | Aplicación Técnica Obligatoria                                       |
+| :------------| :------------------| :---------------------------------------------------------------------|
+| **X-Small** | 0.25 rem / 4 px   | Alineación de iconos y micro-ajustes de posición.                    |
+| **Small**   | 0.5 rem / 8 px    | Separación de elementos con dependencia semántica directa.           |
+| **Medium**  | 1.0 rem / 16 px   | Relleno interno (*padding*) de componentes interactivos primarios.   |
+| **Large**   | 1.5 rem / 24 px   | Margen entre componentes pertenecientes a un mismo bloque funcional. |
+| **X-Large** | 2.0 rem / 32 px   | Distancia entre contenedores de información independientes.          |
+| **Section** | 4.0 rem / 64 px   | Delimitación de secciones estructurales macro en la interfaz.        |
+<br>
+Unidad de Medida: Todo el espaciado debe ser implementado utilizando unidades `rem`. No se permite el uso de valores absolutos en píxeles dentro del código fuente de la aplicación.
+<br><br>
+Consistencia de Grilla: Queda prohibido el uso de valores intermedios que no pertenezcan a la progresión de la grilla de 8px definida en la tabla superior.
+<br>
+<br>
+
+* **Dimensions** 
+
+La estrategia de comunicación de Kipu emplea un tono formal y directo para asegurar una lectura de datos inmediata y libre de ambigüedades en todas sus interfaces. En el caso de los gestores operativos de obra, la terminología técnica permite una recepción de información eficiente que se adapta a la dinámica de campo donde la rapidez en la comprensión de los avances es crítica para la ejecución. Este enfoque evita descripciones extensas y se centra en términos específicos del rubro que los arquitectos e ingenieros ya dominan, optimizando el flujo de trabajo y la toma de decisiones en entornos de construcción que exigen respuestas ágiles y precisas.
+
+Para el segmento de logística y administración, el tono mantiene el rigor formal necesario para la gestión de presupuestos y el control de inventarios desde la oficina central. La ausencia de lenguaje ambiguo en este apartado garantiza que los requerimientos de materiales y los reportes de costos sean entendidos con precisión técnica por el personal contable y administrativo encargado de la cadena de suministro. De esta manera, la aplicación actúa como un canal de información estructurado que facilita la coordinación operativa sin distracciones narrativas, asegurando que cada proceso de gestión se documente bajo un estándar profesional coherente con las necesidades de la empresa.
+
 ### 4.1.2. Web Style Guidelines.
+Se establece los parámetros visuales necesarios para garantizar una interfaz profesional y funcional. El objetivo principal de estos lineamientos es estandarizar la presentación de datos, permitiendo que la información sea procesada con precisión por los usuarios finales en entornos de gestión técnica. Esta normativa asegura que cada componente visual cumpla una función específica dentro del flujo de trabajo, eliminando elementos ornamentales que no aporten valor a la operatividad del software.
+
+El diseño cuenta con adaptabilidad responsiva para asegurar una visualización óptima tanto en dispositivos móviles como en ordenadores de escritorio. Esta pauta garantiza que la arquitectura visual se mantenga ordenada, facilitando que el personal en obra acceda a la información técnica de manera ágil sin importar las dimensiones de la pantalla utilizada.
+
+La consistencia visual se mantiene a través de toda la aplicación. Al establecer patrones visuales, se reduce la carga cognitiva del usuario, permitiendo una navegación intuitiva.
+
+Se implementa una jerarquía visual estratégica para optimizar el escaneo de datos complejos mediante el uso de contrastes y pesos tipográficos diferenciados. Esta disposición permite que los elementos críticos, como estados de proyectos y alertas logísticas, resalten sobre la información secundaria, asegurando una recepción de datos eficiente incluso en condiciones de alta demanda operativa. La organización del color y el tamaño de los componentes guía el ojo del usuario hacia las acciones prioritarias dentro de la interfaz.
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
 ### 4.2.2. Labeling Systems.
