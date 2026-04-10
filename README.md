@@ -82,20 +82,20 @@ https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-Pirc
     - [1.1.1. Descripción de la StartUp](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1 Lean UX Problem Statement](#1221-lean-ux-problem-statement)
-      - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statement](#1221-lean-ux-problem-statement)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2 Entrevistas](#22-entrevistas)
-    - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2 Registro de Entrevistas](#222-registro-de-entrevistas)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de Entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
@@ -335,8 +335,8 @@ Esta falta de supervisión rigurosa se manifiesta en problemas técnicos y estru
 La falta de inversión en controles de calidad, que Aquise et. al. (2023) estima que debería ser el 2% del costo total de la obra, genera sobrecostos de hasta el 12% del costo directo total de la obra. De esta manera, el margen de utilidad de la PYME (que suele rondar entre 10-15% del costo de la obra) es absorvido casi en su totalidad por errores que podrían ser evitados con un control de calidad adecuado, lo que deriva en pérdidas económicas reales en la empresa.
 <br><br>
 
-### 1.2.2 Lean UX Process
-#### 1.2.2.1 Lean UX Problem Statement
+### 1.2.2. Lean UX Process
+#### 1.2.2.1. Lean UX Problem Statement
 **Problem Statement 1:**
 <br>
 El sector de las PYMES constructoras en proyectos privados enfrenta un alto índice de Resultados no Conformes (RNC) debido a una gestión administrativa deficiente que ignora estándares internacionales (PMBOK/ISO). Esto genera fugas de presupuesto por mal control de inventarios y riesgos legales por firmas de cierre sin trazabilidad de procesos.
@@ -347,7 +347,7 @@ El sector de las PYMES constructoras en proyectos privados enfrenta un alto índ
 Actualmente, los ingenieros y responsables de obra carecen de una herramienta centralizada para el seguimiento de KPIs operativos (como el PPC). Al no contar con datos en tiempo real durante las etapas de estructura y acabados, se producen errores técnicos que derivan en sobrecostos, multas elevadas y pérdida de prestigio ante los clientes finales.
 <br>
 
-#### 1.2.2.2 Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions
 
  + **User Assumptions:** 
 
@@ -387,7 +387,7 @@ Actualmente, los ingenieros y responsables de obra carecen de una herramienta ce
 
     12. **Resolveremos esto a través de** una interfaz extremadamente simplificada, soporte técnico constante y demostraciones claras del ROI (Retorno de Inversión) al usar Kipu.
 
-#### 1.2.2.3 Lean UX Hypothesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements
 **Creemos que** proporcionar un módulo de seguimiento de PPC (Porcentaje de Plan Completado) para los residentes de obra, **sabremos que es cierto** cuando veamos una reducción del 15% en los retrasos de las etapas de estructura en los proyectos piloto.
 
 **Creemos que** centralizar el registro de materiales en tiempo real para los administradores de PYMES, **sabremos que lo habremos logrado** cuando el índice de fugas de presupuesto por materiales no contabilizados disminuya en un 20%.
@@ -395,7 +395,7 @@ Actualmente, los ingenieros y responsables de obra carecen de una herramienta ce
 **Creemos que** implementar una bitácora digital con evidencia fotográfica para los ingenieros firmantes, **sabremos que esto es cierto** cuando el tiempo dedicado a la auditoría de cierre de proyecto se reduzca a la mitad.
 
 
-#### 1.2.2.4 Lean UX Canvas
+#### 1.2.2.4. Lean UX Canvas
 
 <table>
     <tr>
@@ -441,7 +441,7 @@ Actualmente, los ingenieros y responsables de obra carecen de una herramienta ce
     </tr>
 </table>
 
-## 1.3 Segmentos Objetivo
+## 1.3. Segmentos Objetivo
 Esta sección incluye la descripción de los segmentos asociados al dominio del problema, incluyendo características geográficas y demográficas. Por lo tanto, con el fin de desarrollar un producto que satisfaga las necesidades operativas de nuestros usuarios, PircaIndustries se enfocará en los siguientes segmentos de la población:
 + **Gestores Operativos de Obra (Arquitectos e Ingenieros):**<br>
 Son aquellos profesionales encargados de la planificación, diseño y supervisión de proyectos de construcción y arquitectura en pequeñas y medianas empresas (PYMES). Pueden utilizar kipu para centralizar documentación técnica y automatizar el seguimiento de proyectos de edificación.
@@ -458,7 +458,7 @@ Son los colaboradores encargados del flujo de abastecimiento, control de presupu
 # Capítulo II: Requirements Elicitation & Analysis
 
 
-## 2.1 Competidores
+## 2.1. Competidores
 
 En esta sección se identificarán los mejores referentes para posteriormente realizar un análisis competitivo que nos ayudará a saber nuestro posicionamiento y el valor agregado que ofreceremos en el mercado. 
 
@@ -479,7 +479,7 @@ Si bien el software se trata de una plataforma de gestión y trabajo genérica, 
 * **Cype Arquímedes y Presto**<br>
 Son softwares que se especializan en presupuestos, mediciones y control de costos. Si bien son el estándar en cuanto a precisión técnica y presupuestos, no ofrecen transparencia operativa ni comunicación colaborativa que Kipu propone en un sistema integral. Además de ambas tratarse de software muy técnico y de alta curva de aprendizaje, contrarias a la versatilidad de la colaboración que Kipu ofrece.
 
-### 2.1.1 Análisis Competitivo
+### 2.1.1. Análisis Competitivo
 
 En esta sección se realizará el análisis competitivo de los competidores identificados en la sección inicial con el objetivo de tener una idea más clara sobre nuestro producto frente a los competidores y aprender para mejorar nuestro producto.
 
@@ -643,11 +643,11 @@ Para ambos segmentos, la estrategia será centrada en la **educación sobre la e
 - Ofrecer servicios de configuración inicial sin costo para las primeras PYME's que decidan migrar sus operaciones y procesos de oficina a Kipu; de esa manera, se podrán generar testimonios de éxito local.
 - Establecer contactos con proveedores de materiales de construcción en Lima con el objetivo de explorar integraciones de catálogos digitales dentro de la plataforma abierta de Kipu.
 
-## 2.2 Entrevistas
+## 2.2. Entrevistas
 
 En esta sección se abordará la investigación en base a la información que se obtendrá de los segmentos entrevistados con el objetivo de conocer mejor a nuestros segmentos objetivos y aprender de ellos y sus procesos.
 
-### 2.2.1 Diseño de entrevistas
+### 2.2.1. Diseño de entrevistas
 
 **Segmento objetivo 1:** Gestores Operativos de Obra (Arquitectos e Ingenieros)
 
@@ -733,7 +733,7 @@ Desde ya quiero agradecerle por su presencia y tiempo que me está brindando.
 Bueno esto ha sido todo por esta ocasión, una vez más quisiera agradecerle por su tiempo, muchas gracias y hasta luego.<br><br>
 
 
-### 2.2.2 Registro de entrevistas
+### 2.2.2. Registro de entrevistas
 
 En esta sección presentamos los registros de las entrevistas realizadas para cada segmento objetivo de nuestra aplicación.
 
@@ -1136,7 +1136,7 @@ En esta sección presentamos los registros de las entrevistas realizadas para ca
 </tbody>
 </table>
 
-### 2.2.3 Análisis de entrevistas
+### 2.2.3. Análisis de entrevistas
 
 En esta sección presentaremos el análisis consolidado de las entrevistas realizadas a nuestros dos segmentos objetivos. Esta síntesis nos permite extraer información cualitativa y cuantitativa crucial para definir las funcionalidades, la arquitectura de la información y la línea visual (UI/UX) de nuestra aplicación.
 
