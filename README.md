@@ -1196,8 +1196,14 @@ Finalmente, al consultar sobre las características fundamentales que debería t
 De acuerdo con Qlerify (s.f.), el Big Picture Event Storming es uno de los enfoques claves en Event Storming. Es una técnica colaborativa basada en workshops (talleres) que es usada para explorar y diseñar dominios empresariales complejos. El concepto de Event Stroming fue desarollado inicialmente por Alberto Brandolini como un método cuya función es descubrir rápidamente el conocimiento del dominio en un grupo, el cual es utilizado principalmente en el Domain-Driven Design (Diseño Orientado al Dominio, también conocido como DDD). El Big Picture Event Storming es un paso fundamental para utilizar DDD de manera eficiente; pues, en palabras de Chatuev (2020), es mejor empezar con el descubrimiento de dominio, intercambio de conocimientos y la recopilación del Lenguaje Ubicuo.
 
 **Metodología aplicada**
+La sesión fue desarrollada mediante el uso de la *Step by Step Guide to run your Big Picture Event Storming* de Philippe Bourgau (2022), coach de desarrollo de software, que fue adaptada al contexto del proyecto.
 
 **Big Picture Event Storming - Leyenda**
+* **Eventos del dominio:** Ellos representan un cambio de estado dentro de un objeto de dominio. Deben ser nombrados mediante el uso del nombre del objeto seguido de un verbo en pasado participio. Son representados con notas anaranjadas.
+* **Objetos del dominio:** Son usados para visualizar de mejor manera el proceso. Se simbolizan mediante notas rectangulares o cuadradas de color amarillo claro.
+* **Sistemas externos:** Plasman a aquellos sistemas externos involucrados en desencadenar ciertos eventos. Las notas rectangulares o cuadradas de color rosa son usadas para describirlas.
+* **Comandos:** Describen las acciones del usuario en el sistema. Son comunmente asociadas con notas de color amarillo oscuro, que representan al usuario involucrado en el comando. Se usa el color azul para retratarlos en el esquema.
+* **Políticas:** Retratan las reglas que provocan que un evento ocurra o que sean lanzadas por la ocurrencia de un evento. Para manifestarlas en el esquema, se usan notas rectangulares o cuadradas de de color lila.
 
 **Big Picture Event Storming - Mapa**
 
