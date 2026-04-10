@@ -1186,6 +1186,8 @@ Finalmente, al consultar sobre las características fundamentales que debería t
 
 
 ## 2.3 Needfinding
+
+### 2.3.1. User Personas.
 <br>
 
 **Segmento objetivo 1:** Gestores y Supervisores de Obra (Arquitectos e Ingenieros).
@@ -1202,7 +1204,6 @@ Finalmente, al consultar sobre las características fundamentales que debería t
 
 <img src="Resources/Artefactos/USER PERSONA - ALICIA RODRIGUEZ.JPG" alt="Foto de User persona segmento 1"/>
 
-### 2.3.1. User Personas.
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
