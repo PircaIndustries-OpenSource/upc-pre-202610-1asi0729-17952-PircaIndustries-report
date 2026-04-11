@@ -1207,6 +1207,22 @@ Finalmente, al consultar sobre las características fundamentales que debería t
 
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. User Journey Mapping.
+<br>
+
+**Segmento objetivo 1:** Gestores y Supervisores de Obra (Arquitectos e Ingenieros).
+
+<br>
+
+ <img src="Resources/Artefactos/User Journey Mapping - Dominik Mamani.png" alt="Foto de User Journey Mapping segmento 1"/>
+ 
+<br>
+
+**Segmento objetivo 2:** Equipos de Logística y Administración.
+
+<br>
+
+<img src="Resources/Artefactos/User Journey Mapping - Alicia Rodriguez.png" alt="Foto de User Journey Mapping segmento 2"/>
+
 ### 2.3.4. Empathy Mapping.
 <br>
 
