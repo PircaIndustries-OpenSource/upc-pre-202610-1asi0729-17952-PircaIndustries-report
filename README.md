@@ -1169,9 +1169,9 @@ Al finalizar las entrevistas a nuestro segundo segmento objetivo, logramos ident
 **Análisis por medio de herramientas estadísticas:**
 
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Statistics/segmento-objetivo-2-grafica-1.png" alt="Herramientas de Gestión Actual"><br><br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Statistics/segmento-objetivo-2-grafica-2.png" alt="Frecuencia de Errores Logísticos"><br><br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Statistics/segmento-objetivo-2-grafica-3.png" alt="Preferencias de Visualización de Datos">
+    <img src="Resources/Statistics/segmento-objetivo-2-grafica-1.png" alt="Herramientas de Gestión Actual"><br><br>
+    <img src="Resources/Statistics/segmento-objetivo-2-grafica-2.png" alt="Frecuencia de Errores Logísticos"><br><br>
+    <img src="Resources/Statistics/segmento-objetivo-2-grafica-3.png" alt="Preferencias de Visualización de Datos">
 </div>
 <br>
 
@@ -1222,10 +1222,45 @@ La sesión fue desarrollada mediante el uso de la *Step by Step Guide to run you
 * **Sistemas externos:** Plasman a aquellos sistemas externos involucrados en desencadenar ciertos eventos. Las notas rectangulares o cuadradas de color rosa son usadas para describirlas.
 * **Comandos:** Describen las acciones del usuario en el sistema. Son comunmente asociadas con notas de color amarillo oscuro, que representan al usuario involucrado en el comando. Se usa el color azul para retratarlos en el esquema.
 * **Políticas:** Retratan las reglas que provocan que un evento ocurra o que sean lanzadas por la ocurrencia de un evento. Para manifestarlas en el esquema, se usan notas rectangulares o cuadradas de de color lila.
+* **Preguntas:** Cuando alguna nota requiere ser profundizada o clarificada. Son de color rojo.
+* **Vistas:** Son una representación del estado de la pantalla o documento. Son de color verde claro.
 
-**Big Picture Event Storming - Mapa**
+**Big Picture Event Storming - Mapas**
+
+* **Proyect Management Bounded Context**
+<div align="center">
+  <img src="Resources/Event%20Storming%20BC's/proyectmanagementBC.png?raw=true" alt="document-control-BC">
+</div>
+
+* **Cost Management Bounded Context**
+<div align="center">
+  <img src="Resources/Event%20Storming%20BC's/costmanagementBC.png?raw=true" alt="cost-management-BC">
+</div>
+
+* **Procurement & Supply Chain Bounded Context**
+<div align="center">
+  <img src="Resources/Event%20Storming%20BC's/procurement%26supplychainBC.png?raw=true" alt="cost-management-BC">
+</div>
+
+* **Document Control Bounded Context**
+<div align="center">
+  <img src="Resources/Event%20Storming%20BC's/documentcontrolBC.png?raw=true" alt="document-control-BC">
+</div>
+
+* **Field Supervision Bounded Context**
+<div align="center">
+  <img src="Resources/Event%20Storming%20BC's/fieldsupervisionBC.png?raw=true" alt="field-supervision-BC">
+</div>
+
+* **Stakeholder Management Bounded Context**
+<div align="center">
+  <img src="Resources/Event%20Storming%20BC's/stakeholdermanagement.png?raw=true" alt="field-supervision-BC">
+</div>
 
 **Interpretación de hallazgos clave**
+* **Interpretación por función de notas:** Las notas anaranjadas nos permitieron la definición de los eventos del dominio, que son un registro histórico de lo que sucede. En Kipu destaca el intercontexto con eventos no aislados que forman un flujo de información continuo. Gracias a las notas lilas, que definen las acciones automatizadas de la aplicación, se ejecuta un valor diferencial frente a procesos manuales, evitando paralizaciones. Además, las mismas que pueden ser auditables y mejoradas por la comunidad. Por otro lado, gracias a las notas rosadas, el software funciona como un hub tecnológico, capaz de conectarse a software ya existente y aprovechar sus ventajas al máximo. Finalmente, las notas amarillas y azules permiten identificar la división de responsabilidades y el mapa de poder.
+* **Hallazgos clave del análisis:** Gracias a las notas verdes, es posible visualizar la transparencia operativa unida a las notas anaranjadas. Ello también permitió el descubrimiento de zonas de fricción, mediante las notas rojas. Ello servirá para mejorar iterativamente dichos aspectos del proyecto. Por otro lado, gracias a las notas lilas y rosadas, Kipu puede utilizar de buena manera los beneficios de tratarse de un software Open Source, mediante la creación de políticas.
+* **Conclusiones:** El Big Picture Event Storming revela a Kipu no solo como un software básico de gestión, sino como un mecanismo ideal de sincronización en el área de construcción. Este mapeo permitió ordenar los comportamientos del software, donde cada nota azul se convierte en una funcionalidad y cada nota lila en una regla del negocio.
 
 ## 2.5. Ubiquitous Language
 
@@ -1317,7 +1352,7 @@ A continuación, se detallan los lineamientos para garantizar la consistencia vi
 
 La selección cromática para el proyecto Kipu se fundamenta en los resultados de las entrevistas realizadas, donde la mayoría de los usuarios destacó su preferencia por los tonos azules y neutros para entornos de software profesional que utilizan en su día a día. Bajo esta premisa, la paleta está orientada a garantizar el confort visual y la usabilidad. El código #212529 se emplea para establecer una jerarquía clara en la tipografía y los textos principales, evitando la fatiga visual de los contrastes absolutos. El tono #2C3E50 se integra como color primario para aportar una estética sobria y estructurada, propia de las herramientas de gestión técnica, mientras que el #F8F9FA y el #B0BEC5 funcionan como bases neutras y elementos divisorios que promueven la limpieza visual del sistema. Finalmente, el #3498DB se utiliza como color de acento y acción interactiva, guiando al usuario de manera intuitiva sin comprometer la seriedad de la plataforma.<br>
 
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Style%20Guidelines/color_palette.png?raw=true" alt="Imagen de la paleta de colores"/>
+<img src="Resources/Style%20Guidelines/color_palette.png?raw=true" alt="Imagen de la paleta de colores"/>
 
 <br>
 
@@ -1328,7 +1363,7 @@ Complementariamente, se empleó una tipografía personalizada de estilo moderno 
 
 <br>
 
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Style%20Guidelines/logoWithBackground.svg?raw=true" alt="Imagen del logo"/>
+<img src="Resources/Style%20Guidelines/logoWithBackground.svg?raw=true" alt="Imagen del logo"/>
 
 <br>
 
@@ -1340,7 +1375,7 @@ La selección de la tipografía Inter responde a la necesidad de maximizar la le
 **Inter - Google fonts**
 
 
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Style%20Guidelines/typography.png?raw=true" alt="Imagen del logo"/>
+<img src="Resources/Style%20Guidelines/typography.png?raw=true" alt="Imagen del logo"/>
 
 Referencia: [Inter - Google fonts](https://fonts.google.com/specimen/Inter?query=Inter&lang=es_Latn&categoryFilters=Sans+Serif:%2FSans%2F*&preview.lang=en_Latn)<br>
 <br>
