@@ -56,6 +56,7 @@
 |1\.2\.7|10/04/2026|Jhony Manuel Francia Torres| Se agregó el contenido de los artefactos en el Needfinding (User Persona, User Task Matrix, Empathy Mapping, User Journey Mapping)|
 |1\.4\.0|09/04/2026|Paula Fernanda Montoya Nina| Se inició el Capítulo IV: Style Guidelines.|
 |1\.3\.0|10/04/2026|Neo Daniel Ramos Mera, Diego Antonio Ramos Hinostroza, Marcelo Fausto Pareja Calloapaza| Se agregaron épicas y user stories|
+|1\.3\.1|10/04/2026|Jhony Manuel Francia Torres| Se agregó épicas y user stories|
 
 
 </div><br><br>
