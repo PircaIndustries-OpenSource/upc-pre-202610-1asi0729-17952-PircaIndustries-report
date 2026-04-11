@@ -51,9 +51,10 @@
 |1\.2\.2|10/04/2026|Diego Antonio Ramos Hinostroza| Se añadió contenido relacionado con el registro de las entrevistas.|
 |1\.2\.3|10/04/2026|Diego Antonio Ramos Hinostroza| Se realizó el análisis de cada una de las entrevistas.|
 |1\.2\.4|05/04/2026|Marcelo Fausto Pareja Calloapaza| Se agregó contenido relacionado a las Estrategias y Tácticas frente a Competidores.|
-|1\.2\.5|10/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado con el Ubiquitous Language.|
+|1\.2\.5|10/04/2026|Marcelo Fausto Pareja Calloapaza| Se agregó contenido relacionado con el Big Picture Event Storming.|
+|1\.2\.6|10/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado con el Ubiquitous Language.|
 |1\.4\.0|09/04/2026|Paula Fernanda Montoya Nina| Se inició el Capítulo IV: Style Guidelines.|
-|1\.3\.0|10/04/2026|Neo Daniel Ramos Mera, Diego Antonio Ramos Hinostroza| Se agregaron épicas y user stories|
+|1\.3\.0|10/04/2026|Neo Daniel Ramos Mera, Diego Antonio Ramos Hinostroza, Marcelo Fausto Pareja Calloapaza| Se agregaron épicas y user stories|
 
 </div><br><br>
 
