@@ -483,7 +483,7 @@ Si bien el software se trata de una plataforma de gestión y trabajo genérica, 
 * **Cype Arquímedes y Presto**<br>
 Son softwares que se especializan en presupuestos, mediciones y control de costos. Si bien son el estándar en cuanto a precisión técnica y presupuestos, no ofrecen transparencia operativa ni comunicación colaborativa que Kipu propone en un sistema integral. Además de ambas tratarse de software muy técnico y de alta curva de aprendizaje, contrarias a la versatilidad de la colaboración que Kipu ofrece.
 
-* **Monnit / Libelium (competidores indirectos IoT)**<br>
+* **Monnit / Libelium**<br>
 Son empresas especializadas en hardware y plataformas IoT para monitoreo industrial. Ofrecen sensores de temperatura, vibración, nivel y consumo eléctrico. Sin embargo, no están especializadas en el sector construcción peruano, sus licencias son costosas y no son open source. Kipu se diferencia por ofrecer una solución integral (gestión de obra + IoT) con hardware de bajo costo y código abierto, permitiendo a las PYMES constructoras adoptar automatización sin depender de proveedores externos.
 
 ### 2.1.1. Análisis Competitivo
@@ -1562,6 +1562,18 @@ Dada la cantidad de alta densidad de datos en construcción. Para garantizar una
 - **Resultados con facilidad de visualización:** En referencia a la búsqueda de datos en tablas, estos presentarán indicadores visuales de colores para representar sus estados y, de esa manera, facilitar la toma de decisiones inmediata.
 
 ### 4.2.5. Navigation Systems.
+La navegación en Kipu está diseñada para entornos de alta movilidad y estrés (obra):
+
+- **Barra Lateral Persistente (Sidebar):** Permite saltar entre los distintos modulos mediante un clic.
+
+- **Breadcrumbs (Migas de Pan):** Son cruciales para facilitar la navegación en estructuras jerárquicas complejas.
+
+- **Navigation Drawers en Dispositivos Móviles:** Permite optimizar el espacio en pantallas pequeñas mientras se mantiene la funcionalidad.
+
+- **Accesos Directos de Rápida Aplicación:** Permite acceder a acciones frecuentes mediante en uso de botones prominentes con facilidad de ubicar. Ellos dependen del rol.
+
+- **Interconectividad de contextos:** Enlaces contextuales que permiten pasar de un módulo a otro con el objetivo de agilizar los procesos.
+
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 ### 4.3.2. Landing Page Mock-up.
