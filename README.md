@@ -1507,8 +1507,13 @@ El diseño cuenta con adaptabilidad responsiva para asegurar una visualización 
 La consistencia visual se mantiene a través de toda la aplicación. Al establecer patrones visuales, se reduce la carga cognitiva del usuario, permitiendo una navegación intuitiva.
 
 Se implementa una jerarquía visual estratégica para optimizar el escaneo de datos complejos mediante el uso de contrastes y pesos tipográficos diferenciados. Esta disposición permite que los elementos críticos, como estados de proyectos y alertas logísticas, resalten sobre la información secundaria, asegurando una recepción de datos eficiente incluso en condiciones de alta demanda operativa. La organización del color y el tamaño de los componentes guía el ojo del usuario hacia las acciones prioritarias dentro de la interfaz.
+
 ## 4.2. Information Architecture.
+En Kipu, la arquitectura de la información está diseñada para centralizar la fragmentación de datos, lo cual es característica del sector construcción, con el propósito de transformarla en un flujo de trabajo efectivo, intuitivo y accesible. Por ende, las decisiones de organización, etiquetado y navegación están orientadas a que el personal de campo (operarios y residentes) y de oficina (logística y gerencia) interactúen con la plataforma sin fricciones. Es por ello que priorizaremos la precisión técnica y la jerarquía de datos, en consecuencia aseguraremos que cada actor encuentre información crítica con el mínimo esfuerzo, lo que garantizará una experiencia coherente entre el Landing Page y la Web Application.
+
 ### 4.2.1. Organization Systems.
+
+
 ### 4.2.2. Labeling Systems.
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems.
