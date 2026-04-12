@@ -1548,7 +1548,61 @@ El sistema de etiquetado de Kipu utiliza terminología estándar de la industria
 - **Comunidad/Open Source:** Acceso a la documentación del código, plugins y contribuciones (exclusivo para desarrolladores/administradores).
 
 ### 4.2.3. SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags
 
+Para mejorar el posicionamiento en motores de búsqueda del sitio informativo y asegurar la correcta indexación y seguridad de la aplicación web, se han definido los siguientes tags y metadatos:
+
+**Landing Page (Sitio Estático)**
+El objetivo es captar tráfico interesado en soluciones tecnológicas para la construcción (Proptech) y optimización de procesos.
+
+* **Título:**
+    ```html
+    <title>Kipu por PircaIndustries - Gestión Digital de Obras y Control de Proyectos</title>
+    ```
+* **Descripción:**
+    ```html
+    <meta name="description" content="Centraliza la gestión de tu obra con Kipu. Control de presupuestos, trazabilidad de planos y logística en una plataforma Open Source diseñada para constructoras modernas."/>
+    ```
+* **Palabras clave (Keywords):**
+    ```html
+    <meta name="keywords" content="gestión de construcción, software obra civil, control de presupuestos, trazabilidad de planos, Lean Construction, ERP construcción, Open Source, PircaIndustries"/>
+    ```
+* **Autor:**
+    ```html
+    <meta name="author" content="PircaIndustries Team" />
+    ```
+* **Copyright:**
+    ```html
+    <meta name="copyright" content="© PircaIndustries, 2026" />
+    ```
+
+---
+
+**Web Application (Entorno Operativo)**
+Aquí el enfoque cambia hacia la seguridad, la autoría y evitar que datos sensibles de los proyectos sean indexados por motores de búsqueda públicos.
+
+* **Título:**
+    ```html
+    <title>Kipu App - Panel de Control de Proyecto</title>
+    ```
+* **Descripción:**
+    ```html
+    <meta name="description" content="Sistema operativo de obra de PircaIndustries. Gestiona RNCs, pedidos de materiales y avance físico en tiempo real de forma segura."/>
+    ```
+* **Robots (Seguridad):**
+    ```html
+    <meta name="robots" content="noindex, nofollow" /> 
+    ```
+    *(Nota: Se utiliza para evitar que las páginas internas de gestión de las constructoras aparezcan en resultados de Google).*
+
+* **Autor:**
+    ```html
+    <meta name="author" content="PircaIndustries Team" />
+    ```
+* **Copyright:**
+    ```html
+    <meta name="copyright" content="© PircaIndustries, 2026" />
+    ```
 
 ### 4.2.4. Searching Systems.
 Dada la cantidad de alta densidad de datos en construcción. Para garantizar una experiencia de búsqueda eficiente y satisfactoria para los usuarios en Kipu, un sistema de búsqueda robusto con varias opciones y filtros será implementado.
