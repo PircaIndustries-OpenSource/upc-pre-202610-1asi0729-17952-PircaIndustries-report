@@ -1512,9 +1512,26 @@ Se implementa una jerarquía visual estratégica para optimizar el escaneo de da
 En Kipu, la arquitectura de la información está diseñada para centralizar la fragmentación de datos, lo cual es característica del sector construcción, con el propósito de transformarla en un flujo de trabajo efectivo, intuitivo y accesible. Por ende, las decisiones de organización, etiquetado y navegación están orientadas a que el personal de campo (operarios y residentes) y de oficina (logística y gerencia) interactúen con la plataforma sin fricciones. Es por ello que priorizaremos la precisión técnica y la jerarquía de datos, en consecuencia aseguraremos que cada actor encuentre información crítica con el mínimo esfuerzo, lo que garantizará una experiencia coherente entre el Landing Page y la Web Application.
 
 ### 4.2.1. Organization Systems.
+En Kipu, aplicaremos sistemas de organización que reflejan la estructura lógica de un proyecto de ingeniería cuyo objetivo es la facilitación de la adaptabilidad del usuario:
 
+**Organización visual de contenido:**
+- **Jerárquica:** Ha de ser aplicada en el Dashboard principal. En ella será visible información crítica como el "Porcentaje de Plan Completado" (PPC) y las "Alertas de Presupuesto" que poseerán un peso visual mayor con el propósito de capturar la atención inmediata del Gerente de Proyecto antes que los detalles secundarios.
+
+- **Secuencial:** Es crucial para la ejecución de procesos complejos como el Registro de Resultado No Conforme (RNC) o la Generación de Requerimientos de Materiales. Se prevée que el sistema guíe al usuario paso a paso (descripción > evidencia fotográfica > asignación de responsable) para asegurar que no se omita información vital para la trazabilidad.
+
+- **Matricial:** Será utilizada en el módulo de Inventario y Presupuesto, en donde el usuario podrá cruzar datos de materiales y partidas presupuestarias. De esa manera se habilitarán múltiples puntos de entrada a la misma información.
+
+**Esquemas de categorización por contenido:**
+- **Por Tópicos:** El contenido se organiza según los *Bounded Contexts* identificados: Planificación, Logística, Finanzas, Documentación Técnica y Ejecución de Campo.
+
+- **Según audiencia:** Nuestra interfaz se adaptará de manera automática de acuerdo al tipo de vista de acuerdo al rol del usuario. Por ejemplo, el Almacenero visualiza categorías referentes al stock y movimiento de carga en el almacén, mientras que el Arquitecto accede prioritariamente a planos y RFIs.
+
+- **Cronológico:** Será aplicada a la Bitácora de la Obra y al Historial de Versiones de los Planos, de esa manera se permite la evolución lineal de los proyectos.
+
+- **Alfabético:** Es usado en el directorio de subcontratistas y proveedores para facilitar la búsqueda en listas extensas.
 
 ### 4.2.2. Labeling Systems.
+
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems.
 ### 4.2.5. Navigation Systems.
