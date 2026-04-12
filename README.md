@@ -1551,6 +1551,16 @@ El sistema de etiquetado de Kipu utiliza terminología estándar de la industria
 
 
 ### 4.2.4. Searching Systems.
+Dada la cantidad de alta densidad de datos en construcción. Para garantizar una experiencia de búsqueda eficiente y satisfactoria para los usuarios en Kipu, un sistema de búsqueda robusto con varias opciones y filtros será implementado.
+
+- **Búsqueda Global con Autocompletado:** Se contará con un campo presente en el header que buscará en planos, partidas y requerimientos de manera simultánea. Además, contará con sugerencias de búsqueda.
+
+- **Filtros avanzados:** Los usuarios podrán buscar planos filtrando sus búsquedas mediante categorías. Por ejemplo: *Especialidad*, *Estado* o *Fecha de Vigencia*.
+
+- **Búsqueda por atributos de Stock:** Se permitirá filtrar materiales por *Estado de Stock*, ya sean "Crítico" u "Óptimo", o *Proveedor* de los mismos.
+
+- **Resultados con facilidad de visualización:** En referencia a la búsqueda de datos en tablas, estos presentarán indicadores visuales de colores para representar sus estados y, de esa manera, facilitar la toma de decisiones inmediata.
+
 ### 4.2.5. Navigation Systems.
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
