@@ -1531,8 +1531,25 @@ En Kipu, aplicaremos sistemas de organización que reflejan la estructura lógic
 - **Alfabético:** Es usado en el directorio de subcontratistas y proveedores para facilitar la búsqueda en listas extensas.
 
 ### 4.2.2. Labeling Systems.
+El sistema de etiquetado de Kipu utiliza terminología estándar de la industria de la construcción (PMBOK/Lean Construction) para reducir la carga cognitiva:
+
+- **Inicio/Dashboard:** Panel de control con la vista general del estado de la obra.
+
+- **Expediente Técnico:** Sección que agrupa planos, memorias descriptivas y especificaciones.
+
+- **Logística e Insumos:** Etiquetas relacionadas con el flujo de materiales (Pedidos, Almacén, Stock).
+
+- **Control de Calidad:** Espacio dedicado a RNCs y actas de conformidad.
+
+- **Finanzas y Costos:** Etiquetas para presupuestos, gastos reales y desviaciones.
+
+- **Equipo de Obra:** Gestión de roles, permisos y asignación de personal.
+
+- **Comunidad/Open Source:** Acceso a la documentación del código, plugins y contribuciones (exclusivo para desarrolladores/administradores).
 
 ### 4.2.3. SEO Tags and Meta Tags
+
+
 ### 4.2.4. Searching Systems.
 ### 4.2.5. Navigation Systems.
 ## 4.3. Landing Page UI Design.
