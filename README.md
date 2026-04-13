@@ -1548,7 +1548,6 @@ El sistema de etiquetado de Kipu utiliza terminología estándar de la industria
 - **Comunidad/Open Source:** Acceso a la documentación del código, plugins y contribuciones (exclusivo para desarrolladores/administradores).
 
 ### 4.2.3. SEO Tags and Meta Tags
-### 4.2.3. SEO Tags and Meta Tags
 
 Para mejorar el posicionamiento en motores de búsqueda del sitio informativo y asegurar la correcta indexación y seguridad de la aplicación web, se han definido los siguientes tags y metadatos:
 
