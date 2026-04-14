@@ -58,6 +58,7 @@
 |1\.3\.0|10/04/2026|Neo Daniel Ramos Mera, Diego Antonio Ramos Hinostroza, Marcelo Fausto Pareja Calloapaza| Se agregaron épicas y user stories|
 |1\.3\.1|10/04/2026|Jhony Manuel Francia Torres| Se agregó épicas y user stories|
 |1\.3\.2|11/04/2026|Marcelo Fausto Pareja Calloapaza, Neo Daniel Ramos Mera| Se agregó funcionalidad IoT al proyecto.|
+|1\.3\.3|13/04/2026|Neo Daniel Ramos Mera| Se agregó el impact mapping|
 
 
 </div><br><br>
@@ -1425,6 +1426,14 @@ En esta sección se define el glosario de términos y conceptos fundamentales de
 <br><br>
 
 ## 3.2. Impact Mapping
+
+**Segmento objetivo 1:** Gestores y Supervisores de Obra (Arquitectos e Ingenieros).
+
+<img src="Resources/ImpactMapping/Gestor y supervisor.png">
+
+**Segmento objetivo 2:** Equipos de Logística y Administración.
+
+<img src="Resources/ImpactMapping/Lógica y administración.png">
 
 ## 3.3. Product Backlog
 
