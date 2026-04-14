@@ -1360,10 +1360,6 @@ En esta sección se define el glosario de términos y conceptos fundamentales de
 
 **EPICS**
 
-## 3.1. User Stories.
-
-**EPICS**
-
 | Epic ID | Título | Descripción | Criterio de Aceptación |
 | :--- | :--- | :--- | :--- |
 | **EP01** | Gestión de cuentas y acceso | Como usuario de Kipu, quiero gestionar mi cuenta y acceso según mi rol en el proyecto para tener una experiencia personalizada y segura. | **Escenario 1:** Registro de nuevo usuario <br>Dado que el usuario accede por primera vez a la plataforma, <br>Cuando completa el formulario con sus datos y rol técnico, <br>Entonces el sistema crea la cuenta y otorga los permisos correspondientes. <br><br>**Escenario 2:** Autenticación de usuarios <br>Dado que el usuario ya tiene una cuenta registrada, <br>Cuando ingresa credenciales válidas, <br>Entonces el sistema autentica al usuario y redirige al dashboard según su rol. <br><br>**Escenario 3:** Landing page informativa <br>Dado que un visitante accede al sitio, <br>Cuando navega por el contenido promocional, <br>Entonces el sitio presenta la propuesta de valor y redirige al registro o demo mediante call-to-action. |
