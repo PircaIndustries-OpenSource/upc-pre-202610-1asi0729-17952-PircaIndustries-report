@@ -1638,6 +1638,9 @@ La navegación en Kipu está diseñada para entornos de alta movilidad y estrés
 ### 4.6.4. Software Architecture Components Diagrams.
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
+<br>
+<img src="Resources/Diagrams/Class Diagram - Kipu.png" alt="Foto de Diagrama de clases"/>
+
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams.
 
