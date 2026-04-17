@@ -1310,7 +1310,7 @@ La sesión fue desarrollada mediante el uso de la *Step by Step Guide to run you
 
 * **Stakeholder Management Bounded Context**
 <div align="center">
-  <img src="Resources/BigPictureEventStorming/BPESstakeholdermanagement.png?raw=true" alt="stakeholder-management-BC">
+  <img src="Resources/BigPictureEventStorming/BPESstakeholdermanagementBC.png?raw=true" alt="stakeholder-management-BC">
 </div>
 
 **Interpretación de hallazgos clave**
