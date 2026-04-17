@@ -1279,47 +1279,44 @@ La sesión fue desarrollada mediante el uso de la *Step by Step Guide to run you
 * **Eventos del dominio:** Ellos representan un cambio de estado dentro de un objeto de dominio. Deben ser nombrados mediante el uso del nombre del objeto seguido de un verbo en pasado participio. Son representados con notas anaranjadas.
 * **Objetos del dominio:** Son usados para visualizar de mejor manera el proceso. Se simbolizan mediante notas rectangulares o cuadradas de color amarillo claro.
 * **Sistemas externos:** Plasman a aquellos sistemas externos involucrados en desencadenar ciertos eventos. Las notas rectangulares o cuadradas de color rosa son usadas para describirlas.
-* **Comandos:** Describen las acciones del usuario en el sistema. Son comunmente asociadas con notas de color amarillo oscuro, que representan al usuario involucrado en el comando. Se usa el color azul para retratarlos en el esquema.
-* **Políticas:** Retratan las reglas que provocan que un evento ocurra o que sean lanzadas por la ocurrencia de un evento. Para manifestarlas en el esquema, se usan notas rectangulares o cuadradas de de color lila.
 * **Preguntas:** Cuando alguna nota requiere ser profundizada o clarificada. Son de color rojo.
-* **Vistas:** Son una representación del estado de la pantalla o documento. Son de color verde claro.
 
 **Big Picture Event Storming - Mapas**
 
 * **Proyect Management Bounded Context**
 <div align="center">
-  <img src="Resources/Event%20Storming%20BC's/proyectmanagementBC.png?raw=true" alt="document-control-BC">
+  <img src="Resources/BigPictureEventStorming/BPESproyectmanagementBC.png?raw=true" alt="proyect-management-BC">
 </div>
 
 * **Cost Management Bounded Context**
 <div align="center">
-  <img src="Resources/Event%20Storming%20BC's/costmanagementBC.png?raw=true" alt="cost-management-BC">
+  <img src="Resources/BigPictureEventStorming/BPEScostmanagementBC.png?raw=true" alt="cost-management-BC">
 </div>
 
 * **Procurement & Supply Chain Bounded Context**
 <div align="center">
-  <img src="Resources/Event%20Storming%20BC's/procurement%26supplychainBC.png?raw=true" alt="cost-management-BC">
+  <img src="Resources/BigPictureEventStorming/BPESprocurement%26supplychainBC.png?raw=true" alt="procurement-and-supply-chain-BC">
 </div>
 
 * **Document Control Bounded Context**
 <div align="center">
-  <img src="Resources/Event%20Storming%20BC's/documentcontrolBC.png?raw=true" alt="document-control-BC">
+  <img src="Resources/BigPictureEventStorming/BPESdocumentcontrolBC.png?raw=true" alt="document-control-BC">
 </div>
 
 * **Field Supervision Bounded Context**
 <div align="center">
-  <img src="Resources/Event%20Storming%20BC's/fieldsupervisionBC.png?raw=true" alt="field-supervision-BC">
+  <img src="Resources/BigPictureEventStorming/BPESfieldsupervisionBC.png?raw=true" alt="field-supervision-BC">
 </div>
 
 * **Stakeholder Management Bounded Context**
 <div align="center">
-  <img src="Resources/Event%20Storming%20BC's/stakeholdermanagement.png?raw=true" alt="field-supervision-BC">
+  <img src="Resources/BigPictureEventStorming/BPESstakeholdermanagement.png?raw=true" alt="stakeholder-management-BC">
 </div>
 
 **Interpretación de hallazgos clave**
-* **Interpretación por función de notas:** Las notas anaranjadas nos permitieron la definición de los eventos del dominio, que son un registro histórico de lo que sucede. En Kipu destaca el intercontexto con eventos no aislados que forman un flujo de información continuo. Gracias a las notas lilas, que definen las acciones automatizadas de la aplicación, se ejecuta un valor diferencial frente a procesos manuales, evitando paralizaciones. Además, las mismas que pueden ser auditables y mejoradas por la comunidad. Por otro lado, gracias a las notas rosadas, el software funciona como un hub tecnológico, capaz de conectarse a software ya existente y aprovechar sus ventajas al máximo. Finalmente, las notas amarillas y azules permiten identificar la división de responsabilidades y el mapa de poder.
-* **Hallazgos clave del análisis:** Gracias a las notas verdes, es posible visualizar la transparencia operativa unida a las notas anaranjadas. Ello también permitió el descubrimiento de zonas de fricción, mediante las notas rojas. Ello servirá para mejorar iterativamente dichos aspectos del proyecto. Por otro lado, gracias a las notas lilas y rosadas, Kipu puede utilizar de buena manera los beneficios de tratarse de un software Open Source, mediante la creación de políticas.
-* **Conclusiones:** El Big Picture Event Storming revela a Kipu no solo como un software básico de gestión, sino como un mecanismo ideal de sincronización en el área de construcción. Este mapeo permitió ordenar los comportamientos del software, donde cada nota azul se convierte en una funcionalidad y cada nota lila en una regla del negocio.
+* **Interpretación por función de notas:** Las notas anaranjadas nos permitieron la definición de los eventos del dominio, que son un registro histórico de lo que sucede. En Kipu destaca el intercontexto con eventos no aislados que forman un flujo de información continuo. Gracias a las notas rosadas, el software funciona como un hub tecnológico, capaz de conectarse a software ya existente y aprovechar sus ventajas al máximo. Finalmente, las notas amarillas permiten identificar la división de responsabilidades y el mapa de poder.
+* **Hallazgos clave del análisis:** Gracias a las notas rojas, es posible visualizar el descubrimiento de zonas de fricción. Ello servirá para mejorar iterativamente dichos aspectos del proyecto. Por otro lado, gracias a las notas rosadas, Kipu puede utilizar de buena manera los beneficios de tratarse de un software Open Source.
+* **Conclusiones:** El Big Picture Event Storming revela a Kipu no solo como un software básico de gestión, sino como un mecanismo ideal de sincronización en el área de construcción. Este mapeo permitió ordenar los comportamientos del software a nivel de negocio.
 
 ## 2.5. Ubiquitous Language
 
