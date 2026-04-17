@@ -1685,7 +1685,11 @@ Para abarcar todas las actividades del ciclo de vida del producto digital, el eq
 
   + **JavaScript:** Lenguaje de programación interpretado que permite agregar interactividad y dinamismo a las páginas web.<br> https://www.jetbrains.com/help/webstorm/javascript-specific-guidelines.html<br><br> 
 
+  + **TypeScript:** Lenguaje de programación tipado que compila a JavaScript y permite construir aplicaciones con mayor robustez, mantenibilidad y escalabilidad.<br>https://www.typescriptlang.org/<br><br> 
+
   + **C#:** Lenguaje de programación orientado a objetos desarrollado por Microsoft, utilizado principalmente para el desarrollo de aplicaciones en la plataforma .NET.<br>https://learn.microsoft.com/es-es/dotnet/csharp/ <br><br> 
+ 
+  + **Java:** Lenguaje de programación de propósito general orientado a objetos, usado ampliamente para construir servicios backend, APIs y sistemas empresariales robustos que se pueden integrar con tecnologías frontend.<br>https://www.java.com/<br><br> 
  
   + **Angular Material:** Biblioteca oficial de componentes UI para Angular, basada en Material Design. Proporciona componentes accesibles, consistentes y listos para producción (tablas, formularios, diálogos, navegación y feedback visual), además de utilidades de theming e integración con Angular CDK para construir interfaces escalables y mantenibles.<br>https://material.angular.io/<br><br>  
 
@@ -1730,6 +1734,255 @@ Repositorio GitHub de los archivos feature: https://github.com/PircaIndustries-O
 </div><br><br>
 
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+Esta sección define las convenciones de codificación y nomenclatura que se aplicarán en Kipu para mantener consistencia técnica, legibilidad, mantenibilidad y escalabilidad. Las pautas descritas a continuación se alinean con guías de referencia ampliamente adoptadas en la industria y serán obligatorias para el desarrollo de la solución.
+
+El proyecto utilizará HTML, CSS, JavaScript, TypeScript, Java y Gherkin para la implementación y validación de comportamiento. Para todo el código fuente se aplicará nomenclatura en inglés, además de convenciones estándares de cada tecnología, tomando como referencia la guía de Angular, Google TypeScript Style Guide, Google Java Style Guide y Spring Boot Features.
+
+## 1) Principios generales para todos los lenguajes
+
+### 1.1 Nomenclatura obligatoria en inglés
+
+Todos los identificadores deben estar en inglés y reflejar intención funcional.
+
+- Correcto: `userProfile`, `checkoutForm`, `calculateTotal`, `OrderService`.
+- Incorrecto: `perfilUsuario`, `formulario2`, `x1`, `servicioPedido`.
+
+Reglas transversales:
+
+- Los nombres deben ser descriptivos y orientados al dominio.
+- Se prohíben abreviaciones ambiguas (`tmp`, `obj`, `val`) excepto en contextos locales muy acotados.
+- La semántica del nombre debe anticipar responsabilidad y tipo de dato.
+- Los nombres de una sola letra se reservan para iteradores de alcance corto (`i`, `j`) o coordenadas matemáticas.
+
+### 1.2 Formato base de código
+
+- Indentación con espacios, nunca tabulaciones.
+- Archivos en UTF-8.
+- Línea final en blanco al cierre del archivo.
+- Evitar líneas excesivamente largas; se prioriza la legibilidad.
+- Comentarios solo cuando aporten contexto no obvio.
+
+Complementación conveniente:
+
+- Configurar formateo automático al guardar.
+- Integrar validación en CI para prevenir desviaciones de estilo.
+- Mantener un checklist de revisión de PR con reglas de esta guía.
+
+### 1.3 Convenciones de estilo por tecnología
+
+Cada lenguaje conserva su convención estándar:
+
+- HTML/CSS/JavaScript/TypeScript: estilo de Google, MDN y recomendaciones del ecosistema Angular.
+- Java: convenciones oficiales de Google y del ecosistema Spring Boot.
+- Gherkin: enfoque de legibilidad y comportamiento orientado a negocio.
+
+## 2) Convenciones para HTML
+
+Se adopta HTML5 con enfoque semántico y accesible.
+
+### 2.1 Estructura y sintaxis
+
+- Declarar `<!doctype html>` al inicio.
+- Usar `lang` en el elemento raíz (`<html lang="es">` o según corresponda).
+- Escribir etiquetas y atributos en minúsculas.
+- Utilizar comillas dobles para valores de atributos.
+
+### 2.2 Semántica y accesibilidad
+
+- Usar elementos semánticos (`header`, `main`, `nav`, `section`, `article`, `footer`) en lugar de `div` sin propósito.
+- Evitar controladores inline (`onclick`, `onchange`); la lógica se define en TypeScript o JavaScript.
+- Incluir texto alternativo significativo en imágenes.
+- Asociar etiquetas y controles de formulario (`label` + `for`).
+
+Ejemplo recomendado:
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Account Settings</title>
+  </head>
+  <body>
+    <main>
+      <h1>Account settings</h1>
+      <img src="avatar.png" alt="Profile avatar preview">
+      <a href="/comments">All comments</a>
+    </main>
+  </body>
+</html>
+```
+
+## 3) Convenciones para CSS
+
+Se adopta CSS con enfoque mantenible, predecible y escalable.
+
+### 3.1 Nomenclatura
+
+- Nombres de clases en inglés y formato `kebab-case`.
+- Se prioriza semántica de componente/rol (`checkout-form`, `product-card-title`).
+- Evitar nombres crípticos (`.rg`, `.x`, `.blueText`).
+
+### 3.2 Reglas de estilo
+
+- Un espacio después de `:` en cada declaración.
+- Finalizar cada declaración con `;`.
+- Llave de apertura en la misma línea del selector.
+- Evitar `!important` salvo justificación técnica documentada.
+
+Ejemplo recomendado:
+
+```css
+.checkout-form {
+  padding: 0 1rem 1.5rem;
+  border-top: 0;
+}
+
+.checkout-form__title {
+  margin-bottom: 0.75rem;
+  font: 600 1.25rem/1.4 "Open Sans", sans-serif;
+}
+```
+
+Complementación conveniente:
+
+- Preferir unidades relativas (`rem`, `%`) para mejorar escalabilidad y accesibilidad.
+- Estandarizar paleta y espaciados mediante variables CSS (`:root { --color-primary: ... }`).
+- Definir estrategia de arquitectura (por ejemplo, BEM o utilidades) y usarla de forma consistente.
+
+## 4) Convenciones para JavaScript y TypeScript
+
+Se adopta JavaScript moderno (ES202x) y TypeScript como lenguaje principal del frontend Angular.
+
+### 4.1 Nomenclatura y estructura
+
+- Identificadores en inglés.
+- Variables y funciones en `camelCase`.
+- Clases, componentes y constructores en `PascalCase`.
+- Constantes de módulo en `UPPER_SNAKE_CASE` solo cuando representen valores invariantes globales.
+
+### 4.2 Reglas de codificación
+
+- Preferir `const`; usar `let` solo si hay reasignación.
+- No usar `var`.
+- Usar igualdad estricta (`===`, `!==`).
+- Dejar espacios alrededor de operadores y después de comas.
+- Incluir punto y coma al final de sentencias.
+- Usar comillas simples por defecto; reservar template literals para interpolación.
+- Manejar errores de forma explícita (`try/catch` o propagación controlada).
+
+### 4.3 Reglas específicas para TypeScript y Angular
+
+- Tipar parámetros, retornos y estructuras de datos cuando el tipo no sea obvio.
+- Preferir `interface` para contratos de datos y `type` para composiciones puntuales.
+- Mantener componentes con una sola responsabilidad.
+- Nombrar archivos de Angular siguiendo la convención del framework (`feature.component.ts`, `feature.service.ts`, `feature.module.ts`).
+- Evitar lógica compleja en templates; mover cálculo y transformación a componentes, servicios o pipes.
+
+Ejemplo recomendado:
+
+```ts
+const MAX_RETRY_ATTEMPTS = 3;
+
+function calculateSquare(value: number): number {
+  return value * value;
+}
+
+function getGreeting(hour: number): string {
+  if (hour < 20) {
+    return 'Good day';
+  }
+
+  return 'Good evening';
+}
+```
+
+## 5) Convenciones para Java
+
+Se adoptan las convenciones oficiales de Java y buenas prácticas compatibles con Spring Boot.
+
+### 5.1 Nomenclatura
+
+Todos los nombres se escriben en inglés.
+
+- Tipos, métodos, propiedades, eventos y constantes: `PascalCase`.
+- Variables locales y parámetros: `camelCase`.
+- Campos privados: `camelCase` con prefijo solo cuando sea necesario por compatibilidad del equipo.
+- Interfaces: prefijo `I` no es obligatorio en Java; se prefiere `PascalCase` descriptivo (`OrderRepository`, `PaymentService`).
+
+### 5.2 Formato y prácticas
+
+- Indentación de 4 espacios.
+- Uso de llaves en la misma línea del bloque.
+- Métodos con una responsabilidad clara.
+- Clases de servicio con nombres funcionales y orientados al dominio.
+- Métodos asíncronos o de integración con sufijo descriptivo cuando aplique.
+- Comentarios JavaDoc en APIs públicas cuando el contexto no sea evidente.
+
+Ejemplo recomendado:
+
+```java
+public class OrderService {
+    private final OrderRepository orderRepository;
+
+    public OrderService(OrderRepository orderRepository) {
+        this.orderRepository = orderRepository;
+    }
+
+    public Order findById(UUID orderId) {
+        if (orderId == null) {
+            return null;
+        }
+
+        return orderRepository.findById(orderId);
+    }
+}
+```
+
+## 6) Convenciones para Gherkin
+
+Gherkin se utiliza para especificaciones legibles por negocio y equipo técnico.
+
+### 6.1 Reglas de legibilidad
+
+- Escenarios con estructura clara `Given-When-Then`.
+- `And` se usa para continuidad lógica dentro del mismo bloque.
+- Steps concretos, observables y sin ruido irrelevante.
+- Cuando un step requiere tabla, finalizar con `:`.
+- Dejar líneas en blanco entre escenarios para facilitar lectura.
+
+Ejemplo recomendado:
+
+```gherkin
+Feature: Contact channels
+
+  Scenario: Visitor sends a contact form request
+    Given the visitor provides the following data:
+      | field   | value               |
+      | name    | Ana Torres          |
+      | email   | ana@example.com     |
+      | message | I need more details |
+    When the visitor submits the form
+    Then the system confirms the request was received
+```
+
+## 7) Referencias adoptadas
+
+Las siguientes fuentes se adoptan como base normativa del proyecto:
+
+- HTML Style Guide and Coding Conventions.
+- Google HTML/CSS Style Guide.
+- Google JavaScript Style Guide.
+- Google TypeScript Style Guide.
+- Angular coding style guide.
+- Gherkin Conventions for Readable Specifications.
+- Google Java Style Guide.
+- Spring Boot Features.
+
+Estas referencias se aplican de manera complementaria. Si existiera conflicto entre guías, se priorizará la convención oficial del framework o lenguaje principal del módulo implementado.
+
 ### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
