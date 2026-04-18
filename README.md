@@ -59,8 +59,8 @@
 |1\.3\.1|10/04/2026|Jhony Manuel Francia Torres| Se agregó épicas y user stories|
 |1\.3\.2|11/04/2026|Marcelo Fausto Pareja Calloapaza, Neo Daniel Ramos Mera| Se agregó funcionalidad IoT al proyecto.|
 |1\.3\.3|13/04/2026|Neo Daniel Ramos Mera| Se agregó el impact mapping|
-|1\.5\.1|17/04/2025|Diego Antonio Ramos Hinostroza| Se inicio el Capítulo V: Product Implementation, Validation & Deployment y se agregó contenido relacionado al Software Configuration Management |
-
+|1\.5\.1|17/04/2026|Diego Antonio Ramos Hinostroza| Se inicio el Capítulo V: Product Implementation, Validation & Deployment y se agregó contenido relacionado al Software Configuration Management |
+|1\.4\.1|17/04/2026|Paula Fernanda Montoya Nina| Se agregó Domain-Driven  Architecture|
 
 </div><br><br>
 
@@ -1270,7 +1270,7 @@ Para entender las acciones que nuestros usuarios realizan en su día a día, se 
 
 ## 2.4. Big Picture Event Storming.
 
-De acuerdo con Qlerify (s.f.), el Big Picture Event Storming es uno de los enfoques claves en Event Storming. Es una técnica colaborativa basada en workshops (talleres) que es usada para explorar y diseñar dominios empresariales complejos. El concepto de Event Stroming fue desarollado inicialmente por Alberto Brandolini como un método cuya función es descubrir rápidamente el conocimiento del dominio en un grupo, el cual es utilizado principalmente en el Domain-Driven Design (Diseño Orientado al Dominio, también conocido como DDD). El Big Picture Event Storming es un paso fundamental para utilizar DDD de manera eficiente; pues, en palabras de Chatuev (2020), es mejor empezar con el descubrimiento de dominio, intercambio de conocimientos y la recopilación del Lenguaje Ubicuo.
+De acuerdo con Qlerify (s.f.), el Big Picture Event Storming es uno de los enfoques claves en Event Storming. Es una técnica colaborativa basada en workshops (talleres) que es usada para explorar y diseñar dominios empresariales complejos. El concepto de Event Stroming fue desarollado inicialmente por Alberto Brandolini como un método cuya función es descubrir rápidamente el conocimiento del dominio en un grupo, el cual es utilizado principalmente en el Domain- Design (Diseño Orientado al Dominio, también conocido como DDD). El Big Picture Event Storming es un paso fundamental para utilizar DDD de manera eficiente; pues, en palabras de Chatuev (2020), es mejor empezar con el descubrimiento de dominio, intercambio de conocimientos y la recopilación del Lenguaje Ubicuo.
 
 **Metodología aplicada**
 La sesión fue desarrollada mediante el uso de la *Step by Step Guide to run your Big Picture Event Storming* de Philippe Bourgau (2022), coach de desarrollo de software, que fue adaptada al contexto del proyecto. También se recurrió a *EventStorming* de la compañía Draft.io. (s.f.) para la consulta de teoría referente a los Event Storming.
@@ -1633,8 +1633,57 @@ La navegación en Kipu está diseñada para entornos de alta movilidad y estrés
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
 ### 4.6.2. Software Architecture Context Diagram.
+En este nivel se visualizan los actores principales de la plataforma Kipu: el Operative Manager, el Logistics Team, el Client / Investor y el System Administrator. Asimismo, se detallan las interacciones del sistema principal con los sistemas externos clave para la operación, los cuales incluyen el Hardware IoT (sensores físicos), un MQTT Broker para la gestión de mensajería asíncrona, un Accounting Software para la exportación de reportes de nómina y un Servicio SMTP para el envío de notificaciones y alertas transaccionales.
+
+<img src="Resources/Domain-Driven-Software-Architecture/SystemContext.svg" alt="Imagen del Diagrama de Contexto">
+
 ### 4.6.3. Software Architecture Container Diagrams.
+
+En este diagrama se detalla la distribución de la plataforma Kipu basada en una arquitectura de microservicios. Como interfaces de usuario se identifican una Landing Page pública y la Web App (SPA) principal, ambas desarrolladas en Angular. La comunicación del frontend se centraliza a través de un API Gateway, el cual enruta las peticiones hacia seis microservicios de dominio (Identity, Project, Field, Logistics, Documents e IoT Telemetry) desarrollados en Spring Boot 3 con Java 21. Adicionalmente, se incluye el uso de un Object Storage (MinIO) para el almacenamiento de archivos binarios y pesados (planos, fotos y dossiers), y una Base de Datos MySQL que mantiene la persistencia de datos relacionales con separación lógica de esquemas por microservicio.
+
+<img src="Resources/Domain-Driven-Software-Architecture/Containers.svg" alt="Imagen del Container Diagram">
+
 ### 4.6.4. Software Architecture Components Diagrams.
+
+<br>
+
+**Componente Identity**
+
+<img src="Resources/Domain-Driven-Software-Architecture/Components_Identity.svg" alt="Imagen de Componente Identity">
+
+<br>
+
+**Componente Project**
+
+<img src="Resources/Domain-Driven-Software-Architecture/Components_Project.svg" alt="Imagen de Componente Project">
+
+<br>
+
+**Componente Field**
+
+<img src="Resources/Domain-Driven-Software-Architecture/Components_Field.svg" alt="Imagen de Componente Field">
+
+<br>
+
+**Componente Logistics**
+
+<img src="Resources/Domain-Driven-Software-Architecture/Components_Logistics.svg" alt="Imagen de Componente Logistics">
+
+<br>
+
+**Componente Documents**
+
+<img src="Resources/Domain-Driven-Software-Architecture/Components_Documents.svg" alt="Imagen de Componente Documents">
+
+<br>
+
+**Componente IoT Telemetry**
+
+![Texto alternativo](<Resources/Domain-Driven-Software-Architecture/Components_IoT.svg>)
+
+<br>
+
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
