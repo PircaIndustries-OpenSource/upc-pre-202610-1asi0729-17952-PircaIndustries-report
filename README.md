@@ -61,6 +61,7 @@
 |1\.3\.3|13/04/2026|Neo Daniel Ramos Mera| Se agregó el impact mapping|
 |1\.5\.1|17/04/2026|Diego Antonio Ramos Hinostroza| Se inicio el Capítulo V: Product Implementation, Validation & Deployment y se agregó contenido relacionado al Software Configuration Management |
 |1\.4\.1|17/04/2026|Paula Fernanda Montoya Nina| Se agregó Domain-Driven  Architecture|
+|1\.4\.2|18/04/2026|Jhony Manuel Francia Torres| Se agregaron los Diagramas de Clases y Base de Datos|
 
 </div><br><br>
 
