@@ -748,7 +748,7 @@ Bueno esto ha sido todo por esta ocasión, una vez más quisiera agradecerle por
 En esta sección presentamos los registros de las entrevistas realizadas para cada segmento objetivo de nuestra aplicación.
 
 
-**Segmento Objetivo 1: Gestores y Supervisores de Obr(Arquitectos e Ingenierios)a**<br>
+**Segmento Objetivo 1: Gestores y Supervisores de Obra (Arquitectos e Ingenierios)**<br>
 
 <table>
 <colgroup>
