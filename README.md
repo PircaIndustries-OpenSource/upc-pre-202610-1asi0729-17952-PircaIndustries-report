@@ -1345,37 +1345,73 @@ La sesión fue desarrollada mediante el uso de la *Step by Step Guide to run you
 
 ## 2.5. Ubiquitous Language
 
-En esta sección se define el glosario de términos y conceptos fundamentales del dominio del negocio de construcción y arquitectura que manejamos dentro de la startup. Este lenguaje ubicuo asegura una comunicación efectiva y libre de ambigüedades entre los expertos del dominio, los usuarios (arquitectos, ingenieros y logísticos) y el equipo de desarrollo, evitando así la terminología técnica de software.
+En esta seccion se define el glosario de terminos y conceptos fundamentales del dominio del negocio de construccion y arquitectura que maneja la startup. Este lenguaje ubicuo asegura una comunicacion efectiva y libre de ambiguedades entre los expertos del dominio, los usuarios del negocio y el equipo de desarrollo, evitando la inclusion de terminologia tecnica de software.
 
-* **Blue Print (Plano):** A highly detailed technical drawing or architectural design used as a guide for constructing, remodeling, or sanitizing a building. Within the platform, a blueprint represents a dynamic entity that undergoes multiple revisions (versions). It is the primary reference document that the field team uses to execute the physical work, making strict version control essential to prevent critical construction errors.
+* **Project:** The complete construction initiative being managed in the platform, from planning to closure. It groups the operational, financial, documentary, and quality information related to a single client engagement.
 
-* **Worksite (Obra):** The physical location or temporary endeavor where the construction, architecture, or sanitation project is actively being executed. The worksite is the core entity around which all logistical, budgetary, and personnel activities revolve. It acts as the central hub where material requests originate and where the progress of the execution is continuously tracked against the initial planning.
+* **Worksite:** The physical location where the project is executed. It is the operational context where progress, materials, incidents, and field activities are recorded.
 
-* **Technical Dossier (Expediente Técnico):** A comprehensive set of technical documents, blueprints, descriptive memories, and specifications required by municipal authorities to approve and legalize a construction or sanitation project. Managing the lifecycle and deadlines of the dossier is a critical administrative task, as failing to submit amendments or updates on time can result in project paralysis.
+* **Blueprint:** The approved technical drawing used as the reference for execution in the field. A blueprint can have multiple versions, and only the latest approved version should be considered valid for construction.
 
-* **Site Manager (Residente de Obra / Supervisor):** The technical professional (typically an engineer or architect) who is physically present at the worksite and is directly responsible for overseeing the physical execution of the project. Their main responsibilities include tracking daily progress, ensuring compliance with the final version of the blueprints, and formally requesting necessary materials and tools from the central office to avoid workflow interruptions.
+* **Technical Dossier:** The full set of formal documents required to support, approve, and legalize a project. It usually includes blueprints, specifications, descriptive reports, approvals, and other control documents.
 
-* **Logistics Officer (Encargado de Logística):** The administrative staff member working from the central office (back-office) responsible for the supply chain, inventory management, and budget control. They receive material requests from the worksite, coordinate with suppliers, and ensure that the right materials arrive at the worksite at the exact required time, avoiding duplication of purchases or out-of-stock scenarios.
+* **Site Manager:** The professional responsible for supervising the execution of the worksite. This role validates progress, checks that the work follows the approved blueprint, and raises material or operational requests when needed.
 
-* **Material Request (Requerimiento de Materiales):** A formal petition issued by the Site Manager from the worksite to the Logistics Officer, detailing the exact supplies, tools, or raw materials (e.g., cement, steel rods) needed to continue the construction execution. This request must be accurately tracked in real-time to prevent the common issue of informal or incorrect orders.
+* **Logistics Officer:** The person in charge of supplying the worksite with materials, tools, and equipment. This role manages stock, coordinates purchases, and responds to material requests from the field.
 
-* **Budget (Presupuesto):** The detailed and anticipated calculation of the financial costs required to execute a worksite project. Throughout the construction lifecycle, the platform continuously contrasts the estimated budget against the real executed expenses, providing the administrative team with visibility over financial deviations or cost overruns.
+* **Material Request:** A formal request generated from the worksite to ask for materials, tools, or supplies needed to continue the execution of a task or activity.
 
-* **Inventory (Inventario):** The real-time, centralized record of the quantity and location of construction materials, tools, and equipment owned by the company. It tracks items stored in the main warehouse as well as those distributed across multiple active worksites, enabling the logistics team to make informed purchasing decisions based on actual stock levels.
+* **Budget:** The planned amount of money assigned to execute the project. It is used as the financial reference to validate purchases, compare actual spending, and detect deviations.
 
-* **Purchase Order (Orden de Compra):** A formal, legally binding document issued by the Logistics Officer and sent to a Supplier, authorizing the acquisition of specific materials or equipment required to replenish the inventory or supply a worksite directly. It ensures transparency and traceability in the company's external expenditures.
+* **Inventory:** The controlled record of available materials, tools, and equipment owned by the company. It reflects quantities, stock levels, and movements across the warehouse and active worksites.
 
-* **Supplier (Proveedor):** An external third-party company or individual that provides the raw materials, specialized equipment, or tools required by the construction firm. Interactions with suppliers are managed by the logistics team through formal purchase orders to ensure timely delivery and exact material specifications.
+* **Purchase Order:** The formal instruction issued to authorize the acquisition of materials or equipment from a supplier. It is used to control spending and keep a trace of purchases.
 
-* **Dashboard (Panel de control):** A highly visual, centralized interface used primarily by the administrative and logistics teams to obtain an immediate overview of the company's status. It utilizes graphical elements (such as charts, indicators, and alerts) to summarize complex data related to budgets, stock levels, and worksite progress, enabling rapid decision-making without the need to manually review extensive data tables.
+* **Supplier:** The external entity that provides materials, equipment, or specialized services for the project.
 
-* **IoT Sensor (Sensor IoT):** A low-cost electronic device (ESP32, Raspberry Pi) that measures physical variables such as temperature, humidity, vibration, material level, or GPS location, and sends the data to the Kipu platform in real time.
+* **Project Status:** The operational state of a project, such as planning, in execution, paused, or finished. It determines which actions are available to the users at each moment.
 
-* **Gateway (Puerta de Enlace):** A device that acts as a bridge between the IoT sensors and the Kipu platform, receiving data from multiple sensors and transmitting it to the server using MQTT or HTTP protocols.
+* **Partida:** A specific work item or construction activity within the project plan. Partidas are used to organize scope, measure progress, and link execution with the schedule.
 
-* **Threshold (Umbral):** A configurable limit value for a variable measured by a sensor. When the reading exceeds the threshold, the system automatically generates an alert. Example: A temperature > 35°C triggers an alert for poor curing.
+* **Progress:** The measurable advancement of the work against the planned scope or schedule. It is tracked to understand how much of the project has been completed.
 
-* **Telemetry (Telemetría):** A set of real-time data sent by IoT sensors, including measurements, timestamps, and device status.
+* **Daily Progress Report:** The record used by the Site Manager to report the physical advancement of the worksite on a specific day, including observations and percentage completed.
+
+* **RNC (Nonconformance Report):** A formal record of a detected failure, deviation, or quality issue in the work. It is used to document the problem, attach evidence, and notify the responsible team.
+
+* **Quality Approval:** The confirmation that a work item, deliverable, or stage meets the expected criteria and can be accepted as valid.
+
+* **Act of Conformity:** The formal document used to certify that a work stage or deliverable has been reviewed and approved.
+
+* **Digital Signature:** The validation mechanism used to confirm the approval of a document or act in a traceable and legally recognizable way.
+
+* **Token:** The verification code used to authorize a digital signature or confirm a sensitive business action.
+
+* **Change Order:** A formal modification requested by the client or project team that alters the original scope, budget, or schedule of the project.
+
+* **Equipment Loan:** The controlled assignment of a tool or piece of equipment to a specific worker or crew, so that its use and return can be tracked.
+
+* **Tool Assignment:** The act of linking a tool to a responsible worker while it is in use on the worksite.
+
+* **Waste:** Material lost, damaged, or unusable during the execution of the work. It is recorded to adjust stock and analyze resource efficiency.
+
+* **Return to Supplier:** The action of sending back unused or damaged material to the supplier when the business rules allow it.
+
+* **IoT Sensor:** A physical device installed to capture measurements related to the worksite, such as temperature, humidity, vibration, stock level, or location.
+
+* **Gateway:** The device that collects measurements from one or more sensors and forwards them to the platform for processing.
+
+* **Threshold:** The configured limit that defines when a sensor reading becomes relevant for an alert or business action.
+
+* **Telemetry:** The set of data sent automatically by sensors, including readings, time, and device status.
+
+* **Alert:** A notification generated when a business rule or sensor condition requires the attention of a responsible user.
+
+* **Offline:** The status assigned to a sensor or device when it stops sending data within the expected time window.
+
+* **Version:** The numbered iteration of a controlled document, especially a blueprint, used to distinguish the latest approved content from previous drafts.
+
+* **Approval:** The formal confirmation that authorizes a document, request, or action to move forward in the project flow.
 
 ---
 # Capítulo III: Requirements Specification
