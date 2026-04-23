@@ -62,6 +62,7 @@
 |1\.5\.1|17/04/2026|Diego Antonio Ramos Hinostroza| Se inicio el Capítulo V: Product Implementation, Validation & Deployment y se agregó contenido relacionado al Software Configuration Management |
 |1\.4\.1|17/04/2026|Paula Fernanda Montoya Nina| Se agregó Domain-Driven  Architecture|
 |1\.4\.2|18/04/2026|Jhony Manuel Francia Torres| Se agregaron los Diagramas de Clases y Base de Datos|
+|1\.4\.3|23/04/2026|Neo Daniel Ramos Mera, Paula Fernanda Montoya Nina, Marcelo Fausto Pareja Calloapaza, Diego Antonio Ramos Hinostroza, Jhony Manuel Francia Torres| Se agregaron los wireframes y mockups tanto de la Landing page como de la aplicación web incluyendo resoluciones móviles|
 
 </div><br><br>
 
@@ -83,14 +84,15 @@ https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-Pirc
 
 # Contenido
 
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la StartUp](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.1 Startup Profile](#11-startup-profile)
+    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2 Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statement](#1221-lean-ux-problem-statement)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
@@ -99,73 +101,95 @@ https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-Pirc
   - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de Entrevistas](#222-registro-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2 User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.3 Needfinding](#23-needfinding)
+    - [2.3.1. User Personas.](#231-user-personas)
+    - [2.3.2. User Task Matrix.](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping.](#235-as-is-scenario-mapping)
   - [2.4. Big Picture Event Storming.](#24-big-picture-event-storming)
   - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. User Stories](#31-user-stories)
+  - [3.1. User Stories.](#31-user-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [3.3. Product Backlog](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1 Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems](#421-organization-systems)
-    - [4.2.2. Labeling Systems](#422-labeling-systems)
+  - [4.1. Style Guidelines.](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+  - [4.2. Information Architecture.](#42-information-architecture)
+    - [4.2.1. Organization Systems.](#421-organization-systems)
+    - [4.2.2. Labeling Systems.](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems](#424-searching-systems)
-    - [4.2.5. Navigation Systems](#425-navigation-systems)
-  - [4.3 Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-  - [4.4 Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.2.4. Searching Systems.](#424-searching-systems)
+    - [4.2.5. Navigation Systems.](#425-navigation-systems)
+  - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
+  - [Wireframes versión Desktop:](#wireframes-versión-desktop)
+  - [Wireframes versión Mobile:](#wireframes-versión-mobile)
+    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
     - [4.6.1. Design-Level Event Storming.](#461-design-level-event-storming)
-    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagrams](#481-database-diagrams)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [4.6.2. Software Architecture Context Diagram.](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams.](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams.](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams.](#471-class-diagrams)
+  - [4.8. Database Design.](#48-database-design)
+    - [4.8.1. Database Diagrams.](#481-database-diagrams)
+- [Capítulo V: Product Implementation, Validation \& Deployment.](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1 Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1 Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2 Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
+  - [1) Principios generales para todos los lenguajes](#1-principios-generales-para-todos-los-lenguajes)
+    - [1.1 Nomenclatura obligatoria en inglés](#11-nomenclatura-obligatoria-en-inglés)
+    - [1.2 Formato base de código](#12-formato-base-de-código)
+    - [1.3 Convenciones de estilo por tecnología](#13-convenciones-de-estilo-por-tecnología)
+  - [2) Convenciones para HTML](#2-convenciones-para-html)
+    - [2.1 Estructura y sintaxis](#21-estructura-y-sintaxis)
+    - [2.2 Semántica y accesibilidad](#22-semántica-y-accesibilidad)
+  - [3) Convenciones para CSS](#3-convenciones-para-css)
+    - [3.1 Nomenclatura](#31-nomenclatura)
+    - [3.2 Reglas de estilo](#32-reglas-de-estilo)
+  - [4) Convenciones para JavaScript y TypeScript](#4-convenciones-para-javascript-y-typescript)
+    - [4.1 Nomenclatura y estructura](#41-nomenclatura-y-estructura)
+    - [4.2 Reglas de codificación](#42-reglas-de-codificación)
+    - [4.3 Reglas específicas para TypeScript y Angular](#43-reglas-específicas-para-typescript-y-angular)
+  - [5) Convenciones para Java](#5-convenciones-para-java)
+    - [5.1 Nomenclatura](#51-nomenclatura)
+    - [5.2 Formato y prácticas](#52-formato-y-prácticas)
+  - [6) Convenciones para Gherkin](#6-convenciones-para-gherkin)
+    - [6.1 Reglas de legibilidad](#61-reglas-de-legibilidad)
+  - [7) Referencias adoptadas](#7-referencias-adoptadas)
+    - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
       - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [5.3 Validation Interviews.](#53-validation-interviews)
-    - [5.3.1 Diseño de entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3 Evaluaciones Según Heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4 Video About-the-Product](#54-video-about-the-product)
+      - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews.](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product.](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -1633,15 +1657,212 @@ La navegación en Kipu está diseñada para entornos de alta movilidad y estrés
 
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
+Para la elaboración del diseño preliminar de nuestra landing page, utilizamos la herramienta Figma junto con distintos complementos que facilitaron notablemente el proceso de diseño y desarrollo. Gracias a esta integración, se logró crear el wireframe de manera rápida y efectiva.
+
+Enlace: [Wireframe del Landing Page en Figma](https://www.figma.com/design/IEKOU4OJzqkcEUwrJqo0bp/Kipu---Open-Source-Wireframes-Landing-Page?node-id=0-1&t=lEHd7eTQpfau6cSc-1)<br><br>
+
+**Landing Page**
+
+<div align="center">
+    <img src="Resources\Wireframes\Wireframes_Landing.png" width="600px" alt="Wireframe Desktop">
+</div><br><br>
+
+**Landing Page en Mobile Web Browser**
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframes_Landing_Mobile.png" width="300px" alt="Wireframe Mobile">
+</div><br><br>
+
+
 ### 4.3.2. Landing Page Mock-up.
+Concluimos el mock-up de la página principal implementando nuestros estándares de diseño. El uso de estos principios y heurísticas nos permitió asegurar una experiencia fluida y fácil de usar para el usuario final.
+
+Enlace: [Mock-up del Landing Page en Figma](https://www.figma.com/design/PHdkaSAjMH7k4WQydVK5RL/Untitled?node-id=0-1&t=1lZrjLYjJoPClnGG-1)<br><br>
+
+**Landing Page**
+
+<div align="center">
+    <img src="Resources\Mock-ups\Landing_Mockup.png" width="600px" alt="Mockup Desktop">
+</div><br><br>
+
+**Landing Page en Mobile Web Browser**
+
+<div align="center">
+    <img src="Resources/Mock-ups/Landing_Mockup_mobile.png" width="300px" alt="Mockup Mobile">
+</div><br><br>
+
 ## 4.4. Web Applications UX/UI Design.
+
 ### 4.4.1. Web Applications Wireframes.
+El uso de wireframes es clave para definir la estructura visual y de navegación de la aplicación previo a la programación. Elegimos Figma como herramienta para agilizar este proceso colaborativo.
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframes_Overview.png" width="300px" alt="Wireframes Application Web">
+</div><br><br>
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframes_Overview.png" width="300px" alt="Wireframes Application Web">
+</div><br><br>
+
+Enlace: [Wireframes de la App Web en Figma](https://www.figma.com/design/k9pgDyfyTJBPgO5Kbf5RkF/Kipu---Open-Source-Wireframes?node-id=0-1&t=Fyp5Zk7dVdS6qzau-1)<br><br>
+
+A continuación, presentaremos los wireframes de nuestra aplicación web, acompañados de una breve descripción de la función que cumple cada sección dentro del flujo de trabajo de Kipu:<br><br>
+
+
+## <b>Wireframes versión Desktop:</b>
+
+<div align="center">
+    <img src="/Resources/Wireframes/Wireframe-1.png"  alt="wireframes-1"><br><br>
+    <img src="/Resources/Wireframes/Wireframe-2.png"  alt="wireframes-2"><br><br>
+    <img src="/Resources/Wireframes/Wireframe-3.png"  alt="wireframes-3"><br><br>
+</div><br>
+
+- **Autenticación:** Estos wireframes definen los procesos web de inicio de sesión, registro y actualización de contraseña. La estructura prioriza la usabilidad y la interacción fluida, omitiendo temporalmente el aspecto visual.<br><br>
+
+<div align="center">
+    <img src="Resources\Wireframes\Wireframe-4.png"  alt="wireframes-4">
+</div><br>
+
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-5.png"  alt="wireframes-5">
+</div><br>
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-6.png"  alt="wireframes-6">
+</div><br>
+
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-7.png"  alt="wireframes-7">
+</div><br>
+
+- **RNC:** centraliza el registro de Resultados No Conformes, incluyendo observaciones, evidencias y seguimiento de incidencias para asegurar la corrección oportuna de errores en obra.<br><br>
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-8.png"  alt="wireframes-8">
+</div><br>
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-9.png"  alt="wireframes-9">
+</div><br>
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-10.png"  alt="wireframes-10">
+</div><br>
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-11.png"  alt="wireframes-11">
+</div><br>
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-12.png"  alt="wireframes-12">
+</div><br>
+
+- **Materiales:** agrupa las pantallas destinadas al control logístico de insumos y es una de las secciones más extensas de la aplicación. Aquí se gestionan solicitudes, entradas y salidas de stock, niveles mínimos, alertas de reposición, asignación de materiales a partidas y seguimiento de movimientos en almacén. La lógica de esta sección busca reducir la dependencia de registros manuales y de coordinaciones informales, ofreciendo una vista clara del inventario disponible, de los pedidos pendientes y del estado de cada material en tiempo real. También permite reforzar la trazabilidad entre el requerimiento realizado en obra y la atención desde logística, evitando duplicidades, quiebres de stock y errores en la distribución.<br><br>
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-13.png"  alt="wireframes-13">
+</div><br>
+
+- **Planos:** reúne los wireframes vinculados a la gestión documental técnica, permitiendo versionar, consultar y organizar planos para asegurar que el equipo trabaje siempre con la información vigente.<br><br>
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-14.png"  alt="wireframes-14">
+</div><br>
+
+- **Firmas:** contempla el flujo de validación y aprobación de documentos o entregables, incorporando mecanismos de conformidad digital para mantener respaldo y trazabilidad en los cierres de etapa.<br><br>
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-15.png"  alt="wireframes-15">
+</div><br>
+
+- **Presupuesto y equipo:** agrupa las vistas relacionadas con el control financiero y la gestión del personal. En esta sección se supervisa el presupuesto asignado, el gasto ejecutado y la disponibilidad del equipo de trabajo, de modo que la administración pueda mantener un control operativo y económico más ordenado.<br><br>
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-16.png"  alt="wireframes-16">
+</div><br>
+
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-17.png"  alt="wireframes-17">
+</div><br>
+
+- **Monitoreo IoT:** muestra la integración de sensores y telemetría en la plataforma, permitiendo visualizar lecturas, estados y alertas automáticas asociadas a condiciones críticas de obra. <br><br>
+
+## <b>Wireframes versión Mobile:</b>
+
+<b>Wireframes de Autenticación </b><br>
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-mobile-1.png">
+</div><br>
+
+<b>Wireframes de la sección Proyectos</b><br>
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-mobile-2.png">
+</div><br>
+
+<b>Wireframes de la sección Avances</b><br>
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-mobile-3.png">
+</div><br>
+
+<b>Wireframes de la sección Firmas</b><br>
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-mobile-4.png">
+</div><br>
+
+<b>Wireframes de la sección Materiales </b><br>
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-mobile-5.png">
+</div><br>
+
+<b>Wireframes de la sección RNC </b><br>
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-mobile-6.png">
+</div><br>
+
+<b>Wireframes de la sección Presupuesto </b><br>
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-mobile-7.png">
+</div><br>
+
+<b>Wireframes de la sección Planos </b><br>
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-mobile-8.png">
+</div><br>
+
+<b>Wireframes de la sección IoT Monitoring </b><br>
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-mobile-9.png">
+</div><br>
+
+<b>Wireframes de la sección Equipo </b><br>
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-mobile-10.png">
+</div><br>
+
+<b>Wireframes de notificaciones </b><br>
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-mobile-11.png">
+</div><br>
+
+<b>Wireframes de la sección Perfil </b><br>
+<div align="center">
+    <img src="Resources/Wireframes/Wireframe-mobile-12.png">
+</div><br>
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
+
 ### 4.4.3. Web Applications Mock-ups.
+
 ### 4.4.4. Web Applications User Flow Diagrams.
+
 ## 4.5. Web Applications Prototyping.
+
 ## 4.6. Domain-Driven Software Architecture.
+
 ### 4.6.1. Design-Level Event Storming.
+
 ### 4.6.2. Software Architecture Context Diagram.
 En este nivel se visualizan los actores principales de la plataforma Kipu: el Operative Manager, el Logistics Team, el Client / Investor y el System Administrator. Asimismo, se detallan las interacciones del sistema principal con los sistemas externos clave para la operación, los cuales incluyen el Hardware IoT (sensores físicos), un MQTT Broker para la gestión de mensajería asíncrona, un Accounting Software para la exportación de reportes de nómina y un Servicio SMTP para el envío de notificaciones y alertas transaccionales.
 
