@@ -1894,7 +1894,7 @@ A continuación, presentaremos los wireframes de nuestra aplicación web, acompa
 
 **User Goal 1:** Como usuario registrado o visitante del sistema, quiero iniciar sesión con mis credenciales, crear una cuenta nueva o recuperar mi acceso en caso de olvido, para acceder a las funcionalidades de la plataforma de forma segura y personalizada.
 
-<img src="Resources/Wireflow/Autenticacion.png">
+<img src="Resources/Wireflow/Autenticación.png">
 
 ---
 
