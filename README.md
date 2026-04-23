@@ -63,6 +63,7 @@
 |1\.4\.1|17/04/2026|Paula Fernanda Montoya Nina| Se agregó Domain-Driven  Architecture|
 |1\.4\.2|18/04/2026|Jhony Manuel Francia Torres| Se agregaron los Diagramas de Clases y Base de Datos|
 |1\.4\.3|23/04/2026|Neo Daniel Ramos Mera, Paula Fernanda Montoya Nina, Marcelo Fausto Pareja Calloapaza, Diego Antonio Ramos Hinostroza, Jhony Manuel Francia Torres| Se agregaron los wireframes y mockups tanto de la Landing page como de la aplicación web incluyendo resoluciones móviles|
+|1\.4\.4|Neo Daniel Ramos Mera| Se agregó el Wireflow|
 
 </div><br><br>
 
@@ -1888,6 +1889,96 @@ A continuación, presentaremos los wireframes de nuestra aplicación web, acompa
 </div><br>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
+
+## Autenticación
+
+**User Goal 1:** Como usuario registrado o visitante del sistema, quiero iniciar sesión con mis credenciales, crear una cuenta nueva o recuperar mi acceso en caso de olvido, para acceder a las funcionalidades de la plataforma de forma segura y personalizada.
+
+<img src="Resources/Wireflow/Autenticacion.png">
+
+---
+
+## Proyecto
+
+**User Goal 2:** Como gestor o administrador, quiero crear, editar y organizar los proyectos dentro de la plataforma, definiendo sus datos básicos y estado general, para mantener un registro ordenado de todas las obras en curso y facilitar su gestión centralizada.
+
+<img src="Resources/Wireflow/Proyecto.png">
+
+---
+
+## Avance
+
+**User Goal 3:** Como responsable de campo o supervisor, quiero registrar el progreso físico de las actividades del proyecto periódicamente, indicando el porcentaje completado y añadiendo observaciones relevantes, para mantener un historial trazable de la ejecución real frente a lo planificado.
+
+<img src="Resources/Wireflow/Avances.png">
+
+---
+
+## RNC (No Conformidad)
+
+**User Goal 4:** Como supervisor o encargado de calidad, quiero registrar una no conformidad detectada en obra, incluyendo su descripción y evidencia adjunta como fotografías, para notificar al equipo responsable y dar seguimiento hasta su corrección, evitando que el error se propague.
+
+<img src="Resources/Wireflow/RNC.png">
+
+---
+
+## Materiales
+
+**User Goal 5:** Como usuario de campo o solicitante, quiero generar solicitudes formales de materiales o insumos, especificando los productos requeridos, cantidades y fechas deseada de entrega, para canalizar los pedidos al área logística de manera ordenada y evitar coordinaciones informales.
+
+<img src="Resources/Wireflow/Materiales.png">
+
+---
+
+## Planos
+
+**User Goal 6:** Como profesional técnico, quiero subir, consultar, versionar y organizar los planos del proyecto, aplicando filtros por categoría o especialidad y descargándolos para uso offline cuando sea necesario, para asegurar que todos los involucrados trabajen con la versión vigente y evitar errores por desactualización.
+
+<img src="Resources/Wireflow/Planos.png">
+
+---
+
+## Firmas
+
+**User Goal 7:** Como profesional autorizado, quiero validar o aprobar documentos digitalmente, utilizando un mecanismo de verificación que garantice la autenticidad de la acción, para formalizar el cierre de etapas o la conformidad de entregables con respaldo legal y trazabilidad.
+
+<img src="Resources/Wireflow/Firmas.png">
+
+---
+
+## Presupuesto
+
+**User Goal 8:** Como miembro del equipo administrativo o financiero, quiero visualizar el presupuesto asignado por partida o categoría, contrastarlo con el gasto real ejecutado y recibir alertas ante desviaciones, para controlar las fugas presupuestarias y respaldar la toma de decisiones antes de autorizar nuevas compras.
+
+<img src="Resources/Wireflow/Presupuesto.png">
+
+---
+
+## Equipo
+
+**User Goal 9:** Como administrador o líder del proyecto, quiero gestionar los usuarios asignados a cada obra y configurar sus niveles de acceso, para asegurar que cada persona tenga los permisos adecuados según su responsabilidad y evitar accesos no autorizados a información sensible.
+
+<img src="Resources/Wireflow/Equipo Usuario.png">
+<img src="Resources/Wireflow/Equipo Obrero.png">
+
+---
+
+## Monitoreo IoT
+
+**User Goal 10:** Como gestor técnico o logístico, quiero visualizar en un panel centralizado las lecturas de sensores conectados a la obra (temperatura, vibración, nivel de materiales, ubicación de equipos), así como recibir alertas automáticas cuando se superen ciertos umbrales, para automatizar la supervisión de condiciones críticas y reducir la dependencia de inspecciones manuales.
+
+<img src="Resources/Wireflow/Monitoreo IoT.png">
+
+---
+
+## Configuración
+
+**User Goal 11:** Como administrador de la plataforma, quiero ajustar los parámetros generales del sistema, tales como umbrales de alerta, formatos de exportación, gestión de plugins o políticas de respaldo, para adaptar el comportamiento de la aplicación a las necesidades específicas de cada proyecto u organización.
+
+<img src="Resources/Wireflow/Configuracion 1.png">
+<img src="Resources/Wireflow/Configuracion 2.png">
+
+---
 
 ### 4.4.3. Web Applications Mock-ups.
 
