@@ -1345,7 +1345,7 @@ La sesión fue desarrollada mediante el uso de la *Step by Step Guide to run you
 
 ## 2.5. Ubiquitous Language
 
-En esta seccion se define el glosario de terminos y conceptos fundamentales del dominio del negocio de construccion y arquitectura que maneja la startup. Este lenguaje ubicuo asegura una comunicacion efectiva y libre de ambiguedades entre los expertos del dominio, los usuarios del negocio y el equipo de desarrollo, evitando la inclusion de terminologia tecnica de software.
+En esta sección se define el glosario de terminos y conceptos fundamentales del dominio del negocio de construccion y arquitectura que maneja la startup. Este lenguaje ubicuo asegura una comunicacion efectiva y libre de ambiguedades entre los expertos del dominio, los usuarios del negocio y el equipo de desarrollo, evitando la inclusion de terminologia tecnica de software.
 
 * **Project:** The complete construction initiative being managed in the platform, from planning to closure. It groups the operational, financial, documentary, and quality information related to a single client engagement.
 
