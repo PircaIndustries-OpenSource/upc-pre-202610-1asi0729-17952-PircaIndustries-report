@@ -63,7 +63,7 @@
 |1\.4\.1|17/04/2026|Paula Fernanda Montoya Nina| Se agregó Domain-Driven  Architecture|
 |1\.4\.2|18/04/2026|Jhony Manuel Francia Torres| Se agregaron los Diagramas de Clases y Base de Datos|
 |1\.4\.3|23/04/2026|Neo Daniel Ramos Mera, Paula Fernanda Montoya Nina, Marcelo Fausto Pareja Calloapaza, Diego Antonio Ramos Hinostroza, Jhony Manuel Francia Torres| Se agregaron los wireframes y mockups tanto de la Landing page como de la aplicación web incluyendo resoluciones móviles|
-|1\.4\.4|Neo Daniel Ramos Mera| Se agregó el Wireflow|
+|1\.4\.4|23/04/2026|Neo Daniel Ramos Mera| Se agregó el Wireflow|
 
 </div><br><br>
 
