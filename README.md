@@ -1967,7 +1967,7 @@ A continuación, presentaremos los wireframes de nuestra aplicación web, acompa
 
 **User Goal 10:** Como gestor técnico o logístico, quiero visualizar en un panel centralizado las lecturas de sensores conectados a la obra (temperatura, vibración, nivel de materiales, ubicación de equipos), así como recibir alertas automáticas cuando se superen ciertos umbrales, para automatizar la supervisión de condiciones críticas y reducir la dependencia de inspecciones manuales.
 
-<img src="Resources/Wireflow/Monitoreo 3.jpeg">
+<img src="Resources/Wireflow/Monitoreo IoT 2.png">
 
 ---
 
