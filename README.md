@@ -66,7 +66,8 @@
 |1\.4\.4|23/04/2026|Neo Daniel Ramos Mera| Se agregó el Wireflow|
 |1\.4\.5|23/04/2026|Neo Daniel Ramos Mera| Se agregó mockup desktop y mobile|
 |1\.5\.2|23/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado a Source Code Management y Software Deployment Configuration.|
-1.\.5\.3|23/04/2026|Neo Daniel Ramos Mera| Se agregó el apartado de Aspect Leaders and Collaborators|
+|1.\.5\.3|23/04/2026|Neo Daniel Ramos Mera| Se agregó el apartado de Aspect Leaders and Collaborators|
+|1.\.5\.4|23/04/2026|Neo Daniel Ramos Mera| Se agregó el apartado de Development Evidence for Sprint Review|
 
 </div><br><br>
 
@@ -2793,6 +2794,32 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
 
 #### 5.2.1.3. Sprint Backlog 1.
 #### 5.2.1.4. Development Evidence for Sprint Review.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | f30b235 | Merge pull request #3 from PircaIndustries-OpenSource/develop | Merge develop to main | 2026-04-23 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | f1adebd | Merge pull request #2 from PircaIndustries-OpenSource/feature/differences-header-roles | feat: Add Header, Differences and Roles | 2026-04-23 |
+| PircaIndustries-OpenSource/landing-page-Kipu | feature/differences-header-roles | 3604423 | feat: Add Header, Differences and Roles | N/A | 2026-04-23 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | d16f30e | Add contact section, i18n and language toggle | Add a new contact section and styles, and implement basic client-side internationalization. Introduces styles/contact-style.css and a contact section in index.html, plus a floating language toggle and script include. scripts/script.js was replaced with translation data for ES/EN, DOM binding to data-i18n/data-i18n-placeholder/data-i18n-alt, and localStorage-backed language toggling. Markup updated across index.html to use data-i18n keys and minor content swaps for team profiles (image/name updates). Also include small CSS fixes: proposal benefit icon selector and member-profile img sizing/cover. A profile image binary was modified. | 2026-04-23 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | 337def5 | Merge pull request #1 from PircaIndustries-OpenSource/feature/landing-manuel | feature: landing - plans section - manuel | 2026-04-20 |
+| PircaIndustries-OpenSource/landing-page-Kipu | feature/landing-manuel | 9737724 | feature: landing - plans section - manuel | N/A | 2026-04-20 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | 419dff7 | feat: added resources for team section | N/A | 2026-04-20 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | 4b96d1f | feat: added styles from team section | N/A | 2026-04-20 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | 6ac5f95 | feat: added team section to index.html | N/A | 2026-04-20 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | 61a9722 | fix: path issues surrounding styles and images | N/A | 2026-04-20 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | 944c0c0 | Feat: Create proposal section, image and styles | Creation of the proposal section, in this part we communicate Kipu's value proposition | 2026-04-18 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | 539c555 | Feat: Add home section | N/A | 2026-04-18 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 6275a06 | Delete images/temp | N/A | 2026-04-18 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 21f1bd7 | Add files via upload | N/A | 2026-04-18 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 6c7d497 | Initialize index.html with basic HTML structure | Added HTML structure and metadata for Kipu landing page. | 2026-04-18 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 9ab3ce1 | Add Hello World header to index.html | N/A | 2026-04-17 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 499fda4 | Create README.md | N/A | 2026-04-17 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 6371114 | Create temp | N/A | 2026-04-17 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 881373c | Create temp | N/A | 2026-04-17 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | a38db8e | Delete images/scripts directory | N/A | 2026-04-17 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | aeb7a0b | Create temp | N/A | 2026-04-17 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 866635f | Create temp | N/A | 2026-04-17 |
+
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
