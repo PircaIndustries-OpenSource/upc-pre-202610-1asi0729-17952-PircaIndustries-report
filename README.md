@@ -1982,6 +1982,91 @@ A continuación, presentaremos los wireframes de nuestra aplicación web, acompa
 
 ### 4.4.3. Web Applications Mock-ups.
 
+Se presentarán los Mock-ups de Kipu, versiones más realistas de los Wireframes.
+
+<img src="Resources/Mockups/Mockup general view.pngv">
+
+## <b>Mock-ups versión Desktop:</b>
+
+## Autenticación
+
+<img src="Resources/Mockups/Autenticación/Autenticación 1.jpeg">
+<img src="Resources/Mockups/Autenticación/Autenticación 2.jpeg">
+<img src="Resources/Mockups/Autenticación/Autenticación 3.jpeg">
+
+---
+
+## Avances
+
+<img src="Resources/Mockups/Avances/Avances 1.jpeg">
+<img src="Resources/Mockups/Avances/Avances 2.jpeg">
+
+---
+
+## Dashboard
+
+<img src="Resources/Mockups/Dashboard/Dashboard 1.jpeg">
+<img src="Resources/Mockups/Dashboard/Dashboard 2.jpeg">
+
+---
+
+## Firmas
+
+<img src="Resources/Mockups/Firmas/Firmas 1.jpeg">
+<img src="Resources/Mockups/Firmas/Firmas 2.jpeg">
+
+---
+
+## Materiales
+
+<img src="Resources/Mockups/Materiales/Materiales 1.jpeg">
+<img src="Resources/Mockups/Materiales/Materiales 2-1.jpeg">
+<img src="Resources/Mockups/Materiales/Materiales 2-2.jpeg">
+<img src="Resources/Mockups/Materiales/Materiales 3.jpeg">
+<img src="Resources/Mockups/Materiales/Materiales 4.jpeg">
+<img src="Resources/Mockups/Materiales/Materiales 5.jpeg">
+<img src="Resources/Mockups/Materiales/Materiales 6.jpeg">
+
+---
+
+## Monitoreo IoT
+
+<img src="Resources/Mockups/Monitoreo IoT/Monitoreo IoT 1.jpeg">
+<img src="Resources/Mockups/Monitoreo IoT/Monitoreo IoT 2.jpeg">
+
+---
+
+## Planos
+
+<img src="Resources/Mockups/Planos/Planos 1.jpeg">
+<img src="Resources/Mockups/Planos/Planos 2.jpeg">
+
+---
+
+## Equipo
+
+<img src="Resources/Mockups/Equipo.jpeg">
+
+---
+
+## Presupuesto
+
+<img src="Resources/Mockups/Presupuesto.jpeg">
+
+---
+
+## Proyecto
+
+<img src="Resources/Mockups/Proyecto.jpeg">
+
+---
+
+## RNC
+
+<img src="Resources/Mockups/RNC.jpeg">
+
+
+
 ### 4.4.4. Web Applications User Flow Diagrams.
 
 ## 4.5. Web Applications Prototyping.
