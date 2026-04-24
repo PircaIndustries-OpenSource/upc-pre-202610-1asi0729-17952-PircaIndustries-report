@@ -66,6 +66,7 @@
 |1\.4\.4|23/04/2026|Neo Daniel Ramos Mera| Se agregó el Wireflow|
 |1\.4\.5|23/04/2026|Neo Daniel Ramos Mera| Se agregó mockup desktop y mobile|
 |1\.5\.2|23/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado a Source Code Management y Software Deployment Configuration.|
+1.\.5\.3|23/04/2026|Neo Daniel Ramos Mera| Se agregó el apartado de Aspect Leaders and Collaborators|
 
 </div><br><br>
 
