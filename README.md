@@ -138,7 +138,30 @@ https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-Pirc
   - [Wireframes versión Desktop:](#wireframes-versión-desktop)
   - [Wireframes versión Mobile:](#wireframes-versión-mobile)
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+  - [Autenticación](#autenticación)
+  - [Proyecto](#proyecto)
+  - [Avance](#avance)
+  - [RNC (No Conformidad)](#rnc-no-conformidad)
+  - [Materiales](#materiales)
+  - [Planos](#planos)
+  - [Firmas](#firmas)
+  - [Presupuesto](#presupuesto)
+  - [Equipo](#equipo)
+  - [Monitoreo IoT](#monitoreo-iot)
+  - [Configuración](#configuración)
     - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
+  - [Mock-ups versión Desktop:](#mock-ups-versión-desktop)
+  - [Autenticación](#autenticación-1)
+  - [Avances](#avances)
+  - [Dashboard](#dashboard)
+  - [Firmas](#firmas-1)
+  - [Materiales](#materiales-1)
+  - [Monitoreo IoT](#monitoreo-iot-1)
+  - [Planos](#planos-1)
+  - [Equipo](#equipo-1)
+  - [Presupuesto](#presupuesto-1)
+  - [Proyecto](#proyecto-1)
+  - [RNC](#rnc)
     - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
@@ -2238,23 +2261,20 @@ Adicionalmente, se eligió GitHub como plataforma de control de versiones, aprov
 
 En relación con la gestión de nuevas funcionalidades, creamos ramas específicas bajo la nomenclatura “feature/sprint-1-development” para cada mejora o componente a implementar. Este esquema favorece un desarrollo ordenado y progresivo, ya que cada rama funciona como un entorno independiente donde es posible desarrollar y probar una funcionalidad antes de integrarla a la rama de desarrollo principal.<br><br>
 
-Enlace de la Landing Page en GitHub Pages:  <br><br> 
+Enlace de la Landing Page en GitHub Pages: https://pircaindustries-opensource.github.io/landing-page-Kipu/  <br><br> 
 
 <div align="center">
-    <img src="https://github.com/placeholder" alt="Landing Page">
+    <img src="/Resources/Code-Management/landing-desplegada.png" alt="Landing Page">
 </div><br>
 
 Repositorio GitHub de la Landing Page: https://github.com/PircaIndustries-OpenSource/landing-page-Kipu <br><br> 
 
 <div align="center">
-    <img src="https://github.com/placeholder"  alt="Repositorio landing page">
+    <img src="/Resources/Code-Management/landing-repositorio.png"  alt="Repositorio landing page">
 </div><br>
 
 Repositorio GitHub de los archivos feature: https://github.com/PircaIndustries-OpenSource/Acceptance-Test-OpenSource <br><br> 
 
-<div align="center">
-    <img src="https://github.com/placeholder"  alt="repositorio feature">
-</div><br><br>
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
@@ -2507,6 +2527,53 @@ Las siguientes fuentes se adoptan como base normativa del proyecto:
 Estas referencias se aplican de manera complementaria. Si existiera conflicto entre guías, se priorizará la convención oficial del framework o lenguaje principal del módulo implementado.
 
 ### 5.1.4. Software Deployment Configuration.
+
+En esta sección mostraremos los pasos que hemos realizado para poder desplegar cada uno de nuestros proyectos.
+
+**Landing Page**
+
+Con el objetivo de realizar el despliegue de nuestra landing page, seleccionamos la plataforma GitHub Pages, ya que permite alojar sitios web estáticos de forma totalmente gratuita.
+
+**1.  Ingresamos al repositorio de la landing page**
+
+<div align="center">
+  <img src="/Resources/Deployment-Landing/deployment-step-1.png" alt="landing repo">
+</div>
+
+<br>
+
+**2.  Nos dirigimos al apartado de settings**
+
+<div align="center">
+  <img src="/Resources/Deployment-Landing/deployment-step-2.png" alt="landing repo">
+</div>
+
+<br>
+
+**3.  Vamos a la sección de Github Pages**
+
+<div align="center">
+  <img src="/Resources/Deployment-Landing/deployment-step-3.png" alt="landing repo">
+</div>
+
+<br>
+
+**4.  Seleccionamos la rama main de github-pages en el apartado de source y damos click en save para desplegar.**
+
+<div align="center">
+  <img src="/Resources/Deployment-Landing/deployment-step-4.png" alt="landing repo">
+</div>
+
+<br>
+
+**5.  Finalmente estaría todo listo.**
+
+<div align="center">
+  <img src="/Resources/Deployment-Landing/deployment-step-5.png" alt="landing repo">
+</div><br>
+
+A modo de resumen, la automatización del despliegue funciona de la siguiente manera: GitHub Pages utiliza la rama main como origen de producción. Paralelamente, se configuró un flujo con GitHub Actions que reacciona a los commits en develop para compilar el código estático. Cuando las modificaciones son revisadas y aprobadas por el equipo para su paso a producción, la plataforma actualiza el sitio en vivo con la nueva versión.
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1.
