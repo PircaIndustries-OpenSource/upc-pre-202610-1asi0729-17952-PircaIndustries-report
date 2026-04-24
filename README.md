@@ -1984,7 +1984,7 @@ A continuación, presentaremos los wireframes de nuestra aplicación web, acompa
 
 Se presentarán los Mock-ups de Kipu, versiones más realistas de los Wireframes.
 
-<img src="Resources/Mockups/Mockup general view.pngv">
+<img src="Resources/Mockups/Mockup general view.png">
 
 ## <b>Mock-ups versión Desktop:</b>
 
