@@ -243,34 +243,34 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 	<td colspan="3">Comunica oralmente con efectividad a diferentes rangos de audiencia</td>
       <td colspan="3" align = "justify">
       <h3>Francia Torres, Jhony Manuel</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Sustentación de la problemática y el Solution Profile. Exposición de User Stories y el análisis de Needfinding. Presentación técnica del diseño orientado a objetos y arquitectura de base de datos. Demostración oral (Keynote) de la implementación y despliegue de servicios.</p>
         <b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Montoya Nina, Paula Fernanda</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Comunicación de la visión del producto mediante User Stories. Presentación del Product Backlog y guías de estilo visual. Explicación oral de la arquitectura de software (Domain-Driven Design). Sustentación de la planificación y ejecución del Sprint 1.</p>
         <b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Pareja Calloapaza, Marcelo Fausto</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Exposición del análisis competitivo y Big Picture EventStorming. Sustentación oral de la arquitectura de información. Presentación del prototipado interactivo de la aplicación web. Reporte oral de evidencias de desarrollo para el Sprint Review.</p>
         <b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Ramos Hinostroza, Diego Antonio</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Comunicación de segmentos objetivo y resultados de entrevistas. Explicación del lenguaje ubicuo y configuración de software. Sustentación de la gestión de configuración y despliegue (Deployment). Presentación de resultados de ejecución y documentación de servicios del Sprint.</p>
         <b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Ramos Mera, Neo Daniel</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Exposición del proceso Lean UX y el Impact Mapping. Presentación de los requisitos de usuario (User Stories). Sustentación del diseño de interfaz de usuario (UI) de la Landing Page. Demostración de la implementación frontend y validación de interacción.</p>
         <b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>
           <br>
       </td>
       <td colspan="3">
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Se logró identificar correctamente la problemática y los segmentos objetivo, comunicando la base del proyecto con claridad. Los artefactos de requerimientos (User Stories y Backlog) cumplen con las convenciones de lenguaje y estructura solicitadas. El diseño técnico y la arquitectura demuestran una aplicación correcta de principios de ingeniería y estándares visuales. La solución final fue implementada y documentada siguiendo el flujo de trabajo (GitFlow) y validada satisfactoriamente con los usuarios.</p>
         <b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>
@@ -280,34 +280,34 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td colspan="3">Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
       <td colspan="3" align = "justify">
       <h3>Francia Torres, Jhony Manuel</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Documentación detallada del perfil de solución y Needfinding. Redacción de User Stories siguiendo estándares técnicos. Elaboración de diagramas de diseño orientado a objetos y esquema de BD. Documentación técnica de la implementación y evidencias del Sprint.</p>
         <b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Montoya Nina, Paula Fernanda</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Redacción del Backlog y especificaciones de guías de estilo. Documentación escrita de la arquitectura de software. Elaboración de reportes de Sprint Planning y Sprint Backlog. Registro escrito de las evidencias de desarrollo y cumplimiento de objetivos.</p>
         <b>TP1</b><p></p>
 		<b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Pareja Calloapaza, Marcelo Fausto</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Documentación del análisis de competidores y diagramas de arquitectura de información. Redacción de artefactos de EventStorming y requisitos. Elaboración de la documentación de diseño UX/UI. Reporte técnico final de implementación y validación de servicios.</p>
         <b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Ramos Hinostroza, Diego Antonio</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Documentación de segmentos objetivo y transcripción de entrevistas. Definición escrita del Ubiquitous Language y manuales de configuración. Documentación de endpoints (RESTful) y manual de despliegue. Reporte escrito de Team Collaboration Insights y ejecución de Sprint.</p>
         <b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>
       <h3>Ramos Mera, Neo Daniel</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Documentación del proceso Lean UX Canvas e Impact Mapping. Documentación del proceso Lean UX Canvas e Impact Mapping. Documentación del diseño visual y prototipado de la aplicación. Registro de evidencias de desarrollo y reporte de validación del Frontend.</p>
         <b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>
 		  <br>
       </td>
       <td colspan="3">
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Se logró identificar correctamente la problemática y los segmentos objetivo, comunicando la base del proyecto con claridad. Los artefactos de requerimientos (User Stories y Backlog) cumplen con las convenciones de lenguaje y estructura solicitadas. El diseño técnico y la arquitectura demuestran una aplicación correcta de principios de ingeniería y estándares visuales. La solución final fue implementada y documentada siguiendo el flujo de trabajo (GitFlow) y validada satisfactoriamente con los usuarios.</p>
         <b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>
