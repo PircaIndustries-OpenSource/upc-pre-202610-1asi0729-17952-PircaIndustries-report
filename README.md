@@ -1737,10 +1737,6 @@ El uso de wireframes es clave para definir la estructura visual y de navegación
     <img src="Resources/Wireframes/Wireframes_Overview.png" width="300px" alt="Wireframes Application Web">
 </div><br><br>
 
-<div align="center">
-    <img src="Resources/Wireframes/Wireframes_Overview.png" width="300px" alt="Wireframes Application Web">
-</div><br><br>
-
 Enlace: [Wireframes de la App Web en Figma](https://www.figma.com/design/k9pgDyfyTJBPgO5Kbf5RkF/Kipu---Open-Source-Wireframes?node-id=0-1&t=Fyp5Zk7dVdS6qzau-1)<br><br>
 
 A continuación, presentaremos los wireframes de nuestra aplicación web, acompañados de una breve descripción de la función que cumple cada sección dentro del flujo de trabajo de Kipu:<br><br>
