@@ -64,6 +64,7 @@
 |1\.4\.2|18/04/2026|Jhony Manuel Francia Torres| Se agregaron los Diagramas de Clases y Base de Datos|
 |1\.4\.3|23/04/2026|Neo Daniel Ramos Mera, Paula Fernanda Montoya Nina, Marcelo Fausto Pareja Calloapaza, Diego Antonio Ramos Hinostroza, Jhony Manuel Francia Torres| Se agregaron los wireframes y mockups tanto de la Landing page como de la aplicación web incluyendo resoluciones móviles|
 |1\.4\.4|23/04/2026|Neo Daniel Ramos Mera| Se agregó el Wireflow|
+|1\.4\.5|23/04/2026|Neo Daniel Ramos Mera| Se agregó mockup desktop y mobile|
 
 </div><br><br>
 
@@ -2115,7 +2116,83 @@ Se presentarán los Mock-ups de Kipu, versiones más realistas de los Wireframes
 
 <img src="Resources/Mockups/RNC.jpeg">
 
+## <b>Mock-ups versión Mobile:</b>
 
+## Autenticación
+
+<img src="Resources/Mockups/Mobile/Autenticación 1.jpeg">
+
+---
+
+## Avances
+
+<img src="Resources/Mockups/Mobile/Avances 1.jpeg">
+
+---
+
+## Dashboard
+
+<img src="Resources/Mockups/Mobile/Dashboard 1.jpeg">
+
+---
+
+## Equipo
+
+<img src="Resources/Mockups/Mobile/Equipo 1.jpeg">
+
+---
+
+## Firmas
+
+<img src="Resources/Mockups/Mobile/FIrmas 1.jpeg">
+
+---
+
+## Materiales
+
+<img src="Resources/Mockups/Mobile/Materiales 1.jpeg">
+
+---
+
+## Monitoreo IoT
+
+<img src="Resources/Mockups/Mobile/Monitoreo 1.jpeg">
+
+---
+
+## Notificaciones
+
+<img src="Resources/Mockups/Mobile/Notificaciones 1.jpeg">
+
+---
+
+## Perfil
+
+<img src="Resources/Mockups/Mobile/Perfil 1.jpeg">
+
+---
+
+## Planos
+
+<img src="Resources/Mockups/Mobile/Planos 1.jpeg">
+
+---
+
+## Presupuesto
+
+<img src="Resources/Mockups/Mobile/Presupuesto 1.jpeg">
+
+---
+
+## Proyecto
+
+<img src="Resources/Mockups/Mobile/Proyecto 1.jpeg">
+
+---
+
+## RNC
+
+<img src="Resources/Mockups/Mobile/RNC 1.jpeg">
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
