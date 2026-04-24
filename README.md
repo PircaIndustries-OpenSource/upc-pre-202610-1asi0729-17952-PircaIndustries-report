@@ -65,6 +65,7 @@
 |1\.4\.3|23/04/2026|Neo Daniel Ramos Mera, Paula Fernanda Montoya Nina, Marcelo Fausto Pareja Calloapaza, Diego Antonio Ramos Hinostroza, Jhony Manuel Francia Torres| Se agregaron los wireframes y mockups tanto de la Landing page como de la aplicación web incluyendo resoluciones móviles|
 |1\.4\.4|23/04/2026|Neo Daniel Ramos Mera| Se agregó el Wireflow|
 |1\.4\.5|23/04/2026|Neo Daniel Ramos Mera| Se agregó mockup desktop y mobile|
+|1\.5\.2|23/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado a Source Code Management y Software Deployment Configuration.|
 
 </div><br><br>
 
@@ -139,30 +140,6 @@ https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-Pirc
   - [Wireframes versión Desktop:](#wireframes-versión-desktop)
   - [Wireframes versión Mobile:](#wireframes-versión-mobile)
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-  - [Autenticación](#autenticación)
-  - [Proyecto](#proyecto)
-  - [Avance](#avance)
-  - [RNC (No Conformidad)](#rnc-no-conformidad)
-  - [Materiales](#materiales)
-  - [Planos](#planos)
-  - [Firmas](#firmas)
-  - [Presupuesto](#presupuesto)
-  - [Equipo](#equipo)
-  - [Monitoreo IoT](#monitoreo-iot)
-  - [Configuración](#configuración)
-    - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
-  - [Mock-ups versión Desktop:](#mock-ups-versión-desktop)
-  - [Autenticación](#autenticación-1)
-  - [Avances](#avances)
-  - [Dashboard](#dashboard)
-  - [Firmas](#firmas-1)
-  - [Materiales](#materiales-1)
-  - [Monitoreo IoT](#monitoreo-iot-1)
-  - [Planos](#planos-1)
-  - [Equipo](#equipo-1)
-  - [Presupuesto](#presupuesto-1)
-  - [Proyecto](#proyecto-1)
-  - [RNC](#rnc)
     - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
