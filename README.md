@@ -66,7 +66,7 @@
 |1\.4\.4|23/04/2026|Neo Daniel Ramos Mera| Se agregó el Wireflow|
 |1\.4\.5|23/04/2026|Neo Daniel Ramos Mera| Se agregó mockup desktop y mobile|
 |1\.5\.2|23/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado a Source Code Management y Software Deployment Configuration.|
-1\.5\.3|23/04/2026|Neo Daniel Ramos Mera| Se agregó el apartado de Aspect Leaders and Collaborators|
+1.\.5\.3|23/04/2026|Neo Daniel Ramos Mera| Se agregó el apartado de Aspect Leaders and Collaborators|
 
 </div><br><br>
 
@@ -265,7 +265,6 @@ https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-Pirc
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
       - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
-  - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators-1)
       - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
       - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
@@ -2923,9 +2922,21 @@ A modo de resumen, la automatización del despliegue funciona de la siguiente ma
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1.
+| Sprint #                               | Sprint 1                                                                                                                                                  |
+| :---------------------------------------| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Date**                               | 2026-04-02                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Time**                               | 7:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Location**                           | Reunión virtual mediante Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Prepared By**                        | Montoya Nina, Paula Fernanda / Ramos Mera, Neo Daniel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Attendees (to planning meeting)**    | Francia Torres, Jhony Manuel / Montoya Nina, Paula Fernanda / Pareja Calloapaza, Marcelo Fausto / Ramos Hinostroza, Diego Antonio / Ramos Mera, Neo Daniel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprint n – 1 Review Summary**        | N/A (Primer Sprint del proyecto Kipu).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Sprint n – 1 Retrospective Summary** | N/A (Primer Sprint del proyecto Kipu).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Sprint 1 Goal**                      | The Kipu Product Team decided to launch the initial Landing Page to present its value proposition to the market and capture early leads from the construction sector. Our focus is on capturing the market's initial interest and establishing a direct communication channel. We believe it delivers trust, clarity regarding the optimization of construction processes, and a frictionless means of contact to our prospects (Operative Managers and Logistics Teams of construction). This will be confirmed when visitors interact with the segmented information on the landing page and generate at least 10 valid registration or demo requests through the calls to action |
+| **Sprint 1 Velocity**                  | 14 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Sum of Story Points**                | **14 Story Points**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 #### 5.2.1.2. Aspect Leaders and Collaborators.
-
-## 5.2.1.2. Aspect Leaders and Collaborators
 
 Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics definidas en el Product Backlog. La asignación de líderes y colaboradores se ha realizado considerando la responsabilidad real de cada miembro en los distintos aspectos del proyecto, según se documenta en la planificación interna del equipo.
 
@@ -2940,7 +2951,55 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
 **Leyenda:** L = Líder, C = Colaborador
 
 #### 5.2.1.3. Sprint Backlog 1.
+
+
+Nuestro objetivo principal con este Sprint 1 es desplegar la versión inicial de la Landing Page de Kipu para captar el interés del mercado y establecer un canal de comunicación directo con nuestros prospectos (Gestores Operativos y Equipos de Logística). Para lograr este objetivo, se ha realizado una distribución estratégica de tareas entre los integrantes del equipo. Esto nos permitirá asegurar que cada sección del sitio transmita nuestra propuesta de valor con claridad, genere confianza en el sector construcción y cuente con llamados a la acción funcionales para capturar los primeros registros.
+
+Enlace Sprint Backlog 1 en Trello: https://trello.com/invite/b/69e3edf026a5c3183649ace6/ATTI675c1191970d8bcb24d8b0d748ca09dbA3B1DCA4/kipu-opensource
+<img src="Resources/Sprint-1/trello-sprint1.png" alt="Imagen Sprint 1 Trello"/>
+
+
+| User Story | Work-Item / Task                                       |        |                              |                                          |                        |                 |            |
+| :-----------| :-------------------------------------------------------| :-------| :-----------------------------| :-----------------------------------------| :-----------------------| :----------------| :-----------|
+| **Id**     | **Title**                                              | **Id** | **Title**                    | **Description**                          | **Estimation (Hours)** | **Assigned To** | **Status** |
+| **US-29**  | Landing page - Visualización de propuesta de valor     | TK-01  | Propuesta de Valor           | Implementacion de la seccion Propuesta   | 1                      | Diego Ramos     | Done       |
+| **US-29**  | Landing page - Visualización de propuesta de valor     | TK-02  | Propuesta de Valor           | Implementacion de la seccion Diferencias | 1                      | Paula Montoya   | Done       |
+| **US-29**  | Landing page - Visualización de propuesta de valor     | TK-03  | Hero Section                 | Implementacion de la seccion Hero        | 1                      | Neo Ramos       | Done       |
+| **US-30**  | Landing page - Contenido para gestores operativos      | TK-04  | Roles - Gestores Operativos  | Implementacion de la seccion Roles       | 1                      | Paula Montoya   | Done       |
+| **US-31**  | Landing page - Contenido para equipos de logística     | TK-05  | Roles - Equipos de Logística | Implementacion de la seccion Roles       | 1                      | Paula Montoya   | Done       |
+| **US-32**  | Landing page - Misión y visión de PircaIndustries      | TK-06  | Planes y Misión              | Implementacion de la seccion Planes      | 1                      | Manuel Francia  | Done       |
+| **US-32**  | Landing page - Misión y visión de PircaIndustries      | TK-07  | Creadores y Visión           | Implementacion de la seccion Creadores   | 1                      | Marcelo Pareja  | Done       |
+| **US-33**  | Landing page - Canales de contacto y formulario        | TK-08  | Contacto y Formulario        | Implementacion de la seccion Contacto    | 1                      | Diego Ramos     | Done       |
+| **US-34**  | Landing page - Llamados a la acción de registro y demo | TK-10  | Footer Section               | Implementacion de la seccion Footer      | 1                      | Neo Ramos       | Done       |
+
+***
 #### 5.2.1.4. Development Evidence for Sprint Review.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | f30b235 | Merge pull request #3 from PircaIndustries-OpenSource/develop | Merge develop to main | 2026-04-23 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | f1adebd | Merge pull request #2 from PircaIndustries-OpenSource/feature/differences-header-roles | feat: Add Header, Differences and Roles | 2026-04-23 |
+| PircaIndustries-OpenSource/landing-page-Kipu | feature/differences-header-roles | 3604423 | feat: Add Header, Differences and Roles | N/A | 2026-04-23 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | d16f30e | Add contact section, i18n and language toggle | Add a new contact section and styles, and implement basic client-side internationalization. Introduces styles/contact-style.css and a contact section in index.html, plus a floating language toggle and script include. scripts/script.js was replaced with translation data for ES/EN, DOM binding to data-i18n/data-i18n-placeholder/data-i18n-alt, and localStorage-backed language toggling. Markup updated across index.html to use data-i18n keys and minor content swaps for team profiles (image/name updates). Also include small CSS fixes: proposal benefit icon selector and member-profile img sizing/cover. A profile image binary was modified. | 2026-04-23 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | 337def5 | Merge pull request #1 from PircaIndustries-OpenSource/feature/landing-manuel | feature: landing - plans section - manuel | 2026-04-20 |
+| PircaIndustries-OpenSource/landing-page-Kipu | feature/landing-manuel | 9737724 | feature: landing - plans section - manuel | N/A | 2026-04-20 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | 419dff7 | feat: added resources for team section | N/A | 2026-04-20 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | 4b96d1f | feat: added styles from team section | N/A | 2026-04-20 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | 6ac5f95 | feat: added team section to index.html | N/A | 2026-04-20 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | 61a9722 | fix: path issues surrounding styles and images | N/A | 2026-04-20 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | 944c0c0 | Feat: Create proposal section, image and styles | Creation of the proposal section, in this part we communicate Kipu's value proposition | 2026-04-18 |
+| PircaIndustries-OpenSource/landing-page-Kipu | develop | 539c555 | Feat: Add home section | N/A | 2026-04-18 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 6275a06 | Delete images/temp | N/A | 2026-04-18 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 21f1bd7 | Add files via upload | N/A | 2026-04-18 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 6c7d497 | Initialize index.html with basic HTML structure | Added HTML structure and metadata for Kipu landing page. | 2026-04-18 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 9ab3ce1 | Add Hello World header to index.html | N/A | 2026-04-17 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 499fda4 | Create README.md | N/A | 2026-04-17 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 6371114 | Create temp | N/A | 2026-04-17 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 881373c | Create temp | N/A | 2026-04-17 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | a38db8e | Delete images/scripts directory | N/A | 2026-04-17 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | aeb7a0b | Create temp | N/A | 2026-04-17 |
+| PircaIndustries-OpenSource/landing-page-Kipu | main | 866635f | Create temp | N/A | 2026-04-17 |
+
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
