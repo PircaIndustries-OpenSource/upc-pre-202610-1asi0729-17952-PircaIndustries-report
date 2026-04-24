@@ -2793,6 +2793,30 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
 **Leyenda:** L = Líder, C = Colaborador
 
 #### 5.2.1.3. Sprint Backlog 1.
+
+
+Nuestro objetivo principal con este Sprint 1 es desplegar la versión inicial de la Landing Page de Kipu para captar el interés del mercado y establecer un canal de comunicación directo con nuestros prospectos (Gestores Operativos y Equipos de Logística). Para lograr este objetivo, se ha realizado una distribución estratégica de tareas entre los integrantes del equipo. Esto nos permitirá asegurar que cada sección del sitio transmita nuestra propuesta de valor con claridad, genere confianza en el sector construcción y cuente con llamados a la acción funcionales para capturar los primeros registros.
+
+Enlace Sprint Backlog 1 en Trello: https://trello.com/invite/b/69e3edf026a5c3183649ace6/ATTI675c1191970d8bcb24d8b0d748ca09dbA3B1DCA4/kipu-opensource
+<img src="Resources/Sprint-1/trello-sprint1.png" alt="Imagen Sprint 1 Trello"/>
+
+| Sprint # | Sprint 1 |
+| :---------| :---------|
+
+| User Story | Work-Item / Task                                       |        |                              |                                          |                        |                 |            |
+| :-----------| :-------------------------------------------------------| :-------| :-----------------------------| :-----------------------------------------| :-----------------------| :----------------| :-----------|
+| **Id**     | **Title**                                              | **Id** | **Title**                    | **Description**                          | **Estimation (Hours)** | **Assigned To** | **Status** |
+| **US-29**  | Landing page - Visualización de propuesta de valor     | TK-01  | Propuesta de Valor           | Implementacion de la seccion Propuesta   | 1                      | Diego Ramos     | Done       |
+| **US-29**  | Landing page - Visualización de propuesta de valor     | TK-02  | Propuesta de Valor           | Implementacion de la seccion Diferencias | 1                      | Paula Montoya   | Done       |
+| **US-29**  | Landing page - Visualización de propuesta de valor     | TK-03  | Hero Section                 | Implementacion de la seccion Hero        | 1                      | Neo Ramos       | Done       |
+| **US-30**  | Landing page - Contenido para gestores operativos      | TK-04  | Roles - Gestores Operativos  | Implementacion de la seccion Roles       | 1                      | Paula Montoya   | Done       |
+| **US-31**  | Landing page - Contenido para equipos de logística     | TK-05  | Roles - Equipos de Logística | Implementacion de la seccion Roles       | 1                      | Paula Montoya   | Done       |
+| **US-32**  | Landing page - Misión y visión de PircaIndustries      | TK-06  | Planes y Misión              | Implementacion de la seccion Planes      | 1                      | Manuel Francia  | Done       |
+| **US-32**  | Landing page - Misión y visión de PircaIndustries      | TK-07  | Creadores y Visión           | Implementacion de la seccion Creadores   | 1                      | Marcelo Pareja  | Done       |
+| **US-33**  | Landing page - Canales de contacto y formulario        | TK-08  | Contacto y Formulario        | Implementacion de la seccion Contacto    | 1                      | Diego Ramos     | Done       |
+| **US-34**  | Landing page - Llamados a la acción de registro y demo | TK-10  | Footer Section               | Implementacion de la seccion Footer      | 1                      | Neo Ramos       | Done       |
+
+***
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
