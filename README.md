@@ -66,7 +66,7 @@
 |1\.4\.4|23/04/2026|Neo Daniel Ramos Mera| Se agregó el Wireflow|
 |1\.4\.5|23/04/2026|Neo Daniel Ramos Mera| Se agregó mockup desktop y mobile|
 |1\.5\.2|23/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado a Source Code Management y Software Deployment Configuration.|
-1.\.5\.3|23/04/2026|Neo Daniel Ramos Mera| Se agregó el apartado de Aspect Leaders and Collaborators|
+1\.5\.3|23/04/2026|Neo Daniel Ramos Mera| Se agregó el apartado de Aspect Leaders and Collaborators|
 
 </div><br><br>
 
@@ -165,6 +165,7 @@ https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-Pirc
   - [3.1. User Stories.](#31-user-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [3.3. Product Backlog](#33-product-backlog)
+  - [| **72**  | TS-27         | Get Sign                                                | **Como** usuario developer, **quiero** obtener el estado de las firmas de un acta, **para** verificar quién ha aprobado el cierre de la etapa técnica.                                                                                       | **2**                            |](#-72---ts-27----------get-sign-------------------------------------------------como-usuario-developer-quiero-obtener-el-estado-de-las-firmas-de-un-acta-para-verificar-quién-ha-aprobado-el-cierre-de-la-etapa-técnica----------------------------------------------------------------------------------------2----------------------------)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
@@ -183,8 +184,48 @@ https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-Pirc
   - [Wireframes versión Desktop:](#wireframes-versión-desktop)
   - [Wireframes versión Mobile:](#wireframes-versión-mobile)
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+  - [Autenticación](#autenticación)
+  - [Proyecto](#proyecto)
+  - [Avance](#avance)
+  - [RNC (No Conformidad)](#rnc-no-conformidad)
+  - [Materiales](#materiales)
+  - [Planos](#planos)
+  - [Firmas](#firmas)
+  - [Presupuesto](#presupuesto)
+  - [Equipo](#equipo)
+  - [Monitoreo IoT](#monitoreo-iot)
+  - [Configuración](#configuración)
+    - [4.4.3. Web Applications Mock-ups.](#443-web-applications-mock-ups)
+  - [Mock-ups versión Desktop:](#mock-ups-versión-desktop)
+  - [Autenticación](#autenticación-1)
+  - [Avances](#avances)
+  - [Dashboard](#dashboard)
+  - [Firmas](#firmas-1)
+  - [Materiales](#materiales-1)
+  - [Monitoreo IoT](#monitoreo-iot-1)
+  - [Planos](#planos-1)
+  - [Equipo](#equipo-1)
+  - [Presupuesto](#presupuesto-1)
+  - [Proyecto](#proyecto-1)
+  - [RNC](#rnc)
+  - [Mock-ups versión Mobile:](#mock-ups-versión-mobile)
+  - [Autenticación](#autenticación-2)
+  - [Avances](#avances-1)
+  - [Dashboard](#dashboard-1)
+  - [Equipo](#equipo-2)
+  - [Firmas](#firmas-2)
+  - [Materiales](#materiales-2)
+  - [Monitoreo IoT](#monitoreo-iot-2)
+  - [Notificaciones](#notificaciones)
+  - [Perfil](#perfil)
+  - [Planos](#planos-2)
+  - [Presupuesto](#presupuesto-2)
+  - [Proyecto](#proyecto-2)
+  - [RNC](#rnc-1)
     - [4.4.4. Web Applications User Flow Diagrams.](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
+  - [Prototype versión Desktop:](#prototype-versión-desktop)
+  - [Prototype versión Mobile:](#prototype-versión-mobile)
   - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
     - [4.6.1. Design-Level Event Storming.](#461-design-level-event-storming)
     - [4.6.2. Software Architecture Context Diagram.](#462-software-architecture-context-diagram)
@@ -224,6 +265,7 @@ https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-Pirc
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
       - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
+  - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators-1)
       - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
       - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
@@ -238,6 +280,7 @@ https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-Pirc
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+  - [Needfinding Interviews](#needfinding-interviews)
 
 ---
 
@@ -870,10 +913,10 @@ En esta sección presentamos los registros de las entrevistas realizadas para ca
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxASjXFCI6hF0LjpTeWpJ4wzo?e=Reb0bk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Mi4zNX19" title="Title">Microsoft Stream</a></p></td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxAVcYx3LosMbC302QOoOJsI8?e=8sKoWg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" title="Title">Microsoft Stream</a></p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>00:02 min - 06:32 min</td>
   </tr>
   <tr>
@@ -936,10 +979,10 @@ En esta sección presentamos los registros de las entrevistas realizadas para ca
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxASjXFCI6hF0LjpTeWpJ4wzo?e=sUrWGO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzkyLjM5fX0%3D" title="Title">Microsoft Stream</a></p></td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxAVcYx3LosMbC302QOoOJsI8?e=irhGLN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzkzLjE0fX0%3D" title="Title">Microsoft Stream</a></p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>06:32 min - 16:10 min</td>
   </tr>
   <tr>
@@ -1002,10 +1045,10 @@ En esta sección presentamos los registros de las entrevistas realizadas para ca
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxASjXFCI6hF0LjpTeWpJ4wzo?e=gqYFAb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6OTcwLjk5fX0%3D" title="Title">Microsoft Stream</a></p></td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxAVcYx3LosMbC302QOoOJsI8?e=c7vqLm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6OTcxLjQyfX0%3D" title="Title">Microsoft Stream</a></p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>16:10 min - 23:34 min</td>
   </tr>
   <tr>
@@ -1070,7 +1113,7 @@ En esta sección presentamos los registros de las entrevistas realizadas para ca
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxASjXFCI6hF0LjpTeWpJ4wzo?e=37TcHV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTQxNi42N319" title="Title">Microsoft Stream</a></p></td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxAVcYx3LosMbC302QOoOJsI8?e=oPINCi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTQxNi43OH19" title="Title">Microsoft Stream</a></p></td>
   </tr>
   <tr>
     <td>Duración<br></td>
@@ -1136,10 +1179,10 @@ En esta sección presentamos los registros de las entrevistas realizadas para ca
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxASjXFCI6hF0LjpTeWpJ4wzo?e=ltk0MZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTc4MS40NH19" title="Title">Microsoft Stream</a></p></td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxAVcYx3LosMbC302QOoOJsI8?e=gEOdIq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTc4MS43Mn19" title="Title">Microsoft Stream</a></p></td>
   </tr>
   <tr>
-    <td>Duracion<br></td>
+    <td>Duración<br></td>
     <td>29:41 min - 35:59 min</td>
   </tr>
   <tr>
@@ -1202,7 +1245,7 @@ En esta sección presentamos los registros de las entrevistas realizadas para ca
   </tr>
   <tr>
     <td>Link</td>
-    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxASjXFCI6hF0LjpTeWpJ4wzo?e=5iuqyQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjE1OS40OX19" title="Title">Microsoft Stream</a></p></td>
+    <td><p><a target="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxAVcYx3LosMbC302QOoOJsI8?e=zDFQzM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjE1OS42MX19" title="Title">Microsoft Stream</a></p></td>
   </tr>
   <tr>
     <td>Duración<br></td>
@@ -2305,7 +2348,121 @@ Enlace de <a href="https://www.figma.com/design/YozJtIsGkKkhXZA5kArMvL/Kipu---Op
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
+A continuación, se presentarán los diagramas de flujo de usuarios relacionados con nuestros objetivos de usuario.
+
+**User Goal 1: Gestionar planos vigentes y trazables**
+
+<div align="center">
+    <img src="Resources\User-Flow-Diagram\User-flow-1.png" alt="userflow 1">
+</div><br>
+
+Como profesional tecnico, quiero consultar, filtrar, versionar y descargar planos aprobados para ejecutar la obra con informacion actualizada. Flujo esperado (happy path): el usuario ingresa al modulo Planos, aplica filtros por especialidad o estado, abre la version vigente y la descarga si requiere uso offline. Flujos alternativos (unhappy paths): si el archivo no existe, esta obsoleto o el usuario no tiene permisos de carga/edicion, el sistema muestra una alerta, restringe la accion y redirige a la version valida o solicita autorizacion.<br><br>
+
+
+**User Goal 2: Registrar y consultar avances de obra**
+
+<div align="center">
+    <img src="Resources\User-Flow-Diagram\User-flow-2.png" alt="userflow 2">
+</div><br>
+
+Como supervisor de campo, quiero registrar el avance porcentual de actividades y revisar su historial para comparar ejecucion real versus planificacion. Flujo esperado (happy path): el usuario selecciona proyecto y actividad, registra porcentaje, fecha y observaciones, y el sistema actualiza el estado y timeline de avances. Flujos alternativos (unhappy paths): si el porcentaje ingresado es invalido, faltan datos obligatorios o hay conflicto de edicion simultanea, el sistema bloquea el guardado, informa la inconsistencia y mantiene la ultima version confirmada.<br><br>
+
+**User Goal 3: Monitorear condiciones criticas mediante IoT**
+
+<div align="center">
+    <img src="Resources\User-Flow-Diagram\User-flow-3.png" alt="userflow 3">
+</div><br><br>
+
+Como gestor tecnico, quiero visualizar lecturas de sensores y recibir alertas automaticas para anticipar riesgos en obra. Flujo esperado (happy path): el usuario accede al panel IoT, revisa variables en tiempo real (por ejemplo temperatura, vibracion o stock), y el sistema destaca valores dentro de umbrales configurados. Flujos alternativos (unhappy paths): si un sensor deja de reportar, supera umbrales o hay perdida temporal de conectividad, el sistema genera alerta, registra el evento y sugiere acciones de verificacion manual o escalamiento.<br><br>
+
+**User Goal 4: Formalizar aprobaciones con firmas digitales**
+
+<div align="center">
+    <img src="Resources\User-Flow-Diagram\User-flow-4.png" alt="userflow 4">
+</div><br><br>
+
+Como responsable autorizado, quiero firmar y validar documentos digitalmente para cerrar hitos de obra con respaldo y trazabilidad. Flujo esperado (happy path): el usuario revisa el documento, autentica su identidad, firma y el sistema registra sello de tiempo y estado de aprobacion. Flujos alternativos (unhappy paths): si la validacion de identidad falla, el certificado no es valido o el documento ya fue firmado/bloqueado, el sistema cancela la operacion, conserva el estado previo y notifica el motivo del rechazo.<br><br>
+
+**User Goal 5: Supervisar KPIs desde el dashboard principal**
+
+<div align="center">
+    <img src="Resources\User-Flow-Diagram\User-flow-5.png" alt="userflow 5">
+</div><br><br>
+
+Como lider de proyecto, quiero revisar indicadores clave consolidados para tomar decisiones operativas y financieras oportunas. Flujo esperado (happy path): el usuario entra al Dashboard, consulta tarjetas y graficos de avance, costos, alertas y productividad, y navega a detalle por modulo. Flujos alternativos (unhappy paths): si hay ausencia de datos, filtros incompatibles o demora en la carga, el sistema muestra estados vacios controlados, mensajes explicativos y opciones para reintentar o ajustar filtros.
+<br><br>
+
+
+**User Goal 6: Administrar proyectos y su ciclo de vida**
+
+<div align="center">
+    <img src="Resources\User-Flow-Diagram\User-flow-6.png" alt="userflow 6">
+</div><br><br>
+
+Como gestor o administrador, quiero crear, editar y organizar proyectos con su informacion base para mantener control centralizado de las obras. Flujo esperado (happy path): el usuario registra un proyecto con nombre, ubicacion, responsable y estado, y luego actualiza su progreso general durante la ejecucion. Flujos alternativos (unhappy paths): si existe duplicidad de nombre, faltan campos obligatorios o se intenta editar un proyecto archivado, el sistema rechaza el cambio y muestra reglas de validacion antes de permitir continuar.<br><br>
+
+
+**User Goal 7: Reportar y dar seguimiento a no conformidades (RNC)**
+
+<div align="center">
+    <img src="Resources\User-Flow-Diagram\User-flow-7.png" alt="userflow 7">
+</div><br><br>
+
+Como encargado de calidad, quiero registrar no conformidades con evidencia para asegurar su seguimiento hasta el cierre. Flujo esperado (happy path): el usuario crea una RNC, adjunta evidencia (foto/descripcion), asigna responsable y fecha objetivo, y el sistema monitorea estados (abierta, en proceso, cerrada). Flujos alternativos (unhappy paths): si la evidencia es insuficiente, la asignacion es invalida o se intenta cerrar sin accion correctiva, el sistema impide el cambio de estado y solicita completar la informacion requerida.<br><br>
+
+
+**User Goal 8: Gestionar miembros y roles del equipo**
+
+<div align="center">
+    <img src="Resources\User-Flow-Diagram\User-flow-8.png" alt="userflow 8">
+</div><br><br>
+
+Como administrador del proyecto, quiero asignar usuarios y permisos por rol para proteger informacion sensible y ordenar responsabilidades. Flujo esperado (happy path): el usuario invita integrantes, define rol (administrador, supervisor, tecnico, etc.) y el sistema habilita vistas y acciones segun permisos. Flujos alternativos (unhappy paths): si el correo no existe, el rol es incompatible o se intenta remover al ultimo administrador activo, el sistema bloquea la accion y muestra las restricciones de seguridad correspondientes.<br><br>
+
+**User Goal 9: Solicitar y controlar materiales de obra**
+
+<div align="center">
+    <img src="Resources\User-Flow-Diagram\User-flow-9.png" alt="userflow 9">
+</div><br><br>
+
+Como usuario de campo o logistica, quiero generar solicitudes de materiales y seguir su estado para evitar quiebres de stock en actividades criticas. Flujo esperado (happy path): el usuario crea solicitud con item, cantidad y fecha requerida, el sistema la enruta para aprobacion y actualiza su estado (pendiente, aprobada, atendida). Flujos alternativos (unhappy paths): si la cantidad supera limites, el item no existe o la solicitud se registra fuera de plazo, el sistema notifica observaciones, propone ajustes y evita el envio hasta corregir los datos.<br><br>
+
+**User Goal 10: Controlar desviaciones del presupuesto**
+
+<div align="center">
+    <img src="Resources\User-Flow-Diagram\User-flow-10.png">
+</div><br><br>
+
+Como responsable financiero, quiero comparar presupuesto planificado versus gasto ejecutado para detectar desviaciones y tomar medidas preventivas. Flujo esperado (happy path): el usuario selecciona proyecto/partida, revisa montos y variaciones, y recibe alertas cuando se aproxima o excede el umbral definido. Flujos alternativos (unhappy paths): si faltan registros de gasto, existen partidas sin clasificacion o el periodo no tiene datos consolidados, el sistema marca informacion incompleta y restringe conclusiones hasta validar fuentes.
+<br><br>
+
+**User Goal 11: Autenticarse y recuperar acceso de forma segura**
+
+<div align="center">
+    <img src="Resources\User-Flow-Diagram\User-flow-11.png">
+</div><br><br>
+
+Como usuario de la plataforma, quiero iniciar sesion, registrarme o recuperar contrasena para acceder de manera segura a los modulos segun mi rol. Flujo esperado (happy path): el usuario ingresa credenciales validas o completa registro, confirma identidad y el sistema redirige al espacio autorizado. Flujos alternativos (unhappy paths): si las credenciales son incorrectas, el correo no esta verificado o el token de recuperacion expira, el sistema deniega acceso, informa el motivo y ofrece pasos para reintento o recuperacion controlada.<br><br>
+
+Enlace: [User Flows en Figma](https://www.figma.com/design/ujIfDaSyMq2l7D57x9o7Mg/Kipu---Open-Source-User-Flow-Diagrams?node-id=0-1&t=rKnflS8isW55iskc-1)<br><br>
+
 ## 4.5. Web Applications Prototyping.
+
+El siguiente prototipo interactivo fue construido a partir de los mockups documentados previamente. Su objetivo es demostrar los flujos de usuario principales antes de iniciar la etapa de programación.
+
+## <b>Prototype versión Desktop:</b>
+<div align="center">
+    <img src="/Resources/Prototype/prototype-app.png"  alt="prototype desktop">
+</div><br><br>
+
+## <b>Prototype versión Mobile:</b>
+<div align="center">
+    <img src="/Resources//Prototype/prototype-mobile.png"  alt="prototype-mobile">
+</div><br><br>
+
+
+Enlace: [Prototype de la App Web en Figma](https://www.figma.com/design/gpaQ7X5qCv0vvoiS8fUBSD/Kipu---Open-Source-Prototype?node-id=0-1&t=eZiUxCW2ZamuqW0R-1
+)<br><br>
 
 ## 4.6. Domain-Driven Software Architecture.
 
@@ -2461,6 +2618,9 @@ Repositorio GitHub de la Landing Page: https://github.com/PircaIndustries-OpenSo
 
 Repositorio GitHub de los archivos feature: https://github.com/PircaIndustries-OpenSource/Acceptance-Test-OpenSource <br><br> 
 
+<div align="center">
+    <img src="/Resources/Code-Management/acceptance-tests-repositorio.png"  alt="Repositorio landing page">
+</div><br>
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
@@ -2802,3 +2962,21 @@ Draft.io (s.f.). *EventStorming*. Draft.io. https://draft.io/example/eventstormi
 Qlerify (s.f.). *What is Big Picture Event Storming?*. Qlerify. https://www.qlerify.com/event-storming-concepts/what-is-big-picture-event-storming
 
 # Anexos
+
++ Landing Page: [Ver Landing Page](https://pircaindustries-opensource.github.io/landing-page-Kipu/)<br><br>
++ Repositorio GitHub de la Organización: [Ver Organización](https://github.com/PircaIndustries-OpenSource)<br><br>
++ Repositorio GitHub del Landing Page: [Ver Repositorio](https://github.com/PircaIndustries-OpenSource/landing-page-Kipu)<br><br>
++ Repositorio GitHub del Informe: [Ver Repositorio](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report)<br><br>
++ Repositorio GitHub del Acceptance-Test: [Ver Repositorio]( https://github.com/PircaIndustries-OpenSource/Acceptance-Test-OpenSource)<br><br>
++ Wireframes: [Ver Wireframes](https://www.figma.com/design/k9pgDyfyTJBPgO5Kbf5RkF/Kipu---Open-Source-Wireframes?node-id=0-1&t=Fyp5Zk7dVdS6qzau-1)<br><br>
++ Mock-ups: [Ver Mock-ups](https://www.figma.com/design/YozJtIsGkKkhXZA5kArMvL/Kipu---Open-Source-Mockups?node-id=2-10598&t=ylKZiCxcAheVlOJA-1)<br><br>
++ Prototype: [Ver Prototype ](https://www.figma.com/design/gpaQ7X5qCv0vvoiS8fUBSD/Kipu---Open-Source-Prototype?node-id=0-1&t=eZiUxCW2ZamuqW0R-1)<br><br>
+
+## Needfinding Interviews
+
+  <div align="center">
+    <img src="/Resources/Interviews/entrevista-Eliud-Lopez.png" alt="Needfinding Interviews">
+ </div>
+
+
+Enlace: [Needfinding](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxAVcYx3LosMbC302QOoOJsI8?e=8sKoWg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
