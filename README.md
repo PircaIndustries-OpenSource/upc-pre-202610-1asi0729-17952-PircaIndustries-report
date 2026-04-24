@@ -66,6 +66,7 @@
 |1\.4\.4|23/04/2026|Neo Daniel Ramos Mera| Se agregó el Wireflow|
 |1\.4\.5|23/04/2026|Neo Daniel Ramos Mera| Se agregó mockup desktop y mobile|
 |1\.5\.2|23/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado a Source Code Management y Software Deployment Configuration.|
+1.\.5\.3|23/04/2026|Neo Daniel Ramos Mera| Se agregó el apartado de Aspect Leaders and Collaborators|
 
 </div><br><br>
 
@@ -2802,6 +2803,21 @@ A modo de resumen, la automatización del despliegue funciona de la siguiente ma
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1.
 #### 5.2.1.2. Aspect Leaders and Collaborators.
+
+## 5.2.1.2. Aspect Leaders and Collaborators
+
+Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics definidas en el Product Backlog. La asignación de líderes y colaboradores se ha realizado considerando la responsabilidad real de cada miembro en los distintos aspectos del proyecto, según se documenta en la planificación interna del equipo.
+
+| Team Member (Last Name, First Name) | GitHub Username | EP01 (Cuentas y Acceso) | EP02 (Calidad y KPIs) | EP03 (Suministros y Presupuesto) | EP04 (Monitoreo IoT) | EP05 (Open Source) | EP06 (Landing Page) | EP07 (Documentación Técnica) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Francia Torres, Jhony Manuel | ManuelFT4 | C | L | C | C | C | C | L |
+| Montoya Nina, Paula Fernanda | SeviNyO | C | C | L | C | C | C | C |
+| Pareja Calloapaza, Marcelo Fausto | marc3lllob7 | C | C | C | L | C | L | C |
+| Ramos Hinostroza, Diego Antonio | Kosevy | L | C | C | C | L | C | C |
+| Ramos Mera, Neo Daniel | norahccccc | C | C | C | C | C | C | C |
+
+**Leyenda:** L = Líder, C = Colaborador
+
 #### 5.2.1.3. Sprint Backlog 1.
 #### 5.2.1.4. Development Evidence for Sprint Review.
 #### 5.2.1.5. Execution Evidence for Sprint Review.
