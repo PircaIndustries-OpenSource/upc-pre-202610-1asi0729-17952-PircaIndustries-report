@@ -2555,7 +2555,7 @@ Repositorio GitHub de la Landing Page: https://github.com/PircaIndustries-OpenSo
     <img src="/Resources/Code-Management/landing-repositorio.png"  alt="Repositorio landing page">
 </div><br>
 
-Repositorio GitHub de los archivos feature: https://github.com/PircaIndustries-OpenSource/Acceptance-Test-OpenSource <br><br> 
+Repositorio GitHub de los archivos feature: https://github.com/SyncedHealth-AplicacionesWeb/upc-pre-202610-1asi0730-12053-SyncedHealth-acceptancetests <br><br> 
 
 <div align="center">
     <img src="/Resources/Code-Management/acceptance-tests-repositorio.png"  alt="Repositorio landing page">
