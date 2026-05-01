@@ -2561,6 +2561,7 @@ Enlace público del Product Backlog (Jira): https://trello.com/invite/b/69e3edf0
 <img src="" alt="Imagen Product Backlog en Jira"/>
 
 <br>
+
 <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%;">
   <thead>
     <tr>
@@ -2672,468 +2673,517 @@ Enlace público del Product Backlog (Jira): https://trello.com/invite/b/69e3edf0
     </tr>
     <tr>
       <td style="text-align: center;">15</td>
+      <td><strong>TS11</strong></td>
+      <td>Endpoint GET Project Items</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de partidas mediante GET a /api/v1/projects/{id}/items para que el frontend pueda cargar el catálogo de trabajo de una obra antes de registrar avances.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">16</td>
       <td><strong>US-21</strong></td>
       <td>Registrar partidas de obra</td>
       <td>Como Gestor Operativo, quiero registrar el catálogo de partidas de la obra para definir con claridad el volumen de trabajo y el alcance constructivo a ejecutar.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">16</td>
-      <td><strong>TS11</strong></td>
+      <td style="text-align: center;">17</td>
+      <td><strong>TS12</strong></td>
       <td>Setup Advances API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de avances con su controlador, servicio y repositorio para medir la productividad real de las obras.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">17</td>
-      <td><strong>TS12</strong></td>
+      <td style="text-align: center;">18</td>
+      <td><strong>TS13</strong></td>
       <td>Endpoint POST Advance</td>
       <td>Como usuario developer, quiero implementar el endpoint de registro de progreso diario mediante POST a /api/v1/advances para actualizar el avance físico frente al cronograma.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">18</td>
-      <td><strong>TS13</strong></td>
+      <td style="text-align: center;">19</td>
+      <td><strong>TS14</strong></td>
       <td>Endpoint GET Advance</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de avances mediante GET a /api/v1/advances para calcular el Porcentaje de Plan Completado (PPC).</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">19</td>
+      <td style="text-align: center;">20</td>
       <td><strong>US-08</strong></td>
       <td>Registrar avance diario de obra</td>
       <td>Como Gestor Operativo, quiero registrar el estado de ejecución diario de una partida planificada para dejar constancia de si se avanzó conforme al cronograma o si hubo bloqueos.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">20</td>
-      <td><strong>TS14</strong></td>
+      <td style="text-align: center;">21</td>
+      <td><strong>TS15</strong></td>
       <td>Setup Materials API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de materiales con su controlador, servicio y repositorio para administrar el stock de insumos de construcción.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">21</td>
-      <td><strong>TS15</strong></td>
+      <td style="text-align: center;">22</td>
+      <td><strong>TS16</strong></td>
       <td>Endpoint GET Material</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de stock mediante GET a /api/v1/materials para informar al personal sobre la existencia de materiales en tiempo real.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">22</td>
-      <td><strong>TS16</strong></td>
+      <td style="text-align: center;">23</td>
+      <td><strong>TS17</strong></td>
       <td>Endpoint POST Material Request</td>
       <td>Como usuario developer, quiero implementar el endpoint de solicitud de materiales mediante POST a /api/v1/materials/requests para que el área logística procese los pedidos.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">23</td>
+      <td style="text-align: center;">24</td>
+      <td><strong>TS18</strong></td>
+      <td>Endpoint GET Material Requests</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de solicitudes de materiales mediante GET a /api/v1/materials/requests para que tanto el Residente como el equipo de Logística puedan visualizar el listado de pedidos y su estado.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">25</td>
       <td><strong>US-04</strong></td>
       <td>Alertar stock crítico automáticamente</td>
       <td>Como Equipo de Logística, quiero recibir notificaciones cuando el inventario sea bajo para evitar paralizar la construcción.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">24</td>
-      <td><strong>TS18</strong></td>
+      <td style="text-align: center;">26</td>
+      <td><strong>TS20</strong></td>
       <td>Endpoint POST Material Waste</td>
       <td>Como usuario developer, quiero implementar el endpoint de registro de mermas mediante POST a /api/v1/materials/waste para ajustar el inventario real.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">25</td>
+      <td style="text-align: center;">27</td>
       <td><strong>US-13</strong></td>
       <td>Registrar merma de materiales</td>
       <td>Como Equipo de Logística, quiero registrar la merma de materiales para ajustar el stock real y analizar la eficiencia de los recursos.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">26</td>
-      <td><strong>TS19</strong></td>
+      <td style="text-align: center;">28</td>
+      <td><strong>TS21</strong></td>
+      <td>Endpoint GET Material Waste</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de mermas mediante GET a /api/v1/materials/waste para mostrar el historial de pérdidas de inventario en la vista de Mermas del frontend.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">29</td>
+      <td><strong>TS22</strong></td>
       <td>Endpoint POST Tools Assignment</td>
       <td>Como usuario developer, quiero implementar el endpoint de asignación de herramientas mediante POST a /api/v1/materials/tools-assignments para vincular equipos a operarios registrados.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">27</td>
+      <td style="text-align: center;">30</td>
       <td><strong>US-17</strong></td>
       <td>Controlar herramientas asignadas por operario</td>
       <td>Como Equipo de Logística, quiero registrar las herramientas eléctricas asignadas a un obrero específico para que sea el responsable de su devolución en buen estado.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">28</td>
+      <td style="text-align: center;">31</td>
+      <td><strong>TS23</strong></td>
+      <td>Endpoint GET Tools Assignments</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta del historial de asignaciones de herramientas mediante GET a /api/v1/materials/tools-assignments para mostrar el estado actual de cada equipo asignado a operarios en la vista de Historial de Maquinaria.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">32</td>
       <td><strong>US-03</strong></td>
       <td>Solicitar materiales formalmente</td>
       <td>Como Gestor Operativo, quiero enviar pedidos de insumos desde la app para evitar errores de comunicación por canales informales.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">29</td>
-      <td><strong>TS17</strong></td>
+      <td style="text-align: center;">33</td>
+      <td><strong>TS19</strong></td>
       <td>Endpoint PATCH Request Status</td>
       <td>Como usuario developer, quiero implementar el endpoint de aprobación o rechazo de solicitudes de material mediante PATCH a /api/v1/materials/requests/{id}/status para mantener informado al equipo de obra.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">30</td>
+      <td style="text-align: center;">34</td>
       <td><strong>US-05</strong></td>
       <td>Validar presupuesto en solicitud de material</td>
       <td>Como Equipo de Logística, quiero que el sistema bloquee pedidos que excedan el presupuesto meta para evitar pérdidas.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">31</td>
-      <td><strong>TS20</strong></td>
+      <td style="text-align: center;">35</td>
+      <td><strong>TS24</strong></td>
       <td>Setup Suppliers API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de proveedores con su controlador, servicio y repositorio para formalizar la gestión de suministros.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">32</td>
-      <td><strong>TS21</strong></td>
+      <td style="text-align: center;">36</td>
+      <td><strong>TS26</strong></td>
       <td>Endpoint POST Supplier</td>
       <td>Como usuario developer, quiero implementar el endpoint de registro de proveedores mediante POST a /api/v1/suppliers para formalizar las fuentes de suministro.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">33</td>
+      <td style="text-align: center;">37</td>
+      <td><strong>TS25</strong></td>
+      <td>Endpoint GET Suppliers</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta del listado de proveedores mediante GET a /api/v1/suppliers para que el frontend pueda mostrar la vista general de proveedores registrados.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">38</td>
       <td><strong>US-39</strong></td>
       <td>Registrar perfil de proveedor</td>
       <td>Como Equipo de Logística, quiero registrar una nueva entidad proveedora en el sistema para formalizar la fuente de suministros y permitir la trazabilidad de las órdenes de compra.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">34</td>
-      <td><strong>TS22</strong></td>
+      <td style="text-align: center;">39</td>
+      <td><strong>TS27</strong></td>
       <td>Endpoint PUT Supplier</td>
       <td>Como usuario developer, quiero implementar el endpoint de modificación de proveedores mediante PUT a /api/v1/suppliers/{id} para mantener la información de contacto vigente.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">35</td>
+      <td style="text-align: center;">40</td>
       <td><strong>US-40</strong></td>
       <td>Modificar perfil de proveedor</td>
       <td>Como Equipo de Logística, quiero modificar los datos de contacto o el estado de un proveedor para asegurar que la comunicación y las compras se realicen con información vigente.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">36</td>
+      <td style="text-align: center;">41</td>
       <td><strong>TS01</strong></td>
       <td>Setup User API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de usuarios con su controlador, servicio y repositorio para establecer la base de la gestión de seguridad y acceso.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">37</td>
+      <td style="text-align: center;">42</td>
       <td><strong>TS02</strong></td>
       <td>Endpoint POST Auth Login</td>
       <td>Como usuario developer, quiero implementar el endpoint de autenticación mediante POST a /api/v1/auth/login para que los usuarios puedan iniciar sesión y recibir un token JWT.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">38</td>
+      <td style="text-align: center;">43</td>
       <td><strong>TS03</strong></td>
       <td>Endpoint POST User</td>
       <td>Como usuario developer, quiero implementar el endpoint de registro de usuarios mediante POST a /api/v1/users para que los profesionales puedan crear sus cuentas.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">39</td>
+      <td style="text-align: center;">44</td>
       <td><strong>TS04</strong></td>
       <td>Endpoint GET User</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de perfil de usuario mediante GET a /api/v1/users/{id} para mostrar los datos del usuario en la aplicación.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">40</td>
+      <td style="text-align: center;">45</td>
       <td><strong>US-01</strong></td>
       <td>Registrar cuenta de usuario</td>
       <td>Como Gestor Operativo, quiero crear una cuenta en la plataforma para habilitar mi identidad en el sistema.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">41</td>
+      <td style="text-align: center;">46</td>
       <td><strong>US-18</strong></td>
       <td>Iniciar sesión con credenciales</td>
       <td>Como Gestor Operativo, quiero iniciar sesión con mis credenciales para acceder a los módulos de mi obra asignada.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">42</td>
+      <td style="text-align: center;">47</td>
       <td><strong>TS05</strong></td>
       <td>Endpoint PUT User Roles</td>
       <td>Como usuario developer, quiero implementar el endpoint de asignación de roles mediante PUT a /api/v1/users/{id}/roles para que el administrador pueda modificar permisos de los usuarios.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">43</td>
+      <td style="text-align: center;">48</td>
       <td><strong>US-11</strong></td>
       <td>Asignar roles a usuarios</td>
       <td>Como Gestor Operativo, quiero asignar o modificar los permisos de los trabajadores en la plataforma, para asegurar que cada empleado solo tenga acceso a los módulos correspondientes a su cargo.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">44</td>
+      <td style="text-align: center;">49</td>
       <td><strong>US-14</strong></td>
       <td>Acceder como cliente en modo solo lectura</td>
       <td>Como cliente de la obra, quiero tener acceso de solo lectura para monitorear el avance físico y financiero de mi inversión.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">45</td>
+      <td style="text-align: center;">50</td>
       <td><strong>US-07</strong></td>
       <td>Atender solicitud de materiales</td>
       <td>Como Equipo de Logística, quiero cambiar el estado de las solicitudes de materiales a "Aprobado" o "Rechazado", para mantener al equipo de obra informado sobre la disponibilidad de los insumos.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">46</td>
-      <td><strong>TS23</strong></td>
+      <td style="text-align: center;">51</td>
+      <td><strong>TS28</strong></td>
       <td>Setup Budget API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio financiero con su controlador, servicio y repositorio para controlar que los gastos no excedan el presupuesto meta.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">47</td>
-      <td><strong>TS24</strong></td>
+      <td style="text-align: center;">52</td>
+      <td><strong>TS29</strong></td>
       <td>Endpoint POST Budget</td>
       <td>Como usuario developer, quiero implementar el endpoint de carga de presupuesto inicial mediante POST a /api/v1/budgets para establecer los topes financieros de la obra.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">48</td>
-      <td><strong>TS25</strong></td>
+      <td style="text-align: center;">53</td>
+      <td><strong>TS30</strong></td>
       <td>Endpoint GET Budget</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de estado financiero mediante GET a /api/v1/budgets/{projectId} para visualizar desviaciones en los paneles de control.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">49</td>
+      <td style="text-align: center;">54</td>
       <td><strong>US-20</strong></td>
       <td>Cargar presupuesto base del proyecto</td>
       <td>Como Equipo de Logística, quiero cargar el presupuesto inicial para tener un tope financiero al validar compras y requerimientos.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">50</td>
+      <td style="text-align: center;">55</td>
       <td><strong>US-15</strong></td>
       <td>Alertar desviación presupuestal</td>
       <td>Como Equipo de Logística, quiero recibir notificaciones si el gasto real supera el presupuesto meta para tomar medidas correctivas.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">51</td>
-      <td><strong>TS26</strong></td>
+      <td style="text-align: center;">56</td>
+      <td><strong>TS31</strong></td>
       <td>Setup Blueprints API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio documental de planos con su controlador, servicio y repositorio para gestionar versiones de documentos técnicos.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">52</td>
-      <td><strong>TS27</strong></td>
+      <td style="text-align: center;">57</td>
+      <td><strong>TS32</strong></td>
       <td>Endpoint POST Blueprint</td>
       <td>Como usuario developer, quiero implementar el endpoint de subida de planos mediante POST a /api/v1/blueprints para que el equipo trabaje siempre con la versión vigente.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">53</td>
-      <td><strong>TS28</strong></td>
+      <td style="text-align: center;">58</td>
+      <td><strong>TS34</strong></td>
       <td>Endpoint GET Blueprint</td>
       <td>Como usuario developer, quiero implementar el endpoint de listado de planos mediante GET a /api/v1/blueprints para permitir filtrado por especialidad técnica.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">54</td>
+      <td style="text-align: center;">59</td>
+      <td><strong>TS33</strong></td>
+      <td>Endpoint GET Blueprint Download</td>
+      <td>Como usuario developer, quiero implementar el endpoint de descarga de planos mediante GET a /api/v1/blueprints/{id}/download para que el Gestor Operativo pueda consultar planos en zonas sin conectividad.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">60</td>
       <td><strong>US-27</strong></td>
       <td>Subir nueva versión de plano</td>
       <td>Como Gestor Operativo, quiero cargar actualizaciones de los planos para que el equipo en campo trabaje con la información final.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">55</td>
-      <td><strong>TS29</strong></td>
+      <td style="text-align: center;">61</td>
+      <td><strong>TS35</strong></td>
       <td>Endpoint GET Blueprint Versions</td>
       <td>Como usuario developer, quiero implementar el endpoint de historial de versiones mediante GET a /api/v1/blueprints/{id}/versions para que el equipo pueda rastrear la evolución del diseño.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">56</td>
+      <td style="text-align: center;">62</td>
       <td><strong>US-26</strong></td>
       <td>Visualizar historial de versiones de plano</td>
       <td>Como Gestor Operativo, quiero visualizar el registro de versiones de un plano para entender la evolución del diseño.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">57</td>
+      <td style="text-align: center;">63</td>
       <td><strong>US-28</strong></td>
       <td>Descargar plano para uso sin conectividad</td>
       <td>Como Gestor Operativo, quiero guardar planos en mi dispositivo para consultarlos en zonas sin conectividad (sótanos).</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">58</td>
-      <td><strong>TS30</strong></td>
+      <td style="text-align: center;">64</td>
+      <td><strong>TS36</strong></td>
       <td>Endpoint POST Blueprint Annotations</td>
       <td>Como usuario developer, quiero implementar el endpoint de anotaciones en planos mediante POST a /api/v1/blueprints/{id}/annotations para registrar observaciones de campo sobre los documentos.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">59</td>
+      <td style="text-align: center;">65</td>
       <td><strong>US-35</strong></td>
       <td>Registrar anotaciones gráficas en plano</td>
       <td>Como Gestor Operativo, quiero realizar anotaciones gráficas sobre el plano para reportar errores de diseño detectados en campo.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">60</td>
+      <td style="text-align: center;">66</td>
+      <td><strong>TS37</strong></td>
+      <td>Endpoint GET Blueprint Annotations</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de anotaciones mediante GET a /api/v1/blueprints/{id}/annotations para visualizar las observaciones de campo sin alterar el plano original.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">67</td>
       <td><strong>US-36</strong></td>
       <td>Filtrar planos por especialidad técnica</td>
       <td>Como Gestor Operativo, quiero segmentar la lista de archivos por rama técnica para localizar información crítica rápidamente.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">61</td>
+      <td style="text-align: center;">68</td>
       <td><strong>US-37</strong></td>
       <td>Ordenar planos cronológicamente</td>
       <td>Como Equipo de Logística, quiero organizar los documentos por fecha de carga para identificar los últimos requerimientos técnicos.</td>
       <td style="text-align: center;">1</td>
     </tr>
     <tr>
-      <td style="text-align: center;">62</td>
-      <td><strong>TS31</strong></td>
+      <td style="text-align: center;">69</td>
+      <td><strong>TS38</strong></td>
       <td>Setup RNC API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de incidencias de calidad con su controlador, servicio y repositorio para gestionar los Resultados No Conformes de obra.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">63</td>
-      <td><strong>TS32</strong></td>
+      <td style="text-align: center;">70</td>
+      <td><strong>TS39</strong></td>
       <td>Endpoint POST RNC</td>
       <td>Como usuario developer, quiero implementar el endpoint de registro de fallas técnicas mediante POST a /api/v1/rnc para alertar al equipo de diseño con evidencia fotográfica.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">64</td>
-      <td><strong>TS33</strong></td>
+      <td style="text-align: center;">71</td>
+      <td><strong>TS40</strong></td>
       <td>Endpoint GET RNC</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de incidencias mediante GET a /api/v1/rnc para permitir la revisión y subsanación de errores de calidad.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">65</td>
+      <td style="text-align: center;">72</td>
       <td><strong>US-02</strong></td>
       <td>Registrar Resultado No Conforme</td>
       <td>Como Gestor Operativo, quiero registrar un RNC con evidencia fotográfica para que el equipo de diseño sea alertado y subsane el error de inmediato.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">66</td>
+      <td style="text-align: center;">73</td>
       <td><strong>US-10</strong></td>
       <td>Visualizar dashboard de control del proyecto</td>
       <td>Como Gestor Operativo, deseo acceder a un resumen consolidado de la obra para identificar desviaciones en el plan sin procesar datos de forma manual.</td>
       <td style="text-align: center;">8</td>
     </tr>
     <tr>
-      <td style="text-align: center;">67</td>
-      <td><strong>TS34</strong></td>
+      <td style="text-align: center;">74</td>
+      <td><strong>TS41</strong></td>
       <td>Setup Signatures API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de firmas digitales con su controlador, servicio y repositorio para validar legalmente el cierre de actas de conformidad.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">68</td>
-      <td><strong>TS35</strong></td>
+      <td style="text-align: center;">75</td>
+      <td><strong>TS42</strong></td>
       <td>Endpoint POST Signature</td>
       <td>Como usuario developer, quiero implementar el endpoint de sellado digital de documentos mediante POST a /api/v1/signatures para formalizar el cierre de actas con respaldo legal.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">69</td>
-      <td><strong>TS36</strong></td>
+      <td style="text-align: center;">76</td>
+      <td><strong>TS43</strong></td>
       <td>Endpoint GET Signature</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de estado de firmas mediante GET a /api/v1/signatures/records/{recordId} para verificar quién ha aprobado el cierre de una etapa técnica.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">70</td>
+      <td style="text-align: center;">77</td>
       <td><strong>US-06</strong></td>
       <td>Firmar actas digitalmente con token</td>
       <td>Como Gestor Operativo, quiero firmar actas de conformidad con un código de verificación para asegurar la validez legal del cierre de etapa.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">71</td>
-      <td><strong>TS37</strong></td>
+      <td style="text-align: center;">78</td>
+      <td><strong>TS44</strong></td>
       <td>Endpoint GET Signature Export</td>
       <td>Como usuario developer, quiero implementar el endpoint de exportación del dossier de firmas mediante GET a /api/v1/signatures/export/{projectId} para facilitar la entrega formal del proyecto.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">72</td>
+      <td style="text-align: center;">79</td>
       <td><strong>US-38</strong></td>
       <td>Exportar dossier de calidad en PDF</td>
       <td>Como Gestor Operativo, quiero exportar un archivo PDF que contenga todo el historial de firmas electrónicas y aprobaciones de una etapa constructiva, para facilitar la entrega del proyecto a la municipalidad o al cliente final.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">73</td>
-      <td><strong>TS38</strong></td>
+      <td style="text-align: center;">80</td>
+      <td><strong>TS45</strong></td>
       <td>Setup IoT Telemetry Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de telemetría IoT con su controlador, servicio y repositorio para recibir y almacenar datos de sensores en obra.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">74</td>
-      <td><strong>TS39</strong></td>
+      <td style="text-align: center;">81</td>
+      <td><strong>TS46</strong></td>
       <td>Endpoint POST IoT</td>
       <td>Como usuario developer, quiero implementar el endpoint de registro de mediciones de sensores mediante POST a /api/v1/iot/telemetry para disparar alertas de seguridad automáticas en obra.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">75</td>
-      <td><strong>TS40</strong></td>
+      <td style="text-align: center;">82</td>
+      <td><strong>TS47</strong></td>
       <td>Endpoint GET IoT</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de historial de sensores mediante GET a /api/v1/iot/telemetry/{sensorId} para mostrar gráficos de monitoreo en tiempo real.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">76</td>
+      <td style="text-align: center;">83</td>
       <td><strong>US-22</strong></td>
       <td>Monitorear temperatura y humedad para curado de concreto</td>
       <td>Como Gestor Operativo, quiero recibir alertas automáticas cuando las condiciones ambientales no sean óptimas para el curado del concreto, para evitar fisuras y garantizar la calidad estructural.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">77</td>
+      <td style="text-align: center;">84</td>
       <td><strong>US-23</strong></td>
       <td>Monitorear vibraciones en edificios colindantes</td>
       <td>Como Gestor Operativo, quiero recibir alertas en tiempo real cuando los sensores de vibración detecten movimientos peligrosos durante excavaciones, para evitar daños estructurales a propiedades vecinas.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">78</td>
+      <td style="text-align: center;">85</td>
       <td><strong>US-24</strong></td>
       <td>Alertar nivel crítico de materiales en tolvas</td>
       <td>Como Equipo de Logística, quiero recibir alertas automáticas cuando el nivel de agregados (arena, piedra) en las tolvas esté por debajo del mínimo, para solicitar reabastecimiento antes de que se agote.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">79</td>
+      <td style="text-align: center;">86</td>
       <td><strong>US-25</strong></td>
       <td>Geolocalizar equipos de alto valor en obra</td>
       <td>Como Equipo de Logística, quiero rastrear la ubicación de equipos de alto valor (vibrador de concreto, estación total) mediante sensores GPS, para prevenir robos y optimizar su asignación en obra.</td>
       <td style="text-align: center;">8</td>
     </tr>
     <tr>
-      <td style="text-align: center;">80</td>
+      <td style="text-align: center;">87</td>
       <td><strong>US-12</strong></td>
       <td>Exportar base de datos del proyecto</td>
       <td>Como Gestor Operativo, quiero exportar la información del proyecto en formatos abiertos (.csv, .json) para garantizar la soberanía de los datos.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">81</td>
+      <td style="text-align: center;">88</td>
       <td><strong>US-16</strong></td>
       <td>Activar plugins del sistema</td>
       <td>Como Gestor Operativo, quiero habilitar módulos adicionales para extender las funciones básicas del sistema.</td>
