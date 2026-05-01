@@ -67,6 +67,8 @@
 |1\.4\.5|23/04/2026|Neo Daniel Ramos Mera| Se agregó mockup desktop y mobile|
 |1\.5\.2|23/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado a Source Code Management y Software Deployment Configuration.|
 1.\.5\.3|23/04/2026|Neo Daniel Ramos Mera| Se agregó el apartado de Aspect Leaders and Collaborators|
+1.\.5\.4|01/05/2026|Paula Fernanda Montoya Nina| Se agregó con el Sprint 2 planning|
+1.\.5\.5|01/05/2026|Paula Fernanda Montoya Nina| Se agregó con el Sprint 2 backlog |
 
 </div><br><br>
 
@@ -4243,6 +4245,559 @@ Por lo tanto, la relación de endpoints documentados con OpenAPI (Swagger), las 
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+### 5.2.2. Sprint 2
+#### 5.2.2.1. Sprint Planning 2.
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Sprint #</th>
+      <th>Sprint 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Sprint Planning Background</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Date</strong></td>
+      <td>2026-05-01</td>
+    </tr>
+    <tr>
+      <td><strong>Time</strong></td>
+      <td>7:00 PM</td>
+    </tr>
+    <tr>
+      <td><strong>Location</strong></td>
+      <td>Reunión virtual mediante Discord</td>
+    </tr>
+    <tr>
+      <td><strong>Prepared By</strong></td>
+      <td>Montoya Nina, Paula Fernanda</td>
+    </tr>
+    <tr>
+      <td><strong>Attendees (to planning meeting)</strong></td>
+      <td>Francia Torres, Jhony Manuel / Montoya Nina, Paula Fernanda / Pareja Calloapaza, Marcelo Fausto / Ramos Hinostroza, Diego Antonio / Ramos Mera, Neo Daniel</td>
+    </tr>
+    <tr>
+      <td><strong>Sprint n – 1 Review Summary</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Sprint n – 1 Retrospective Summary</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Sprint Goal &amp; User Stories</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 2 Goal</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 1 Velocity</strong></td>
+      <td>Story Points</td>
+    </tr>
+    <tr>
+      <td><strong>Sum of Story Points</strong></td>
+      <td><strong> Story Points</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>GitHub Username</th>
+      <th>EP01 (Cuentas y Acceso)</th>
+      <th>EP02 (Calidad y KPIs)</th>
+      <th>EP03 (Suministros y Presupuesto)</th>
+      <th>EP04 (Monitoreo IoT)</th>
+      <th>EP05 (Open Source)</th>
+      <th>EP06 (Landing Page)</th>
+      <th>EP07 (Documentación Técnica)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Francia Torres, Jhony Manuel</td>
+      <td>ManuelFT4</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Montoya Nina, Paula Fernanda</td>
+      <td>SeviNyO</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Pareja Calloapaza, Marcelo Fausto</td>
+      <td>marc3lllob7</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ramos Hinostroza, Diego Antonio</td>
+      <td>Kosevy</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ramos Mera, Neo Daniel</td>
+      <td>norahccccc</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.2.3. Sprint Backlog 2.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left;">User Story / TS</th>
+      <th style="text-align: left;"></th>
+      <th style="text-align: left;">Work-Item / Task</th>
+      <th style="text-align: left;"></th>
+      <th style="text-align: left;"></th>
+      <th style="text-align: left;"></th>
+      <th style="text-align: left;"></th>
+      <th style="text-align: left;"></th>
+    </tr>
+    <tr>
+      <th style="text-align: left;">Id</th>
+      <th style="text-align: left;">Title</th>
+      <th style="text-align: left;">Id</th>
+      <th style="text-align: left;">Title</th>
+      <th style="text-align: left;">Description</th>
+      <th style="text-align: left;">Estimation (Hours)</th>
+      <th style="text-align: left;">Assigned To</th>
+      <th style="text-align: left;">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- ==================== EP02: PROYECTOS ==================== -->
+    <tr>
+      <td rowspan="3"><strong>TS06</strong></td>
+      <td rowspan="3">Setup Projects API Domain</td>
+      <td><strong>TK-01</strong></td>
+      <td>[BE] Setup Projects domain</td>
+      <td>Crear entidad Project, repositorio JPA, servicio base y controlador en Spring Boot. Verificar que el contexto levanta correctamente.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-02</strong></td>
+      <td>[BE] Implement POST /api/v1/projects</td>
+      <td>Endpoint de registro de nueva obra. Validar nombre duplicado, retornar 201 Created con ID generado o 400 si hay duplicidad.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-03</strong></td>
+      <td>[BE] Implement GET /api/v1/projects</td>
+      <td>Endpoint de listado de obras paginado por usuario autenticado. Retornar 200 OK con lista o arreglo vacío.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>US-19</strong></td>
+      <td rowspan="3">Crear nuevo proyecto de obra</td>
+      <td><strong>TK-04</strong></td>
+      <td>[FE] Vista: Panel de proyectos</td>
+      <td>Implementar la vista "Panel de proyectos" en Angular mostrando la lista de obras registradas con su estado. Basarse en el mockup de Figma correspondiente.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-05</strong></td>
+      <td>[FE] Vista: Crear nuevo proyecto</td>
+      <td>Implementar el formulario "Crear nuevo proyecto" con campos de nombre, ubicación y presupuesto. Basarse en el mockup de Figma correspondiente.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-06</strong></td>
+      <td>[INT] Conectar formulario a POST /api/v1/projects</td>
+      <td>Integrar el formulario de creación con el endpoint. Manejar respuesta 201 (redirigir al panel) y 400 (mostrar mensaje de duplicidad).</td>
+      <td>1</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>US-09</strong></td>
+      <td rowspan="2">Cambiar estado del proyecto</td>
+      <td><strong>TK-07</strong></td>
+      <td>[BE] Implement PATCH /api/v1/projects/{id}/status</td>
+      <td>Endpoint de modificación de estado de obra (EN_EJECUCION, PARALIZADA, FINALIZADA). Validar que se incluya justificación, retornar 400 si falta.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-08</strong></td>
+      <td>[FE] Vista: Nuevo proyecto creado + cambio de estado</td>
+      <td>Implementar la vista de confirmación "Nuevo proyecto creado" con selector de estado y campo de justificación obligatorio. Integrar con PATCH /api/v1/projects/{id}/status y manejar respuesta 400.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>US-21</strong></td>
+      <td rowspan="3">Registrar partidas de obra</td>
+      <td><strong>TK-09</strong></td>
+      <td>[BE] Implement POST /api/v1/projects/{id}/items</td>
+      <td>Endpoint de registro de partidas con nombre, fecha de inicio y fin. Validar que fecha fin no sea anterior a fecha inicio, retornar 400 si hay error lógico.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-10</strong></td>
+      <td>[FE] Vista: Registrar partidas de obra</td>
+      <td>Implementar formulario de registro de partidas con nombre, fechas de inicio y fin, y dependencias. Mostrar error si fecha fin es anterior a inicio. Basarse en el mockup de Figma.</td>
+      <td>3</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-11</strong></td>
+      <td>[INT] Conectar partidas a POST /api/v1/projects/{id}/items</td>
+      <td>Integrar el formulario de partidas con el endpoint. Manejar 201 (confirmar registro) y 400 (mostrar error de fechas).</td>
+      <td>1</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- ==================== EP02: AVANCES ==================== -->
+    <tr>
+      <td rowspan="3"><strong>TS11</strong></td>
+      <td rowspan="3">Setup Advances API Domain</td>
+      <td><strong>TK-12</strong></td>
+      <td>[BE] Setup Advances domain</td>
+      <td>Crear entidad Advance con relación a Project e Item, repositorio JPA, servicio base y controlador. Verificar que el contexto levanta correctamente.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-13</strong></td>
+      <td>[BE] Implement POST /api/v1/advances</td>
+      <td>Endpoint de registro de avance diario con ID de partida, fecha y porcentaje (0-100). Retornar 400 si ya existe registro para la misma fecha y partida.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-14</strong></td>
+      <td>[BE] Implement GET /api/v1/advances</td>
+      <td>Endpoint de consulta de avances acumulados por proyecto. Retornar 200 con porcentajes por partida o 404 si no hay registros.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>US-08</strong></td>
+      <td rowspan="3">Registrar avance diario de obra</td>
+      <td><strong>TK-15</strong></td>
+      <td>[FE] Vista: Panel de bitácora visual de obra</td>
+      <td>Implementar la vista "Panel de bitácora visual de obra" mostrando el estado de avance de cada partida por día. Basarse en el mockup de Figma correspondiente.</td>
+      <td>3</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-16</strong></td>
+      <td>[FE] Vista: Crear nuevo avance</td>
+      <td>Implementar el formulario "Crear nuevo avance" con selector de partida, fecha y porcentaje de avance. Incluir opción de marcar como "Bloqueado" con campo de motivo. Basarse en el mockup de Figma.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-17</strong></td>
+      <td>[INT] Conectar avance a POST /api/v1/advances y GET /api/v1/advances</td>
+      <td>Integrar formulario de avance con el endpoint POST. Cargar lista de avances existentes desde GET. Manejar 201 (confirmar registro) y 400 (duplicado para misma fecha y partida).</td>
+      <td>1</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- ==================== EP03: MATERIALES ==================== -->
+    <tr>
+      <td rowspan="4"><strong>TS14</strong></td>
+      <td rowspan="4">Setup Materials API Domain</td>
+      <td><strong>TK-18</strong></td>
+      <td>[BE] Setup Materials domain</td>
+      <td>Crear entidades Material, MaterialRequest y Waste con repositorios JPA, servicio base y controlador. Verificar que el esquema de base de datos se genera correctamente.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-19</strong></td>
+      <td>[BE] Implement GET /api/v1/materials</td>
+      <td>Endpoint de consulta de stock en tiempo real. Retornar 200 con listado y cantidades o 404 si el material específico no existe.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-20</strong></td>
+      <td>[BE] Implement POST /api/v1/materials/requests</td>
+      <td>Endpoint de solicitud de materiales. Retornar 201 con ID y estado PENDIENTE o 400 si faltan campos obligatorios.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-21</strong></td>
+      <td>[BE] Implement PATCH /api/v1/materials/requests/{id}/status</td>
+      <td>Endpoint de aprobación/rechazo de solicitudes. Retornar 200 actualizando stock si APROBADO o 400 si RECHAZADO sin motivo.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>US-03</strong></td>
+      <td rowspan="3">Solicitar materiales formalmente</td>
+      <td><strong>TK-22</strong></td>
+      <td>[FE] Vista: Inventario y Solicitudes (Residente)</td>
+      <td>Implementar las vistas "Inventario", "Solicitudes (Residente)" y "Crear solicitud de materiales (Residente)" en Angular. Basarse en los mockups de Figma correspondientes.</td>
+      <td>3</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-23</strong></td>
+      <td>[FE] Vista: Detalle completo solicitud (Residente) y Modificar solicitud</td>
+      <td>Implementar vistas de detalle y edición de solicitud para el rol Residente. Basarse en los mockups de Figma.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-24</strong></td>
+      <td>[INT] Conectar solicitudes a POST /requests y GET /materials</td>
+      <td>Integrar formulario de solicitud con POST /api/v1/materials/requests. Cargar inventario desde GET /api/v1/materials. Manejar 201 y 400.</td>
+      <td>1</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>US-07</strong></td>
+      <td rowspan="3">Atender solicitud de materiales</td>
+      <td><strong>TK-25</strong></td>
+      <td>[FE] Vista: Solicitudes (Logística)</td>
+      <td>Implementar la vista "Solicitudes (Logística)" mostrando el listado de solicitudes pendientes con opciones de aprobar y rechazar. Basarse en el mockup de Figma.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-26</strong></td>
+      <td>[FE] Vista: Detalle completo solicitudes (Logística)</td>
+      <td>Implementar la vista de detalle de solicitud para el rol Logística con campo de motivo obligatorio al rechazar. Basarse en el mockup de Figma.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-27</strong></td>
+      <td>[INT] Conectar atención a PATCH /requests/{id}/status</td>
+      <td>Integrar acciones de aprobar/rechazar con PATCH /api/v1/materials/requests/{id}/status. Bloquear envío si rechazo no tiene motivo. Manejar 200 y 400.</td>
+      <td>1</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>US-04</strong></td>
+      <td rowspan="3">Alertar stock crítico automáticamente</td>
+      <td><strong>TK-28</strong></td>
+      <td>[BE] Implement lógica de alerta de stock crítico</td>
+      <td>Añadir en el servicio de materiales la verificación de umbral mínimo tras cada despacho. Emitir notificación interna cuando el stock cae por debajo del límite configurado.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-29</strong></td>
+      <td>[FE] Vista: Inventario con indicadores de stock crítico</td>
+      <td>Añadir indicadores visuales de alerta (color rojo/amarillo) en la vista de Inventario cuando un material esté por debajo del límite mínimo configurado.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-30</strong></td>
+      <td>[INT] Conectar inventario con GET /api/v1/materials para mostrar alertas</td>
+      <td>Integrar la respuesta de GET /api/v1/materials con la lógica de indicadores de alerta en el frontend. Resaltar materiales críticos automáticamente al cargar la vista.</td>
+      <td>1</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>US-13</strong></td>
+      <td rowspan="2">Registrar merma de materiales</td>
+      <td><strong>TK-31</strong></td>
+      <td>[BE] Implement POST /api/v1/materials/waste</td>
+      <td>Endpoint de registro de merma con ID de material, cantidad y categoría. Validar que cantidad no supere el stock actual. Retornar 201 o 400.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-32</strong></td>
+      <td>[FE] Vista: Mermas + Reportar merma e integración</td>
+      <td>Implementar vistas "Mermas" y "Reportar merma" con formulario de cantidad y categoría. Integrar con POST /api/v1/materials/waste. Mostrar error si cantidad supera stock. Basarse en mockups de Figma.</td>
+      <td>3</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>US-17</strong></td>
+      <td rowspan="2">Controlar herramientas asignadas por operario</td>
+      <td><strong>TK-33</strong></td>
+      <td>[BE] Implement POST /api/v1/materials/tools-assignments</td>
+      <td>Endpoint de asignación de herramienta a operario. Validar que el operario exista. Retornar 201 actualizando estado a ASIGNADO o 404 si el operario no existe.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-34</strong></td>
+      <td>[FE] Vista: Maquinaria + Historial de maquinaria e integración</td>
+      <td>Implementar vistas "Maquinaria" e "Historial de maquinaria" con asignación de herramienta a operario. Integrar con POST /api/v1/materials/tools-assignments. Manejar 201 y 404. Basarse en mockups de Figma.</td>
+      <td>3</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- ==================== EP03: PRESUPUESTO ==================== -->
+    <tr>
+      <td rowspan="2"><strong>US-05</strong></td>
+      <td rowspan="2">Validar presupuesto en solicitud de material</td>
+      <td><strong>TK-35</strong></td>
+      <td>[BE] Setup Budget domain + POST y GET /api/v1/budgets</td>
+      <td>Crear entidad Budget con repositorio JPA, servicio y controlador. Implementar POST /api/v1/budgets (retornar 201 o 400 si ya existe) y GET /api/v1/budgets/{projectId} (retornar 200 con saldo o 404). Añadir validación de presupuesto disponible al procesar solicitudes de compra.</td>
+      <td>3</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-36</strong></td>
+      <td>[FE] Vista: Cargar presupuesto + validación visual e integración</td>
+      <td>Implementar formulario de carga de presupuesto base por partida. Mostrar alerta visual cuando una solicitud supera el presupuesto disponible. Integrar con POST y GET /api/v1/budgets. Basarse en mockups de Figma.</td>
+      <td>3</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- ==================== EP03: PROVEEDORES ==================== -->
+    <tr>
+      <td rowspan="3"><strong>TS20</strong></td>
+      <td rowspan="3">Setup Suppliers API Domain</td>
+      <td><strong>TK-37</strong></td>
+      <td>[BE] Setup Suppliers domain</td>
+      <td>Crear entidad Supplier con repositorio JPA, servicio base y controlador. Verificar que el esquema de base de datos se genera sin conflictos con el dominio de materiales.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-38</strong></td>
+      <td>[BE] Implement POST /api/v1/suppliers</td>
+      <td>Endpoint de registro de proveedor con RUC, razón social, contacto, correo, categoría y condición de pago. Validar formato de RUC y duplicidad. Retornar 201 o 400.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-39</strong></td>
+      <td>[BE] Implement PUT /api/v1/suppliers/{id}</td>
+      <td>Endpoint de modificación de datos de proveedor. Retornar 200 con datos actualizados o 404 si el proveedor no existe.</td>
+      <td>1</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>US-39</strong></td>
+      <td rowspan="2">Registrar perfil de proveedor</td>
+      <td><strong>TK-40</strong></td>
+      <td>[FE] Vista: Proveedores + Añadir proveedor</td>
+      <td>Implementar la vista "Proveedores" con listado y la vista "Añadir proveedor" con formulario de RUC, razón social, contacto, correo, categoría y condición de pago. Basarse en los mockups de Figma.</td>
+      <td>2</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-41</strong></td>
+      <td>[INT] Conectar proveedores a POST /api/v1/suppliers</td>
+      <td>Integrar formulario de registro con POST /api/v1/suppliers. Manejar 201 (mostrar proveedor en lista) y 400 (mostrar error de RUC duplicado).</td>
+      <td>1</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>US-40</strong></td>
+      <td rowspan="2">Modificar perfil de proveedor</td>
+      <td><strong>TK-42</strong></td>
+      <td>[FE] Vista: Editar datos de proveedores</td>
+      <td>Implementar la vista "Editar datos de proveedores" con los campos editables de contacto y estado. Basarse en el mockup de Figma.</td>
+      <td>1</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td><strong>TK-43</strong></td>
+      <td>[INT] Conectar edición a PUT /api/v1/suppliers/{id}</td>
+      <td>Integrar formulario de edición con PUT /api/v1/suppliers/{id}. Manejar 200 (confirmar actualización) y 404 (mostrar error si proveedor no existe).</td>
+      <td>1</td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
 ---
 # Conclusiones
 # Bibliografía
