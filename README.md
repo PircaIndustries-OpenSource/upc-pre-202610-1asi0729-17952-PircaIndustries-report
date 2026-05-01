@@ -1947,6 +1947,22 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
     </tr>
     <tr>
       <td><strong>TS11</strong></td>
+      <td>Endpoint GET Project Items</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de partidas mediante GET a /api/v1/projects/{id}/items para que el frontend pueda cargar el catálogo de trabajo de una obra antes de registrar avances.</td>
+      <td>
+        <strong>Escenario 1: Partidas encontradas</strong><br>
+        Dado que el endpoint GET /api/v1/projects/{id}/items está disponible y el proyecto tiene partidas registradas,<br>
+        Cuando se envía una solicitud con el ID de un proyecto válido,<br>
+        Entonces el sistema retorna 200 OK con el listado de partidas incluyendo nombre, fechas de inicio y fin.<br><br>
+        <strong>Escenario 2: Proyecto sin partidas registradas</strong><br>
+        Dado que el endpoint GET /api/v1/projects/{id}/items está disponible,<br>
+        Cuando se consulta un proyecto que aún no tiene partidas definidas,<br>
+        Entonces el sistema retorna 200 OK con un arreglo vacío.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS12</strong></td>
       <td>Setup Advances API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de avances con su controlador, servicio y repositorio para medir la productividad real de las obras.</td>
       <td>
@@ -1962,7 +1978,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS12</strong></td>
+      <td><strong>TS13</strong></td>
       <td>Endpoint POST Advance</td>
       <td>Como usuario developer, quiero implementar el endpoint de registro de progreso diario mediante POST a /api/v1/advances para actualizar el avance físico frente al cronograma.</td>
       <td>
@@ -1978,7 +1994,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS13</strong></td>
+      <td><strong>TS14</strong></td>
       <td>Endpoint GET Advance</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de avances mediante GET a /api/v1/advances para calcular el Porcentaje de Plan Completado (PPC).</td>
       <td>
@@ -1994,7 +2010,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS14</strong></td>
+      <td><strong>TS15</strong></td>
       <td>Setup Materials API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de materiales con su controlador, servicio y repositorio para administrar el stock de insumos de construcción.</td>
       <td>
@@ -2010,7 +2026,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
-      <td><strong>TS15</strong></td>
+      <td><strong>TS16</strong></td>
       <td>Endpoint GET Material</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de stock mediante GET a /api/v1/materials para informar al personal sobre la existencia de materiales en tiempo real.</td>
       <td>
@@ -2026,7 +2042,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
-      <td><strong>TS16</strong></td>
+      <td><strong>TS17</strong></td>
       <td>Endpoint POST Material Request</td>
       <td>Como usuario developer, quiero implementar el endpoint de solicitud de materiales mediante POST a /api/v1/materials/requests para que el área logística procese los pedidos.</td>
       <td>
@@ -2042,7 +2058,23 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
-      <td><strong>TS17</strong></td>
+      <td><strong>TS18</strong></td>
+      <td>Endpoint GET Material Requests</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de solicitudes de materiales mediante GET a /api/v1/materials/requests para que tanto el Residente como el equipo de Logística puedan visualizar el listado de pedidos y su estado.</td>
+      <td>
+        <strong>Escenario 1: Solicitudes encontradas</strong><br>
+        Dado que el endpoint GET /api/v1/materials/requests está disponible y existen solicitudes registradas,<br>
+        Cuando se envía una solicitud con el ID del proyecto y opcionalmente un filtro de estado (PENDIENTE, APROBADO, RECHAZADO),<br>
+        Entonces el sistema retorna 200 OK con el listado de solicitudes incluyendo insumos, cantidades, estado y fecha máxima de entrega.<br><br>
+        <strong>Escenario 2: Sin solicitudes registradas</strong><br>
+        Dado que el endpoint GET /api/v1/materials/requests está disponible,<br>
+        Cuando se consulta un proyecto que no tiene solicitudes generadas,<br>
+        Entonces el sistema retorna 200 OK con un arreglo vacío.
+      </td>
+      <td><strong>EP03</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS19</strong></td>
       <td>Endpoint PATCH Request Status</td>
       <td>Como usuario developer, quiero implementar el endpoint de aprobación o rechazo de solicitudes de material mediante PATCH a /api/v1/materials/requests/{id}/status para mantener informado al equipo de obra.</td>
       <td>
@@ -2058,7 +2090,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
-      <td><strong>TS18</strong></td>
+      <td><strong>TS20</strong></td>
       <td>Endpoint POST Material Waste</td>
       <td>Como usuario developer, quiero implementar el endpoint de registro de mermas mediante POST a /api/v1/materials/waste para ajustar el inventario real.</td>
       <td>
@@ -2074,7 +2106,23 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
-      <td><strong>TS19</strong></td>
+      <td><strong>TS21</strong></td>
+      <td>Endpoint GET Material Waste</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de mermas mediante GET a /api/v1/materials/waste para mostrar el historial de pérdidas de inventario en la vista de Mermas del frontend.</td>
+      <td>
+        <strong>Escenario 1: Mermas encontradas</strong><br>
+        Dado que el endpoint GET /api/v1/materials/waste está disponible y existen registros previos,<br>
+        Cuando se envía una solicitud con el ID del proyecto,<br>
+        Entonces el sistema retorna 200 OK con el listado de mermas incluyendo material, cantidad, categoría y fecha de registro.<br><br>
+        <strong>Escenario 2: Proyecto sin mermas registradas</strong><br>
+        Dado que el endpoint GET /api/v1/materials/waste está disponible,<br>
+        Cuando se consulta un proyecto que aún no tiene mermas registradas,<br>
+        Entonces el sistema retorna 404 Not Found indicando que no existen registros de merma para el proyecto.
+      </td>
+      <td><strong>EP03</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS22</strong></td>
       <td>Endpoint POST Tools Assignment</td>
       <td>Como usuario developer, quiero implementar el endpoint de asignación de herramientas mediante POST a /api/v1/materials/tools-assignments para vincular equipos a operarios registrados.</td>
       <td>
@@ -2090,7 +2138,23 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
-      <td><strong>TS20</strong></td>
+      <td><strong>TS23</strong></td>
+      <td>Endpoint GET Tools Assignments</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta del historial de asignaciones de herramientas mediante GET a /api/v1/materials/tools-assignments para mostrar el estado actual de cada equipo asignado a operarios en la vista de Historial de Maquinaria.</td>
+      <td>
+        <strong>Escenario 1: Asignaciones encontradas</strong><br>
+        Dado que el endpoint GET /api/v1/materials/tools-assignments está disponible y existen asignaciones registradas,<br>
+        Cuando se envía una solicitud con el ID del proyecto,<br>
+        Entonces el sistema retorna 200 OK con el listado de asignaciones incluyendo herramienta, operario, estado y fecha de asignación.<br><br>
+        <strong>Escenario 2: Proyecto sin asignaciones registradas</strong><br>
+        Dado que el endpoint GET /api/v1/materials/tools-assignments está disponible,<br>
+        Cuando se consulta un proyecto que no tiene herramientas asignadas,<br>
+        Entonces el sistema retorna 404 Not Found indicando que no existen registros de asignación para el proyecto.
+      </td>
+      <td><strong>EP03</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS24</strong></td>
       <td>Setup Suppliers API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de proveedores con su controlador, servicio y repositorio para formalizar la gestión de suministros.</td>
       <td>
@@ -2106,7 +2170,23 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
-      <td><strong>TS21</strong></td>
+      <td><strong>TS25</strong></td>
+      <td>Endpoint GET Suppliers</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta del listado de proveedores mediante GET a /api/v1/suppliers para que el frontend pueda mostrar la vista general de proveedores registrados.</td>
+      <td>
+        <strong>Escenario 1: Proveedores encontrados</strong><br>
+        Dado que el endpoint GET /api/v1/suppliers está disponible y existen proveedores registrados,<br>
+        Cuando se envía una solicitud GET con un token válido,<br>
+        Entonces el sistema retorna 200 OK con el listado de proveedores incluyendo RUC, razón social, categoría, contacto y estado.<br><br>
+        <strong>Escenario 2: Sin proveedores registrados</strong><br>
+        Dado que el endpoint GET /api/v1/suppliers está disponible,<br>
+        Cuando aún no se ha registrado ningún proveedor en el sistema,<br>
+        Entonces el sistema retorna 200 OK con un arreglo vacío.
+      </td>
+      <td><strong>EP03</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS26</strong></td>
       <td>Endpoint POST Supplier</td>
       <td>Como usuario developer, quiero implementar el endpoint de registro de proveedores mediante POST a /api/v1/suppliers para formalizar las fuentes de suministro.</td>
       <td>
@@ -2122,7 +2202,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
-      <td><strong>TS22</strong></td>
+      <td><strong>TS27</strong></td>
       <td>Endpoint PUT Supplier</td>
       <td>Como usuario developer, quiero implementar el endpoint de modificación de proveedores mediante PUT a /api/v1/suppliers/{id} para mantener la información de contacto vigente.</td>
       <td>
@@ -2138,7 +2218,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
-      <td><strong>TS23</strong></td>
+      <td><strong>TS28</strong></td>
       <td>Setup Budget API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio financiero con su controlador, servicio y repositorio para controlar que los gastos no excedan el presupuesto meta.</td>
       <td>
@@ -2154,7 +2234,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
-      <td><strong>TS24</strong></td>
+      <td><strong>TS29</strong></td>
       <td>Endpoint POST Budget</td>
       <td>Como usuario developer, quiero implementar el endpoint de carga de presupuesto inicial mediante POST a /api/v1/budgets para establecer los topes financieros de la obra.</td>
       <td>
@@ -2170,7 +2250,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
-      <td><strong>TS25</strong></td>
+      <td><strong>TS30</strong></td>
       <td>Endpoint GET Budget</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de estado financiero mediante GET a /api/v1/budgets/{projectId} para visualizar desviaciones en los paneles de control.</td>
       <td>
@@ -2186,7 +2266,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
-      <td><strong>TS26</strong></td>
+      <td><strong>TS31</strong></td>
       <td>Setup Blueprints API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio documental de planos con su controlador, servicio y repositorio para gestionar versiones de documentos técnicos.</td>
       <td>
@@ -2202,7 +2282,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP07</strong></td>
     </tr>
     <tr>
-      <td><strong>TS27</strong></td>
+      <td><strong>TS32</strong></td>
       <td>Endpoint POST Blueprint</td>
       <td>Como usuario developer, quiero implementar el endpoint de subida de planos mediante POST a /api/v1/blueprints para que el equipo trabaje siempre con la versión vigente.</td>
       <td>
@@ -2218,7 +2298,23 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP07</strong></td>
     </tr>
     <tr>
-      <td><strong>TS28</strong></td>
+      <td><strong>TS33</strong></td>
+      <td>Endpoint GET Blueprint Download</td>
+      <td>Como usuario developer, quiero implementar el endpoint de descarga de planos mediante GET a /api/v1/blueprints/{id}/download para que el Gestor Operativo pueda consultar planos en zonas sin conectividad.</td>
+      <td>
+        <strong>Escenario 1: Descarga exitosa</strong><br>
+        Dado que el endpoint GET /api/v1/blueprints/{id}/download está disponible y el plano existe,<br>
+        Cuando se envía una solicitud con el ID del plano y un token válido,<br>
+        Entonces el sistema retorna el archivo en su versión vigente como stream descargable con el Content-Type correspondiente (application/pdf o application/octet-stream).<br><br>
+        <strong>Escenario 2: Plano no encontrado</strong><br>
+        Dado que el endpoint GET /api/v1/blueprints/{id}/download está disponible,<br>
+        Cuando se envía una solicitud con un ID de plano que no existe,<br>
+        Entonces el sistema retorna 404 Not Found indicando que el plano de referencia no fue encontrado.
+      </td>
+      <td><strong>EP07</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS34</strong></td>
       <td>Endpoint GET Blueprint</td>
       <td>Como usuario developer, quiero implementar el endpoint de listado de planos mediante GET a /api/v1/blueprints para permitir filtrado por especialidad técnica.</td>
       <td>
@@ -2234,7 +2330,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP07</strong></td>
     </tr>
     <tr>
-      <td><strong>TS29</strong></td>
+      <td><strong>TS35</strong></td>
       <td>Endpoint GET Blueprint Versions</td>
       <td>Como usuario developer, quiero implementar el endpoint de historial de versiones mediante GET a /api/v1/blueprints/{id}/versions para que el equipo pueda rastrear la evolución del diseño.</td>
       <td>
@@ -2250,7 +2346,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP07</strong></td>
     </tr>
     <tr>
-      <td><strong>TS30</strong></td>
+      <td><strong>TS36</strong></td>
       <td>Endpoint POST Blueprint Annotations</td>
       <td>Como usuario developer, quiero implementar el endpoint de anotaciones en planos mediante POST a /api/v1/blueprints/{id}/annotations para registrar observaciones de campo sobre los documentos.</td>
       <td>
@@ -2266,7 +2362,23 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP07</strong></td>
     </tr>
     <tr>
-      <td><strong>TS31</strong></td>
+      <td><strong>TS37</strong></td>
+      <td>Endpoint GET Blueprint Annotations</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de anotaciones mediante GET a /api/v1/blueprints/{id}/annotations para visualizar las observaciones de campo sin alterar el plano original.</td>
+      <td>
+        <strong>Escenario 1: Anotaciones encontradas</strong><br>
+        Dado que el endpoint GET /api/v1/blueprints/{id}/annotations está disponible y el plano tiene anotaciones registradas,<br>
+        Cuando se envía una solicitud con el ID del plano,<br>
+        Entonces el sistema retorna 200 OK con la lista de anotaciones incluyendo coordenadas, texto, autor y fecha.<br><br>
+        <strong>Escenario 2: Plano sin anotaciones</strong><br>
+        Dado que el endpoint GET /api/v1/blueprints/{id}/annotations está disponible,<br>
+        Cuando se consulta un plano que no tiene anotaciones registradas,<br>
+        Entonces el sistema retorna 200 OK con una lista vacía.
+      </td>
+      <td><strong>EP07</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS38</strong></td>
       <td>Setup RNC API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de incidencias de calidad con su controlador, servicio y repositorio para gestionar los Resultados No Conformes de obra.</td>
       <td>
@@ -2282,7 +2394,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS32</strong></td>
+      <td><strong>TS39</strong></td>
       <td>Endpoint POST RNC</td>
       <td>Como usuario developer, quiero implementar el endpoint de registro de fallas técnicas mediante POST a /api/v1/rnc para alertar al equipo de diseño con evidencia fotográfica.</td>
       <td>
@@ -2298,7 +2410,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS33</strong></td>
+      <td><strong>TS40</strong></td>
       <td>Endpoint GET RNC</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de incidencias mediante GET a /api/v1/rnc para permitir la revisión y subsanación de errores de calidad.</td>
       <td>
@@ -2314,7 +2426,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS34</strong></td>
+      <td><strong>TS41</strong></td>
       <td>Setup Signatures API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de firmas digitales con su controlador, servicio y repositorio para validar legalmente el cierre de actas de conformidad.</td>
       <td>
@@ -2330,7 +2442,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS35</strong></td>
+      <td><strong>TS42</strong></td>
       <td>Endpoint POST Signature</td>
       <td>Como usuario developer, quiero implementar el endpoint de sellado digital de documentos mediante POST a /api/v1/signatures para formalizar el cierre de actas con respaldo legal.</td>
       <td>
@@ -2346,7 +2458,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS36</strong></td>
+      <td><strong>TS43</strong></td>
       <td>Endpoint GET Signature</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de estado de firmas mediante GET a /api/v1/signatures/records/{recordId} para verificar quién ha aprobado el cierre de una etapa técnica.</td>
       <td>
@@ -2362,7 +2474,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS37</strong></td>
+      <td><strong>TS44</strong></td>
       <td>Endpoint GET Signature Export</td>
       <td>Como usuario developer, quiero implementar el endpoint de exportación del dossier de firmas mediante GET a /api/v1/signatures/export/{projectId} para facilitar la entrega formal del proyecto.</td>
       <td>
@@ -2378,7 +2490,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS38</strong></td>
+      <td><strong>TS45</strong></td>
       <td>Setup IoT Telemetry Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de telemetría IoT con su controlador, servicio y repositorio para recibir y almacenar datos de sensores en obra.</td>
       <td>
@@ -2394,7 +2506,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP04</strong></td>
     </tr>
     <tr>
-      <td><strong>TS39</strong></td>
+      <td><strong>TS46</strong></td>
       <td>Endpoint POST IoT</td>
       <td>Como usuario developer, quiero implementar el endpoint de registro de mediciones de sensores mediante POST a /api/v1/iot/telemetry para disparar alertas de seguridad automáticas en obra.</td>
       <td>
@@ -2410,7 +2522,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP04</strong></td>
     </tr>
     <tr>
-      <td><strong>TS40</strong></td>
+      <td><strong>TS47</strong></td>
       <td>Endpoint GET IoT</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de historial de sensores mediante GET a /api/v1/iot/telemetry/{sensorId} para mostrar gráficos de monitoreo en tiempo real.</td>
       <td>
@@ -2427,6 +2539,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
     </tr>
   </tbody>
 </table>
+
 
 ## 3.2. Impact Mapping
 
