@@ -3731,7 +3731,7 @@ Enlace Sprint Backlog 1 en Trello: https://trello.com/invite/b/69e3edf026a5c3183
 | **US-32**  | Landing page - Misión y visión de PircaIndustries      | TK-06  | Planes y Misión              | Implementacion de la seccion Planes      | 1                      | Manuel Francia  | Done       |
 | **US-32**  | Landing page - Misión y visión de PircaIndustries      | TK-07  | Creadores y Visión           | Implementacion de la seccion Creadores   | 1                      | Marcelo Pareja  | Done       |
 | **US-33**  | Landing page - Canales de contacto y formulario        | TK-08  | Contacto y Formulario        | Implementacion de la seccion Contacto    | 1                      | Diego Ramos     | Done       |
-| **US-34**  | Landing page - Llamados a la acción de registro y demo | TK-10  | Footer Section               | Implementacion de la seccion Footer      | 1                      | Neo Ramos       | Done       |
+| **US-34**  | Landing page - Llamados a la acción de registro y demo | TK-09  | Footer Section               | Implementacion de la seccion Footer      | 1                      | Neo Ramos       | Done       |
 
 ***
 #### 5.2.1.4. Development Evidence for Sprint Review.
