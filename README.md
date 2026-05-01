@@ -1756,205 +1756,672 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
 
 <br><br>
 
-<table>
+<table border="1">
   <thead>
     <tr>
-      <th style="text-align: left;">Technical story ID</th>
+      <th style="text-align: left;">Technical Story ID</th>
       <th style="text-align: left;">Título</th>
       <th style="text-align: left;">Descripción</th>
       <th style="text-align: left;">Criterios de Aceptación</th>
-      <th style="text-align: left;">Epica</th>
+      <th style="text-align: left;">Épica</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td><strong>TS00</strong></td>
+      <td>Setup Mock API</td>
+      <td>Como usuario developer, quiero preparar un servidor Fake API con datos de prueba para permitir el desarrollo paralelo del frontend sin depender del backend real.</td>
+      <td>
+        <strong>Escenario 1: Servidor Mock levantado correctamente</strong><br>
+        Dado que el archivo kipu-data.json con datos de prueba está disponible,<br>
+        Cuando se ejecuta el servidor de Mock API,<br>
+        Entonces el servidor responde en el puerto configurado y el frontend puede realizar peticiones GET y POST simuladas retornando los datos del JSON.<br><br>
+        <strong>Escenario 2: Datos de prueba incompletos</strong><br>
+        Dado que el archivo kipu-data.json no contiene las entidades requeridas,<br>
+        Cuando el frontend intenta consumir un endpoint no definido,<br>
+        Entonces el servidor retorna un error 404 y se registra la entidad faltante en el log de configuración.
+      </td>
+      <td><strong>EP05</strong></td>
+    </tr>
+    <tr>
       <td><strong>TS01</strong></td>
-      <td>Create API User</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> diseñar una API que facilite la gestión de usuarios, <strong>para</strong> administrar eficazmente la seguridad y acceso a la plataforma.</td>
-      <td><strong>Escenario 1: Diseño de la API User</strong><br>Dado que el usuario developer configura la plataforma,<br>Cuando diseñe la API para gestionar usuarios,<br>Entonces definirá los endpoints y rutas para registro e inicio de sesión estableciendo el estándar de seguridad.</td>
+      <td>Setup User API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio de usuarios con su controlador, servicio y repositorio para establecer la base de la gestión de seguridad y acceso.</td>
+      <td>
+        <strong>Escenario 1: Dominio inicializado correctamente</strong><br>
+        Dado que la arquitectura base del proyecto está configurada,<br>
+        Cuando se inicializa el dominio de usuarios,<br>
+        Entonces las capas de controlador, servicio y repositorio compilan sin errores y el contexto de Spring Boot se levanta correctamente.<br><br>
+        <strong>Escenario 2: Conflicto de dependencias</strong><br>
+        Dado que se inicializa el dominio de usuarios,<br>
+        Cuando existe un conflicto de versiones en las dependencias declaradas,<br>
+        Entonces el sistema reporta el error de compilación con detalle suficiente para su resolución.
+      </td>
       <td><strong>EP01</strong></td>
     </tr>
     <tr>
       <td><strong>TS02</strong></td>
-      <td>Post User</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> registrar usuarios en el API, <strong>para</strong> que los profesionales puedan crear sus cuentas de obra.</td>
-      <td><strong>Escenario 1: Agregar User</strong><br>Dado que el endpoint "/usuarios" está disponible,<br>Cuando se envía una solicitud POST con los detalles del usuario,<br>Entonces se recibe una respuesta con estado 201 y los detalles registrados.<br><strong>Escenario 2: Agregar User ya existente</strong><br>Dado que el endpoint "/usuarios" está disponible,<br>Cuando se envía una solicitud POST con un correo ya registrado,<br>Entonces se recibe una respuesta con estado 400.</td>
+      <td>Endpoint POST Auth Login</td>
+      <td>Como usuario developer, quiero implementar el endpoint de autenticación mediante POST a /api/v1/auth/login para que los usuarios puedan iniciar sesión y recibir un token JWT.</td>
+      <td>
+        <strong>Escenario 1: Credenciales válidas</strong><br>
+        Dado que el endpoint POST /api/v1/auth/login está disponible,<br>
+        Cuando se envía un payload con correo y contraseña correctos,<br>
+        Entonces el sistema retorna 200 OK con un token JWT válido y la información básica del usuario autenticado.<br><br>
+        <strong>Escenario 2: Credenciales inválidas</strong><br>
+        Dado que el endpoint POST /api/v1/auth/login está disponible,<br>
+        Cuando se envía un payload con credenciales incorrectas o usuario inexistente,<br>
+        Entonces el sistema retorna 401 Unauthorized con un mensaje descriptivo del error.
+      </td>
       <td><strong>EP01</strong></td>
     </tr>
     <tr>
       <td><strong>TS03</strong></td>
-      <td>Get User</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> obtener la información de un usuario, <strong>para</strong> usarla en la aplicación cuando se necesite mostrar el perfil.</td>
-      <td><strong>Escenario 1: Obtener informacion de User</strong><br>Dado que el endpoint "/usuarios" está disponible,<br>Cuando se envía una solicitud GET con el identificador del usuario,<br>Entonces se recibe una respuesta con estado 200 y los datos del usuario.<br><strong>Escenario 2: Obtener informacion de User no disponible</strong><br>Dado que el endpoint "/usuarios" está disponible,<br>Cuando se envía una solicitud GET con un ID inexistente,<br>Entonces se recibe una respuesta con estado 404.</td>
+      <td>Endpoint POST User</td>
+      <td>Como usuario developer, quiero implementar el endpoint de registro de usuarios mediante POST a /api/v1/users para que los profesionales puedan crear sus cuentas.</td>
+      <td>
+        <strong>Escenario 1: Registro exitoso</strong><br>
+        Dado que el endpoint POST /api/v1/users está disponible,<br>
+        Cuando se envía un payload JSON válido con nombre, correo, contraseña y rol,<br>
+        Entonces el sistema retorna 201 Created con los datos del usuario registrado excluyendo la contraseña.<br><br>
+        <strong>Escenario 2: Correo duplicado</strong><br>
+        Dado que el endpoint POST /api/v1/users está disponible,<br>
+        Cuando se envía un payload con un correo que ya existe en la base de datos,<br>
+        Entonces el sistema retorna 400 Bad Request con un mensaje indicando que el correo ya está registrado.
+      </td>
       <td><strong>EP01</strong></td>
     </tr>
     <tr>
       <td><strong>TS04</strong></td>
-      <td>Create API Projects</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> diseñar una API para la gestión de proyectos de obra, <strong>para</strong> centralizar la información técnica de las construcciones.</td>
-      <td><strong>Escenario 1: Diseño de la API Projects</strong><br>Dado que el developer configura el módulo de obra,<br>Cuando diseñe la API de proyectos,<br>Entonces definirá las rutas para creación y listado de obras asegurando la integridad de los datos financieros.</td>
-      <td><strong>EP02</strong></td>
+      <td>Endpoint GET User</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de perfil de usuario mediante GET a /api/v1/users/{id} para mostrar los datos del usuario en la aplicación.</td>
+      <td>
+        <strong>Escenario 1: Usuario encontrado</strong><br>
+        Dado que el endpoint GET /api/v1/users/{id} está disponible y existen usuarios en la base de datos,<br>
+        Cuando se envía una solicitud con un ID de usuario válido y un token JWT vigente,<br>
+        Entonces el sistema retorna 200 OK con el objeto de perfil del usuario.<br><br>
+        <strong>Escenario 2: Usuario no encontrado</strong><br>
+        Dado que el endpoint GET /api/v1/users/{id} está disponible,<br>
+        Cuando se envía una solicitud con un ID inexistente,<br>
+        Entonces el sistema retorna 404 Not Found con un mensaje descriptivo.
+      </td>
+      <td><strong>EP01</strong></td>
     </tr>
     <tr>
       <td><strong>TS05</strong></td>
-      <td>Post Project</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> registrar nuevas obras en el API, <strong>para</strong> iniciar el seguimiento operativo del proyecto.</td>
-      <td><strong>Escenario 1: Agregar Project</strong><br>Dado que el endpoint "/proyectos" está disponible,<br>Cuando se envía una solicitud POST con el nombre y presupuesto asignado,<br>Entonces se recibe una respuesta con estado 201 y el nuevo ID generado.<br><strong>Escenario 2: Agregar Project ya existente</strong><br>Dado que el endpoint "/proyectos" está disponible,<br>Cuando se intenta registrar un proyecto con un código de obra duplicado,<br>Entonces se recibe una respuesta con estado 400.</td>
-      <td><strong>EP02</strong></td>
+      <td>Endpoint PUT User Roles</td>
+      <td>Como usuario developer, quiero implementar el endpoint de asignación de roles mediante PUT a /api/v1/users/{id}/roles para que el administrador pueda modificar permisos de los usuarios.</td>
+      <td>
+        <strong>Escenario 1: Asignación de rol exitosa</strong><br>
+        Dado que el endpoint PUT /api/v1/users/{id}/roles está disponible,<br>
+        Cuando se envía una solicitud con un administrador autenticado, un ID de usuario válido y un rol existente en el sistema,<br>
+        Entonces el sistema retorna 200 OK y actualiza el rol del usuario en la base de datos.<br><br>
+        <strong>Escenario 2: Rol inválido</strong><br>
+        Dado que el endpoint PUT /api/v1/users/{id}/roles está disponible,<br>
+        Cuando se envía un rol que no existe en el catálogo del sistema,<br>
+        Entonces el sistema retorna 400 Bad Request indicando los roles válidos disponibles.
+      </td>
+      <td><strong>EP01</strong></td>
     </tr>
     <tr>
       <td><strong>TS06</strong></td>
-      <td>Get Project</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> consultar la lista de obras, <strong>para</strong> mostrar los indicadores de avance en la aplicación.</td>
-      <td><strong>Escenario 1: Obtener informacion de Project</strong><br>Dado que el endpoint "/proyectos" está disponible,<br>Cuando se envía una solicitud GET,<br>Entonces se recibe una respuesta con estado 200 y la lista de proyectos.<br><strong>Escenario 2: Obtener informacion de Project no disponible</strong><br>Dado que el endpoint "/proyectos" está disponible,<br>Cuando no existen proyectos registrados en la base de datos,<br>Entonces se recibe una respuesta con estado 200 y un arreglo vacío.</td>
+      <td>Setup Projects API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio de proyectos de obra con su controlador, servicio y repositorio para centralizar la información técnica de las construcciones.</td>
+      <td>
+        <strong>Escenario 1: Dominio inicializado correctamente</strong><br>
+        Dado que el modelo de base de datos de obras está definido,<br>
+        Cuando se inicializa el dominio de proyectos,<br>
+        Entonces el ruteo, controladores base y repositorio JPA compilan sin errores y están disponibles para recibir peticiones.<br><br>
+        <strong>Escenario 2: Fallo en la configuración de base de datos</strong><br>
+        Dado que se inicializa el dominio de proyectos,<br>
+        Cuando la cadena de conexión a la base de datos es inválida,<br>
+        Entonces el sistema registra el error de conexión y el contexto de Spring Boot no se levanta, mostrando el detalle del fallo.
+      </td>
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
       <td><strong>TS07</strong></td>
-      <td>Create API Advances</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> diseñar una API para el registro de avances diarios, <strong>para</strong> medir la productividad real de la construcción.</td>
-      <td><strong>Escenario 1: Diseño de la API Advances</strong><br>Dado que el developer configura el módulo de seguimiento,<br>Cuando diseñe la API de avances,<br>Entonces definirá los endpoints para recibir porcentajes de ejecución vinculados a partidas específicas.</td>
+      <td>Endpoint POST Project</td>
+      <td>Como usuario developer, quiero implementar el endpoint de registro de obras mediante POST a /api/v1/projects para iniciar el seguimiento operativo del proyecto.</td>
+      <td>
+        <strong>Escenario 1: Proyecto registrado exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/projects está disponible,<br>
+        Cuando se envía un payload con nombre, ubicación y presupuesto asignado de la obra,<br>
+        Entonces el sistema retorna 201 Created con el ID generado y los datos del proyecto creado.<br><br>
+        <strong>Escenario 2: Nombre de proyecto duplicado</strong><br>
+        Dado que el endpoint POST /api/v1/projects está disponible,<br>
+        Cuando se intenta registrar un proyecto con un nombre que ya existe en la base de datos,<br>
+        Entonces el sistema retorna 400 Bad Request indicando la duplicidad del nombre.
+      </td>
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
       <td><strong>TS08</strong></td>
-      <td>Post Advance</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> registrar el progreso diario en el API, <strong>para</strong> actualizar el porcentaje de avance físico frente al cronograma.</td>
-      <td><strong>Escenario 1: Agregar Advance</strong><br>Dado que el endpoint "/avances" está disponible,<br>Cuando se envía una solicitud POST con un valor entre 1 y 100,<br>Entonces se recibe una respuesta con estado 201 confirmando el progreso.<br><strong>Escenario 2: Agregar Advance ya existente</strong><br>Dado que el endpoint "/avances" está disponible,<br>Cuando se envía un avance para una fecha y partida que ya cuenta con registro,<br>Entonces se recibe una respuesta con estado 400.</td>
+      <td>Endpoint GET Project</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de obras mediante GET a /api/v1/projects para mostrar los indicadores de avance en la aplicación.</td>
+      <td>
+        <strong>Escenario 1: Listado de proyectos exitoso</strong><br>
+        Dado que el endpoint GET /api/v1/projects está disponible,<br>
+        Cuando se envía una solicitud con un token de autenticación válido,<br>
+        Entonces el sistema retorna 200 OK con una lista paginada de proyectos asociados al usuario.<br><br>
+        <strong>Escenario 2: Sin proyectos registrados</strong><br>
+        Dado que el endpoint GET /api/v1/projects está disponible,<br>
+        Cuando el usuario autenticado no tiene proyectos asociados,<br>
+        Entonces el sistema retorna 200 OK con un arreglo vacío.
+      </td>
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
       <td><strong>TS09</strong></td>
-      <td>Get Advance</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> consultar los avances registrados, <strong>para</strong> calcular el Porcentaje de Plan Completado (PPC).</td>
-      <td><strong>Escenario 1: Obtener informacion de Advance</strong><br>Dado que el endpoint "/avances" está disponible,<br>Cuando se envía una solicitud GET especificando el proyecto,<br>Entonces se recibe una respuesta con estado 200 y los porcentajes acumulados.<br><strong>Escenario 2: Obtener informacion de Advance no disponible</strong><br>Dado que el endpoint "/avances" está disponible,<br>Cuando se consulta un proyecto que aún no tiene avances registrados,<br>Entonces se recibe una respuesta con estado 404.</td>
+      <td>Endpoint PATCH Project Status</td>
+      <td>Como usuario developer, quiero implementar el endpoint de modificación de estado de obra mediante PATCH a /api/v1/projects/{id}/status para reflejar la situación operativa actual.</td>
+      <td>
+        <strong>Escenario 1: Estado actualizado exitosamente</strong><br>
+        Dado que el endpoint PATCH /api/v1/projects/{id}/status está disponible,<br>
+        Cuando se envía un payload con un estado válido y la justificación requerida,<br>
+        Entonces el sistema retorna 200 OK con el estado actualizado del proyecto.<br><br>
+        <strong>Escenario 2: Justificación ausente</strong><br>
+        Dado que el endpoint PATCH /api/v1/projects/{id}/status está disponible,<br>
+        Cuando se envía el cambio de estado sin el campo de justificación,<br>
+        Entonces el sistema retorna 400 Bad Request indicando que la justificación es obligatoria.
+      </td>
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
       <td><strong>TS10</strong></td>
-      <td>Create API RNC</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> diseñar una API para incidencias no conformes, <strong>para</strong> gestionar los fallos de calidad detectados en campo.</td>
-      <td><strong>Escenario 1: Diseño de la API RNC</strong><br>Dado que el developer configura el módulo de calidad,<br>Cuando diseñe la API de RNC,<br>Entonces definirá las rutas para reporte de fallas y almacenamiento de rutas de evidencia fotográfica.</td>
+      <td>Endpoint POST Project Items</td>
+      <td>Como usuario developer, quiero implementar el endpoint de registro de partidas mediante POST a /api/v1/projects/{id}/items para definir el catálogo de trabajo de una obra.</td>
+      <td>
+        <strong>Escenario 1: Partidas registradas exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/projects/{id}/items está disponible,<br>
+        Cuando se envía un arreglo de partidas con nombre, fecha de inicio y fecha de fin válidas,<br>
+        Entonces el sistema asocia las partidas al proyecto y retorna 201 Created con los IDs generados.<br><br>
+        <strong>Escenario 2: Fechas lógicamente inválidas</strong><br>
+        Dado que el endpoint POST /api/v1/projects/{id}/items está disponible,<br>
+        Cuando se envía una partida cuya fecha de fin es anterior a su fecha de inicio,<br>
+        Entonces el sistema retorna 400 Bad Request indicando el error lógico en las fechas.
+      </td>
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
       <td><strong>TS11</strong></td>
-      <td>Post RNC</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> registrar fallas técnicas en el API, <strong>para</strong> alertar inmediatamente al equipo de diseño.</td>
-      <td><strong>Escenario 1: Agregar RNC</strong><br>Dado que el endpoint "/rnc" está disponible,<br>Cuando se envía una solicitud POST con la descripción y evidencia,<br>Entonces se recibe una respuesta con estado 201 y un nuevo ID de ticket.<br><strong>Escenario 2: Agregar RNC ya existente</strong><br>Dado que el endpoint "/rnc" está disponible,<br>Cuando se intenta registrar una falla con un identificador de referencia técnica duplicado,<br>Entonces se recibe una respuesta con estado 400.</td>
+      <td>Setup Advances API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio de avances con su controlador, servicio y repositorio para medir la productividad real de las obras.</td>
+      <td>
+        <strong>Escenario 1: Dominio inicializado correctamente</strong><br>
+        Dado que el dominio de proyectos ya está configurado,<br>
+        Cuando se inicializa el dominio de avances,<br>
+        Entonces las entidades de relación de progreso se crean en la base de datos y el controlador está listo para recibir peticiones.<br><br>
+        <strong>Escenario 2: Dependencia de dominio faltante</strong><br>
+        Dado que el dominio de proyectos no ha sido inicializado,<br>
+        Cuando se intenta levantar el dominio de avances,<br>
+        Entonces el sistema reporta el error de dependencia faltante e impide el inicio del contexto.
+      </td>
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
       <td><strong>TS12</strong></td>
-      <td>Get RNC</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> obtener la lista de RNC, <strong>para</strong> permitir la revisión y subsanación de errores de obra.</td>
-      <td><strong>Escenario 1: Obtener informacion de RNC</strong><br>Dado que el endpoint "/rnc" está disponible,<br>Cuando se envía una solicitud GET con el ID de obra,<br>Entonces se recibe una respuesta con estado 200 y los detalles de los RNC pendientes.<br><strong>Escenario 2: Obtener informacion de RNC no disponible</strong><br>Dado que el endpoint "/rnc" está disponible,<br>Cuando se consulta un ID de obra sin incidencias de calidad,<br>Entonces se recibe una respuesta con estado 200 y una lista vacía.</td>
+      <td>Endpoint POST Advance</td>
+      <td>Como usuario developer, quiero implementar el endpoint de registro de progreso diario mediante POST a /api/v1/advances para actualizar el avance físico frente al cronograma.</td>
+      <td>
+        <strong>Escenario 1: Avance registrado exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/advances está disponible,<br>
+        Cuando se envía un payload con ID de partida, fecha y porcentaje de avance entre 0 y 100,<br>
+        Entonces el sistema guarda el registro y retorna 201 Created con los datos del avance registrado.<br><br>
+        <strong>Escenario 2: Registro duplicado para misma fecha y partida</strong><br>
+        Dado que el endpoint POST /api/v1/advances está disponible,<br>
+        Cuando se envía un avance para una fecha y partida que ya cuenta con registro en la base de datos,<br>
+        Entonces el sistema retorna 400 Bad Request indicando que ya existe un avance registrado para esa combinación.
+      </td>
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
       <td><strong>TS13</strong></td>
-      <td>Create API Materials</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> diseñar una API para el control logístico, <strong>para</strong> administrar el stock de materiales de construcción.</td>
-      <td><strong>Escenario 1: Diseño de la API Materials</strong><br>Dado que el developer configura el módulo logístico,<br>Cuando diseñe la API de materiales,<br>Entonces establecerá los endpoints necesarios para actualización de inventario y pedidos de insumos.</td>
-      <td><strong>EP03</strong></td>
+      <td>Endpoint GET Advance</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de avances mediante GET a /api/v1/advances para calcular el Porcentaje de Plan Completado (PPC).</td>
+      <td>
+        <strong>Escenario 1: Avances encontrados</strong><br>
+        Dado que el endpoint GET /api/v1/advances está disponible y existen registros previos,<br>
+        Cuando se envía una solicitud especificando el ID del proyecto,<br>
+        Entonces el sistema retorna 200 OK con los porcentajes de avance acumulados por partida.<br><br>
+        <strong>Escenario 2: Proyecto sin avances registrados</strong><br>
+        Dado que el endpoint GET /api/v1/advances está disponible,<br>
+        Cuando se consulta un proyecto que aún no tiene avances registrados,<br>
+        Entonces el sistema retorna 404 Not Found indicando que no existen registros de progreso para el proyecto.
+      </td>
+      <td><strong>EP02</strong></td>
     </tr>
     <tr>
       <td><strong>TS14</strong></td>
-      <td>Post Material</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> registrar pedidos de materiales en el API, <strong>para</strong> que el área de compras procese los requerimientos.</td>
-      <td><strong>Escenario 1: Agregar Material</strong><br>Dado que el endpoint "/pedidos" está disponible,<br>Cuando se envía una solicitud POST con la cantidad requerida,<br>Entonces se recibe una respuesta con estado 201.<br><strong>Escenario 2: Agregar Material ya existente</strong><br>Dado que el endpoint "/pedidos" está disponible,<br>Cuando se envía una solicitud de pedido duplicada para el mismo material y lote en la misma sesión,<br>Entonces se recibe una respuesta con estado 400.</td>
+      <td>Setup Materials API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio de materiales con su controlador, servicio y repositorio para administrar el stock de insumos de construcción.</td>
+      <td>
+        <strong>Escenario 1: Dominio inicializado correctamente</strong><br>
+        Dado que la arquitectura base del módulo logístico está definida,<br>
+        Cuando se inicializa el dominio de materiales,<br>
+        Entonces los controladores de inventario y solicitudes quedan disponibles y la base de datos refleja las tablas correspondientes.<br><br>
+        <strong>Escenario 2: Esquema de base de datos incoherente</strong><br>
+        Dado que se inicializa el dominio de materiales,<br>
+        Cuando el esquema de base de datos no coincide con las entidades definidas,<br>
+        Entonces el sistema lanza una excepción de migración e impide el inicio del contexto.
+      </td>
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
       <td><strong>TS15</strong></td>
-      <td>Get Material</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> consultar el stock disponible en tiempo real, <strong>para</strong> informar al personal sobre la existencia de materiales.</td>
-      <td><strong>Escenario 1: Obtener informacion de Material</strong><br>Dado que el endpoint "/materiales" está disponible,<br>Cuando se envía una solicitud GET,<br>Entonces se recibe una respuesta con estado 200 y las cantidades actuales.<br><strong>Escenario 2: Obtener informacion de Material no disponible</strong><br>Dado que el endpoint "/materiales" está disponible,<br>Cuando se consulta por un material específico que no existe en el catálogo,<br>Entonces se recibe una respuesta con estado 404.</td>
+      <td>Endpoint GET Material</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de stock mediante GET a /api/v1/materials para informar al personal sobre la existencia de materiales en tiempo real.</td>
+      <td>
+        <strong>Escenario 1: Stock consultado exitosamente</strong><br>
+        Dado que el endpoint GET /api/v1/materials está disponible y existe conexión a la base de datos de inventario,<br>
+        Cuando se envía una solicitud GET con un token válido,<br>
+        Entonces el sistema retorna 200 OK con el listado de materiales y sus cantidades actuales en stock.<br><br>
+        <strong>Escenario 2: Material específico no encontrado</strong><br>
+        Dado que el endpoint GET /api/v1/materials/{id} está disponible,<br>
+        Cuando se consulta por un ID de material que no existe en el catálogo,<br>
+        Entonces el sistema retorna 404 Not Found con un mensaje descriptivo.
+      </td>
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
       <td><strong>TS16</strong></td>
-      <td>Create API Budget</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> diseñar una API financiera, <strong>para</strong> controlar que los gastos no excedan el presupuesto meta.</td>
-      <td><strong>Escenario 1: Diseño de la API Budget</strong><br>Dado que el developer configura el módulo financiero,<br>Cuando diseñe la API de presupuesto,<br>Entonces definirá las reglas de negocio para validar saldos antes de confirmar cualquier compra.</td>
+      <td>Endpoint POST Material Request</td>
+      <td>Como usuario developer, quiero implementar el endpoint de solicitud de materiales mediante POST a /api/v1/materials/requests para que el área logística procese los pedidos.</td>
+      <td>
+        <strong>Escenario 1: Solicitud creada exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/materials/requests está disponible,<br>
+        Cuando se envía un payload con los insumos requeridos, cantidades y fecha máxima de entrega,<br>
+        Entonces el sistema retorna 201 Created con el ID de la solicitud y el estado inicial "PENDIENTE".<br><br>
+        <strong>Escenario 2: Campos obligatorios ausentes</strong><br>
+        Dado que el endpoint POST /api/v1/materials/requests está disponible,<br>
+        Cuando se envía una solicitud sin especificar la cantidad de algún insumo,<br>
+        Entonces el sistema retorna 400 Bad Request indicando los campos requeridos faltantes.
+      </td>
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
       <td><strong>TS17</strong></td>
-      <td>Post Budget</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> cargar el presupuesto inicial en el API, <strong>para</strong> establecer los topes económicos de la obra.</td>
-      <td><strong>Escenario 1: Agregar Budget</strong><br>Dado que el endpoint "/presupuesto" está disponible,<br>Cuando se envía una solicitud POST con los montos por partida,<br>Entonces se recibe una respuesta con estado 201.<br><strong>Escenario 2: Agregar Budget ya existente</strong><br>Dado que el endpoint "/presupuesto" está disponible,<br>Cuando se intenta cargar un presupuesto inicial para una obra que ya tiene fondos asignados,<br>Entonces se recibe una respuesta con estado 400.</td>
+      <td>Endpoint PATCH Request Status</td>
+      <td>Como usuario developer, quiero implementar el endpoint de aprobación o rechazo de solicitudes de material mediante PATCH a /api/v1/materials/requests/{id}/status para mantener informado al equipo de obra.</td>
+      <td>
+        <strong>Escenario 1: Solicitud aprobada exitosamente</strong><br>
+        Dado que el endpoint PATCH /api/v1/materials/requests/{id}/status está disponible,<br>
+        Cuando se envía un payload con estado "APROBADO" para una solicitud pendiente válida,<br>
+        Entonces el sistema retorna 200 OK, actualiza el estado de la solicitud y ajusta el stock disponible.<br><br>
+        <strong>Escenario 2: Rechazo sin justificación</strong><br>
+        Dado que el endpoint PATCH /api/v1/materials/requests/{id}/status está disponible,<br>
+        Cuando se envía estado "RECHAZADO" sin incluir el campo de motivo de rechazo,<br>
+        Entonces el sistema retorna 400 Bad Request indicando que el motivo es obligatorio para rechazar una solicitud.
+      </td>
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
       <td><strong>TS18</strong></td>
-      <td>Get Budget</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> obtener el estado del presupuesto, <strong>para</strong> visualizar desviaciones financieras en los paneles de control.</td>
-      <td><strong>Escenario 1: Obtener informacion de Budget</strong><br>Dado que el endpoint "/presupuesto" está disponible,<br>Cuando se envía una solicitud GET,<br>Entonces se recibe una respuesta con estado 200 con el saldo consumido y disponible.<br><strong>Escenario 2: Obtener informacion de Budget no disponible</strong><br>Dado que el endpoint "/presupuesto" está disponible,<br>Cuando se consulta el estado financiero de un proyecto sin presupuesto definido,<br>Entonces se recibe una respuesta con estado 404.</td>
+      <td>Endpoint POST Material Waste</td>
+      <td>Como usuario developer, quiero implementar el endpoint de registro de mermas mediante POST a /api/v1/materials/waste para ajustar el inventario real.</td>
+      <td>
+        <strong>Escenario 1: Merma registrada exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/materials/waste está disponible,<br>
+        Cuando se envía un payload con el ID del material, la cantidad perdida y la categoría de pérdida,<br>
+        Entonces el sistema retorna 201 Created y deduce la cantidad declarada del inventario activo.<br><br>
+        <strong>Escenario 2: Cantidad de merma mayor al stock disponible</strong><br>
+        Dado que el endpoint POST /api/v1/materials/waste está disponible,<br>
+        Cuando se declara una merma cuya cantidad supera el stock actual del material,<br>
+        Entonces el sistema retorna 400 Bad Request indicando que la merma excede el inventario disponible.
+      </td>
       <td><strong>EP03</strong></td>
     </tr>
     <tr>
       <td><strong>TS19</strong></td>
-      <td>Create API IoT</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> diseñar una API para telemetría, <strong>para</strong> recibir datos automáticos de sensores instalados en obra.</td>
-      <td><strong>Escenario 1: Diseño de la API IoT</strong><br>Dado que el developer configura el módulo de innovación,<br>Cuando diseñe la API de sensores,<br>Entonces definirá los puntos de entrada para datos de temperatura, vibración y geolocalización.</td>
-      <td><strong>EP04</strong></td>
+      <td>Endpoint POST Tools Assignment</td>
+      <td>Como usuario developer, quiero implementar el endpoint de asignación de herramientas mediante POST a /api/v1/materials/tools-assignments para vincular equipos a operarios registrados.</td>
+      <td>
+        <strong>Escenario 1: Herramienta asignada exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/materials/tools-assignments está disponible,<br>
+        Cuando se envía un payload con el ID del operario y el ID de la herramienta serializada,<br>
+        Entonces el sistema vincula la herramienta al operario, actualiza su estado a "ASIGNADO" y retorna 201 Created.<br><br>
+        <strong>Escenario 2: Operario no registrado</strong><br>
+        Dado que el endpoint POST /api/v1/materials/tools-assignments está disponible,<br>
+        Cuando el ID del trabajador no existe en los registros activos del sistema,<br>
+        Entonces el sistema retorna 404 Not Found indicando que el operario no fue encontrado.
+      </td>
+      <td><strong>EP03</strong></td>
     </tr>
     <tr>
       <td><strong>TS20</strong></td>
-      <td>Post IoT</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> registrar mediciones de sensores en el API, <strong>para</strong> disparar alertas de seguridad automáticas.</td>
-      <td><strong>Escenario 1: Agregar IoT</strong><br>Dado que el endpoint "/iot/telemetria" está disponible,<br>Cuando se recibe una solicitud POST con los valores de medición,<br>Entonces se recibe una respuesta con estado 202.<br><strong>Escenario 2: Agregar IoT ya existente</strong><br>Dado que el endpoint "/iot/telemetria" está disponible,<br>Cuando se recibe un paquete de datos con un Timestamp que ya ha sido procesado por el mismo sensor,<br>Entonces se recibe una respuesta con estado 400.</td>
-      <td><strong>EP04</strong></td>
+      <td>Setup Suppliers API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio de proveedores con su controlador, servicio y repositorio para formalizar la gestión de suministros.</td>
+      <td>
+        <strong>Escenario 1: Dominio inicializado correctamente</strong><br>
+        Dado que los requerimientos logísticos del proyecto están definidos,<br>
+        Cuando se inicializa el dominio de proveedores,<br>
+        Entonces el esquema de base de datos refleja la tabla de proveedores y los controladores están listos para recibir peticiones.<br><br>
+        <strong>Escenario 2: Conflicto con dominio de materiales</strong><br>
+        Dado que se inicializa el dominio de proveedores,<br>
+        Cuando existe una dependencia circular con el dominio de materiales,<br>
+        Entonces el sistema reporta el conflicto de inyección de dependencias e impide el inicio del contexto.
+      </td>
+      <td><strong>EP03</strong></td>
     </tr>
     <tr>
       <td><strong>TS21</strong></td>
-      <td>Get IoT</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> obtener el historial de sensores, <strong>para</strong> mostrar gráficos de monitoreo en tiempo real.</td>
-      <td><strong>Escenario 1: Obtener informacion de IoT</strong><br>Dado que el endpoint "/iot/telemetria" está disponible,<br>Cuando se envía una solicitud GET,<br>Entonces se recibe una respuesta con estado 200 con los valores históricos.<br><strong>Escenario 2: Obtener informacion de IoT no disponible</strong><br>Dado que el endpoint "/iot/telemetria" está disponible,<br>Cuando se solicita el historial de un sensor que no ha enviado datos aún,<br>Entonces se recibe una respuesta con estado 404.</td>
-      <td><strong>EP04</strong></td>
+      <td>Endpoint POST Supplier</td>
+      <td>Como usuario developer, quiero implementar el endpoint de registro de proveedores mediante POST a /api/v1/suppliers para formalizar las fuentes de suministro.</td>
+      <td>
+        <strong>Escenario 1: Proveedor registrado exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/suppliers está disponible,<br>
+        Cuando se envía un payload con RUC, razón social, contacto, correo, categoría y condición de pago válidos,<br>
+        Entonces el sistema valida el formato del RUC, registra al proveedor y retorna 201 Created.<br><br>
+        <strong>Escenario 2: RUC duplicado</strong><br>
+        Dado que el endpoint POST /api/v1/suppliers está disponible,<br>
+        Cuando se intenta registrar un proveedor con un RUC que ya existe en la base de datos,<br>
+        Entonces el sistema retorna 400 Bad Request indicando que el RUC ya está registrado.
+      </td>
+      <td><strong>EP03</strong></td>
     </tr>
     <tr>
       <td><strong>TS22</strong></td>
-      <td>Create API Blueprints</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> diseñar una API documental, <strong>para</strong> gestionar las versiones de los planos del proyecto.</td>
-      <td><strong>Escenario 1: Diseño de la API Blueprints</strong><br>Dado que el developer configura el módulo documental,<br>Cuando diseñe la API de planos,<br>Entonces definirá las rutas para carga de archivos, control de versiones y segmentación por especialidad.</td>
-      <td><strong>EP07</strong></td>
+      <td>Endpoint PUT Supplier</td>
+      <td>Como usuario developer, quiero implementar el endpoint de modificación de proveedores mediante PUT a /api/v1/suppliers/{id} para mantener la información de contacto vigente.</td>
+      <td>
+        <strong>Escenario 1: Proveedor actualizado exitosamente</strong><br>
+        Dado que el endpoint PUT /api/v1/suppliers/{id} está disponible,<br>
+        Cuando se envía un payload con los datos actualizados usando un ID de proveedor válido,<br>
+        Entonces el sistema retorna 200 OK con los datos del proveedor actualizados.<br><br>
+        <strong>Escenario 2: Proveedor no encontrado</strong><br>
+        Dado que el endpoint PUT /api/v1/suppliers/{id} está disponible,<br>
+        Cuando se envía una solicitud con un ID de proveedor inexistente,<br>
+        Entonces el sistema retorna 404 Not Found con un mensaje descriptivo.
+      </td>
+      <td><strong>EP03</strong></td>
     </tr>
     <tr>
       <td><strong>TS23</strong></td>
-      <td>Post Blueprint</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> subir versiones de planos al API, <strong>para</strong> que el equipo en campo trabaje con el diseño más reciente.</td>
-      <td><strong>Escenario 1: Agregar Blueprint</strong><br>Dado que el endpoint "/planos" está disponible,<br>Cuando se envía una solicitud POST con el archivo y especialidad,<br>Entonces se recibe una respuesta con estado 201.<br><strong>Escenario 2: Agregar Blueprint ya existente</strong><br>Dado que el endpoint "/planos" está disponible,<br>Cuando se intenta subir un archivo con el mismo nombre y versión que uno ya existente en la base de datos,<br>Entonces se recibe una respuesta con estado 400.</td>
-      <td><strong>EP07</strong></td>
+      <td>Setup Budget API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio financiero con su controlador, servicio y repositorio para controlar que los gastos no excedan el presupuesto meta.</td>
+      <td>
+        <strong>Escenario 1: Dominio inicializado correctamente</strong><br>
+        Dado que se requiere integración de costos con el módulo de materiales,<br>
+        Cuando se inicializa el dominio de presupuesto,<br>
+        Entonces los repositorios financieros están disponibles y las reglas de negocio de validación de saldo son accesibles desde el servicio.<br><br>
+        <strong>Escenario 2: Integración con dominio de materiales fallida</strong><br>
+        Dado que se inicializa el dominio de presupuesto,<br>
+        Cuando el dominio de materiales no está disponible en el contexto,<br>
+        Entonces el sistema registra el error de dependencia e impide el inicio del módulo financiero.
+      </td>
+      <td><strong>EP03</strong></td>
     </tr>
     <tr>
       <td><strong>TS24</strong></td>
-      <td>Get Blueprint</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> obtener la información de planos desde el API, <strong>para</strong> que puedan visualizarse en la aplicación incluso sin conexión.</td>
-      <td><strong>Escenario 1: Obtener informacion de Blueprint</strong><br>Dado que el endpoint "/planos" está disponible,<br>Cuando se envía una solicitud GET con el filtro de especialidad,<br>Entonces se recibe una respuesta con estado 200 y los enlaces de descarga.<br><strong>Escenario 2: Obtener informacion de Blueprint no disponible</strong><br>Dado que el endpoint "/planos" está disponible,<br>Cuando se busca un plano por una especialidad que no cuenta con archivos subidos,<br>Entonces se recibe una respuesta con estado 404.</td>
-      <td><strong>EP07</strong></td>
+      <td>Endpoint POST Budget</td>
+      <td>Como usuario developer, quiero implementar el endpoint de carga de presupuesto inicial mediante POST a /api/v1/budgets para establecer los topes financieros de la obra.</td>
+      <td>
+        <strong>Escenario 1: Presupuesto cargado exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/budgets está disponible,<br>
+        Cuando se envía un payload JSON con la estructura de montos por partida asociada a un proyecto válido,<br>
+        Entonces el sistema asocia el presupuesto al proyecto y retorna 201 Created.<br><br>
+        <strong>Escenario 2: Presupuesto ya existente para el proyecto</strong><br>
+        Dado que el endpoint POST /api/v1/budgets está disponible,<br>
+        Cuando se intenta cargar un presupuesto inicial para un proyecto que ya tiene fondos asignados,<br>
+        Entonces el sistema retorna 400 Bad Request indicando que el presupuesto ya fue configurado para ese proyecto.
+      </td>
+      <td><strong>EP03</strong></td>
     </tr>
     <tr>
       <td><strong>TS25</strong></td>
-      <td>Create API Sign</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> diseñar una API de firmas digitales, <strong>para</strong> validar legalmente el cierre de actas de conformidad.</td>
-      <td><strong>Escenario 1: Diseño de la API Sign</strong><br>Dado que se requiere respaldo legal,<br>Cuando el developer diseña la API de firmas,<br>Entonces define los procesos de validación mediante código de seguridad de un solo uso.</td>
-      <td><strong>EP02</strong></td>
+      <td>Endpoint GET Budget</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de estado financiero mediante GET a /api/v1/budgets/{projectId} para visualizar desviaciones en los paneles de control.</td>
+      <td>
+        <strong>Escenario 1: Estado financiero obtenido exitosamente</strong><br>
+        Dado que el endpoint GET /api/v1/budgets/{projectId} está disponible y el proyecto tiene presupuesto asignado,<br>
+        Cuando se envía una solicitud con un ID de proyecto válido,<br>
+        Entonces el sistema retorna 200 OK con el saldo total, el monto consumido y el saldo disponible por partida.<br><br>
+        <strong>Escenario 2: Proyecto sin presupuesto definido</strong><br>
+        Dado que el endpoint GET /api/v1/budgets/{projectId} está disponible,<br>
+        Cuando se consulta el estado financiero de un proyecto que no tiene presupuesto configurado,<br>
+        Entonces el sistema retorna 404 Not Found indicando que no existe presupuesto para ese proyecto.
+      </td>
+      <td><strong>EP03</strong></td>
     </tr>
     <tr>
       <td><strong>TS26</strong></td>
-      <td>Post Sign</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> ejecutar el proceso de firma en el API, <strong>para</strong> sellar digitalmente los documentos de obra con un token.</td>
-      <td><strong>Escenario 1: Agregar Sign</strong><br>Dado que el endpoint "/firmas" está disponible,<br>Cuando se envía una solicitud POST con el código de seguridad válido,<br>Entonces se recibe una respuesta con estado 200 confirmando el registro.<br><strong>Escenario 2: Agregar Sign ya existente</strong><br>Dado que el endpoint "/firmas" está disponible,<br>Cuando se intenta firmar un acta que ya posee una firma registrada por el mismo profesional,<br>Entonces se recibe una respuesta con estado 400.</td>
-      <td><strong>EP02</strong></td>
+      <td>Setup Blueprints API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio documental de planos con su controlador, servicio y repositorio para gestionar versiones de documentos técnicos.</td>
+      <td>
+        <strong>Escenario 1: Dominio inicializado correctamente</strong><br>
+        Dado que se cuenta con un servicio de almacenamiento de archivos configurado,<br>
+        Cuando se inicializa el dominio de planos,<br>
+        Entonces los conectores de almacenamiento de archivos están operativos y el controlador acepta peticiones de carga y consulta.<br><br>
+        <strong>Escenario 2: Servicio de storage no disponible</strong><br>
+        Dado que se inicializa el dominio de planos,<br>
+        Cuando el servicio de almacenamiento externo no responde,<br>
+        Entonces el sistema registra el error de conexión con el storage y lanza una excepción de configuración.
+      </td>
+      <td><strong>EP07</strong></td>
     </tr>
     <tr>
       <td><strong>TS27</strong></td>
-      <td>Get Sign</td>
-      <td><strong>Como</strong> usuario developer, <strong>quiero</strong> obtener el estado de las firmas de un acta, <strong>para</strong> verificar quién ha aprobado el cierre de la etapa técnica.</td>
-      <td><strong>Escenario 1: Obtener informacion de Sign</strong><br>Dado que el endpoint "/firmas" está disponible,<br>Cuando se envía una solicitud GET con el identificador del acta,<br>Entonces se recibe una respuesta con estado 200 y los datos de los firmantes.<br><strong>Escenario 2: Obtener informacion de Sign no disponible</strong><br>Dado que el endpoint "/firmas" está disponible,<br>Cuando se consulta el estado de firmas de un acta que no ha iniciado su proceso de aprobación,<br>Entonces se recibe una respuesta con estado 404.</td>
+      <td>Endpoint POST Blueprint</td>
+      <td>Como usuario developer, quiero implementar el endpoint de subida de planos mediante POST a /api/v1/blueprints para que el equipo trabaje siempre con la versión vigente.</td>
+      <td>
+        <strong>Escenario 1: Plano subido exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/blueprints está disponible,<br>
+        Cuando se envía un archivo PDF o DWG válido junto con la especialidad y el ID del proyecto,<br>
+        Entonces el sistema sube el archivo al storage, registra la versión y retorna 201 Created con la URL segura de acceso.<br><br>
+        <strong>Escenario 2: Versión duplicada</strong><br>
+        Dado que el endpoint POST /api/v1/blueprints está disponible,<br>
+        Cuando se intenta subir un archivo con el mismo nombre y número de versión que uno ya existente en la base de datos,<br>
+        Entonces el sistema retorna 400 Bad Request indicando el conflicto de versión.
+      </td>
+      <td><strong>EP07</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS28</strong></td>
+      <td>Endpoint GET Blueprint</td>
+      <td>Como usuario developer, quiero implementar el endpoint de listado de planos mediante GET a /api/v1/blueprints para permitir filtrado por especialidad técnica.</td>
+      <td>
+        <strong>Escenario 1: Planos encontrados por especialidad</strong><br>
+        Dado que el endpoint GET /api/v1/blueprints está disponible,<br>
+        Cuando se envía una solicitud con el filtro de especialidad (estructural, sanitario, eléctrico, etc.),<br>
+        Entonces el sistema retorna 200 OK con la lista de planos que coinciden con el criterio de filtrado.<br><br>
+        <strong>Escenario 2: Sin planos para la especialidad solicitada</strong><br>
+        Dado que el endpoint GET /api/v1/blueprints está disponible,<br>
+        Cuando se busca por una especialidad que no tiene archivos cargados en el proyecto,<br>
+        Entonces el sistema retorna 404 Not Found indicando que no existen planos para esa especialidad.
+      </td>
+      <td><strong>EP07</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS29</strong></td>
+      <td>Endpoint GET Blueprint Versions</td>
+      <td>Como usuario developer, quiero implementar el endpoint de historial de versiones mediante GET a /api/v1/blueprints/{id}/versions para que el equipo pueda rastrear la evolución del diseño.</td>
+      <td>
+        <strong>Escenario 1: Historial de versiones obtenido exitosamente</strong><br>
+        Dado que el endpoint GET /api/v1/blueprints/{id}/versions está disponible,<br>
+        Cuando se envía una solicitud con el ID de un plano que tiene múltiples versiones,<br>
+        Entonces el sistema retorna 200 OK con el historial ordenado cronológicamente, incluyendo fecha, autor y URL de cada versión.<br><br>
+        <strong>Escenario 2: Plano sin versiones previas</strong><br>
+        Dado que el endpoint GET /api/v1/blueprints/{id}/versions está disponible,<br>
+        Cuando se solicita el historial de un plano recién subido sin iteraciones anteriores,<br>
+        Entonces el sistema retorna 200 OK con un arreglo que contiene únicamente la versión inicial.
+      </td>
+      <td><strong>EP07</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS30</strong></td>
+      <td>Endpoint POST Blueprint Annotations</td>
+      <td>Como usuario developer, quiero implementar el endpoint de anotaciones en planos mediante POST a /api/v1/blueprints/{id}/annotations para registrar observaciones de campo sobre los documentos.</td>
+      <td>
+        <strong>Escenario 1: Anotación registrada exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/blueprints/{id}/annotations está disponible,<br>
+        Cuando se envía un payload con coordenadas X/Y, texto de la observación e ID del plano válido,<br>
+        Entonces el sistema asocia la anotación al plano preservando el documento original y retorna 201 Created.<br><br>
+        <strong>Escenario 2: Plano no encontrado</strong><br>
+        Dado que el endpoint POST /api/v1/blueprints/{id}/annotations está disponible,<br>
+        Cuando se envía una solicitud con un ID de plano que no existe,<br>
+        Entonces el sistema retorna 404 Not Found indicando que el plano de referencia no fue encontrado.
+      </td>
+      <td><strong>EP07</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS31</strong></td>
+      <td>Setup RNC API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio de incidencias de calidad con su controlador, servicio y repositorio para gestionar los Resultados No Conformes de obra.</td>
+      <td>
+        <strong>Escenario 1: Dominio inicializado correctamente</strong><br>
+        Dado que existe necesidad de reporte de calidad en el proyecto,<br>
+        Cuando se inicializa el dominio RNC,<br>
+        Entonces los controladores, servicio y repositorio están habilitados y el esquema de base de datos refleja la tabla de incidencias.<br><br>
+        <strong>Escenario 2: Dependencia de dominio de proyectos faltante</strong><br>
+        Dado que se inicializa el dominio RNC,<br>
+        Cuando el dominio de proyectos no está disponible en el contexto de Spring,<br>
+        Entonces el sistema registra el error de dependencia e impide la inicialización del módulo.
+      </td>
       <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS32</strong></td>
+      <td>Endpoint POST RNC</td>
+      <td>Como usuario developer, quiero implementar el endpoint de registro de fallas técnicas mediante POST a /api/v1/rnc para alertar al equipo de diseño con evidencia fotográfica.</td>
+      <td>
+        <strong>Escenario 1: RNC registrado exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/rnc está disponible,<br>
+        Cuando se envía un payload con título, partida afectada, descripción y la ruta de la evidencia fotográfica,<br>
+        Entonces el sistema guarda el reporte, genera un ticket de seguimiento y retorna 201 Created con el ID asignado.<br><br>
+        <strong>Escenario 2: Evidencia fotográfica ausente</strong><br>
+        Dado que el endpoint POST /api/v1/rnc está disponible,<br>
+        Cuando se envía el reporte sin adjuntar la evidencia fotográfica obligatoria,<br>
+        Entonces el sistema retorna 400 Bad Request indicando que la evidencia visual es un campo requerido.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS33</strong></td>
+      <td>Endpoint GET RNC</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de incidencias mediante GET a /api/v1/rnc para permitir la revisión y subsanación de errores de calidad.</td>
+      <td>
+        <strong>Escenario 1: RNCs encontrados</strong><br>
+        Dado que el endpoint GET /api/v1/rnc está disponible y existen incidencias registradas,<br>
+        Cuando se envía una solicitud GET con el ID de la obra,<br>
+        Entonces el sistema retorna 200 OK con la lista de RNCs pendientes incluyendo estado, descripción y evidencia.<br><br>
+        <strong>Escenario 2: Obra sin incidencias registradas</strong><br>
+        Dado que el endpoint GET /api/v1/rnc está disponible,<br>
+        Cuando se consulta una obra que no tiene RNCs registrados,<br>
+        Entonces el sistema retorna 200 OK con una lista vacía.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS34</strong></td>
+      <td>Setup Signatures API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio de firmas digitales con su controlador, servicio y repositorio para validar legalmente el cierre de actas de conformidad.</td>
+      <td>
+        <strong>Escenario 1: Dominio inicializado correctamente</strong><br>
+        Dado que se integra una librería criptográfica en el proyecto,<br>
+        Cuando se inicializa el dominio de firmas,<br>
+        Entonces los controladores están operativos, la librería de cifrado es accesible desde el servicio y el esquema de base de datos refleja la tabla de firmas.<br><br>
+        <strong>Escenario 2: Librería criptográfica no disponible</strong><br>
+        Dado que se inicializa el dominio de firmas,<br>
+        Cuando la dependencia criptográfica no está correctamente incluida en el proyecto,<br>
+        Entonces el sistema reporta el error de dependencia faltante e impide el inicio del contexto.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS35</strong></td>
+      <td>Endpoint POST Signature</td>
+      <td>Como usuario developer, quiero implementar el endpoint de sellado digital de documentos mediante POST a /api/v1/signatures para formalizar el cierre de actas con respaldo legal.</td>
+      <td>
+        <strong>Escenario 1: Firma registrada exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/signatures está disponible,<br>
+        Cuando se envía un payload con el token de seguridad válido y el ID del documento a firmar,<br>
+        Entonces el sistema sella el acta digitalmente, registra el hash de validación y retorna 200 OK con la confirmación del sellado.<br><br>
+        <strong>Escenario 2: Token de seguridad inválido</strong><br>
+        Dado que el endpoint POST /api/v1/signatures está disponible,<br>
+        Cuando se envía un token de seguridad incorrecto o con formato inválido,<br>
+        Entonces el sistema retorna 401 Unauthorized indicando que el código de verificación no es válido.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS36</strong></td>
+      <td>Endpoint GET Signature</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de estado de firmas mediante GET a /api/v1/signatures/records/{recordId} para verificar quién ha aprobado el cierre de una etapa técnica.</td>
+      <td>
+        <strong>Escenario 1: Firmas obtenidas exitosamente</strong><br>
+        Dado que el endpoint GET /api/v1/signatures/records/{recordId} está disponible y el acta tiene firmas registradas,<br>
+        Cuando se envía una solicitud con el ID del acta,<br>
+        Entonces el sistema retorna 200 OK con el estado de firmas, los datos de cada firmante y la fecha de cada validación.<br><br>
+        <strong>Escenario 2: Acta sin firmas iniciadas</strong><br>
+        Dado que el endpoint GET /api/v1/signatures/records/{recordId} está disponible,<br>
+        Cuando se consulta el estado de un acta que no ha iniciado su proceso de aprobación,<br>
+        Entonces el sistema retorna 404 Not Found indicando que no existen firmas para ese documento.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS37</strong></td>
+      <td>Endpoint GET Signature Export</td>
+      <td>Como usuario developer, quiero implementar el endpoint de exportación del dossier de firmas mediante GET a /api/v1/signatures/export/{projectId} para facilitar la entrega formal del proyecto.</td>
+      <td>
+        <strong>Escenario 1: Dossier exportado exitosamente</strong><br>
+        Dado que el endpoint GET /api/v1/signatures/export/{projectId} está disponible y el proyecto tiene firmas registradas,<br>
+        Cuando se envía una solicitud con el ID del proyecto completado,<br>
+        Entonces el sistema genera y retorna un stream de PDF con el historial completo de firmas y aprobaciones del proyecto.<br><br>
+        <strong>Escenario 2: Proyecto sin firmas registradas</strong><br>
+        Dado que el endpoint GET /api/v1/signatures/export/{projectId} está disponible,<br>
+        Cuando se solicita la exportación de un proyecto que no tiene firmas registradas,<br>
+        Entonces el sistema retorna 404 Not Found indicando que no existen registros de firma para exportar.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS38</strong></td>
+      <td>Setup IoT Telemetry Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio de telemetría IoT con su controlador, servicio y repositorio para recibir y almacenar datos de sensores en obra.</td>
+      <td>
+        <strong>Escenario 1: Dominio inicializado correctamente</strong><br>
+        Dado que se cuenta con una base de datos de series temporales configurada,<br>
+        Cuando se inicializa el dominio IoT,<br>
+        Entonces el sistema soporta alta concurrencia, los controladores están operativos y la base de datos acepta escrituras de telemetría.<br><br>
+        <strong>Escenario 2: Base de datos de series temporales no disponible</strong><br>
+        Dado que se inicializa el dominio IoT,<br>
+        Cuando la base de datos de series temporales no responde,<br>
+        Entonces el sistema registra el error de conexión e impide el inicio del dominio de telemetría.
+      </td>
+      <td><strong>EP04</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS39</strong></td>
+      <td>Endpoint POST IoT</td>
+      <td>Como usuario developer, quiero implementar el endpoint de registro de mediciones de sensores mediante POST a /api/v1/iot/telemetry para disparar alertas de seguridad automáticas en obra.</td>
+      <td>
+        <strong>Escenario 1: Medición registrada exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/iot/telemetry está disponible,<br>
+        Cuando se recibe un payload con el ID del sensor, tipo de medición, valor y timestamp,<br>
+        Entonces el sistema almacena la medición, evalúa los umbrales configurados y retorna 202 Accepted.<br><br>
+        <strong>Escenario 2: Timestamp duplicado para el mismo sensor</strong><br>
+        Dado que el endpoint POST /api/v1/iot/telemetry está disponible,<br>
+        Cuando se recibe un paquete de datos con un timestamp que ya fue procesado por el mismo sensor,<br>
+        Entonces el sistema retorna 400 Bad Request indicando que la medición ya fue registrada para ese instante.
+      </td>
+      <td><strong>EP04</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS40</strong></td>
+      <td>Endpoint GET IoT</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de historial de sensores mediante GET a /api/v1/iot/telemetry/{sensorId} para mostrar gráficos de monitoreo en tiempo real.</td>
+      <td>
+        <strong>Escenario 1: Historial de sensor obtenido exitosamente</strong><br>
+        Dado que el endpoint GET /api/v1/iot/telemetry/{sensorId} está disponible,<br>
+        Cuando se envía una solicitud con el ID de un sensor que ha enviado datos,<br>
+        Entonces el sistema retorna 200 OK con la serie de puntos de datos ordenados cronológicamente.<br><br>
+        <strong>Escenario 2: Sensor sin datos registrados</strong><br>
+        Dado que el endpoint GET /api/v1/iot/telemetry/{sensorId} está disponible,<br>
+        Cuando se solicita el historial de un sensor que no ha enviado datos aún,<br>
+        Entonces el sistema retorna 404 Not Found indicando que no existen registros de telemetría para ese sensor.
+      </td>
+      <td><strong>EP04</strong></td>
     </tr>
   </tbody>
 </table>
