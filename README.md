@@ -1979,84 +1979,488 @@ Enlace público del Product Backlog (Jira): https://trello.com/invite/b/69e3edf0
 <img src="" alt="Imagen Product Backlog en Jira"/>
 
 <br>
-
-| # Orden | User Story Id | Título                                                  | Descripción                                                                                                                                                                                                                                  | Story Points (1 / 2 / 3 / 5 / 8) |     
-| :--------| :--------------| :--------------------------------------------------------| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :---------------------------------|
-| **1**   | US-29         | Landing page - Visualización de propuesta de valor      | Como profesional del sector construcción que visita el sitio web, quiero conocer la propuesta de valor y funcionalidades principales de Kipu para entender cómo puede ayudarme en mis proyectos de construcción.                             | **3**                            |     
-| **2**   | US-30         | Landing page - Contenido para gestores operativos       | Como arquitecto o ingeniero que visita el sitio, quiero encontrar información específica sobre cómo Kipu mejora la supervisión técnica y trazabilidad de obra para evaluar si se adapta a mis necesidades profesionales.                     | **2**                            |     
-| **3**   | US-31         | Landing page - Contenido para equipos de logística      | Como responsable de logística o administración que visita el sitio, quiero encontrar información específica sobre cómo Kipu centraliza pedidos y controla presupuestos para convencerme de su utilidad en mi área.                           | **2**                            |     
-| **4**   | US-32         | Landing page - Misión y visión de PircaIndustries       | Como visitante potencial, quiero conocer la misión y visión de PircaIndustries para evaluar la confianza y dirección de largo plazo del proyecto Kipu.                                                                                       | **2**                            |     
-| **5**   | US-33         | Landing page - Canales de contacto y formulario         | Como visitante interesado, quiero disponer de canales de contacto y un formulario para comunicarme con el equipo de Kipu sin salir del sitio.                                                                                                | **3**                            |     
-| **6**   | US-34         | Landing page - Llamados a la acción de registro y demo  | Como visitante que ya entendió la propuesta, quiero ver llamados a la acción visibles para registrarme o solicitar demo y avanzar al siguiente paso.                                                                                         | **2**                            |     
-| **7**   | US-35         | Creación de nuevo proyecto de obra                      | Como Gestor Operativo de Obra, quiero registrar una nueva obra en el sistema para iniciar su gestión operativa y trazabilidad.                                                                                                               | **5**                            |     
-| **8**   | US-37         | Creación de cronograma y partidas                       | Como Gestor Operativo de Obra, quiero estructurar las partidas (tareas) y fechas límite para poder medir el Porcentaje de Plan Completado (PPC) durante la ejecución.                                                                        | **5**                            |     
-| **9**   | US-36         | Carga de presupuesto base                               | Como miembro del Equipo de Logística y Administración, quiero cargar el presupuesto inicial para tener un tope financiero al validar compras y requerimientos.                                                                               | **5**                            |     
-| **10**  | US-04         | Solicitud formal de materiales                          | Como residente de obra, quiero enviar pedidos de insumos desde la app para evitar errores de comunicación por canales informales.                                                                                                            | **5**                            |     
-| **11**  | US-02         | Registro de Resultado No Conforme (RNC)                 | Como supervisor de obra, quiero registrar un RNC con evidencia fotográfica para que el equipo de diseño sea alertado y subsane el error de inmediato.                                                                                        | **5**                            |     
-| **12**  | US-01         | Registro y autenticación de usuarios                    | Como gestor operativo, quiero crear una cuenta e iniciar sesión en la plataforma para acceder a los módulos de gestión de mi obra asignada.                                                                                                  | **5**                            |     
-| **13**  | US-12         | Visualizar Dashboard logístico                          | Como encargado de logística, quiero visualizar un resumen gráfico de requerimientos pendientes y presupuesto ejecutado, para tomar decisiones de compra rápidas sin tener que cruzar datos de Excel.                                         | **5**                            |     
-| **14**  | US-03         | Visualización de KPIs (PPC)                             | Como gerente de proyecto, quiero visualizar el Porcentaje de Plan Completado semanal para medir la productividad real de la obra.                                                                                                            | **5**                            |     
-| **15**  | US-05         | Alerta automática de stock crítico                      | Como encargado de almacén, quiero recibir notificaciones cuando el inventario sea bajo para evitar paralizar la construcción.                                                                                                                | **5**                            |     
-| **16**  | US-10         | Registrar avance diario de obra                         | Como residente de obra, quiero registrar el porcentaje de avance físico del proyecto diariamente, para mantener la trazabilidad de la ejecución real frente al cronograma.                                                                   | **3**                            |     
-| **17**  | US-08         | Atender solicitud de materiales                         | Como encargado de logística, quiero cambiar el estado de las solicitudes de materiales a "Aprobado" o "Rechazado", para mantener al equipo de obra informado sobre la disponibilidad de los insumos.                                         | **3**                            |     
-| **18**  | US-09         | Actualizar inventario general                           | Como encargado de logística, quiero actualizar las cantidades de los materiales en el almacén central, para mantener un registro exacto del stock físico disponible para las obras.                                                          | **3**                            |     
-| **19**  | US-06         | Validación de compra vs presupuesto                     | Como jefe de compras, quiero que el sistema bloquee pedidos que excedan el presupuesto meta para evitar pérdidas de utilidad.                                                                                                                | **5**                            |     
-| **20**  | US-16         | Reporte fotográfico diario                              | Como residente de obra, quiero subir fotos diarias del frente de trabajo para generar una bitácora visual de sustento.                                                                                                                       | **5**                            |     |
-| **21**  | US-07         | Firma digital de actas con token                        | Como ingeniero residente, quiero firmar actas de conformidad con un código de verificación para asegurar la validez legal del cierre de etapa.                                                                                               | **8**                            |     
-| **22**  | US-45         | Exportación de Dossier de Calidad en PDF                | Como administrador de proyecto, quiero exportar un archivo PDF que contenga todo el historial de firmas electrónicas y aprobaciones de una etapa constructiva, para facilitar la entrega del proyecto a la municipalidad o al cliente final. | **8**                            |     
-| **23**  | US-39         | Subir nueva versión de plano                            | Como Ingeniero de Diseño, quiero cargar actualizaciones de los planos para que el equipo en campo trabaje con la información final.                                                                                                          | **5**                            |     
-| **24**  | US-38         | Historial de cambios en planos                          | Como Residente de Obra, quiero visualizar el registro de versiones de un plano para entender la evolución del diseño.                                                                                                                        | **3**                            |     
-| **25**  | US-41         | Registro de interferencias (Anotaciones)                | Como Supervisor de Obra, quiero realizar anotaciones gráficas sobre el plano para reportar errores de diseño detectados en campo.                                                                                                            | **8**                            |     
-| **26**  | US-43         | Filtro de planos por especialidad                       | Como Gestor Operativo, quiero segmentar la lista de archivos por rama técnica para localizar información crítica rápidamente.                                                                                                                | **2**                            |     
-| **27**  | US-44         | Ordenamiento cronológico de planos                      | Como Equipo de Logística, quiero organizar los documentos por fecha de carga para identificar los últimos requerimientos técnicos.                                                                                                           | **2**                            |     
-| **28**  | US-40         | Descarga para uso Offline                               | Como Residente de Obra, quiero guardar planos en mi dispositivo para consultarlos en zonas sin conectividad (sótanos).                                                                                                                       | **5**                            |     
-| **29**  | US-42         | Visualización interactiva 3D                            | Como Gestor Operativo, quiero inspeccionar modelos tridimensionales para comprender cruces de instalaciones complejos.                                                                                                                       | **8**                            |     
-| **30**  | US-15         | Control de mermas y desperdicios                        | Como encargado de almacén, quiero registrar la merma de materiales para ajustar el stock real y analizar la eficiencia de los recursos.                                                                                                      | **3**                            |     
-| **31**  | US-21         | Registro de desperdicios y devoluciones                 | Como encargado de almacén, quiero registrar la cantidad de material dañado o sobrante por cada jornada, para ajustar las futuras compras y reducir el desperdicio acumulado.                                                                 | **3**                            |     
-| **32**  | US-19         | Préstamo de herramientas                                | Como encargado de almacén, quiero controlar el préstamo de equipos a las cuadrillas para evitar pérdidas y gestionar el mantenimiento.                                                                                                       | **5**                            |     
-| **33**  | US-24         | Control de herramientas asignadas                       | Como encargado de almacén, quiero registrar las herramientas eléctricas asignadas (taladros, amoladoras) a un obrero específico para que sea el responsable de su devolución en buen estado.                                                 | **3**                            |     
-| **34**  | US-18         | Alerta de desviación presupuestal                       | Como jefe de oficina técnica, quiero recibir notificaciones si el gasto real supera el presupuesto meta para tomar medidas correctivas.                                                                                                      | **5**                            |     
-| **35**  | US-23         | Seguimiento de órdenes de cambio                        | Como gerente de proyecto, quiero registrar modificaciones al contrato original solicitadas por el cliente para ajustar el presupuesto y cronograma oficial.                                                                                  | **5**                            |     
-| **36**  | US-11         | Cambiar estado del proyecto                             | Como administrador del sistema, quiero modificar el estado global de una obra (ej. En ejecución, Paralizada, Finalizada), para reflejar la situación operativa actual ante todos los usuarios.                                               | **2**                            |     
-| **37**  | US-13         | Asignar roles a usuarios                                | Como administrador del sistema, quiero asignar o modificar los permisos de los trabajadores en la plataforma, para asegurar que cada empleado solo tenga acceso a los módulos correspondientes a su cargo.                                   | **3**                            |     
-| **38**  | US-14         | Exportación de base de datos                            | Como administrador, quiero exportar la información del proyecto en formatos abiertos (.csv, .json) para garantizar la soberanía de los datos.                                                                                                | **5**                            |     
-| **39**  | US-20         | Activación de Plugins                                   | Como desarrollador, quiero habilitar módulos adicionales mediante la API de Kipu para extender las funciones básicas del sistema.                                                                                                            | **8**                            |     
-| **40**  | US-17         | Acceso de visualización para Cliente                    | Como cliente de la obra, quiero tener acceso de solo lectura para monitorear el avance físico y financiero de mi inversión.                                                                                                                  | **3**                            |     
-| **41**  | US-22         | Bitácora fotográfica de excavaciones                    | Como supervisor de obras, quiero crear una galería específica para la etapa de excavación para documentar el tipo de suelo encontrado y evitar reclamos futuros.                                                                             | **3**                            |     
-| **42**  | US-25         | Monitoreo de temp. y humedad (IoT)                      | Como residente de obra, quiero recibir alertas automáticas cuando las condiciones ambientales no sean óptimas para el curado del concreto, para evitar fisuras y garantizar la calidad estructural.                                          | **8**                            |    
-| **43**  | US-26         | Monitoreo de vibraciones en edificios colindantes (IoT) | Como supervisor de seguridad, quiero recibir alertas en tiempo real cuando los sensores de vibración detecten movimientos peligrosos durante excavaciones, para evitar daños estructurales a propiedades vecinas.                            | **8**                            |     
-| **44**  | US-27         | Sensor de nivel de materiales en tolvas(IoT)            | Como encargado de almacén, quiero recibir alertas automáticas cuando el nivel de agregados (arena, piedra) en las tolvas esté por debajo del mínimo, para solicitar reabastecimiento antes de que se agote.                                  | **8**                            |     
-| **45**  | US-28         | Geolocalización de equipos (IoT)                        | Como encargado de almacén, quiero rastrear la ubicación de equipos de alto valor (vibrador de concreto, estación total) mediante sensores GPS, para prevenir robos y optimizar su asignación en obra.                                        | **8**                            |     
-| **46**  | US-28         | Geolocalización de equipos (IoT)                        | Como encargado de almacén, quiero rastrear la ubicación de equipos de alto valor (vibrador de concreto, estación total) mediante sensores GPS, para prevenir robos y optimizar su asignación en obra.                                        | **8**                            |     
-| **45**  | US-28         | Geolocalización de equipos (IoT)                        | Como encargado de almacén, quiero rastrear la ubicación de equipos de alto valor (vibrador de concreto, estación total) mediante sensores GPS, para prevenir robos y optimizar su asignación en obra.                                        | **8**                            |     
-| **46**  | TS-01         | Create API User                                         | **Como** usuario developer, **quiero** diseñar una API que facilite la gestión de usuarios, **para** administrar eficazmente la seguridad y acceso a la plataforma.                                                                          | **3**                            |     
-| **47**  | TS-02         | Post User                                               | **Como** usuario developer, **quiero** registrar usuarios en el API, **para** que los profesionales puedan crear sus cuentas de obra.                                                                                                        | **2**                            |     
-| **48**  | TS-03         | Get User                                                | **Como** usuario developer, **quiero** obtener la información de un usuario, **para** usarla en la aplicación cuando se necesite mostrar el perfil.                                                                                          | **2**                            |     
-| **49**  | TS-04         | Create API Projects                                     | **Como** usuario developer, **quiero** diseñar una API para la gestión de proyectos de obra, **para** centralizar la información técnica de las construcciones.                                                                              | **3**                            |     
-| **50**  | TS-05         | Post Project                                            | **Como** usuario developer, **quiero** registrar nuevas obras en el API, **para** iniciar el seguimiento operativo del proyecto.                                                                                                             | **3**                            |     
-| **51**  | TS-06         | Get Project                                             | **Como** usuario developer, **quiero** consultar la lista de obras, **para** mostrar los indicadores de avance en la aplicación.                                                                                                             | **2**                            |     
-| **52**  | TS-07         | Create API Advances                                     | **Como** usuario developer, **quiero** diseñar una API para el registro de avances diarios, **para** medir la productividad real de la construcción.                                                                                         | **3**                            |     
-| **53**  | TS-08         | Post Advance                                            | *Como** usuario developer, **quiero** registrar el progreso diario en el API, **para** actualizar el porcentaje de avance físico frente al cronograma.                                                                                       | **3**                            |     
-| **54**  | TS-09         | Get Advance                                             | **Como** usuario developer, **quiero** consultar los avances registrados, **para** calcular el Porcentaje de Plan Completado (PPC).                                                                                                          | **2**                            |     
-| **55**  | TS-10         | Create API RNC                                          | **Como** usuario developer, **quiero** diseñar una API para incidencias no conformes, **para** gestionar los fallos de calidad detectados en campo.                                                                                          | **3**                            |     
-| **56**  | TS-11         | Post RNC                                                | **Como** usuario developer, **quiero** registrar fallas técnicas en el API, **para** alertar inmediatamente al equipo de diseño.                                                                                                             | **5**                            |     
-| **57**  | TS-12         | Get RNC                                                 | **Como** usuario developer, **quiero** obtener la lista de RNC, **para** permitir la revisión y subsanación de errores de obra.                                                                                                              | **2**                            |     
-| **58**  | TS-13         | Create API Materials                                    | **Como** usuario developer, **quiero** diseñar una API para el control logístico, **para** administrar el stock de materiales de construcción.                                                                                               | **3**                            |     
-| **59**  | TS-14         | Post Material                                           | **Como** usuario developer, **quiero** registrar pedidos de materiales en el API, **para** que el área de compras procese los requerimientos.                                                                                                | **3**                            |     
-| **60**  | TS-15         | Get Material                                            | **Como** usuario developer, **quiero** consultar el stock disponible en tiempo real, **para** informar al personal sobre la existencia de materiales.                                                                                        | **2**                            |     
-| **61**  | TS-16         | Create API Budget                                       | **Como** usuario developer, **quiero** diseñar una API financiera, **para** controlar que los gastos no excedan el presupuesto meta.                                                                                                         | **3**                            |     
-| **62**  | TS-17         | Post Budget                                             | **Como** usuario developer, **quiero** cargar el presupuesto inicial en el API, **para** establecer los topes económicos de la obra.                                                                                                         | **3**                            |     
-| **63**  | TS-18         | Get Budget                                              | **Como** usuario developer, **quiero** obtener el estado del presupuesto, **para** visualizar desviaciones financieras en los paneles de control.                                                                                            | **2**                            |     
-| **64**  | TS-19         | Create API IoT                                          | **Como** usuario developer, **quiero** diseñar una API para telemetría, **para** recibir datos automáticos de sensores instalados en obra.                                                                                                   | **3**                            |     
-| **65**  | TS-20         | Post IoT                                                | **Como** usuario developer, **quiero** registrar mediciones de sensores en el API, **para** disparar alertas de seguridad automáticas.                                                                                                       | **5**                            |     
-| **66**  | TS-21         | Get IoT                                                 | **Como** usuario developer, **quiero** obtener el historial de sensores, **para** mostrar gráficos de monitoreo en tiempo real.                                                                                                              | **3**                            |     
-| **67**  | TS-22         | Create API Blueprints                                   | **Como** usuario developer, **quiero** diseñar una API documental, **para** gestionar las versiones de los planos del proyecto.                                                                                                              | **3**                            |     
-| **68**  | TS-23         | Post Blueprint                                          | **Como** usuario developer, **quiero** subir versiones de planos al API, **para** que el equipo en campo trabaje con el diseño más reciente.                                                                                                 | **5**                            |     
-| **69**  | TS-24         | Get Blueprint                                           | **Como** usuario developer, **quiero** obtener la información de planos desde el API, **para** que puedan visualizarse en la aplicación incluso sin conexión.                                                                                | **3**                            |     
-| **70**  | TS-25         | Create API Sign                                         | **Como** usuario developer, **quiero** diseñar una API de firmas digitales, **para** validar legalmente el cierre de actas de conformidad.                                                                                                   | **3**                            |     
-| **71**  | TS-26         | Post Sign                                               | **Como** usuario developer, **quiero** ejecutar el proceso de firma en el API, **para** sellar digitalmente los documentos de obra con un token.                                                                                             | **5**                            |     
-| **72**  | TS-27         | Get Sign                                                | **Como** usuario developer, **quiero** obtener el estado de las firmas de un acta, **para** verificar quién ha aprobado el cierre de la etapa técnica.                                                                                       | **2**                            |     
----
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center;"># Orden</th>
+      <th style="text-align: left;">User Story ID</th>
+      <th style="text-align: left;">Título</th>
+      <th style="text-align: left;">Descripción</th>
+      <th style="text-align: center;">Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;">1</td>
+      <td><strong>US-29</strong></td>
+      <td>Landing page - Visualización de propuesta de valor</td>
+      <td>Como profesional del sector construcción que visita el sitio web, quiero conocer la propuesta de valor y funcionalidades principales de Kipu para entender cómo puede ayudarme en mis proyectos de construcción.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">2</td>
+      <td><strong>US-30</strong></td>
+      <td>Landing page - Contenido para gestores operativos</td>
+      <td>Como arquitecto o ingeniero que visita el sitio, quiero encontrar información específica sobre cómo Kipu mejora la supervisión técnica y trazabilidad de obra para evaluar si se adapta a mis necesidades profesionales.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">3</td>
+      <td><strong>US-31</strong></td>
+      <td>Landing page - Contenido para equipos de logística</td>
+      <td>Como responsable de logística o administración que visita el sitio, quiero encontrar información específica sobre cómo Kipu centraliza pedidos y controla presupuestos para convencerme de su utilidad en mi área.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">4</td>
+      <td><strong>US-32</strong></td>
+      <td>Landing page - Misión y visión de PircaIndustries</td>
+      <td>Como visitante potencial, quiero conocer la misión y visión de PircaIndustries para evaluar la confianza y dirección de largo plazo del proyecto Kipu.</td>
+      <td style="text-align: center;">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">5</td>
+      <td><strong>US-33</strong></td>
+      <td>Landing page - Canales de contacto y formulario</td>
+      <td>Como visitante interesado, quiero disponer de canales de contacto y un formulario para comunicarme con el equipo de Kipu sin salir del sitio.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">6</td>
+      <td><strong>US-34</strong></td>
+      <td>Landing page - Llamados a la acción de registro y demo</td>
+      <td>Como visitante que ya entendió la propuesta, quiero ver llamados a la acción visibles para registrarme o solicitar demo y avanzar al siguiente paso.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">7</td>
+      <td><strong>TS04</strong></td>
+      <td>Create API Projects</td>
+      <td>Como usuario developer, quiero diseñar una API para la gestión de proyectos de obra, para centralizar la información técnica de las construcciones.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">8</td>
+      <td><strong>TS05</strong></td>
+      <td>Post Project</td>
+      <td>Como usuario developer, quiero registrar nuevas obras en el API, para iniciar el seguimiento operativo del proyecto.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">9</td>
+      <td><strong>TS06</strong></td>
+      <td>Get Project</td>
+      <td>Como usuario developer, quiero consultar la lista de obras, para mostrar los indicadores de avance en la aplicación.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">10</td>
+      <td><strong>US-19</strong></td>
+      <td>Crear nuevo proyecto de obra</td>
+      <td>Como Gestor Operativo, quiero registrar una nueva obra en el sistema para iniciar su gestión operativa y trazabilidad.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">11</td>
+      <td><strong>US-09</strong></td>
+      <td>Cambiar estado del proyecto</td>
+      <td>Como Gestor Operativo, quiero modificar el estado global de una obra (ej. En ejecución, Paralizada, Finalizada), para reflejar la situación operativa actual ante todos los usuarios.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">12</td>
+      <td><strong>US-21</strong></td>
+      <td>Registrar partidas de obra</td>
+      <td>Como Gestor Operativo, quiero registrar el catálogo de partidas de la obra para definir con claridad el volumen de trabajo y el alcance constructivo a ejecutar.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">13</td>
+      <td><strong>TS07</strong></td>
+      <td>Create API Advances</td>
+      <td>Como usuario developer, quiero diseñar una API para el registro de avances diarios, para medir la productividad real de la construcción.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">14</td>
+      <td><strong>TS08</strong></td>
+      <td>Post Advance</td>
+      <td>Como usuario developer, quiero registrar el progreso diario en el API, para actualizar el porcentaje de avance físico frente al cronograma.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">15</td>
+      <td><strong>TS09</strong></td>
+      <td>Get Advance</td>
+      <td>Como usuario developer, quiero consultar los avances registrados, para calcular el Porcentaje de Plan Completado (PPC).</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">16</td>
+      <td><strong>US-08</strong></td>
+      <td>Registrar avance diario de obra</td>
+      <td>Como Gestor Operativo, quiero registrar el estado de ejecución diario de una partida planificada para dejar constancia de si se avanzó conforme al cronograma o si hubo bloqueos.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">17</td>
+      <td><strong>TS13</strong></td>
+      <td>Create API Materials</td>
+      <td>Como usuario developer, quiero diseñar una API para el control logístico, para administrar el stock de materiales de construcción.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">18</td>
+      <td><strong>TS14</strong></td>
+      <td>Post Material</td>
+      <td>Como usuario developer, quiero registrar pedidos de materiales en el API, para que el área de compras procese los requerimientos.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">19</td>
+      <td><strong>TS15</strong></td>
+      <td>Get Material</td>
+      <td>Como usuario developer, quiero consultar el stock disponible en tiempo real, para informar al personal sobre la existencia de materiales.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">20</td>
+      <td><strong>US-04</strong></td>
+      <td>Alertar stock crítico automáticamente</td>
+      <td>Como Equipo de Logística, quiero recibir notificaciones cuando el inventario sea bajo para evitar paralizar la construcción.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">21</td>
+      <td><strong>US-13</strong></td>
+      <td>Registrar merma de materiales</td>
+      <td>Como Equipo de Logística, quiero registrar la merma de materiales para ajustar el stock real y analizar la eficiencia de los recursos.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">22</td>
+      <td><strong>US-17</strong></td>
+      <td>Controlar herramientas asignadas por operario</td>
+      <td>Como Equipo de Logística, quiero registrar las herramientas eléctricas asignadas a un obrero específico para que sea el responsable de su devolución en buen estado.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">23</td>
+      <td><strong>US-03</strong></td>
+      <td>Solicitar materiales formalmente</td>
+      <td>Como Gestor Operativo, quiero enviar pedidos de insumos desde la app para evitar errores de comunicación por canales informales.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">24</td>
+      <td><strong>US-05</strong></td>
+      <td>Validar presupuesto en solicitud de material</td>
+      <td>Como Equipo de Logística, quiero que el sistema bloquee pedidos que excedan el presupuesto meta para evitar pérdidas.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">25</td>
+      <td><strong>US-39</strong></td>
+      <td>Registrar perfil de proveedor</td>
+      <td>Como Equipo de Logística, quiero registrar una nueva entidad proveedora en el sistema para formalizar la fuente de suministros y permitir la trazabilidad de las órdenes de compra.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">26</td>
+      <td><strong>US-40</strong></td>
+      <td>Modificar perfil de proveedor</td>
+      <td>Como Equipo de Logística, quiero modificar los datos de contacto o el estado de un proveedor para asegurar que la comunicación y las compras se realicen con información vigente.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">27</td>
+      <td><strong>TS01</strong></td>
+      <td>Create API User</td>
+      <td>Como usuario developer, quiero diseñar una API que facilite la gestión de usuarios, para administrar eficazmente la seguridad y acceso a la plataforma.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">28</td>
+      <td><strong>TS02</strong></td>
+      <td>Post User</td>
+      <td>Como usuario developer, quiero registrar usuarios en el API, para que los profesionales puedan crear sus cuentas de obra.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">29</td>
+      <td><strong>TS03</strong></td>
+      <td>Get User</td>
+      <td>Como usuario developer, quiero obtener la información de un usuario, para usarla en la aplicación cuando se necesite mostrar el perfil.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">30</td>
+      <td><strong>US-01</strong></td>
+      <td>Registrar cuenta de usuario</td>
+      <td>Como Gestor Operativo, quiero crear una cuenta en la plataforma para habilitar mi identidad en el sistema.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">31</td>
+      <td><strong>US-18</strong></td>
+      <td>Iniciar sesión con credenciales</td>
+      <td>Como Gestor Operativo, quiero iniciar sesión con mis credenciales para acceder a los módulos de mi obra asignada.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">32</td>
+      <td><strong>US-11</strong></td>
+      <td>Asignar roles a usuarios</td>
+      <td>Como Gestor Operativo, quiero asignar o modificar los permisos de los trabajadores en la plataforma, para asegurar que cada empleado solo tenga acceso a los módulos correspondientes a su cargo.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">33</td>
+      <td><strong>US-14</strong></td>
+      <td>Acceder como cliente en modo solo lectura</td>
+      <td>Como cliente de la obra, quiero tener acceso de solo lectura para monitorear el avance físico y financiero de mi inversión.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">34</td>
+      <td><strong>US-07</strong></td>
+      <td>Atender solicitud de materiales</td>
+      <td>Como Equipo de Logística, quiero cambiar el estado de las solicitudes de materiales a "Aprobado" o "Rechazado", para mantener al equipo de obra informado sobre la disponibilidad de los insumos.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">35</td>
+      <td><strong>TS16</strong></td>
+      <td>Create API Budget</td>
+      <td>Como usuario developer, quiero diseñar una API financiera, para controlar que los gastos no excedan el presupuesto meta.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">36</td>
+      <td><strong>TS17</strong></td>
+      <td>Post Budget</td>
+      <td>Como usuario developer, quiero cargar el presupuesto inicial en el API, para establecer los topes económicos de la obra.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">37</td>
+      <td><strong>TS18</strong></td>
+      <td>Get Budget</td>
+      <td>Como usuario developer, quiero obtener el estado del presupuesto, para visualizar desviaciones financieras en los paneles de control.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">38</td>
+      <td><strong>US-20</strong></td>
+      <td>Cargar presupuesto base del proyecto</td>
+      <td>Como Equipo de Logística, quiero cargar el presupuesto inicial para tener un tope financiero al validar compras y requerimientos.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">39</td>
+      <td><strong>US-15</strong></td>
+      <td>Alertar desviación presupuestal</td>
+      <td>Como Equipo de Logística, quiero recibir notificaciones si el gasto real supera el presupuesto meta para tomar medidas correctivas.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">40</td>
+      <td><strong>TS22</strong></td>
+      <td>Create API Blueprints</td>
+      <td>Como usuario developer, quiero diseñar una API documental, para gestionar las versiones de los planos del proyecto.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">41</td>
+      <td><strong>TS23</strong></td>
+      <td>Post Blueprint</td>
+      <td>Como usuario developer, quiero subir versiones de planos al API, para que el equipo en campo trabaje con el diseño más reciente.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">42</td>
+      <td><strong>TS24</strong></td>
+      <td>Get Blueprint</td>
+      <td>Como usuario developer, quiero obtener la información de planos desde el API, para que puedan visualizarse en la aplicación incluso sin conexión.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">43</td>
+      <td><strong>US-27</strong></td>
+      <td>Subir nueva versión de plano</td>
+      <td>Como Gestor Operativo, quiero cargar actualizaciones de los planos para que el equipo en campo trabaje con la información final.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">44</td>
+      <td><strong>US-26</strong></td>
+      <td>Visualizar historial de versiones de plano</td>
+      <td>Como Gestor Operativo, quiero visualizar el registro de versiones de un plano para entender la evolución del diseño.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">45</td>
+      <td><strong>US-28</strong></td>
+      <td>Descargar plano para uso sin conectividad</td>
+      <td>Como Gestor Operativo, quiero guardar planos en mi dispositivo para consultarlos en zonas sin conectividad (sótanos).</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">46</td>
+      <td><strong>US-35</strong></td>
+      <td>Registrar anotaciones gráficas en plano</td>
+      <td>Como Gestor Operativo, quiero realizar anotaciones gráficas sobre el plano para reportar errores de diseño detectados en campo.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">47</td>
+      <td><strong>US-36</strong></td>
+      <td>Filtrar planos por especialidad técnica</td>
+      <td>Como Gestor Operativo, quiero segmentar la lista de archivos por rama técnica para localizar información crítica rápidamente.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">48</td>
+      <td><strong>US-37</strong></td>
+      <td>Ordenar planos cronológicamente</td>
+      <td>Como Equipo de Logística, quiero organizar los documentos por fecha de carga para identificar los últimos requerimientos técnicos.</td>
+      <td style="text-align: center;">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">49</td>
+      <td><strong>TS10</strong></td>
+      <td>Create API RNC</td>
+      <td>Como usuario developer, quiero diseñar una API para incidencias no conformes, para gestionar los fallos de calidad detectados en campo.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">50</td>
+      <td><strong>TS11</strong></td>
+      <td>Post RNC</td>
+      <td>Como usuario developer, quiero registrar fallas técnicas en el API, para alertar inmediatamente al equipo de diseño.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">51</td>
+      <td><strong>TS12</strong></td>
+      <td>Get RNC</td>
+      <td>Como usuario developer, quiero obtener la lista de RNC, para permitir la revisión y subsanación de errores de obra.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">52</td>
+      <td><strong>US-02</strong></td>
+      <td>Registrar Resultado No Conforme</td>
+      <td>Como Gestor Operativo, quiero registrar un RNC con evidencia fotográfica para que el equipo de diseño sea alertado y subsane el error de inmediato.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">53</td>
+      <td><strong>US-10</strong></td>
+      <td>Visualizar dashboard de control del proyecto</td>
+      <td>Como Gestor Operativo, deseo acceder a un resumen consolidado de la obra para identificar desviaciones en el plan sin procesar datos de forma manual.</td>
+      <td style="text-align: center;">8</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">54</td>
+      <td><strong>TS25</strong></td>
+      <td>Create API Sign</td>
+      <td>Como usuario developer, quiero diseñar una API de firmas digitales, para validar legalmente el cierre de actas de conformidad.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">55</td>
+      <td><strong>TS26</strong></td>
+      <td>Post Sign</td>
+      <td>Como usuario developer, quiero ejecutar el proceso de firma en el API, para sellar digitalmente los documentos de obra con un token.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">56</td>
+      <td><strong>TS27</strong></td>
+      <td>Get Sign</td>
+      <td>Como usuario developer, quiero obtener el estado de las firmas de un acta, para verificar quién ha aprobado el cierre de la etapa técnica.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">57</td>
+      <td><strong>US-06</strong></td>
+      <td>Firmar actas digitalmente con token</td>
+      <td>Como Gestor Operativo, quiero firmar actas de conformidad con un código de verificación para asegurar la validez legal del cierre de etapa.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">58</td>
+      <td><strong>US-38</strong></td>
+      <td>Exportar dossier de calidad en PDF</td>
+      <td>Como Gestor Operativo, quiero exportar un archivo PDF que contenga todo el historial de firmas electrónicas y aprobaciones de una etapa constructiva, para facilitar la entrega del proyecto a la municipalidad o al cliente final.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">59</td>
+      <td><strong>TS19</strong></td>
+      <td>Create API IoT</td>
+      <td>Como usuario developer, quiero diseñar una API para telemetría, para recibir datos automáticos de sensores instalados en obra.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">60</td>
+      <td><strong>TS20</strong></td>
+      <td>Post IoT</td>
+      <td>Como usuario developer, quiero registrar mediciones de sensores en el API, para disparar alertas de seguridad automáticas.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">61</td>
+      <td><strong>TS21</strong></td>
+      <td>Get IoT</td>
+      <td>Como usuario developer, quiero obtener el historial de sensores, para mostrar gráficos de monitoreo en tiempo real.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">62</td>
+      <td><strong>US-22</strong></td>
+      <td>Monitorear temperatura y humedad para curado de concreto</td>
+      <td>Como Gestor Operativo, quiero recibir alertas automáticas cuando las condiciones ambientales no sean óptimas para el curado del concreto, para evitar fisuras y garantizar la calidad estructural.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">63</td>
+      <td><strong>US-23</strong></td>
+      <td>Monitorear vibraciones en edificios colindantes</td>
+      <td>Como Gestor Operativo, quiero recibir alertas en tiempo real cuando los sensores de vibración detecten movimientos peligrosos durante excavaciones, para evitar daños estructurales a propiedades vecinas.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">64</td>
+      <td><strong>US-24</strong></td>
+      <td>Alertar nivel crítico de materiales en tolvas</td>
+      <td>Como Equipo de Logística, quiero recibir alertas automáticas cuando el nivel de agregados (arena, piedra) en las tolvas esté por debajo del mínimo, para solicitar reabastecimiento antes de que se agote.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">65</td>
+      <td><strong>US-25</strong></td>
+      <td>Geolocalizar equipos de alto valor en obra</td>
+      <td>Como Equipo de Logística, quiero rastrear la ubicación de equipos de alto valor (vibrador de concreto, estación total) mediante sensores GPS, para prevenir robos y optimizar su asignación en obra.</td>
+      <td style="text-align: center;">8</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">66</td>
+      <td><strong>US-12</strong></td>
+      <td>Exportar base de datos del proyecto</td>
+      <td>Como Gestor Operativo, quiero exportar la información del proyecto en formatos abiertos (.csv, .json) para garantizar la soberanía de los datos.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">67</td>
+      <td><strong>US-16</strong></td>
+      <td>Activar plugins del sistema</td>
+      <td>Como Gestor Operativo, quiero habilitar módulos adicionales para extender las funciones básicas del sistema.</td>
+      <td style="text-align: center;">8</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 # Capítulo IV: Product Design
