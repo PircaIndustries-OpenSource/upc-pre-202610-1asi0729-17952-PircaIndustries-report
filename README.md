@@ -3995,6 +3995,64 @@ Enlace: [Prototype de la App Web en Figma](https://www.figma.com/design/gpaQ7X5q
 
 ### 4.6.1. Design-Level Event Storming.
 
+
+* **Tablero de Event Storming (Miro):** <a href="https://miro.com/welcomeonboard/a2tTTE15ZU51a3g2N2ZVK0NKcWNyRUJXWFA2dkxTL05nVXpJekpFWjdFZXNRSmhJKzA2U3lKN2djQy8xQjNKYVhnMXZ2OHNNcGREMHpFdDgwK0laWWFpcWdYSW9UWVlKSHRCUEFRdytqVTlkZ2tBWTByZVlpYUFPenVyME1WTjBNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=210928235309" target="_blank" rel="noopener noreferrer">Abrir tablero en Miro</a>
+
+
+<br><br>
+<div align="center">
+    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources/Design-Level-Event-Storming/desingEventStorming-panoramic.png?raw=true" alt="Vista Panorámica del Design-Level Event Storming">
+</div>
+<br><br>
+
+### Cost Management Bounded Context
+
+<br><br>
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/7ba2839ffb4e7306bb929549ccca836d035403e5/Resources/Design-LevelEventStorming/CostManagementBoundedContext.png?raw=true" alt="Cost Management Bounded Context Event Storming">
+</div>
+<br><br>
+
+### Document Control Bounded Context
+
+<br><br>
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/7ba2839ffb4e7306bb929549ccca836d035403e5/Resources/Design-LevelEventStorming/DocumentControlBoundedContext.png?raw=true" alt="Document Control Bounded Context">
+</div>
+<br><br>
+
+## Field Supervision Bounded Context
+
+<br><br>
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/7ba2839ffb4e7306bb929549ccca836d035403e5/Resources/Design-LevelEventStorming/FieldSupervisionBoundedContext.png?raw=true" alt="Field Supervision Bounded Context">
+</div>
+<br><br>
+
+## Procurement & SupplyChain Bounded Context
+
+<br><br>
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/7ba2839ffb4e7306bb929549ccca836d035403e5/Resources/Design-LevelEventStorming/Procurement%26SupplyChainBoundedContext.png?raw=true" alt="Procurement & SupplyChain Bounded Context">
+</div>
+<br><br>
+
+## Proyect Management Bounded Context
+
+<br><br>
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/7ba2839ffb4e7306bb929549ccca836d035403e5/Resources/Design-LevelEventStorming/ProyectManagementBoundedContext.png?raw=true" alt="Proyect Management Bounded Context">
+</div>
+<br><br>
+
+## Stakeholder Management Bounded Context
+
+<br><br>
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/7ba2839ffb4e7306bb929549ccca836d035403e5/Resources/Design-LevelEventStorming/StakeholderManagementBoundedContext.png?raw=true" alt="Proyect Management Bounded Context">
+</div>
+<br><br>
+
 ### 4.6.2. Software Architecture Context Diagram.
 En este nivel se visualizan los actores principales de la plataforma Kipu: el Operative Manager, el Logistics Team, el Client / Investor y el System Administrator. Asimismo, se detallan las interacciones del sistema principal con los sistemas externos clave para la operación, los cuales incluyen el Hardware IoT (sensores físicos), un MQTT Broker para la gestión de mensajería asíncrona, un Accounting Software para la exportación de reportes de nómina y un Servicio SMTP para el envío de notificaciones y alertas transaccionales.
 
