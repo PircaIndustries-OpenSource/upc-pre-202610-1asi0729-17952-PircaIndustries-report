@@ -4615,6 +4615,17 @@ Por lo tanto, al tratarse de un entregable puramente visual e informativo en est
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
+
+En esta sección se mostarán las estadísticas de colabración de Github de nuestro trabajo en este Sprint.
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration/Code Frequency.jpeg?raw=true">
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration/Contributors 1.jpeg?raw=true">
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration/Contributors 2.jpeg?raw=true">
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration/Pulse.jpeg?raw=true">
+
 ---
 # Conclusiones
 # Bibliografía
