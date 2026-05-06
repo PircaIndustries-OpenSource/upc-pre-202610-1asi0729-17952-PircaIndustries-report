@@ -4493,17 +4493,88 @@ Enlace Sprint Backlog 1 en Trello: https://trello.com/invite/b/69e3edf026a5c3183
 | PircaIndustries-OpenSource/landing-page-Kipu | main | 866635f | Create temp | N/A | 2026-04-17 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
+
+El principal logro del Sprint 1 consistió en el despliegue de la versión inicial de la landing page. Se completó el desarrollo del header, hero y footer, junto con las secciones de Propuesta, Diferencias, Roles, Creadores, Planes y Formulario. Asimismo, se implementó la metodología GitFlow, gestionando el avance mediante ramas feat: integradas posteriormente en el branch develop.
+
+<div align="center">
+	<br>
+	<b>Section Home</b>
+	<br>
+    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-home.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Home">
+</div><br><br>
+
+<div align="center">
+	<b>Section Proposal</b>
+	<br>
+    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-proposal.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Proposal">
+</div><br><br>
+
+<div align="center">
+	<b>Section Differences</b>
+	<br>
+    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-differences.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Differences">
+</div><br><br>
+
+<div align="center">
+	<b>Section Roles</b>
+	<br>
+    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-roles.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Roles">
+</div><br><br>
+
+<div align="center">
+	<b>Section Members</b>
+	<br>
+    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-members.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Members">
+</div><br><br>
+
+<div align="center">
+	<b>Section Plans</b>
+	<br>
+    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-plans.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Plans">
+</div><br><br>
+
+<div align="center">
+	<b>Section Contact</b>
+	<br>
+    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-contact.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Contact">
+</div><br><br>
+
+<div align="center">
+	<b>Section Footer</b>
+	<br>
+    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-footer.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Footer">
+</div><br><br>
+
+Enlace: [Video del despliegue de la landing page en GitHub Pages]()
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-**Introducción y Estado Actual**<br>
-Durante el Sprint 1, el equipo de desarrollo de PircaIndustries concentró sus esfuerzos técnicos exclusivamente en el diseño UI/UX, maquetación y despliegue de la Landing Page del proyecto Kipu (alineado con la Épica EP06). El objetivo principal de esta iteración fue validar la propuesta de valor frente al mercado y establecer los canales de captación temprana de leads.
+Durante el Sprint 1, el esfuerzo técnico del equipo se concentró exclusivamente en la capa de presentación (Frontend), utilizando HTML, CSS y JavaScript bajo el modelo de ramificación Git Flow. El objetivo de este primer incremento (MVP) fue construir la Landing Page estática de Kipu para establecer la presencia digital, validar la propuesta de valor y asegurar la correcta navegación del cliente.
 
-Debido a esta priorización en el Product Backlog, la implementación del backend, la construcción de los controladores y el despliegue de los Web Services no formaron parte del alcance (scope) de este primer Sprint.
+Por lo tanto, al tratarse de un entregable puramente visual e informativo en esta iteración inicial, no se requirió la implementación de Web Services ni arquitecturas Backend. El desarrollo, despliegue y documentación de Endpoints mediante OpenAPI está planificado estratégicamente a partir del Sprint 2.
 
-**Planificación de Web Services**<br>
-Si bien la arquitectura a nivel de diseño (Domain-Driven Software Architecture) y las Technical Stories correspondientes a la API (TS01 a TS27) ya se encuentran definidas y estructuradas en el capítulo de Requirements Specification, su desarrollo técnico ha sido programado para el Sprint 2.
-
-Por lo tanto, la relación de endpoints documentados con OpenAPI (Swagger), las capturas de interacción con datos de muestra (Postman/Swagger UI), y los enlaces a los repositorios específicos de los microservicios en Spring Boot serán presentados como evidencia de ejecución en la próxima revisión del proyecto (Sprint Review 2), una vez que los servicios hayan sido desarrollados y desplegados en sus respectivos entornos.
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Verbo HTTP</th>
+      <th>Acción</th>
+      <th>Parámetros</th>
+      <th>Response</th>
+      <th>URL Documentación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>N/A</em></td>
+      <td><em>N/A</em></td>
+      <td><em>No aplica para el Sprint 1 (Desarrollo Frontend Estático).</em></td>
+      <td><em>N/A</em></td>
+      <td><em>N/A</em></td>
+      <td><em>N/A</em></td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
