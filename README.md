@@ -4727,7 +4727,7 @@ Enlace: [Needfinding](https://upcedupe-my.sharepoint.com/:v:/g/personal/u2022241
 
  ## Exposure Video AV1
   <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/25ba33cc85c64ef7d852b55f5558f0c28e4a4eae/Resources/Exposure/Exposure-AV1.png?raw=true">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/e429e889692c5e1ae2b81f76133a850f5dd7135e/Resources/Exposure/Exposure-AV1.png?raw=true">
  </div>
 
  Enlace: [Exposure Video AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417329_upc_edu_pe/IQBMPPQW3NVNQbtikq4Ubr7sAYqcuY_e-EzY_e6VOepahgA?e=yIs0ep&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
