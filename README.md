@@ -4712,7 +4712,7 @@ Qlerify (s.f.). *What is Big Picture Event Storming?*. Qlerify. https://www.qler
 ## Prototype Evidence
 
   <div align="center">
-    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main//Resources/Prototype/Autenticación.jpeg?raw=true" alt="Prototype video">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/d656868c275e80362a89bfbd610953a7c9680842/Resources/Prototype/Prototype-Video.png?raw=true" alt="Prototype video">
  </div>
 
 
