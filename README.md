@@ -4001,7 +4001,7 @@ Enlace: [Prototype de la App Web en Figma](https://www.figma.com/design/gpaQ7X5q
 
 <br><br>
 <div align="center">
-    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources/Design-Level-Event-Storming/desingEventStorming-panoramic.png?raw=true" alt="Vista Panorámica del Design-Level Event Storming">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/6e97319737f5bdf7938bf3b9c5ce6490c72ac18e/Resources/Design-LevelEventStorming/VistaGeneral.png?raw=true" alt="Vista Panorámica del Design-Level Event Storming">
 </div>
 <br><br>
 
