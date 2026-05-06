@@ -4500,49 +4500,49 @@ El principal logro del Sprint 1 consistió en el despliegue de la versión inici
 	<br>
 	<b>Section Home</b>
 	<br>
-    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-home.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Home">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-home.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Home">
 </div><br><br>
 
 <div align="center">
 	<b>Section Proposal</b>
 	<br>
-    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-proposal.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Proposal">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-proposal.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Proposal">
 </div><br><br>
 
 <div align="center">
 	<b>Section Differences</b>
 	<br>
-    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-differences.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Differences">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-differences.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Differences">
 </div><br><br>
 
 <div align="center">
 	<b>Section Roles</b>
 	<br>
-    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-roles.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Roles">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-roles.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Roles">
 </div><br><br>
 
 <div align="center">
 	<b>Section Members</b>
 	<br>
-    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-members.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Members">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-members.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Members">
 </div><br><br>
 
 <div align="center">
 	<b>Section Plans</b>
 	<br>
-    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-plans.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Plans">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-plans.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Plans">
 </div><br><br>
 
 <div align="center">
 	<b>Section Contact</b>
 	<br>
-    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-contact.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Contact">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-contact.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Contact">
 </div><br><br>
 
 <div align="center">
 	<b>Section Footer</b>
 	<br>
-    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-footer.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Footer">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-footer.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Footer">
 </div><br><br>
 
 Enlace: [Video del despliegue de la landing page en GitHub Pages]()
@@ -4579,13 +4579,6 @@ Por lo tanto, al tratarse de un entregable puramente visual e informativo en est
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
-### 5.2.2. Sprint 2
-#### 5.2.2.1. Sprint Planning 2.
-#### 5.2.2.4. Development Evidence for Sprint Review.
-#### 5.2.2.5. Execution Evidence for Sprint Review.
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
-#### 5.2.2.8. Team Collaboration Insights during Sprint.
 ---
 # Conclusiones
 # Bibliografía
