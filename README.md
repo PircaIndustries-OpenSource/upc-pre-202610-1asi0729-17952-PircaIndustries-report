@@ -4685,11 +4685,7 @@ En esta sección se mostarán las estadísticas de colabración de Github de nue
 
 <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration/Code Frequency.jpeg?raw=true">
 
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration/Contributors 1.jpeg?raw=true">
-
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration/Contributors 2.jpeg?raw=true">
-
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration/Pulse.jpeg?raw=true">
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-2.png?raw=true">
 
 ---
 # Conclusiones
