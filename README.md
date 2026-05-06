@@ -4717,3 +4717,18 @@ Qlerify (s.f.). *What is Big Picture Event Storming?*. Qlerify. https://www.qler
 
 
 Enlace: [Needfinding](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxAVcYx3LosMbC302QOoOJsI8?e=8sKoWg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+## Video-About-The-Product
+  <div align="center">
+    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/25ba33cc85c64ef7d852b55f5558f0c28e4a4eae/Resources/Video-About-The-Product/Video-About-The-Product-image.PNG?raw=true" alt="Video about the product">
+ </div>
+
+ Enlace: [Video-About-The-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e418_upc_edu_pe/IQDBalITrUJdTpO4tJlzmhfuAW9MYd3ovTAOnPt0rp0mPQ8?e=aAluj4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+ ## Exposure Video AV1
+  <div align="center">
+    <img src="https://github.com/PircaIndustries/upc-pre-202610-1asi0730-17953-PircaIndustries-report/blob/25ba33cc85c64ef7d852b55f5558f0c28e4a4eae/Resources/Exposure/Exposure-AV1.png?raw=true">
+ </div>
+
+ Enlace: [Exposure Video AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417329_upc_edu_pe/IQBMPPQW3NVNQbtikq4Ubr7sAYqcuY_e-EzY_e6VOepahgA?e=yIs0ep&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
