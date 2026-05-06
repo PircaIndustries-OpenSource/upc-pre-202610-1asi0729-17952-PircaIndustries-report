@@ -36,41 +36,165 @@
 ---
 ### Registro de Versiones
 
+
 <div align="justify">
-
-|**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
-| - | - | - | - |
-|1\.0|02/04/2026|Marcelo Fausto Pareja Calloapaza, Diego Antonio Ramos Hinostroza y Paula Fernanda Montoya Nina| Se agregó la estructura inicial del proyecto: Índice, Student Outcome, los capitulos I, II, III, IV, y V, Conclusiones, Bibliografía y Anexos.|
-|1\.1\.0|03/04/2026|Marcelo Fausto Pareja Calloapaza y Neo Daniel Ramos Mera| Se inició el Capítulo I: Introducción y se agregó contenido relacionado con Startup Profile.|
-|1\.1\.1|03/04/2026|Paula Fernanda Montoya Nina, Marcelo Fausto Pareja Calloapaza, Neo Daniel Ramos Mera| Se agregó contenido relacionado a los perfiles de los integrantes del equipo.|
-|1\.1\.2|03/04/2026|Neo Daniel Ramos Mera|Se agregó el contenido del Lean UX Process.|
-|1\.1\.3|03/04/2026|Jhony Manuel Francia Torres| Se agregó contenido de Antecedentes y Problemática (5Ws y 2Hs).|
-|1\.1\.4|03/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado con los Segmentos Objetivos.|
-|1\.2\.0|04/04/2026|Marcelo Fausto Pareja Calloapaza| Se agregó contenido relacionado con los Competidores y Análisis Competitivo.|
-|1\.2\.1|05/04/2026|Diego Antonio Ramos Hinostroza| Se implementó contenido relacionado con el diseño de entrevistas.|
-|1\.2\.2|10/04/2026|Diego Antonio Ramos Hinostroza| Se añadió contenido relacionado con el registro de las entrevistas.|
-|1\.2\.3|10/04/2026|Diego Antonio Ramos Hinostroza| Se realizó el análisis de cada una de las entrevistas.|
-|1\.2\.4|05/04/2026|Marcelo Fausto Pareja Calloapaza| Se agregó contenido relacionado a las Estrategias y Tácticas frente a Competidores.|
-|1\.2\.5|10/04/2026|Marcelo Fausto Pareja Calloapaza| Se agregó contenido relacionado con el Big Picture Event Storming.|
-|1\.2\.6|10/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado con el Ubiquitous Language.|
-|1\.2\.7|10/04/2026|Jhony Manuel Francia Torres| Se agregó el contenido de los artefactos en el Needfinding (User Persona, User Task Matrix, Empathy Mapping, User Journey Mapping)|
-|1\.4\.0|09/04/2026|Paula Fernanda Montoya Nina| Se inició el Capítulo IV: Style Guidelines.|
-|1\.3\.0|10/04/2026|Neo Daniel Ramos Mera, Diego Antonio Ramos Hinostroza, Marcelo Fausto Pareja Calloapaza| Se agregaron épicas y user stories|
-|1\.3\.1|10/04/2026|Jhony Manuel Francia Torres| Se agregó épicas y user stories|
-|1\.3\.2|11/04/2026|Marcelo Fausto Pareja Calloapaza, Neo Daniel Ramos Mera| Se agregó funcionalidad IoT al proyecto.|
-|1\.3\.3|13/04/2026|Neo Daniel Ramos Mera| Se agregó el impact mapping|
-|1\.5\.1|17/04/2026|Diego Antonio Ramos Hinostroza| Se inicio el Capítulo V: Product Implementation, Validation & Deployment y se agregó contenido relacionado al Software Configuration Management |
-|1\.4\.1|17/04/2026|Paula Fernanda Montoya Nina| Se agregó Domain-Driven  Architecture|
-|1\.4\.2|18/04/2026|Jhony Manuel Francia Torres| Se agregaron los Diagramas de Clases y Base de Datos|
-|1\.4\.3|23/04/2026|Neo Daniel Ramos Mera, Paula Fernanda Montoya Nina, Marcelo Fausto Pareja Calloapaza, Diego Antonio Ramos Hinostroza, Jhony Manuel Francia Torres| Se agregaron los wireframes y mockups tanto de la Landing page como de la aplicación web incluyendo resoluciones móviles|
-|1\.4\.4|23/04/2026|Neo Daniel Ramos Mera| Se agregó el Wireflow|
-|1\.4\.5|23/04/2026|Neo Daniel Ramos Mera| Se agregó mockup desktop y mobile|
-|1\.5\.2|23/04/2026|Diego Antonio Ramos Hinostroza| Se agregó contenido relacionado a Source Code Management y Software Deployment Configuration.|
-1.\.5\.3|23/04/2026|Neo Daniel Ramos Mera| Se agregó el apartado de Aspect Leaders and Collaborators|
-1.\.5\.4|01/05/2026|Paula Fernanda Montoya Nina| Se agregó con el Sprint 2 planning|
-1.\.5\.5|01/05/2026|Paula Fernanda Montoya Nina| Se agregó con el Sprint 2 backlog |
-
-</div><br><br>
+  <table border="1">
+    <thead>
+      <tr>
+        <th><b>Versión</b></th>
+        <th><b>Fecha</b></th>
+        <th><b>Autor</b></th>
+        <th><b>Descripción de modificación</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1.0.1</td>
+        <td>02/04/2026</td>
+        <td>Diego Ramos y Paula Montoya</td>
+        <td>Se inició con la estructura del proyecto y se agregó el Índice, Student Outcome, Capítulos I-V, Conclusiones, Bibliografía y Anexos.</td>
+      </tr>
+      <tr>
+        <td>1.1.1</td>
+        <td>03/04/2026</td>
+        <td>Neo Ramos</td>
+        <td>Se inició con el capítulo I y se agregó la sección Descripción de la Startup.</td>
+      </tr>
+      <tr>
+        <td>1.1.2</td>
+        <td>03/04/2026</td>
+        <td>Neo Ramos, Paula Montoya, Manuel Francia, Marcelo Pareja y Diego Ramos</td>
+        <td>Se agregó la sección Perfiles de integrantes del equipo.</td>
+      </tr>
+      <tr>
+        <td>1.1.3</td>
+        <td>04/04/2026</td>
+        <td>Neo Ramos</td>
+        <td>Se agregó la sección Lean UX Process.</td>
+      </tr>
+      <tr>
+        <td>1.1.4</td>
+        <td>04/04/2026</td>
+        <td>Diego Ramos</td>
+        <td>Se agregó la sección Segmentos Objetivos.</td>
+      </tr>
+      <tr>
+        <td>1.1.5</td>
+        <td>05/04/2026</td>
+        <td>Jhony Francia</td>
+        <td>Se agregó la sección Solution Profile.</td>
+      </tr>
+      <tr>
+        <td>1.2.1</td>
+        <td>06/04/2026</td>
+        <td>Marcelo Pareja</td>
+        <td>Se inició con el capítulo II y se agregó la sección Competidores.</td>
+      </tr>
+      <tr>
+        <td>1.2.2</td>
+        <td>07/04/2026</td>
+        <td>Diego Ramos</td>
+        <td>Se agregó la sección Diseño de entrevistas.</td>
+      </tr>
+      <tr>
+        <td>1.2.3</td>
+        <td>08/04/2026</td>
+        <td>Diego Ramos</td>
+        <td>Se agregaron las secciones Registro de entrevistas y Ubiquitous Language.</td>
+      </tr>
+      <tr>
+        <td>1.2.4</td>
+        <td>09/04/2026</td>
+        <td>Jhony Francia</td>
+        <td>Se agregó la sección Needfinding.</td>
+      </tr>
+      <tr>
+        <td>1.2.5</td>
+        <td>10/04/2026</td>
+        <td>Marcelo Pareja</td>
+        <td>Se agregó la sección Big Picture Event Storming.</td>
+      </tr>
+      <tr>
+        <td>1.3.1</td>
+        <td>11/04/2026</td>
+        <td>Neo Ramos</td>
+        <td>Se inició con el capítulo III y se agregó la sección Impact Mapping.</td>
+      </tr>
+      <tr>
+        <td>1.3.2</td>
+        <td>12/04/2026</td>
+        <td>Manuel Francia, Paula Montoya, Marcelo Pareja, Ramos Hinostroza y Neo Ramos</td>
+        <td>Se agregó la sección User Stories.</td>
+      </tr>
+      <tr>
+        <td>1.3.3</td>
+        <td>13/04/2026</td>
+        <td>Paula Montoya</td>
+        <td>Se agregaron las secciones Product Backlog y Technical Stories.</td>
+      </tr>
+      <tr>
+        <td>1.4.1</td>
+        <td>14/04/2026</td>
+        <td>Paula Montoya</td>
+        <td>Se inició con el capítulo IV y se agregó la sección Style Guidelines.</td>
+      </tr>
+      <tr>
+        <td>1.4.2</td>
+        <td>15/04/2026</td>
+        <td>Marcelo Pareja</td>
+        <td>Se agregó la sección Information Architecture.</td>
+      </tr>
+      <tr>
+        <td>1.4.3</td>
+        <td>16/04/2026</td>
+        <td>Paula Montoya</td>
+        <td>Se agregó la sección Domain-Driven Software Architecture.</td>
+      </tr>
+      <tr>
+        <td>1.4.4</td>
+        <td>17/04/2026</td>
+        <td>Jhony Francia</td>
+        <td>Se agregaron las secciones Class Diagrams y Database Design.</td>
+      </tr>
+      <tr>
+        <td>1.4.5</td>
+        <td>18/04/2026</td>
+        <td>Neo Ramos</td>
+        <td>Se agregaron las secciones Landing Page UI Design, Wireflow, User Flow y Prototype.</td>
+      </tr>
+      <tr>
+        <td>1.4.6</td>
+        <td>19/04/2026</td>
+        <td>Neo Ramos, Paula Montoya, Manuel Francia, Marcelo Pareja y Diego Ramos</td>
+        <td>Se agregó la sección Web Applications UX/UI Design (Mockups y Wireframes).</td>
+      </tr>
+      <tr>
+        <td>1.5.1</td>
+        <td>20/04/2026</td>
+        <td>Paula Montoya</td>
+        <td>Se inició con el capítulo V y se agregaron las secciones Sprint Planning 1 y Sprint Backlog 1.</td>
+      </tr>
+      <tr>
+        <td>1.5.2</td>
+        <td>21/04/2026</td>
+        <td>Diego Ramos</td>
+        <td>Se agregó la sección Software Configuration Management.</td>
+      </tr>
+      <tr>
+        <td>1.5.3</td>
+        <td>22/04/2026</td>
+        <td>Diego Ramos</td>
+        <td>Se agregaron las secciones Source Code Management, Execution Evidence, Services Documentation y Software Deployment.</td>
+      </tr>
+      <tr>
+        <td>1.5.4</td>
+        <td>23/04/2026</td>
+        <td>Neo Ramos</td>
+        <td>Se agregaron las secciones Aspect Leaders, Development Evidence y Team Collaboration Insights.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ---
 <div align="justify">
