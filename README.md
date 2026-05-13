@@ -4886,6 +4886,68 @@ En esta sección se mostarán las estadísticas de colabración de Github de nue
 
 ### 5.2.2. Sprint 2
 
+#### 5.2.2.1. Sprint Planning 2
+
+<table>
+  <tbody>
+    <tr>
+      <th style="text-align: left; width: 30%;">Sprint #</th>
+      <td style="text-align: left;">Sprint 2</td>
+    </tr>
+    <tr>
+      <th colspan="2" style="text-align: left; background-color: #f6f8fa;">Sprint Planning Background</th>
+    </tr>
+    <tr>
+      <th style="text-align: left;">Date</th>
+      <td style="text-align: left;">2026-05-01</td>
+    </tr>
+    <tr>
+      <th style="text-align: left;">Time</th>
+      <td style="text-align: left;">7:00 PM</td>
+    </tr>
+    <tr>
+      <th style="text-align: left;">Location</th>
+      <td style="text-align: left;">Reunión virtual mediante Discord</td>
+    </tr>
+    <tr>
+      <th style="text-align: left;">Prepared By</th>
+      <td style="text-align: left;">Montoya Nina, Paula Fernanda</td>
+    </tr>
+    <tr>
+      <th style="text-align: left;">Attendees (to planning meeting)</th>
+      <td style="text-align: left;">Francia Torres, Jhony Manuel / Montoya Nina, Paula Fernanda / Pareja Calloapaza, Marcelo Fausto / Ramos Hinostroza, Diego Antonio / Ramos Mera, Neo Daniel</td>
+    </tr>
+    <tr>
+      <th style="text-align: left;">Sprint n – 1 Review Summary</th>
+      <td style="text-align: left;">Presentación exitosa de la Landing Page inicial. Se logró comunicar la propuesta de valor de Kipu para la optimización de procesos de construcción, obteniendo los primeros registros de prospectos y validando el interés temprano del sector.</td>
+    </tr>
+    <tr>
+      <th style="text-align: left;">Sprint n – 1 Retrospective Summary</th>
+      <td style="text-align: left;">Para garantizar un flujo de trabajo continuo y evitar bloqueos en el desarrollo de este sprint, el equipo acordó estructurar una fake API utilizando <code>json-server</code>. Esto nos permitirá desarrollar y probar las interfaces del frontend de manera totalmente paralela al backend.</td>
+    </tr>
+    <tr>
+      <th colspan="2" style="text-align: left; background-color: #f6f8fa;">Sprint Goal &amp; User Stories</th>
+    </tr>
+    <tr>
+      <th style="text-align: left;">Sprint 2 Goal</th>
+      <td style="text-align: left;">
+        <strong>Our focus is on</strong> launching the initial functional version of the Kipu web platform powered by mock APIs.<br><br>
+        <strong>We believe it delivers</strong> an interactive and reliable early experience of core project management, logistics, and monitoring workflows to Operative Managers, Logistics Teams, and Construction Clients.<br><br>
+        <strong>This will be confirmed when</strong> users can successfully navigate the frontend, register accounts, manage materials, and visualize key metrics seamlessly without backend dependencies.
+      </td>
+    </tr>
+    <tr>
+      <th style="text-align: left;">Sprint 2 Velocity</th>
+      <td style="text-align: left;">84 Story Points</td>
+    </tr>
+    <tr>
+      <th style="text-align: left;">Sum of Story Points</th>
+      <td style="text-align: left;"><strong>78 Story Points</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+
 #### 5.2.2.2 Sprint Backlog 2
 La prioridad estratégica de este segundo sprint consiste en el lanzamiento de la versión inicial de la plataforma web de Kipu. Para garantizar su operatividad, nos enfocaremos en el desarrollo y consumo de fake APIs simuladas, integrando únicamente las funcionalidades críticas que aseguren un despliegue exitoso y funcional en esta etapa.
 
