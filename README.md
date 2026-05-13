@@ -4247,7 +4247,7 @@ En este diagrama se detalla la distribución de la plataforma Kipu basada en una
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Diagrams/Class Diagram - Kipu.png?raw=true" alt="Foto de Diagrama de Clases"/>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Diagrams/Class Diagram 2 - Kipu.png?raw=true" alt="Foto de Diagrama de Clases"/>
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams.
