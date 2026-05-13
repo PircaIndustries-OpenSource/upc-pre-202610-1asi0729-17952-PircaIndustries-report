@@ -5403,6 +5403,11 @@ Durante el Sprint 2, el esfuerzo técnico del equipo se concentró exclusivament
 | /api/v1/concrete-curing/{id}      | PUT        | Actualizar sensor de concreto         | id (Path), Body         | 200 OK     |
 | /api/v1/concrete-curing/{id}      | DELETE     | Eliminar sensor de concreto           | id (Path)               | 200 OK     |
 |                                   |            |                                       |                         |            |
+| /seismicControl                   | GET        | Listar sensores sísmicos              | Ninguno                 | 200 OK     |
+| /seismicControl                   | POST       | Registrar sensor sísmico              | Body (SeismicEntity)    | 201 Created|
+| /seismicControl/{id}              | PUT        | Actualizar sensor sísmico             | id (Path), Body         | 200 OK     |
+| /seismicControl/{id}              | DELETE     | Eliminar sensor sísmico               | id (Path)               | 200 OK     |
+|                                   |            |                                       |                         |            |
 | /api/v1/geolocalization           | GET        | Obtener puntos de geolocalización     | Ninguno                 | 200 OK     |
 |                                   |            |                                       |                         |            |
 | /api/v1/hopper-watch              | GET        | Listar sensores de tolva (Hopper)     | Ninguno                 | 200 OK     |
