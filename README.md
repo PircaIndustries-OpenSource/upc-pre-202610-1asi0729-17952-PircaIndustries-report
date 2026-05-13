@@ -5392,6 +5392,121 @@ Branch:  (origin/main)                                        |        | 534d0bd
                                                               |        | 0637da2f9a18f9b7e9cc04e21e8b4cc6837d4673 | Sat May 2 01:22:54 2026 -0500  | feat: initial frontend setup with ddd, material and i18n                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 Branch:  (origin/main)                                        |        | 534d0bdf1c260fd05d5f6fcfb6e9fb78e8a9d509 | Fri May 1 13:37:17 2026 -0500  | Initial commit                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 
+---
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo logró el despliegue de la versión inicial de la aplicación web de Kipu, desarrollada bajo el framework Angular. Se implementó el consumo de una Fake API (JSON Server) para simular los servicios backend, permitiendo el desarrollo paralelo del frontend sin dependencia de una API real. Se completaron los módulos funcionales de Avances, Proyectos, Autenticación (Login/Logout), Monitoreo IoT, Materiales, Firmas Digitales, Gestión de Equipo y Presupuesto. Asimismo, se consolidó la arquitectura de navegación principal, la gestión de rutas y los servicios de consumo de datos.
+
+A continuación, se presentan las evidencias de ejecución correspondientes a las principales funcionalidades implementadas durante el Sprint 2:
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%201.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 1">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%202.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 2">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%203.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 3">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%204.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 4">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%205.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 5">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%206.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 6">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%207.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 7">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%208.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 8">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%209.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 9">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%2010.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 10">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%2011.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 11">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%2012.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 12">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%2013.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 13">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%2014.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 14">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%2015.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 15">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%2016.jpeg?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 16">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%2017.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 17">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%2018.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 18">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%2019.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 19">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%2020.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 20">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/EvidenceSprint2/Evidence%2021.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 2 - 21">
+</div>
+<br>
+
+Enlace: <a href="">Video del despliegue de la aplicación web en GitHub Pages</a>
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 2, el equipo mantuvo un flujo de trabajo colaborativo constante a través de la organización en GitHub. Se utilizaron ramas `feature/*` para el desarrollo de nuevas funcionalidades, las cuales fueron integradas a la rama `develop` mediante Pull Requests revisados por al menos dos miembros del equipo. Las tareas fueron gestionadas en el tablero de Trello, actualizando el estado de cada work-item a medida que avanzaba su implementación.
