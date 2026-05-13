@@ -4951,11 +4951,11 @@ En esta sección se mostarán las estadísticas de colabración de Github de nue
 #### 5.2.2.2 Sprint Backlog 2
 La prioridad estratégica de este segundo sprint consiste en el lanzamiento de la versión inicial de la plataforma web de Kipu. Para garantizar su operatividad, nos enfocaremos en el desarrollo y consumo de fake APIs simuladas, integrando únicamente las funcionalidades críticas que aseguren un despliegue exitoso y funcional en esta etapa.
 
-Enlace: [Sprint Backlog 2 en Trello](https://trello.com/invite/b/69e3edf026a5c3183649ace6/ATTI675c1191970d8bcb24d8b0d748ca09dbA3B1DCA4/kipu-opensource)<br><br>
+Enlace: [Sprint Backlog 2 en Jira](https://pircaindustries-opensource.atlassian.net/jira/software/projects/SCRUM/boards/1)<br><br>
 
 
 <div align="center">
-  <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint-Backlog/trello-sprint2.png?raw=true" alt="Imagen Sprint 2 Trello"/>
+  <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint-Backlog/jira-sprint2.png?raw=true" alt="Imagen Sprint 2 Trello"/>
 </div><br><br>
 
 <table>
