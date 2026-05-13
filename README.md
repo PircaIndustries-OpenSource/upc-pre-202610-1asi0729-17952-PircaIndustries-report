@@ -5247,7 +5247,6 @@ Enlace: [Sprint Backlog 2 en Trello](https://trello.com/invite/b/69e3edf026a5c31
 ---
 
 #### 5.2.2.4 Development Evidence for Sprint Review
-#### 5.2.2.4 Development Evidence for Sprint Review
 |Repo       | Branch                    | Commit Id  | Date                      | Subject                                       | Body                                    |
 |-----------|---------------------------|------------|---------------------------|-----------------------------------------------|-----------------------------------------|
 |Branch:... |                           | ebcd0744d8 | Tue May 12 20:46:02 20... | feat(iot-monitoring): add i18n for iot mon... |                                         |
@@ -5392,6 +5391,59 @@ Enlace: [Sprint Backlog 2 en Trello](https://trello.com/invite/b/69e3edf026a5c31
 |Branch:... |                           | 534d0bdf1c | Fri May 1 13:37:17 202... | Initial commit                                |                                         |
 |           |                           | 0637da2f9a | Sat May 2 01:22:54 202... | feat: initial frontend setup with ddd, mat... |                                         |
 |Branch:... |                           | 534d0bdf1c | Fri May 1 13:37:17 202... | Initial commit                                |                                         |
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 2, el esfuerzo técnico del equipo se concentró exclusivamente en la capa de presentación (Frontend), utilizando HTML, CSS y JavaScript bajo el modelo de ramificación Git Flow. El objetivo de este primer incremento (MVP) fue construir la primera versión de la aplicación Open Source Kipu para establecer la presencia digital, validar la propuesta de valor y asegurar el correcto uso del cliente.
+
+| Endpoint                          | Verbo HTTP | Acción                                | Parámetros              | Response   |
+|-----------------------------------|------------|---------------------------------------|-------------------------|------------|
+| /api/v1/concrete-curing           | GET        | Listar todos los sensores de concreto | Ninguno                 | 200 OK     |
+| /api/v1/concrete-curing           | POST       | Registrar sensor de concreto          | Body (ConcreteEntity)   | 201 Created|
+| /api/v1/concrete-curing/{id}      | PUT        | Actualizar sensor de concreto         | id (Path), Body         | 200 OK     |
+| /api/v1/concrete-curing/{id}      | DELETE     | Eliminar sensor de concreto           | id (Path)               | 200 OK     |
+|                                   |            |                                       |                         |            |
+| /api/v1/geolocalization           | GET        | Obtener puntos de geolocalización     | Ninguno                 | 200 OK     |
+|                                   |            |                                       |                         |            |
+| /api/v1/hopper-watch              | GET        | Listar sensores de tolva (Hopper)     | Ninguno                 | 200 OK     |
+| /api/v1/hopper-watch              | POST       | Registrar sensor de tolva             | Body (HopperEntity)     | 201 Created|
+| /api/v1/hopper-watch/{id}         | PUT        | Actualizar sensor de tolva            | id (Path), Body         | 200 OK     |
+| /api/v1/hopper-watch/{id}         | DELETE     | Eliminar sensor de tolva              | id (Path)               | 200 OK     |
+|                                   |            |                                       |                         |            |
+| /api/v1/budgets                   | GET        | Listar todos los presupuestos         | Ninguno                 | 200 OK     |
+| /api/v1/budgets                   | POST       | Crear nuevo presupuesto               | Body (Data)             | 201 Created|
+| /api/v1/budgets/{id}              | PUT        | Actualizar presupuesto existente      | id (Path), Body         | 200 OK     |
+|                                   |            |                                       |                         |            |
+| /api/v1/identity                  | GET        | Validar email o Login                 | email, password (Query) | 200 OK     |
+| /api/v1/identity                  | POST       | Registro de nuevo usuario             | Body (Identity)         | 201 Created|
+| /api/v1/identity/{id}             | PATCH      | Resetear contraseña                   | id (Path), Body         | 200 OK     |
+|                                   |            |                                       |                         |            |
+| /api/v1/materials/inventory       | GET        | Listar inventario de materiales       | Ninguno                 | 200 OK     |
+| /api/v1/materials                 | GET        | Listar catálogo de materiales         | Ninguno                 | 200 OK     |
+| /api/v1/materials/requests        | GET        | Listar solicitudes de materiales      | Ninguno                 | 200 OK     |
+| /api/v1/materials/requests        | POST       | Crear solicitud de material           | Body (RequestEntity)    | 201 Created|
+| /api/v1/materials/requests/{id}   | PATCH      | Actualizar estado de solicitud        | id (Path), Body         | 200 OK     |
+|                                   |            |                                       |                         |            |
+| /api/v1/machinery                 | GET        | Listar maquinaria                     | Ninguno                 | 200 OK     |
+| /api/v1/machinery                 | POST       | Registrar maquinaria                  | Body (MachineryEntity)  | 201 Created|
+| /api/v1/materials/suppliers       | GET        | Listar proveedores                    | Ninguno                 | 200 OK     |
+| /api/v1/materials/suppliers/{id}  | DELETE     | Eliminar proveedor                    | id (Path)               | 200 OK     |
+|                                   |            |                                       |                         |            |
+| /api/v1/projects                  | GET        | Listar todos los proyectos            | Ninguno                 | 200 OK     |
+| /api/v1/projects/{id}             | GET        | Obtener detalle de proyecto           | id (Path)               | 200 OK     |
+| /api/v1/projects                  | POST       | Crear nuevo proyecto                  | Body (ProjectEntity)    | 201 Created|
+| /api/v1/projects/{id}             | PATCH      | Actualizar estado/datos parciales     | id (Path), Body         | 200 OK     |
+|                                   |            |                                       |                         |            |
+| /api/v1/documents                 | GET        | Listar todos los documentos           | Ninguno                 | 200 OK     |
+| /api/v1/documents                 | GET        | Filtrar documentos por proyecto       | projectId (Query)       | 200 OK     |
+| /api/v1/documents                 | POST       | Subir/Registrar documento             | Body (DocumentEntity)   | 201 Created|
+| /api/v1/documents/{id}            | PUT        | Actualizar documento                  | id (Path), Body         | 200 OK     |
+|                                   |            |                                       |                         |            |
+| /api/v1/team-users                | GET        | Listar usuarios del equipo            | Ninguno                 | 200 OK     |
+| /api/v1/team-workers              | GET        | Listar trabajadores (operarios)       | Ninguno                 | 200 OK     |
+| /api/v1/team-workers              | POST       | Registrar trabajador                  | Body (WorkerEntity)     | 201 Created|
+| /api/v1/team-workers/{id}         | DELETE     | Eliminar trabajador                   | id (Path)               | 200 OK     |
+
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
