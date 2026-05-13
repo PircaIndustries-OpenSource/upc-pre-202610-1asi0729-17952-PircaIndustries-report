@@ -5206,8 +5206,6 @@ A continuación, se presentan las estadísticas de colaboración obtenidas desde
 
 <br>
 
-Como se puede observar en las gráficas, todos los integrantes contribuyeron activamente en el desarrollo del Sprint 2. La frecuencia de código evidencia un trabajo constante a lo largo del sprint, con picos de actividad durante la integración de funcionalidades críticas como el módulo de proveedores y la autenticación de usuarios. El equipo mantuvo una comunicación fluida a través de Discord y sesiones de pair programming, lo que permitió resolver bloqueos técnicos de manera eficiente y cumplir con los objetivos del sprint dentro del plazo establecido.
-
 
 
 ---
