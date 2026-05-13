@@ -5182,6 +5182,33 @@ Enlace: [Sprint Backlog 2 en Trello](https://trello.com/invite/b/69e3edf026a5c31
   </tr>
 </tbody>
 </table>
+---
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo mantuvo un flujo de trabajo colaborativo constante a través de la organización en GitHub. Se utilizaron ramas `feature/*` para el desarrollo de nuevas funcionalidades, las cuales fueron integradas a la rama `develop` mediante Pull Requests revisados por al menos dos miembros del equipo. Las tareas fueron gestionadas en el tablero de Trello, actualizando el estado de cada work-item a medida que avanzaba su implementación.
+
+A continuación, se presentan las estadísticas de colaboración obtenidas desde los insights de GitHub durante el Sprint 2:
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration-Sprint%202/TeamCollaboration%202.png?raw=true" alt="Code Frequency Sprint 2">
+    <br>
+    <p><strong>Gráfica 1:</strong> Frecuencia de código del Sprint 2, mostrando la evolución de adiciones y eliminaciones durante el periodo de desarrollo.</p>
+</div>
+
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration-Sprint%202/TeamCollaboration.jpg?raw=true" alt="Team Collaboration Insights Sprint 2">
+    <br>
+    <p><strong>Gráfica 2:</strong> Resumen de contribuciones por miembro del equipo, reflejando commits realizados y participación activa en el repositorio.</p>
+</div>
+
+<br>
+
+Como se puede observar en las gráficas, todos los integrantes contribuyeron activamente en el desarrollo del Sprint 2. La frecuencia de código evidencia un trabajo constante a lo largo del sprint, con picos de actividad durante la integración de funcionalidades críticas como el módulo de proveedores y la autenticación de usuarios. El equipo mantuvo una comunicación fluida a través de Discord y sesiones de pair programming, lo que permitió resolver bloqueos técnicos de manera eficiente y cumplir con los objetivos del sprint dentro del plazo establecido.
+
+
 
 ---
 # Conclusiones
