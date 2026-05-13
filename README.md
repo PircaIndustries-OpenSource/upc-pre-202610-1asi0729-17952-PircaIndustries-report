@@ -192,6 +192,12 @@
         <td>Neo Ramos</td>
         <td>Se agregaron las secciones Aspect Leaders, Development Evidence y Team Collaboration Insights.</td>
       </tr>
+      <tr>
+        <td>1.5.5</td>
+        <td>12/05/2026</td>
+        <td>Diego Ramos</td>
+        <td>Se agregó contenido del Sprint Backlog 2</td>
+      </tr>
     </tbody>
   </table>
 </div>
@@ -337,6 +343,15 @@ https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-Pirc
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Sprint Backlog 2](#5222-sprint-backlog-2)
+      - [5.2.2.3. Development Evidence for Sprint Review](#5223-development-evidence-for-sprint-review)
+      - [5.2.2.4. Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews.](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
@@ -4666,7 +4681,7 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
 Nuestro objetivo principal con este Sprint 1 es desplegar la versión inicial de la Landing Page de Kipu para captar el interés del mercado y establecer un canal de comunicación directo con nuestros prospectos (Gestores Operativos y Equipos de Logística). Para lograr este objetivo, se ha realizado una distribución estratégica de tareas entre los integrantes del equipo. Esto nos permitirá asegurar que cada sección del sitio transmita nuestra propuesta de valor con claridad, genere confianza en el sector construcción y cuente con llamados a la acción funcionales para capturar los primeros registros.
 
 Enlace Sprint Backlog 1 en Trello: https://trello.com/invite/b/69e3edf026a5c3183649ace6/ATTI675c1191970d8bcb24d8b0d748ca09dbA3B1DCA4/kipu-opensource
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint-1/trello-sprint1.png?raw=true" alt="Imagen Sprint 1 Trello"/>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint-Backlog/trello-sprint1.png?raw=true" alt="Imagen Sprint 1 Trello"/>
 
 
 | User Story | Work-Item / Task                                       |        |                              |                                          |                        |                 |            |
@@ -4868,6 +4883,305 @@ En esta sección se mostarán las estadísticas de colabración de Github de nue
 <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration/Code Frequency.jpeg?raw=true">
 
 <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-2.png?raw=true">
+
+### 5.2.2. Sprint 2
+
+#### 5.2.2.2 Sprint Backlog 2
+La prioridad estratégica de este segundo sprint consiste en el lanzamiento de la versión inicial de la plataforma web de Kipu. Para garantizar su operatividad, nos enfocaremos en el desarrollo y consumo de fake APIs simuladas, integrando únicamente las funcionalidades críticas que aseguren un despliegue exitoso y funcional en esta etapa.
+
+Enlace: [Sprint Backlog 2 en Trello](https://trello.com/invite/b/69e3edf026a5c3183649ace6/ATTI675c1191970d8bcb24d8b0d748ca09dbA3B1DCA4/kipu-opensource)<br><br>
+
+
+<div align="center">
+  <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint-Backlog/trello-sprint2.png?raw=true" alt="Imagen Sprint 2 Trello"/>
+</div><br><br>
+
+<table>
+<thead>
+  <tr>
+    <th colspan="2">User Story / Technical Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estim<br>ation (Story Points)</td>
+    <td>Assigned to</td>
+    <td>Status (To-do / InProcess / ToReview / Done)</td>
+  </tr>
+  <tr>
+    <td rowspan="1">TS00</td>
+    <td rowspan="1">Setup Mock API</td>
+    <td>SCRUM-133</td>
+    <td>[TS-00] Setup Mock API</td>
+    <td>Como usuario developer, quiero preparar un servidor Fake API con datos de prueba para permitir el desarrollo paralelo del frontend sin depender del backend real.</td>
+    <td>3</td>
+    <td>Paula Montoya</td>
+    <td>InProcess</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-13</td>
+    <td rowspan="1">Registrar merma de materiales</td>
+    <td>SCRUM-26</td>
+    <td>[US-13] Registrar merma de materiales</td>
+    <td>Como Equipo de Logística, quiero registrar la merma de materiales para ajustar el stock real y analizar la eficiencia de los recursos.</td>
+    <td>3</td>
+    <td>Paula Montoya</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-39</td>
+    <td rowspan="1">Registrar perfil de proveedor</td>
+    <td>SCRUM-52</td>
+    <td>[US-39] Registrar perfil de proveedor</td>
+    <td>Como Equipo de Logística, quiero registrar una nueva entidad proveedora en el sistema para formalizar la fuente de suministros y permitir la trazabilidad de las órdenes de compra.</td>
+    <td>3</td>
+    <td>Paula Montoya</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-40</td>
+    <td rowspan="1">Modificar perfil de proveedor</td>
+    <td>SCRUM-53</td>
+    <td>[US-40] Modificar perfil de proveedor</td>
+    <td>Como Equipo de Logística, quiero modificar los datos de contacto o el estado de un proveedor para asegurar que la comunicación y las compras se realicen con información vigente.</td>
+    <td>2</td>
+    <td>Paula Montoya</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">—</td>
+    <td rowspan="1">Task</td>
+    <td>SCRUM-141</td>
+    <td>Maquetación del Panel De Navegación Izquierdo</td>
+    <td>Maquetación del panel de navegación lateral izquierdo de la aplicación.</td>
+    <td>—</td>
+    <td>Manuel Francia Torres</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">—</td>
+    <td rowspan="3">Task (Seleccionar idioma Inglés/Español)</td>
+    <td>SCRUM-147</td>
+    <td>Desarrollar el componente toggle de idioma</td>
+    <td>Como operario/gestor logístico, quiero cambiar el idioma de la aplicación entre inglés y español (Desarrollo del componente).</td>
+    <td>—</td>
+    <td>Neo Daniel Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SCRUM-148</td>
+    <td>Crear el diccionario de localización en español (es.json)</td>
+    <td>Creación del archivo JSON con los textos en español para la localización del sistema.</td>
+    <td>—</td>
+    <td>Paula Montoya</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>SCRUM-149</td>
+    <td>Crear el diccionario de localización en inglés (en.json)</td>
+    <td>Creación del archivo JSON con los textos en inglés para la localización del sistema.</td>
+    <td>—</td>
+    <td>Paula Montoya</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-19</td>
+    <td rowspan="1">Crear nuevo proyecto de obra</td>
+    <td>SCRUM-32</td>
+    <td>[US-19] Crear nuevo proyecto de obra</td>
+    <td>Como Gestor Operativo, quiero registrar una nueva obra en el sistema para iniciar su gestión operativa y trazabilidad.</td>
+    <td>3</td>
+    <td>Diego Antonio Ramos Hinostroza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-09</td>
+    <td rowspan="1">Cambiar estado del proyecto</td>
+    <td>SCRUM-22</td>
+    <td>[US-09] Cambiar estado del proyecto</td>
+    <td>Como Gestor Operativo, quiero modificar el estado global de una obra (ej. En ejecución, Paralizada, Finalizada), para reflejar la situación operativa actual ante todos los usuarios.</td>
+    <td>2</td>
+    <td>Diego Antonio Ramos Hinostroza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-21</td>
+    <td rowspan="1">Registrar partidas de obra</td>
+    <td>SCRUM-34</td>
+    <td>[US-21] Registrar partidas de obra</td>
+    <td>Como Gestor Operativo, quiero registrar el catálogo de partidas de la obra para definir con claridad el volumen de trabajo y el alcance constructivo a ejecutar.</td>
+    <td>5</td>
+    <td>Manuel Francia Torres</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-08</td>
+    <td rowspan="1">Registrar avance diario de obra</td>
+    <td>SCRUM-21</td>
+    <td>[US-08] Registrar avance diario de obra</td>
+    <td>Como Gestor Operativo, quiero registrar el estado de ejecución diario de una partida planificada para dejar constancia de si se avanzó conforme al cronograma o si hubo bloqueos.</td>
+    <td>5</td>
+    <td>Manuel Francia Torres</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">—</td>
+    <td rowspan="1">Task</td>
+    <td>SCRUM-142</td>
+    <td>Ver listado de Materiales</td>
+    <td>Implementación de la vista para listar los materiales en el sistema.</td>
+    <td>2</td>
+    <td>Paula Montoya</td>
+    <td>InProcess</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-03</td>
+    <td rowspan="1">Solicitar materiales formalmente</td>
+    <td>SCRUM-16</td>
+    <td>[US-03] Solicitar materiales formalmente</td>
+    <td>Como Gestor Operativo, quiero enviar pedidos de insumos desde la app para evitar errores de comunicación por canales informales.</td>
+    <td>3</td>
+    <td>Paula Montoya</td>
+    <td>InProcess</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-04</td>
+    <td rowspan="1">Alertar stock crítico automáticamente</td>
+    <td>SCRUM-17</td>
+    <td>[US-04] Alertar stock crítico automáticamente</td>
+    <td>Como Equipo de Logística, quiero recibir notificaciones cuando el inventario sea bajo para evitar paralizar la construcción.</td>
+    <td>5</td>
+    <td>Paula Montoya</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-17</td>
+    <td rowspan="1">Controlar herramientas asignadas por operario</td>
+    <td>SCRUM-30</td>
+    <td>[US-17] Controlar herramientas asignadas por operario</td>
+    <td>Como Equipo de Logística, quiero registrar las herramientas eléctricas asignadas a un obrero específico para que sea el responsable de su devolución en buen estado.</td>
+    <td>3</td>
+    <td>Neo Daniel Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-11</td>
+    <td rowspan="1">Asignar roles a usuarios</td>
+    <td>SCRUM-24</td>
+    <td>[US-11] Asignar roles a usuarios</td>
+    <td>Como Gestor Operativo, quiero asignar o modificar los permisos de los trabajadores en la plataforma, para asegurar que cada empleado solo tenga acceso a los módulos correspondientes a su cargo.</td>
+    <td>3</td>
+    <td>Neo Daniel Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-06</td>
+    <td rowspan="1">Firmar actas digitalmente con token</td>
+    <td>SCRUM-19</td>
+    <td>[US-06] Firmar actas digitalmente con token</td>
+    <td>Como Gestor Operativo, quiero firmar actas de conformidad con un código de verificación para asegurar la validez legal del cierre de etapa.</td>
+    <td>5</td>
+    <td>Neo Daniel Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-14</td>
+    <td rowspan="1">Acceder como cliente en modo solo lectura</td>
+    <td>SCRUM-27</td>
+    <td>[US-14] Acceder como cliente en modo solo lectura</td>
+    <td>Como cliente de la obra, quiero tener acceso de solo lectura para monitorear el avance físico y financiero de mi inversión.</td>
+    <td>3</td>
+    <td>Neo Daniel Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-01</td>
+    <td rowspan="1">Registrar cuenta de usuario</td>
+    <td>SCRUM-14</td>
+    <td>[US-01] Registrar cuenta de usuario</td>
+    <td>Como Gestor Operativo, quiero crear una cuenta en la plataforma para habilitar mi identidad en el sistema.</td>
+    <td>3</td>
+    <td>Diego Antonio Ramos Hinostroza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-18</td>
+    <td rowspan="1">Iniciar sesión con credenciales</td>
+    <td>SCRUM-31</td>
+    <td>[US-18] Iniciar sesión con credenciales</td>
+    <td>Como Gestor Operativo, quiero iniciar sesión con mis credenciales para acceder a los módulos de mi obra asignada.</td>
+    <td>2</td>
+    <td>Diego Antonio Ramos Hinostroza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-07</td>
+    <td rowspan="1">Atender solicitud de materiales</td>
+    <td>SCRUM-20</td>
+    <td>[US-07] Atender solicitud de materiales</td>
+    <td>Como Equipo de Logística, quiero cambiar el estado de las solicitudes de materiales a "Aprobado" o "Rechazado", para mantener al equipo de obra informado sobre la disponibilidad de los insumos.</td>
+    <td>3</td>
+    <td>Paula Montoya</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-22</td>
+    <td rowspan="1">Monitorear temperatura y humedad para curado de concreto</td>
+    <td>SCRUM-35</td>
+    <td>[US-22] Monitorear temperatura y humedad para curado de concreto</td>
+    <td>Como Gestor Operativo, quiero recibir alertas automáticas cuando las condiciones ambientales no sean óptimas para el curado del concreto, para evitar fisuras y garantizar la calidad estructural.</td>
+    <td>5</td>
+    <td>Marcelo Pareja</td>
+    <td>ToReview</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-23</td>
+    <td rowspan="1">Monitorear vibraciones en edificios colindantes</td>
+    <td>SCRUM-36</td>
+    <td>[US-23] Monitorear vibraciones en edificios colindantes</td>
+    <td>Como Gestor Operativo, quiero recibir alertas en tiempo real cuando los sensores de vibración detecten movimientos peligrosos durante excavaciones, para evitar daños estructurales a propiedades vecinas.</td>
+    <td>5</td>
+    <td>Marcelo Pareja</td>
+    <td>ToReview</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-24</td>
+    <td rowspan="1">Alertar nivel crítico de materiales en tolvas</td>
+    <td>SCRUM-37</td>
+    <td>[US-24] Alertar nivel crítico de materiales en tolvas</td>
+    <td>Como Equipo de Logística, quiero recibir alertas automáticas cuando el nivel de agregados (arena, piedra) en las tolvas esté por debajo del mínimo, para solicitar reabastecimiento antes de que se agote.</td>
+    <td>5</td>
+    <td>Marcelo Pareja</td>
+    <td>ToReview</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US-25</td>
+    <td rowspan="1">Geolocalizar equipos de alto valor en obra</td>
+    <td>SCRUM-38</td>
+    <td>[US-25] Geolocalizar equipos de alto valor en obra</td>
+    <td>Como Equipo de Logística, quiero rastrear la ubicación de equipos de alto valor (vibrador de concreto, estación total) mediante sensores GPS, para prevenir robos y optimizar su asignación en obra.</td>
+    <td>8</td>
+    <td>Marcelo Pareja</td>
+    <td>ToReview</td>
+  </tr>
+  <tr>
+    <td rowspan="1">—</td>
+    <td rowspan="1">Task</td>
+    <td>SCRUM-153</td>
+    <td>Configuración</td>
+    <td>Tareas de configuración inicial o ajustes del sistema.</td>
+    <td>—</td>
+    <td>Marcelo Pareja</td>
+    <td>To-do</td>
+  </tr>
+</tbody>
+</table>
 
 ---
 # Conclusiones
