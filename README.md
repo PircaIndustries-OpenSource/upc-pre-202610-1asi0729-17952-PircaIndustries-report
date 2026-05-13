@@ -5390,7 +5390,7 @@ Enlace: [Sprint Backlog 2 en Trello](https://trello.com/invite/b/69e3edf026a5c31
 |Branch:    |                           | 737d1de16a | Sat May 2 01:24:33 202... | Merge pull request #1 from PircaIndustries... | feat: initial frontend setup with ddd...|
 |Branch:... |                           | 0637da2f9a | Sat May 2 01:22:54 202... | feat: initial frontend setup with ddd, mat... |                                         |
 |Branch:... |                           | 534d0bdf1c | Fri May 1 13:37:17 202... | Initial commit                                |                                         |
-           |                           | 0637da2f9a | Sat May 2 01:22:54 202... | feat: initial frontend setup with ddd, mat... |                                         |
+|           |                           | 0637da2f9a | Sat May 2 01:22:54 202... | feat: initial frontend setup with ddd, mat... |                                         |
 |Branch:... |                           | 534d0bdf1c | Fri May 1 13:37:17 202... | Initial commit                                |                                         |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
