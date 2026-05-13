@@ -4948,7 +4948,7 @@ En esta sección se mostarán las estadísticas de colabración de Github de nue
 </table>
 
 
-#### 5.2.2.2 Sprint Backlog 2
+#### 5.2.2.3 Sprint Backlog 2
 La prioridad estratégica de este segundo sprint consiste en el lanzamiento de la versión inicial de la plataforma web de Kipu. Para garantizar su operatividad, nos enfocaremos en el desarrollo y consumo de fake APIs simuladas, integrando únicamente las funcionalidades críticas que aseguren un despliegue exitoso y funcional en esta etapa.
 
 Enlace: [Sprint Backlog 2 en Trello](https://trello.com/invite/b/69e3edf026a5c3183649ace6/ATTI675c1191970d8bcb24d8b0d748ca09dbA3B1DCA4/kipu-opensource)<br><br>
