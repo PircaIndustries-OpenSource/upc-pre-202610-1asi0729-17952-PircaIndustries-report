@@ -5597,7 +5597,46 @@ A continuación, se presentan las estadísticas de colaboración obtenidas desde
 
 <br>
 
+---
 
+## 5.3. Validation Interviews.
+
+En esta sección, se registran y explican las actividades que abarcan las entrevistas de validación durante el desarrollo de nuestro proyecto. El objetivo principal de realizar estas entrevistas de validación es obtener retroalimentación, comprender las necesidades y expectativas de los usuarios, así como validar o refutar las hipótesis sobre el producto. Para lograr esto, haremos que nuestros entrevistados de ambos segmentos interactúen con la landing page y la aplicación web de Kipu.
+
+### 5.3.1. Diseño de Entrevistas.
+
+**Preguntas generales**
+
+1. ¿Cuál es su nombre completo?
+2. ¿Qué edad tiene?
+3. ¿A qué se dedica?
+4. ¿En qué distrito reside?
+
+**Segmento objetivo 1: Gestores Operativos de Obra (Arquitectos e Ingenieros)**
+
+**Preguntas Específicas**
+
+1. ¿Qué le pareció nuestra landing page y nuestra aplicación web Kipu?
+2. ¿Cuál considera que es la parte más importante de ambas? ¿Por qué?
+3. Si tuviera la oportunidad de cambiar o añadir algo en la landing page o en la aplicación web, ¿qué cambiaría o añadiría?
+4. ¿Cree que la solución presentada facilitará la gestión y el control de sus proyectos de construcción y brindará una mayor trazabilidad a los procesos? ¿Por qué?
+5. Sobre la landing page, ¿considera que cumple su función, la cual es persuadir a los visitantes a registrarse o conocer más sobre Kipu?
+6. Sobre la aplicación web, ¿considera que las secciones de avance de obra, planos, RNC y monitoreo IoT son intuitivas y fáciles de usar? ¿Por qué?
+7. ¿Usted utilizaría la aplicación web Kipu para gestionar sus proyectos de construcción? ¿Por qué?
+8. ¿Recomendaría a sus colegas arquitectos e ingenieros a utilizar Kipu? ¿Por qué?
+
+**Segmento objetivo 2: Equipos de Logística y Administración**
+
+**Preguntas Específicas**
+
+1. ¿Qué le pareció nuestra landing page y nuestra aplicación web?
+2. ¿Cuál considera que es la parte más importante de ambas? ¿Por qué?
+3. Si tuviera la posibilidad de cambiar o añadir algo en la landing page o en la aplicación web, ¿qué cambiaría o añadiría?
+4. ¿Cree que la solución presentada contribuirá a mejorar el control de inventarios, presupuestos y la cadena de suministro en las obras? ¿Por qué?
+5. Sobre la landing page, ¿considera que cumple su función, la cual es persuadir a los visitantes a registrarse o conocer más sobre Kipu?
+6. Sobre la aplicación web, ¿considera que las secciones de materiales, presupuesto y logística son intuitivas y fáciles de usar? ¿Por qué?
+7. ¿Usted utilizaría la aplicación web Kipu para gestionar la logística y administración de sus proyectos? ¿Por qué?
+8. ¿Recomendaría a sus colegas del área de logística y administración a utilizar Kipu? ¿Por qué?
 
 ---
 # Conclusiones
