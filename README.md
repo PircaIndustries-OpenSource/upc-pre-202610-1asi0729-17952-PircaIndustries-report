@@ -5638,8 +5638,402 @@ En esta sección, se registran y explican las actividades que abarcan las entrev
 7. ¿Usted utilizaría la aplicación web Kipu para gestionar la logística y administración de sus proyectos? ¿Por qué?
 8. ¿Recomendaría a sus colegas del área de logística y administración a utilizar Kipu? ¿Por qué?
 
+### 5.3.2. Registro de entrevistas
+
+En esta sección presentamos los registros de las entrevistas de validación realizadas para cada segmento objetivo de nuestra aplicación.
+
+
+**Segmento Objetivo 1: Gestores y Supervisores de Obra (Arquitectos e Ingenieros)**<br>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Entrevista #1<br></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nombre</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Apellidos</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Aplicaciones y Canales Utilizados</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Motivación</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Frustración</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tecnologías</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Preferencias Visuales</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Evidencia</td>
+      <td><div align="center"></div></td>
+    </tr>
+    <tr>
+      <td>Link</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Duración<br></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Resumen</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Entrevista #2<br></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nombre</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Apellidos</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Aplicaciones y Canales Utilizados</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Motivación</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Frustración</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tecnologías</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Preferencias Visuales</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Evidencia</td>
+      <td><div align="center"></div></td>
+    </tr>
+    <tr>
+      <td>Link</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Duración<br></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Resumen</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Entrevista #3<br></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nombre</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Apellidos</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Aplicaciones y Canales Utilizados</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Motivación</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Frustración</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tecnologías</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Preferencias Visuales</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Evidencia</td>
+      <td><div align="center"></div></td>
+    </tr>
+    <tr>
+      <td>Link</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Duración<br></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Resumen</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<br><br>
+
+**Segmento Objetivo 2: Equipos de Logística y Administración**<br>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Entrevista #4<br></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nombre</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Apellidos</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Aplicaciones y Canales Utilizados</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Motivación</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Frustración</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tecnologías</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Preferencias Visuales</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Evidencia</td>
+      <td><div align="center"></div></td>
+    </tr>
+    <tr>
+      <td>Link</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Duración<br></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Resumen</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Entrevista #5<br></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nombre</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Apellidos</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Aplicaciones y Canales Utilizados</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Motivación</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Frustración</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tecnologías</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Preferencias Visuales</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Evidencia</td>
+      <td><div align="center"></div></td>
+    </tr>
+    <tr>
+      <td>Link</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Duración<br></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Resumen</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Entrevista #6<br></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nombre</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Apellidos</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Aplicaciones y Canales Utilizados</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Motivación</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Frustración</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tecnologías</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Preferencias Visuales</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Evidencia</td>
+      <td><div align="center"></div></td>
+    </tr>
+    <tr>
+      <td>Link</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Duración<br></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Resumen</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 ---
 # Conclusiones
+
+
+
 # Bibliografía
 Aquise, J., Bustamante, G. y Cáceres, M. (2021). Control de Calidad y su Impacto en los Indicadores de Desempeño Financiero y Operativo (KPIs) de una Pequeña Empresa Constructora en el Sur del Perú. [Tesis de maestría, Universidad Peruana de Ciencias Aplicadas]. Repositorio académico UPC. https://repositorioacademico.upc.edu.pe/handle/10757/672148
 
