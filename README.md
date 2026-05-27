@@ -4421,7 +4421,7 @@ Ejemplo recomendado:
   <body>
     <main>
       <h1>Account settings</h1>
-      <img src="avatar.png" alt="Profile avatar preview">
+      <img src="avatar.png?raw=true alt="Profile avatar preview">
       <a href="/comments">All comments</a>
     </main>
   </body>
