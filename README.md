@@ -6653,7 +6653,14 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
     <img src="ruta/a/tu/imagen15.png" alt="Evidencia Problema 15" width="800">
   </div>
 * **Recomendación:** <br><span style="color: blue;">Marcar la sección "Attach Document" como obligatoria (agregando el asterisco * junto al título) y validar en el formulario que exista al menos un archivo cargado antes de habilitar el botón "Create Document".</span>
+
+## 5.4 Video About-The-Product
+
+
 ---
+
+
+
 # Conclusiones
 
 
