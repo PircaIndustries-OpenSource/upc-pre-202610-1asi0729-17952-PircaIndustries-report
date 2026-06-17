@@ -436,7 +436,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>TP1</b><p>Sustentación oral de las interfaces de usuario del módulo de Trabajadores y Usuarios en el frontend. Demostración del comportamiento adaptativo (responsive design) de los formularios y reporte del cumplimiento de estándares visuales y de internacionalización en el Sprint 2.</p>
         <b>AV2</b><p>Exposición de los endpoints y lógica del backend relacionados con el control de Usuarios y Trabajadores. Presentación técnica de las mejoras visuales iterativas aplicadas sobre el frontend y sustentación de la consistencia de datos entre interfaces y APIs web.</p>
         <b>TF1</b><p></p>
-        <br>
       </td>
       <td colspan="3">
         <b>AV1</b><p>Se logró identificar correctamente la problemática y los segmentos objetivo, comunicando la base del proyecto con claridad. Los artefactos de requerimientos (User Stories y Backlog) cumplen con las convenciones de lenguaje y estructura solicitadas. El diseño técnico y la arquitectura demuestran una aplicación correcta de principios de ingeniería y estándares visuales. La solución final fue implementada y documentada siguiendo el flujo de trabajo (GitFlow) y validada satisfactoriamente con los usuarios.</p>
@@ -477,7 +476,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>TP1</b><p>Redacción de la especificación técnica de vistas y layouts adaptativos para el módulo de Usuarios y Trabajadores en el frontend. Registro formalizado de evidencias de desarrollo de componentes visuales y reporte de pruebas de interfaz del Sprint 2.</p>
         <b>AV2</b><p>Documentación de las especificaciones del API y modelos de datos del backend para el módulo de Usuarios y Trabajadores. Redacción de la guía de control de cambios estéticos frontend y reporte escrito de la validación cruzada entre capas.</p>
         <b>TF1</b><p></p>
-        <br>
       </td>
       <td colspan="3">
         <b>AV1</b><p>Se logró identificar correctamente la problemática y los segmentos objetivo, comunicando la base del proyecto con claridad. Los artefactos de requerimientos (User Stories y Backlog) cumplen con las convenciones de lenguaje y estructura solicitadas. El diseño técnico y la arquitectura demuestran una aplicación correcta de principios de ingeniería y estándares visuales. La solución final fue implementada y documentada siguiendo el flujo de trabajo (GitFlow) y validada satisfactoriamente con los usuarios.</p>
