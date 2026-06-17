@@ -296,12 +296,17 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
 
 + **Evidencias de colaboración y commits - Github:**
     * **Análiticos de colaboración** <br><br>
-        + **Pulse Image of Github Insights**
-        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-1.png?raw=true"></div><br><br>
+        + **Pulse Image of Github Insights - Frontend**
+        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/frontend-pulse-tp1.png?raw=true"></div><br>
 
+		+ **Pulse Image of Github Insights - Report**
+        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/report-pulse-tp1.png?raw=true"></div><br><br>
 
-        + **Contributors Image of Github Insights**
-        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-2.png?raw=true"></div><br><br>
+		+ **Contributors Image of Github Insights - Frontend**
+        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/frontend-commits-tp1.png?raw=true"></div><br>
+
+        + **Contributors Image of Github Insights - Report**
+        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/report-commits-tp1.png?raw=true"></div><br><br>
 
 
     * **Commits**
@@ -310,47 +315,47 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
 			
         + **Marcelo Pareja - Frontend**
             <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/marcelo-frontend-av2.png?raw=true" >
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/marcelo-frontend-tp1.png?raw=true" >
             </div><br>
 			
         + **Marcelo Pareja - Report**
             <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/marcelo-report-av2.png?raw=true" >
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/marcelo-report-tp1.png?raw=true" >
             </div><br>
 			
         + **Neo Ramos - Frontend**
             <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/neo-frontend-av2.png?raw=true" >
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/neo-frontend-tp1.png?raw=true" >
             </div><br>
 			
         + **Neo Ramos - Report**
             <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/neo-report-av2.png?raw=true" >
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/neo-report-tp1.png?raw=true" >
             </div><br>
 			
         + **Paula Montoya - Frontend**
             <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/paula-frontend-av2.png?raw=true" >
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/paula-frontend-tp1.png?raw=true" >
             </div><br>
 			
         + **Paula Montoya - Report**
             <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/paula-report-av2.png?raw=true" >
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/paula-report-tp1.png?raw=true" >
             </div><br>
 			
         + **Jhony Francia - Frontend**
             <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/manuel-frontend-av2.png?raw=true" >
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/manuel-frontend-tp1.png?raw=true" >
             </div><br>
 			
         + **Jhony Francia - Report**
             <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/manuel-report-av2.png?raw=true" >
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/manuel-report-tp1.png?raw=true" >
             </div><br>
 			
         + **Diego Ramos - Frontend**
             <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/diego-frontend-av2.png?raw=true" >
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/diego-frontend-tp1.png?raw=true" >
             </div><br>
 			
         + **Diego Ramos - Report**
