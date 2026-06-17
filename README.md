@@ -5627,6 +5627,29 @@ A continuación, se presentan las estadísticas de colaboración obtenidas desde
 <br>
 
 ---
+### 5.2.3. Sprint 3
+#### 5.2.3.1.Spring Planning 3.
+
+| Sprint # | Sprint 3 |
+|----------|----------|
+| **Date** | 2026-05-26 |
+| **Time** | 07:30 PM |
+| **Location** | Reunión virtual mediante Discord |
+| **Prepared By** | Montoya Nina, Paula Fernanda / Ramos Mera, Neo Daniel |
+| **Attendees** | Francia Torres, Jhony Manuel / Montoya Nina, Paula Fernanda / Pareja Calloapaza, Marcelo Fausto / Ramos Hinostroza, Diego Antonio / Ramos Mera, Neo Daniel |
+| **Sprint 2 Review Summary** |Se validó con éxito la navegación del frontend utilizando mock APIs, logrando una experiencia interactiva temprana de los flujos principales (kipu-frontend).|
+| **Sprint 2 Retrospective Summary** | El equipo identificó que la separación por capas facilitó el trabajo en el frontend, lo cual servirá de base para alinear los Bounded Contexts del backend durante el siguiente ciclo.|
+| **Sprint 3 Goal** | Our focus is on integrating the initial Spring Boot backend with our frontend using Domain-Driven Design, while launching the new versions of the Kipu ecosystem. We believe it delivers a reliable, real-data experience and seamless operational connectivity to our users and stakeholders. This will be confirmed when users can execute core operations on the live Web Application successfully consuming the first deployed Web Services, and visitors can access the updated Landing Page in production.|
+| **Sprint 2 Velocity** | 84 Story Points |
+| **Sum of Story Points** |  Story Points |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+#### 5.2.3.3.Sprint Backlog 3.
+#### 5.2.3.4.Development Evidence for Sprint Review.
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
 
 ## 5.3. Validation Interviews.
 
@@ -6057,6 +6080,8 @@ En esta sección presentamos los registros de las entrevistas de validación rea
     </tr>
   </tbody>
 </table>
+
+### 5.3.3. Evaluaciones según heurísticas.
 
 ---
 # Conclusiones
