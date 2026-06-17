@@ -5972,6 +5972,109 @@ Durante el Sprint 3, el equipo logró el despliegue de una nueva versión de la 
 
 A continuación, se presentan las evidencias de ejecución correspondientes a las principales funcionalidades implementadas durante el Sprint 3:
 
+- **Swagger:**
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/authentication-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 1">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/budget-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 2">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/document-controller-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 3">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/identity-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 4">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/material-catalogs-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 5">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/material-categories-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 6">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/material-inventories-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 7">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/materials-request-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 8">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/progress-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 9">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/project-items-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 10">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/projects-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 11">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/suppliers-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 12">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/team-users-controller-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 13">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/team-workers-controller-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 14">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/user-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 15">
+</div>
+<br>
+
+- **Schemas:**
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-1.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 16">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-2.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 17">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-3.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 18">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-4.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 19">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-5.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 20">
+</div>
+<br>
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
