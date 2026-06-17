@@ -231,12 +231,6 @@
 
 # Project Report Collaboration Insights
 
-URL de Organización de GITHUB del equipo PircaIndustries:
-https://github.com/PircaIndustries-OpenSource
-
-URL de Repositorio del Project Report:
-https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report
-
 URL de la Organización de Github del equipo PircaIndustries: [PircaIndustries](https://github.com/PircaIndustries-OpenSource)
 
 URL del Repositorio del Project Report: [kipu-report](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report)
@@ -253,10 +247,10 @@ URL de la Landing Page desplegada: [kipu-landingpage](https://pircaindustries-op
 
 URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.web.app/)
 
-<strong>*Entrega TB1:*</strong>
+<strong>*Entrega AV1:*</strong>
 
 + Desarrollo de Actividades
-    Para el entregable TB1, el equipo utilizó Discord en todas sus reuniones y coordinaciones por consenso general. La carga de trabajo del informe se distribuyó equitativamente con plazos adecuados. Finalmente, las sesiones presenciales fueron clave para obtener retroalimentación del docente y resolver dudas, optimizando el avance frente a los horarios limitados del grupo.
+    Para el entregable AV1, el equipo utilizó Discord en todas sus reuniones y coordinaciones por consenso general. La carga de trabajo del informe se distribuyó equitativamente con plazos adecuados. Finalmente, las sesiones presenciales fueron clave para obtener retroalimentación del docente y resolver dudas, optimizando el avance frente a los horarios limitados del grupo.
 
 + **Evidencias de colaboración y commits - Github:**
     * **Análiticos de colaboración** <br><br>
@@ -295,6 +289,89 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
             <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Diego-Commits.png?raw=true">
             </div><br><br>
 
+<strong>*Entrega TP1:*</strong>
+
++ Desarrollo de Actividades
+    Para el entregable TP1, el equipo utilizó Discord en todas sus reuniones y coordinaciones por consenso general. La carga de trabajo del informe se distribuyó equitativamente con plazos adecuados. Finalmente, las sesiones presenciales fueron clave para obtener retroalimentación del docente y resolver dudas, optimizando el avance frente a los horarios limitados del grupo.
+
++ **Evidencias de colaboración y commits - Github:**
+    * **Análiticos de colaboración** <br><br>
+        + **Pulse Image of Github Insights**
+        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-1.png?raw=true"></div><br><br>
+
+
+        + **Contributors Image of Github Insights**
+        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-2.png?raw=true"></div><br><br>
+
+
+    * **Commits**
+
+         A continuacion se muestran algunos commits realizados en este entrega de TB1.
+
+        + **Marcelo Pareja**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Marcelo-Commits.png?raw=true" >
+            </div><br>
+
+        + **Neo Ramos**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Neo-Commits.png?raw=true">
+            </div><br>
+
+        + **Paula Montoya**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Paula-Commits.png?raw=true">
+            </div><br>
+        + **Jhony Francia**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Jhony-Commits.png?raw=true">
+            </div><br>
+        + **Diego Ramos**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Diego-Commits.png?raw=true">
+            </div><br><br>
+
+<strong>*Entrega AV2:*</strong>
+
++ Desarrollo de Actividades
+    Para el entregable AV2, el equipo utilizó Discord en todas sus reuniones y coordinaciones por consenso general. La carga de trabajo del informe se distribuyó equitativamente con plazos adecuados. Finalmente, las sesiones presenciales fueron clave para obtener retroalimentación del docente y resolver dudas, optimizando el avance frente a los horarios limitados del grupo.
+
++ **Evidencias de colaboración y commits - Github:**
+    * **Análiticos de colaboración** <br><br>
+        + **Pulse Image of Github Insights**
+        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-1.png?raw=true"></div><br><br>
+
+
+        + **Contributors Image of Github Insights**
+        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-2.png?raw=true"></div><br><br>
+
+
+    * **Commits**
+
+         A continuacion se muestran algunos commits realizados en este entrega de TB1.
+
+        + **Marcelo Pareja**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Marcelo-Commits.png?raw=true" >
+            </div><br>
+
+        + **Neo Ramos**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Neo-Commits.png?raw=true">
+            </div><br>
+
+        + **Paula Montoya**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Paula-Commits.png?raw=true">
+            </div><br>
+        + **Jhony Francia**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Jhony-Commits.png?raw=true">
+            </div><br>
+        + **Diego Ramos**
+            <div style="display: flex; align-items: center;">
+            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Diego-Commits.png?raw=true">
+            </div><br><br>
 
 
 
