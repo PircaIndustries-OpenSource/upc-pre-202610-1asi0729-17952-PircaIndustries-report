@@ -6045,7 +6045,7 @@ A continuación, se presentan las evidencias de ejecución correspondientes a la
 <br>
 
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/user-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 15">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/users-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 15">
 </div>
 <br>
 
