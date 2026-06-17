@@ -237,6 +237,22 @@ https://github.com/PircaIndustries-OpenSource
 URL de Repositorio del Project Report:
 https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report
 
+URL de la Organización de Github del equipo PircaIndustries: [PircaIndustries](https://github.com/PircaIndustries-OpenSource)
+
+URL del Repositorio del Project Report: [kipu-report](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report)
+
+URL del Repositorio de la Landing Page: [kipu-landingpage](https://github.com/PircaIndustries-OpenSource/landing-page-Kipu)
+
+URL del Repositorio del Frontend: [kipu-frontend](https://github.com/PircaIndustries-OpenSource/frontend-kipu)
+
+URL del Repositorio del Backend: [kipu-backend](https://github.com/PircaIndustries-OpenSource/backend-kipu)
+
+URL del Repositorio del trabajo de Responsabilidad Social: [java-fundamentals-course-PircaIndustries](https://github.com/PircaIndustries-OpenSource/java-fundamentals-course-PircaIndustries)
+
+URL de la Landing Page desplegada: [kipu-landingpage](https://pircaindustries-opensource.github.io/landing-page-Kipu/)
+
+URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.web.app/)
+
 <strong>*Entrega TB1:*</strong>
 
 + Desarrollo de Actividades
