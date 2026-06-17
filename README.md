@@ -6759,6 +6759,14 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ## 5.4 Video About-The-Product
 
+**TB1**
+  <div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/220f8507c20bd1633016aed00afeccb62ebfc250/Resources/Video-About-The-Product/Video-About-The-Product-image.png?raw=true" alt="Video about the product">
+ </div>
+
+Enlace: [Video-About-The-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e418_upc_edu_pe/IQDBalITrUJdTpO4tJlzmhfuAW9MYd3ovTAOnPt0rp0mPQ8?e=aAluj4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**AV2**
 
 ---
 
