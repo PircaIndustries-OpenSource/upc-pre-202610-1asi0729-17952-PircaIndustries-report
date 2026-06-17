@@ -6408,7 +6408,6 @@ En esta sección presentamos los registros de las entrevistas de validación rea
 </table>
 
 ### 5.3.3. Evaluaciones según heurísticas.
-### 5.3.3. Evaluaciones según heurísticas.
 
 **UX Heuristics & Principles Evaluation**
 *Usability – Inclusive Design – Information Architecture*
