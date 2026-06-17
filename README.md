@@ -5638,12 +5638,17 @@ A continuación, se presentan las estadísticas de colaboración obtenidas desde
 | **Sum of Story Points** |  Story Points |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
-#### 5.2.3.3.Sprint Backlog 3.
-#### 5.2.3.4.Development Evidence for Sprint Review.
-#### 5.2.3.5.Execution Evidence for Sprint Review.
-#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
-#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
-#### 5.2.3.8.Team Collaboration Insights during Sprint.
+#### 5.2.3.3. Sprint Backlog 3.
+#### 5.2.3.4. Development Evidence for Sprint Review.
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+Durante el Sprint 3, el equipo logró el despliegue de una nueva versión de la aplicación web de Kipu. Se implementó el consumo de una API para gestionar los servicios backend, permitiendo el desarrollo paralelo del frontend. Además, se hicieron algunos cambios en la interfaz del frontend. Se completaron los módulos funcionales de Avances, Proyectos, Autenticación (Login/Logout), Monitoreo IoT, Materiales, Firmas Digitales, Gestión de Equipo y Presupuesto. Asimismo, se consolidó la arquitectura de navegación principal, la gestión de rutas y los servicios de consumo de datos.
+
+A continuación, se presentan las evidencias de ejecución correspondientes a las principales funcionalidades implementadas durante el Sprint 3:
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
 
 ## 5.3. Validation Interviews.
 
