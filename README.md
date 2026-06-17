@@ -6082,7 +6082,252 @@ En esta sección presentamos los registros de las entrevistas de validación rea
 </table>
 
 ### 5.3.3. Evaluaciones según heurísticas.
+### 5.3.3. Evaluaciones según heurísticas.
 
+**UX Heuristics & Principles Evaluation**
+*Usability – Inclusive Design – Information Architecture*
+
+**CARRERA :** <span style="color: blue;">Ingeniería de Software</span><br>
+**CURSO :** <span style="color: blue;">Desarrollo de Aplicaciones Open Source</span><br>
+**SECCIÓN :** <span style="color: blue;">17952</span><br>
+**PROFESORES :** <span style="color: blue;">Todos</span><br>
+**AUDITOR :** <span style="color: blue;">DevTeam (Del Aguila Olenka, Espinoza Angela, Mora Joel, Soto Brandon, Villarreal Angel)</span><br>
+**CLIENTE(S) :** <span style="color: blue;"></span>
+
+**SITE o APP A EVALUAR:**<br>
+<span style="color: blue;">Kipu</span>
+
+**TAREAS A EVALUAR:**<br>
+<div style="color: blue;">
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:<br>
+1. Navegación y acceso desde la landing page hacia la web app<br>
+2. Visualización del dashboard principal<br>
+3. Gestión de ajustes de accesibilidad<br>
+4. Visualización de avances del proyecto<br>
+5. Consulta del presupuesto del proyecto (Budget)<br>
+6. Selección y persistencia de un proyecto activo<br>
+7. Adaptación de la interfaz en dispositivos móviles<br>
+8. Gestión de materiales y maquinaria<br>
+9. Módulo de firmas digitales<br>
+10. Monitoreo IoT<br>
+11. Gestión de equipo y colaboradores
+</div>
+
+---
+
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+| :---: | :--- |
+| **1** | **Problema superficial:** puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | **Problema menor:** puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| **3** | **Problema mayor:** ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | **Problema muy grave:** un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+**TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| :---: | :--- | :---: | :--- |
+| <span style="color: blue;">1</span> | <span style="color: blue;">El header de la landing no se adapta correctamente en dispositivos móviles</span> | <span style="color: blue;">3</span> | <span style="color: blue;">Information Architecture: Accessible</span> |
+| <span style="color: blue;">2</span> | <span style="color: blue;">El botón "Ingresar" de la landing no redirige a la web app</span> | <span style="color: blue;">4</span> | <span style="color: blue;">Usability: Visibility of System Status</span> |
+| <span style="color: blue;">3</span> | <span style="color: blue;">La web app no tiene diseño responsive</span> | <span style="color: blue;">3</span> | <span style="color: blue;">Information Architecture: Accessible</span> |
+| <span style="color: blue;">4</span> | <span style="color: blue;">Los ajustes de accesibilidad usan listas de botones donde un dropdown sería más apropiado</span> | <span style="color: blue;">2</span> | <span style="color: blue;">Usability: Consistency and Standards</span> |
+| <span style="color: blue;">5</span> | <span style="color: blue;">El valor del clima aparece en inglés ("Sunny") estando la interfaz configurada en español</span> | <span style="color: blue;">2</span> | <span style="color: blue;">Usability: Match Between the System and the Real World</span> |
+| <span style="color: blue;">6</span> | <span style="color: blue;">Al refrescar la página, el proyecto seleccionado se pierde</span> | <span style="color: blue;">3</span> | <span style="color: blue;">Inclusive Design: Make Undo/Redo and Backtracking Available</span> |
+| <span style="color: blue;">7</span> | <span style="color: blue;">La sección de presupuesto (Budget) presenta información de forma poco amigable</span> | <span style="color: blue;">2</span> | <span style="color: blue;">Information Architecture: Clear</span> |
+| <span style="color: blue;">8</span> | <span style="color: blue;">Al agregar un nuevo proveedor, no se muestra la fecha de ingreso</span> | <span style="color: blue;">2</span> | <span style="color: blue;">Usability: Visibility of System Status</span> |
+| <span style="color: blue;">9</span> | <span style="color: blue;">La fecha de entrega de material permite seleccionar fechas pasadas o el día actual</span> | <span style="color: blue;">3</span> | <span style="color: blue;">Usability: Error Prevention</span> |
+| <span style="color: blue;">10</span> | <span style="color: blue;">Una solicitud de materiales enviada desaparece al refrescar la página</span> | <span style="color: blue;">4</span> | <span style="color: blue;">Usability: Help Users Recognize, Diagnose, and Recover from Errors</span> |
+| <span style="color: blue;">11</span> | <span style="color: blue;">Las categorías de materiales no tienen traducción al inglés</span> | <span style="color: blue;">2</span> | <span style="color: blue;">Usability: Consistency and Standards</span> |
+| <span style="color: blue;">12</span> | <span style="color: blue;">Al enviar una solicitud de materiales no redirige a /logistics/requests</span> | <span style="color: blue;">2</span> | <span style="color: blue;">Inclusive Design: Provide an Explicit Path through the Task</span> |
+| <span style="color: blue;">13</span> | <span style="color: blue;">Cualquier usuario puede deshabilitar cuentas de otros, incluyendo administradores</span> | <span style="color: blue;">4</span> | <span style="color: blue;">Usability: Error Prevention</span> |
+| <span style="color: blue;">14</span> | <span style="color: blue;">El campo "Unit" en la configuración de sensores IoT permite texto libre</span> | <span style="color: blue;">2</span> | <span style="color: blue;">Usability: Recognition Rather than Recall</span> |
+| <span style="color: blue;">15</span> | <span style="color: blue;">Adjuntar el documento no es obligatorio al crear uno para firma</span> | <span style="color: blue;">3</span> | <span style="color: blue;">Usability: Error Prevention</span> |
+
+---
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** <span style="color: blue;">El header de la landing no se adapta correctamente en dispositivos móviles</span>
+* **Severidad:** <span style="color: blue;">3</span>
+* **Heurística violada:** <span style="color: blue;">Information Architecture: Accessible</span>
+* **Problema:** <br><span style="color: blue;">Al acceder a la landing page desde un dispositivo móvil, el menú de navegación superior no colapsa ni se reorganiza correctamente. Los ítems del navbar se distribuyen en dos filas fragmentadas, mostrando en una parte "Propuestas", "Características" y "Equipo", y en otra fila "Planes", "Contacto" e "Ingresar", sin ningún menú hamburguesa u otro patrón de navegación móvil estándar. Esto resulta en una experiencia visualmente rota que no corresponde a los estándares esperados para sitios web modernos con soporte mobile, generando confusión e impresión de baja calidad en el primer punto de contacto con el producto.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen1.png" alt="Evidencia Problema 1" width="300">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Implementar un diseño responsive para el navbar utilizando un breakpoint adecuado (por ejemplo, max-width: 768px). A partir de ese punto, los ítems de navegación deben ocultarse y reemplazarse por un ícono de menú hamburguesa ( ☰ ) que al pulsarse despliegue el menú en un panel lateral o desplegable. Este es el patrón estándar en la industria y garantiza una experiencia consistente entre dispositivos.</span>
+
+<br>
+
+**PROBLEMA #2:** <span style="color: blue;">El botón "Ingresar" de la landing no redirige a la web app</span>
+* **Severidad:** <span style="color: blue;">4</span>
+* **Heurística violada:** <span style="color: blue;">Usability: Visibilidad del estado del sistema</span>
+* **Problema:** <br><span style="color: blue;">El botón "Ingresar" ubicado en la barra de navegación de la landing page es el principal punto de entrada para que un usuario existente acceda a la aplicación. Al hacer clic, el botón no ejecuta ninguna acción: no redirige a la web app, no abre una página de login, ni muestra ningún mensaje de error o estado. Desde la perspectiva del usuario, el sistema no comunica ningún feedback ante su acción, lo que genera incertidumbre total sobre si el botón funciona, si la aplicación existe o si hay un problema técnico. Al ser la llamada a la acción principal para usuarios recurrentes, un botón roto en este punto es un bloqueo crítico que impide por completo el flujo de acceso.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen2.png" alt="Evidencia Problema 2" width="300">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Vincular el botón "Ingresar" a la URL de login de la web app (https://kipu-frontend-42d0d.web.app/sign-in o equivalente). Adicionalmente, verificar que todos los CTA de la landing (incluyendo "Crear Cuenta Gratuita" y "Ver Demostración") apunten a rutas válidas y funcionales antes de cualquier presentación o lanzamiento.</span>
+
+<br>
+
+**PROBLEMA #3:** <span style="color: blue;">La web app no tiene diseño responsive</span>
+* **Severidad:** <span style="color: blue;">3</span>
+* **Heurística violada:** <span style="color: blue;">Information Architecture: Accessible</span>
+* **Problema:** <br><span style="color: blue;">Al acceder a la web app desde un dispositivo móvil, la interfaz no se adapta al tamaño de pantalla. El sidebar de navegación lateral y el contenido principal se renderizan con sus dimensiones de escritorio, obligando al usuario a hacer scroll horizontal o ver el contenido recortado. En un contexto de gestión de obra donde los usuarios pueden estar en campo y acceder desde el celular, la falta de responsividad es una barrera importante que excluye a un segmento clave de usuarios del acceso pleno a las funcionalidades de la aplicación.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen3.png" alt="Evidencia Problema 3" width="300">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Implementar media queries o utilizar las utilidades responsive del framework CSS empleado para adaptar el layout en dispositivos móviles. El sidebar debe colapsar en un menú hamburguesa o en una barra inferior de navegación, y el contenido principal debe ocupar el 100% del ancho disponible.</span>
+
+<br>
+
+**PROBLEMA #4:** <span style="color: blue;">Los ajustes de accesibilidad utilizan listas de botones donde un dropdown sería más apropiado</span>
+* **Severidad:** <span style="color: blue;">2</span>
+* **Heurística violada:** <span style="color: blue;">Usability: Consistency and Standards</span>
+* **Problema:** <br><span style="color: blue;">En la pantalla "Ajustes de Accesibilidad", las opciones de configuración se presentan como grupos de botones apilados verticalmente dentro de cada tarjeta. Si bien esta aproximación es funcional, resulta visualmente densa y ocupa un espacio considerable en pantalla, especialmente en el caso de "Filtros de Daltonismo" que lista cuatro opciones. Este patrón no es el estándar para la selección de una única opción entre varias alternativas, lo que puede resultar inconsistente con las convenciones de UI que el usuario ya conoce.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen4.png" alt="Evidencia Problema 4" width="600">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Reemplazar los grupos de botones por componentes `<select>` (dropdown) nativos o componentes de selección tipo dropdown/combobox del design system utilizado. Esto reduce el espacio vertical ocupado, es más familiar para el usuario y mejora la escaneabilidad de la pantalla. Los toggles actuales para "Tipografía Disléxica" y "Animaciones Reducidas" sí son apropiados para opciones binarias y pueden mantenerse tal como están.</span>
+
+<br>
+
+**PROBLEMA #5:** <span style="color: blue;">El valor del clima aparece en inglés ("Sunny") con la interfaz configurada en español</span>
+* **Severidad:** <span style="color: blue;">2</span>
+* **Heurística violada:** <span style="color: blue;">Usability: Match Between the System and the Real World</span>
+* **Problema:** <br><span style="color: blue;">En el widget de estadísticas diarias del dashboard ("Daily Statistics"), el campo "Weather" muestra el valor "Sunny 25°C". Dado que la interfaz está configurada en español, este valor debería mostrarse como "Soleado 25°C". La mezcla de idiomas dentro de una misma vista genera inconsistencia lingüística y rompe la expectativa de un usuario hispanohablante de interactuar con la interfaz completamente en su idioma. Además, el propio label "Weather" no está traducido.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen5.png" alt="Evidencia Problema 5" width="300">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Integrar el componente de clima al sistema de internacionalización (i18n) de la aplicación. Los valores meteorológicos deben mapearse a sus equivalentes traducidos según el idioma activo del sistema. Si el dato proviene de una API externa en inglés, realizar la traducción en la capa de presentación antes de renderizarlo. Adicionalmente, traducir el label "Weather" a "Clima" y "Daily Statistics" a "Estadísticas del día".</span>
+
+<br>
+
+**PROBLEMA #6:** <span style="color: blue;">Al refrescar la página, el proyecto seleccionado se pierde</span>
+* **Severidad:** <span style="color: blue;">3</span>
+* **Heurística violada:** <span style="color: blue;">Inclusive Design: Make Undo/Redo and Backtracking Available</span>
+* **Problema:** <br><span style="color: blue;">Cuando el usuario selecciona un proyecto activo dentro de la aplicación y luego recarga la página, el estado de selección del proyecto no se preserva: la aplicación vuelve al estado "Seleccione un proyecto", obligando al usuario a repetir el proceso de selección. Este comportamiento interrumpe el flujo de trabajo del usuario y genera sensación de pérdida de control sobre el estado de la sesión.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen6.png" alt="Evidencia Problema 6" width="600">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Persistir el identificador del proyecto seleccionado en `localStorage` o en los parámetros de la URL (ej. `/dashboard?projectId=123`). Al cargar la aplicación, verificar si existe un proyecto guardado y restaurarlo automáticamente sin requerir que el usuario lo reseleccione.</span>
+
+<br>
+
+**PROBLEMA #7:** <span style="color: blue;">La sección de presupuesto (Budget) presenta la información de forma poco amigable</span>
+* **Severidad:** <span style="color: blue;">2</span>
+* **Heurística violada:** <span style="color: blue;">Information Architecture: Clear</span>
+* **Problema:** <br><span style="color: blue;">La sección de presupuesto muestra cifras de gran tamaño acompañadas de una barra de progreso completamente verde que indica "102% Executed" y el valor "S/ 639,000.00 Available". Esta presentación resulta confusa: la barra verde transmite visualmente un estado positivo cuando en realidad representa un sobrecosto; el dato "Available" cuando se ha superado el presupuesto es contradictorio; y el excesivo tamaño de las cifras dificulta la lectura rápida del estado real del presupuesto.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen7.png" alt="Evidencia Problema 7" width="800">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Mejorar la visualización: (1) cuando la ejecución supere el 100%, cambiar el color de la barra y los indicadores a rojo o naranja; (2) mostrar claramente el monto del sobrecosto como "Excedido en: S/ 21,000.00" en lugar de un valor "Available"; (3) reducir el tamaño tipográfico de las cifras y establecer una jerarquía visual clara.</span>
+
+<br>
+
+**PROBLEMA #8:** <span style="color: blue;">Al agregar un nuevo proveedor, no se muestra la fecha de ingreso</span>
+* **Severidad:** <span style="color: blue;">2</span>
+* **Heurística violada:** <span style="color: blue;">Usability: Visibility of System Status</span>
+* **Problema:** <br><span style="color: blue;">En la ficha de detalle de un proveedor se muestra un campo con el ícono "Ingreso:" en la parte superior derecha de la tarjeta. Sin embargo, al registrar un nuevo proveedor, este campo aparece vacío, sin ningún valor de fecha. El sistema no le comunica al usuario cuándo fue dado de alta el proveedor, dejando incompleta una pieza de información.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen8.png" alt="Evidencia Problema 8" width="800">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Asignar automáticamente la fecha y hora actuales del servidor al campo "Ingreso" en el momento en que se crea el registro del proveedor, y mostrarla con un formato legible (ej. "Ingreso: 13/06/2026") en la ficha de detalle.</span>
+
+<br>
+
+**PROBLEMA #9:** <span style="color: blue;">La fecha de entrega de material permite seleccionar fechas pasadas o el día actual</span>
+* **Severidad:** <span style="color: blue;">3</span>
+* **Heurística violada:** <span style="color: blue;">Usability: Error Prevention</span>
+* **Problema:** <br><span style="color: blue;">En el formulario de solicitud de material, el campo "Fecha de entrega requerida" se presenta como un selector de fecha sin ninguna restricción de rango. Esto permite que el usuario seleccione el día actual o incluso fechas anteriores como fecha de entrega esperada, lo cual no es logísticamente posible y puede generar solicitudes con datos incoherentes.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen9.png" alt="Evidencia Problema 9" width="600">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Configurar el atributo de fecha mínima del selector (`min`) para que únicamente permita seleccionar fechas a partir del día siguiente al actual, deshabilitando visualmente el día de hoy y las fechas pasadas en el calendario.</span>
+
+<br>
+
+**PROBLEMA #10:** <span style="color: blue;">Una solicitud de materiales enviada desaparece al refrescar la página</span>
+* **Severidad:** <span style="color: blue;">4</span>
+* **Heurística violada:** <span style="color: blue;">Usability: Help Users Recognize, Diagnose, and Recover from Errors</span>
+* **Problema:** <br><span style="color: blue;">Tras completar el formulario de "Create Request" y recibir la confirmación "Request successfully submitted", la solicitud no se refleja en el listado de "Material Requests" después de refrescar la página. El usuario queda sin forma de saber si la solicitud realmente se guardó en el sistema o si ocurrió un error. La aplicación no ofrece ningún indicador ni mecanismo para reconocer que algo falló ni cómo proceder.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen10.png" alt="Evidencia Problema 10" width="800">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Asegurar que la solicitud se persista correctamente en el backend antes de mostrar el mensaje de éxito, y que el listado se cargue siempre desde esa fuente persistente. En caso de error, mostrar un mensaje explícito con la opción de reintentar el envío.</span>
+
+<br>
+
+**PROBLEMA #11:** <span style="color: blue;">Las categorías de materiales no tienen traducción al inglés</span>
+* **Severidad:** <span style="color: blue;">2</span>
+* **Heurística violada:** <span style="color: blue;">Usability: Consistency and Standards</span>
+* **Problema:** <br><span style="color: blue;">Al cambiar el idioma de la interfaz a inglés (EN), el listado de categorías de materiales del inventario permanece en español. Esto genera una interfaz con dos idiomas mezclados dentro de la misma vista, rompiendo la consistencia que el usuario espera al seleccionar un idioma para toda la aplicación.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen11.png" alt="Evidencia Problema 11" width="800">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Incluir las categorías de materiales como claves dentro del sistema de internacionalización (i18n) de la aplicación, agregando sus traducciones al inglés (ej. "Estructuras y Albañilería" → "Structures and Masonry").</span>
+
+<br>
+
+**PROBLEMA #12:** <span style="color: blue;">Al enviar una solicitud de materiales no redirige a /logistics/requests</span>
+* **Severidad:** <span style="color: blue;">2</span>
+* **Heurística violada:** <span style="color: blue;">Inclusive Design: Provide an Explicit Path through the Task</span>
+* **Problema:** <br><span style="color: blue;">Después de enviar exitosamente una solicitud de material y cerrar el modal de confirmación, el usuario permanece en el mismo formulario de creación, sin ninguna indicación de cuál es el siguiente paso lógico. El flujo no le ofrece al usuario un camino explícito hacia el resultado de su acción, dejándolo en un punto "muerto" del proceso.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen12.png" alt="Evidencia Problema 12" width="800">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Al cerrar el modal de éxito, redirigir automáticamente al usuario a `/logistics/requests` (Material Requests), de modo que el flujo de la tarea continúe de forma natural.</span>
+
+<br>
+
+**PROBLEMA #13:** <span style="color: blue;">Cualquier usuario puede deshabilitar cuentas de otros, incluyendo administradores</span>
+* **Severidad:** <span style="color: blue;">4</span>
+* **Heurística violada:** <span style="color: blue;">Usability: Error Prevention</span>
+* **Problema:** <br><span style="color: blue;">En la sección "Team" (Role Assignment), el usuario actual ("Operations Manager") visualiza la acción "Disable" disponible para prácticamente todos los demás usuarios del proyecto, sin importar su rol. Esto incluye cuentas con rol "Administrator". No existe ninguna validación de permisos que impida que un usuario con un rol de menor jerarquía deshabilite la cuenta de un administrador, lo cual representa un riesgo crítico.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen13.png" alt="Evidencia Problema 13" width="800">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Implementar control de permisos en el backend (no solo ocultar el botón en el frontend) que valide el rol del usuario que ejecuta la acción "Disable" contra el rol del usuario objetivo. Solo un "Administrator" debería poder deshabilitar cuentas.</span>
+
+<br>
+
+**PROBLEMA #14:** <span style="color: blue;">El campo "Unit" en la configuración de sensores IoT permite texto libre</span>
+* **Severidad:** <span style="color: blue;">2</span>
+* **Heurística violada:** <span style="color: blue;">Usability: Recognition Rather than Recall</span>
+* **Problema:** <br><span style="color: blue;">En el modal "Configure Sensor", el campo "Unit" es un input de texto libre donde el usuario debe escribir manualmente la unidad de medida del sensor. Al no existir opciones predefinidas, el usuario debe recordar y escribir correctamente la unidad esperada. En el caso observado, se ingresó el valor "dd" como unidad, provocando que las tarjetas del sensor mostraran lecturas sin sentido.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen14.png" alt="Evidencia Problema 14" width="800">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Reemplazar el campo de texto libre "Unit" por un dropdown que liste las unidades válidas según el tipo de sensor seleccionado (ej. °C, °F; %; mm), permitiendo al usuario reconocer y seleccionar la unidad correcta.</span>
+
+<br>
+
+**PROBLEMA #15:** <span style="color: blue;">Adjuntar el documento no es obligatorio al crear uno para firma</span>
+* **Severidad:** <span style="color: blue;">3</span>
+* **Heurística violada:** <span style="color: blue;">Usability: Error Prevention</span>
+* **Problema:** <br><span style="color: blue;">En el modal "Create New Document", los campos como "Document Type" o "Deadline" están marcados como obligatorios, pero la sección "Attach Document" no lo está. Esto permite que el botón "Create Document" se habilite y se complete la creación de una solicitud de firma sin que exista ningún archivo adjunto, generando documentos para firmar vacíos.</span>
+* **Evidencia:**<br>
+  <div align="center">
+    <img src="ruta/a/tu/imagen15.png" alt="Evidencia Problema 15" width="800">
+  </div>
+* **Recomendación:** <br><span style="color: blue;">Marcar la sección "Attach Document" como obligatoria (agregando el asterisco * junto al título) y validar en el formulario que exista al menos un archivo cargado antes de habilitar el botón "Create Document".</span>
 ---
 # Conclusiones
 
