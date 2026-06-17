@@ -5952,6 +5952,19 @@ A continuación, se presentan las estadísticas de colaboración obtenidas desde
 | **Sum of Story Points** |  Story Points |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
+
+Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics definidas en el Product Backlog. La asignación de líderes y colaboradores se ha realizado considerando la responsabilidad real de cada miembro en los distintos aspectos del proyecto, según se documenta en la planificación interna del equipo.
+
+| Team Member (Last Name, First Name) | GitHub Username | EP01 (Cuentas y Acceso) | EP02 (Calidad, Trazabilidad y Reportes) | EP03 (Suministros y Presupuesto) | EP04 (Monitoreo IoT) | EP05 (Open Source) | EP06 (Landing Page) | EP07 (Documentación Técnica) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Francia Torres, Jhony Manuel | ManuelFT4 | C | L | C | C | C | C | C |
+| Montoya Nina, Paula Fernanda | SeviNyO | C | C | L | C | C | C | C |
+| Pareja Calloapaza, Marcelo Fausto | marc3lllob7 | C | C | C | L | C | C | C |
+| Ramos Hinostroza, Diego Antonio | Kosevy | L | C | C | C | C | C | C |
+| Ramos Mera, Neo Daniel | norahccccc | C | L | C | C | C | C | C |
+
+**Leyenda:** L = Líder, C = Colaborador
+
 #### 5.2.3.3. Sprint Backlog 3.
 #### 5.2.3.4. Development Evidence for Sprint Review.
 #### 5.2.3.5. Execution Evidence for Sprint Review.
