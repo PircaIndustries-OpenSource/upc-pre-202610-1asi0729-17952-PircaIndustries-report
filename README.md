@@ -551,7 +551,6 @@ Sucede en las obras de construcción de edificaciones privadas. En estos entorno
 * **How?**
 Esta falta de supervisión rigurosa se manifiesta en problemas técnicos y estructurales que deben ser resueltos en la brevedad con mantenimiento o al reconstruir secciones enteras de la obra, lo que supone un fuerte golpe en el Retorno de Inversión (ROI) y en el Resultado Operativo Bruto.
 Adicionalmente, no se aprovechan tecnologías de automatización como sensores IoT que podrían alertar sobre condiciones críticas (temperatura, vibración, nivel de materiales) en tiempo real, lo que agrava los problemas de calidad y sobrecostos. Kipu Open Source cierra esta brecha integrando sensores de bajo costo.
-<br>
 * **How much?**
 La falta de inversión en controles de calidad, que Aquise et. al. (2023) estima que debería ser el 2% del costo total de la obra, genera sobrecostos de hasta el 12% del costo directo total de la obra. De esta manera, el margen de utilidad de la PYME (que suele rondar entre 10-15% del costo de la obra) es absorvido casi en su totalidad por errores que podrían ser evitados con un control de calidad adecuado, lo que deriva en pérdidas económicas reales en la empresa.
 <br>
