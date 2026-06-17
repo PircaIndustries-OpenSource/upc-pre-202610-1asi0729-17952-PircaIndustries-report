@@ -2652,118 +2652,6 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
     </tr>
     <tr>
       <td><strong>TS31</strong></td>
-      <td>Setup Blueprints API Domain</td>
-      <td>Como usuario developer, quiero inicializar el dominio documental de planos con su controlador, servicio y repositorio para gestionar versiones de documentos técnicos.</td>
-      <td>
-        <strong>Escenario 1: Dominio inicializado correctamente</strong><br>
-        Dado que se cuenta con un servicio de almacenamiento de archivos configurado,<br>
-        Cuando se inicializa el dominio de planos,<br>
-        Entonces los conectores de almacenamiento de archivos están operativos y el controlador acepta peticiones de carga y consulta.<br><br>
-        <strong>Escenario 2: Servicio de storage no disponible</strong><br>
-        Dado que se inicializa el dominio de planos,<br>
-        Cuando el servicio de almacenamiento externo no responde,<br>
-        Entonces el sistema registra el error de conexión con el storage y lanza una excepción de configuración.
-      </td>
-      <td><strong>EP07</strong></td>
-    </tr>
-    <tr>
-      <td><strong>TS32</strong></td>
-      <td>Endpoint POST Blueprint</td>
-      <td>Como usuario developer, quiero implementar el endpoint de subida de planos mediante POST a /api/v1/blueprints para que el equipo trabaje siempre con la versión vigente.</td>
-      <td>
-        <strong>Escenario 1: Plano subido exitosamente</strong><br>
-        Dado que el endpoint POST /api/v1/blueprints está disponible,<br>
-        Cuando se envía un archivo PDF o DWG válido junto con la especialidad y el ID del proyecto,<br>
-        Entonces el sistema sube el archivo al storage, registra la versión y retorna 201 Created con la URL segura de acceso.<br><br>
-        <strong>Escenario 2: Versión duplicada</strong><br>
-        Dado que el endpoint POST /api/v1/blueprints está disponible,<br>
-        Cuando se intenta subir un archivo con el mismo nombre y número de versión que uno ya existente en la base de datos,<br>
-        Entonces el sistema retorna 400 Bad Request indicando el conflicto de versión.
-      </td>
-      <td><strong>EP07</strong></td>
-    </tr>
-    <tr>
-      <td><strong>TS33</strong></td>
-      <td>Endpoint GET Blueprint Download</td>
-      <td>Como usuario developer, quiero implementar el endpoint de descarga de planos mediante GET a /api/v1/blueprints/{id}/download para que el Gestor Operativo pueda consultar planos en zonas sin conectividad.</td>
-      <td>
-        <strong>Escenario 1: Descarga exitosa</strong><br>
-        Dado que el endpoint GET /api/v1/blueprints/{id}/download está disponible y el plano existe,<br>
-        Cuando se envía una solicitud con el ID del plano y un token válido,<br>
-        Entonces el sistema retorna el archivo en su versión vigente como stream descargable con el Content-Type correspondiente (application/pdf o application/octet-stream).<br><br>
-        <strong>Escenario 2: Plano no encontrado</strong><br>
-        Dado que el endpoint GET /api/v1/blueprints/{id}/download está disponible,<br>
-        Cuando se envía una solicitud con un ID de plano que no existe,<br>
-        Entonces el sistema retorna 404 Not Found indicando que el plano de referencia no fue encontrado.
-      </td>
-      <td><strong>EP07</strong></td>
-    </tr>
-    <tr>
-      <td><strong>TS34</strong></td>
-      <td>Endpoint GET Blueprint</td>
-      <td>Como usuario developer, quiero implementar el endpoint de listado de planos mediante GET a /api/v1/blueprints para permitir filtrado por especialidad técnica.</td>
-      <td>
-        <strong>Escenario 1: Planos encontrados por especialidad</strong><br>
-        Dado que el endpoint GET /api/v1/blueprints está disponible,<br>
-        Cuando se envía una solicitud con el filtro de especialidad (estructural, sanitario, eléctrico, etc.),<br>
-        Entonces el sistema retorna 200 OK con la lista de planos que coinciden con el criterio de filtrado.<br><br>
-        <strong>Escenario 2: Sin planos para la especialidad solicitada</strong><br>
-        Dado que el endpoint GET /api/v1/blueprints está disponible,<br>
-        Cuando se busca por una especialidad que no tiene archivos cargados en el proyecto,<br>
-        Entonces el sistema retorna 404 Not Found indicando que no existen planos para esa especialidad.
-      </td>
-      <td><strong>EP07</strong></td>
-    </tr>
-    <tr>
-      <td><strong>TS35</strong></td>
-      <td>Endpoint GET Blueprint Versions</td>
-      <td>Como usuario developer, quiero implementar el endpoint de historial de versiones mediante GET a /api/v1/blueprints/{id}/versions para que el equipo pueda rastrear la evolución del diseño.</td>
-      <td>
-        <strong>Escenario 1: Historial de versiones obtenido exitosamente</strong><br>
-        Dado que el endpoint GET /api/v1/blueprints/{id}/versions está disponible,<br>
-        Cuando se envía una solicitud con el ID de un plano que tiene múltiples versiones,<br>
-        Entonces el sistema retorna 200 OK con el historial ordenado cronológicamente, incluyendo fecha, autor y URL de cada versión.<br><br>
-        <strong>Escenario 2: Plano sin versiones previas</strong><br>
-        Dado que el endpoint GET /api/v1/blueprints/{id}/versions está disponible,<br>
-        Cuando se solicita el historial de un plano recién subido sin iteraciones anteriores,<br>
-        Entonces el sistema retorna 200 OK con un arreglo que contiene únicamente la versión inicial.
-      </td>
-      <td><strong>EP07</strong></td>
-    </tr>
-    <tr>
-      <td><strong>TS36</strong></td>
-      <td>Endpoint POST Blueprint Annotations</td>
-      <td>Como usuario developer, quiero implementar el endpoint de anotaciones en planos mediante POST a /api/v1/blueprints/{id}/annotations para registrar observaciones de campo sobre los documentos.</td>
-      <td>
-        <strong>Escenario 1: Anotación registrada exitosamente</strong><br>
-        Dado que el endpoint POST /api/v1/blueprints/{id}/annotations está disponible,<br>
-        Cuando se envía un payload con coordenadas X/Y, texto de la observación e ID del plano válido,<br>
-        Entonces el sistema asocia la anotación al plano preservando el documento original y retorna 201 Created.<br><br>
-        <strong>Escenario 2: Plano no encontrado</strong><br>
-        Dado que el endpoint POST /api/v1/blueprints/{id}/annotations está disponible,<br>
-        Cuando se envía una solicitud con un ID de plano que no existe,<br>
-        Entonces el sistema retorna 404 Not Found indicando que el plano de referencia no fue encontrado.
-      </td>
-      <td><strong>EP07</strong></td>
-    </tr>
-    <tr>
-      <td><strong>TS37</strong></td>
-      <td>Endpoint GET Blueprint Annotations</td>
-      <td>Como usuario developer, quiero implementar el endpoint de consulta de anotaciones mediante GET a /api/v1/blueprints/{id}/annotations para visualizar las observaciones de campo sin alterar el plano original.</td>
-      <td>
-        <strong>Escenario 1: Anotaciones encontradas</strong><br>
-        Dado que el endpoint GET /api/v1/blueprints/{id}/annotations está disponible y el plano tiene anotaciones registradas,<br>
-        Cuando se envía una solicitud con el ID del plano,<br>
-        Entonces el sistema retorna 200 OK con la lista de anotaciones incluyendo coordenadas, texto, autor y fecha.<br><br>
-        <strong>Escenario 2: Plano sin anotaciones</strong><br>
-        Dado que el endpoint GET /api/v1/blueprints/{id}/annotations está disponible,<br>
-        Cuando se consulta un plano que no tiene anotaciones registradas,<br>
-        Entonces el sistema retorna 200 OK con una lista vacía.
-      </td>
-      <td><strong>EP07</strong></td>
-    </tr>
-    <tr>
-      <td><strong>TS38</strong></td>
       <td>Setup RNC API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de incidencias de calidad con su controlador, servicio y repositorio para gestionar los Resultados No Conformes de obra.</td>
       <td>
@@ -2779,7 +2667,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS39</strong></td>
+      <td><strong>TS32</strong></td>
       <td>Endpoint POST RNC</td>
       <td>Como usuario developer, quiero implementar el endpoint de registro de fallas técnicas mediante POST a /api/v1/rnc para alertar al equipo de diseño con evidencia fotográfica.</td>
       <td>
@@ -2795,7 +2683,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS40</strong></td>
+      <td><strong>TS33</strong></td>
       <td>Endpoint GET RNC</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de incidencias mediante GET a /api/v1/rnc para permitir la revisión y subsanación de errores de calidad.</td>
       <td>
@@ -2811,55 +2699,103 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS41</strong></td>
-      <td>Setup Signatures API Domain</td>
-      <td>Como usuario developer, quiero inicializar el dominio de firmas digitales con su controlador, servicio y repositorio para validar legalmente el cierre de actas de conformidad.</td>
+      <td><strong>TS34</strong></td>
+      <td>Setup Documents API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio de documentos con su controlador, servicio y repositorio para gestionar la creación, firma y consulta de documentos técnicos.</td>
       <td>
         <strong>Escenario 1: Dominio inicializado correctamente</strong><br>
-        Dado que se integra una librería criptográfica en el proyecto,<br>
-        Cuando se inicializa el dominio de firmas,<br>
-        Entonces los controladores están operativos, la librería de cifrado es accesible desde el servicio y el esquema de base de datos refleja la tabla de firmas.<br><br>
-        <strong>Escenario 2: Librería criptográfica no disponible</strong><br>
-        Dado que se inicializa el dominio de firmas,<br>
-        Cuando la dependencia criptográfica no está correctamente incluida en el proyecto,<br>
+        Dado que se integra una librería de almacenamiento en el proyecto,<br>
+        Cuando se inicializa el dominio de documentos,<br>
+        Entonces los controladores están operativos, los repositorios de documentos están disponibles y el esquema de base de datos refleja la tabla de documentos y firmas.<br><br>
+        <strong>Escenario 2: Librería de almacenamiento no disponible</strong><br>
+        Dado que se inicializa el dominio de documentos,<br>
+        Cuando la dependencia de almacenamiento no está correctamente incluida en el proyecto,<br>
         Entonces el sistema reporta el error de dependencia faltante e impide el inicio del contexto.
       </td>
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS42</strong></td>
-      <td>Endpoint POST Signature</td>
-      <td>Como usuario developer, quiero implementar el endpoint de sellado digital de documentos mediante POST a /api/v1/signatures para formalizar el cierre de actas con respaldo legal.</td>
+      <td><strong>TS35</strong></td>
+      <td>Endpoint POST Document</td>
+      <td>Como usuario developer, quiero implementar el endpoint de creación de documentos mediante POST a /api/v1/documents para que el equipo pueda registrar documentos técnicos y solicitar firmas.</td>
       <td>
-        <strong>Escenario 1: Firma registrada exitosamente</strong><br>
-        Dado que el endpoint POST /api/v1/signatures está disponible,<br>
-        Cuando se envía un payload con el token de seguridad válido y el ID del documento a firmar,<br>
-        Entonces el sistema sella el acta digitalmente, registra el hash de validación y retorna 200 OK con la confirmación del sellado.<br><br>
-        <strong>Escenario 2: Token de seguridad inválido</strong><br>
-        Dado que el endpoint POST /api/v1/signatures está disponible,<br>
-        Cuando se envía un token de seguridad incorrecto o con formato inválido,<br>
-        Entonces el sistema retorna 401 Unauthorized indicando que el código de verificación no es válido.
+        <strong>Escenario 1: Documento creado exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/documents está disponible,<br>
+        Cuando se envía un payload con projectId, title, description, type y fileUrl,<br>
+        Entonces el sistema guarda el documento con estado "PENDING", asigna la fecha de creación y retorna 201 Created con el ID del documento.<br><br>
+        <strong>Escenario 2: Campos obligatorios ausentes</strong><br>
+        Dado que el endpoint POST /api/v1/documents está disponible,<br>
+        Cuando se envía una solicitud sin incluir el campo title o projectId,<br>
+        Entonces el sistema retorna 400 Bad Request indicando los campos requeridos faltantes.
       </td>
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS43</strong></td>
-      <td>Endpoint GET Signature</td>
-      <td>Como usuario developer, quiero implementar el endpoint de consulta de estado de firmas mediante GET a /api/v1/signatures/records/{recordId} para verificar quién ha aprobado el cierre de una etapa técnica.</td>
+      <td><strong>TS36</strong></td>
+      <td>Endpoint GET Documents</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de documentos mediante GET a /api/v1/documents para listar todos los documentos de un proyecto.</td>
       <td>
-        <strong>Escenario 1: Firmas obtenidas exitosamente</strong><br>
-        Dado que el endpoint GET /api/v1/signatures/records/{recordId} está disponible y el acta tiene firmas registradas,<br>
-        Cuando se envía una solicitud con el ID del acta,<br>
-        Entonces el sistema retorna 200 OK con el estado de firmas, los datos de cada firmante y la fecha de cada validación.<br><br>
-        <strong>Escenario 2: Acta sin firmas iniciadas</strong><br>
-        Dado que el endpoint GET /api/v1/signatures/records/{recordId} está disponible,<br>
-        Cuando se consulta el estado de un acta que no ha iniciado su proceso de aprobación,<br>
-        Entonces el sistema retorna 404 Not Found indicando que no existen firmas para ese documento.
+        <strong>Escenario 1: Documentos encontrados</strong><br>
+        Dado que el endpoint GET /api/v1/documents está disponible y existen documentos registrados,<br>
+        Cuando se envía una solicitud con el projectId,<br>
+        Entonces el sistema retorna 200 OK con el listado de documentos incluyendo title, type, status, fecha de creación y fileUrl.<br><br>
+        <strong>Escenario 2: Proyecto sin documentos registrados</strong><br>
+        Dado que el endpoint GET /api/v1/documents está disponible,<br>
+        Cuando se consulta un proyecto que no tiene documentos registrados,<br>
+        Entonces el sistema retorna 200 OK con un arreglo vacío.
       </td>
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS44</strong></td>
+      <td><strong>TS37</strong></td>
+      <td>Endpoint GET Pending Documents</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de documentos pendientes mediante GET a /api/v1/documents/pending para listar los documentos que requieren firma.</td>
+      <td>
+        <strong>Escenario 1: Documentos pendientes encontrados</strong><br>
+        Dado que el endpoint GET /api/v1/documents/pending está disponible,<br>
+        Cuando se envía una solicitud con el projectId,<br>
+        Entonces el sistema retorna 200 OK con el listado de documentos con estado "PENDING".<br><br>
+        <strong>Escenario 2: Sin documentos pendientes</strong><br>
+        Dado que el endpoint GET /api/v1/documents/pending está disponible,<br>
+        Cuando se consulta un proyecto que no tiene documentos pendientes,<br>
+        Entonces el sistema retorna 200 OK con un arreglo vacío.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS38</strong></td>
+      <td>Endpoint GET Signed Documents</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de documentos firmados mediante GET a /api/v1/documents/signed para listar los documentos ya aprobados.</td>
+      <td>
+        <strong>Escenario 1: Documentos firmados encontrados</strong><br>
+        Dado que el endpoint GET /api/v1/documents/signed está disponible,<br>
+        Cuando se envía una solicitud con el projectId,<br>
+        Entonces el sistema retorna 200 OK con el listado de documentos con estado "SIGNED".<br><br>
+        <strong>Escenario 2: Sin documentos firmados</strong><br>
+        Dado que el endpoint GET /api/v1/documents/signed está disponible,<br>
+        Cuando se consulta un proyecto que no tiene documentos firmados,<br>
+        Entonces el sistema retorna 200 OK con un arreglo vacío.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS39</strong></td>
+      <td>Endpoint PATCH Sign Document</td>
+      <td>Como usuario developer, quiero implementar el endpoint de firma de documentos mediante PATCH a /api/v1/documents/sign/{id} para formalizar la aprobación de un documento técnico.</td>
+      <td>
+        <strong>Escenario 1: Documento firmado exitosamente</strong><br>
+        Dado que el endpoint PATCH /api/v1/documents/sign/{id} está disponible,<br>
+        Cuando se envía una solicitud con un ID de documento válido y el token de seguridad,<br>
+        Entonces el sistema actualiza el estado del documento a "SIGNED", registra la fecha de firma y retorna 200 OK con el documento actualizado.<br><br>
+        <strong>Escenario 2: Documento no encontrado</strong><br>
+        Dado que el endpoint PATCH /api/v1/documents/sign/{id} está disponible,<br>
+        Cuando se envía una solicitud con un ID de documento inexistente,<br>
+        Entonces el sistema retorna 404 Not Found indicando que el documento no fue encontrado.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS40</strong></td>
       <td>Endpoint GET Signature Export</td>
       <td>Como usuario developer, quiero implementar el endpoint de exportación del dossier de firmas mediante GET a /api/v1/signatures/export/{projectId} para facilitar la entrega formal del proyecto.</td>
       <td>
@@ -2875,7 +2811,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP02</strong></td>
     </tr>
     <tr>
-      <td><strong>TS45</strong></td>
+      <td><strong>TS41</strong></td>
       <td>Setup IoT Telemetry Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de telemetría IoT con su controlador, servicio y repositorio para recibir y almacenar datos de sensores en obra.</td>
       <td>
@@ -2891,7 +2827,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP04</strong></td>
     </tr>
     <tr>
-      <td><strong>TS46</strong></td>
+      <td><strong>TS42</strong></td>
       <td>Endpoint POST IoT</td>
       <td>Como usuario developer, quiero implementar el endpoint de registro de mediciones de sensores mediante POST a /api/v1/iot/telemetry para disparar alertas de seguridad automáticas en obra.</td>
       <td>
@@ -2907,7 +2843,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>EP04</strong></td>
     </tr>
     <tr>
-      <td><strong>TS47</strong></td>
+      <td><strong>TS43</strong></td>
       <td>Endpoint GET IoT</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de historial de sensores mediante GET a /api/v1/iot/telemetry/{sensorId} para mostrar gráficos de monitoreo en tiempo real.</td>
       <td>
@@ -2922,9 +2858,200 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       </td>
       <td><strong>EP04</strong></td>
     </tr>
+    <tr>
+      <td><strong>TS44</strong></td>
+      <td>Setup TeamUsers API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio de usuarios de proyecto con su controlador, servicio y repositorio para gestionar la asignación de usuarios a obras específicas.</td>
+      <td>
+        <strong>Escenario 1: Dominio inicializado correctamente</strong><br>
+        Dado que el dominio de usuarios global ya está configurado,<br>
+        Cuando se inicializa el dominio de TeamUsers,<br>
+        Entonces los controladores de asignación de usuarios a proyectos quedan disponibles y la base de datos refleja las tablas de relación usuario-proyecto.<br><br>
+        <strong>Escenario 2: Dependencia de dominio de usuarios faltante</strong><br>
+        Dado que se inicializa el dominio de TeamUsers,<br>
+        Cuando el dominio de usuarios global no está disponible en el contexto,<br>
+        Entonces el sistema reporta el error de dependencia e impide el inicio del módulo.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS45</strong></td>
+      <td>Endpoint GET TeamUsers by Project</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de usuarios de proyecto mediante GET a /api/v1/team-users para listar los miembros asignados a una obra.</td>
+      <td>
+        <strong>Escenario 1: Usuarios encontrados</strong><br>
+        Dado que el endpoint GET /api/v1/team-users está disponible,<br>
+        Cuando se envía una solicitud con el projectId,<br>
+        Entonces el sistema retorna 200 OK con el listado de usuarios asignados al proyecto, incluyendo su rol y estado (activo/inactivo).<br><br>
+        <strong>Escenario 2: Proyecto sin usuarios asignados</strong><br>
+        Dado que el endpoint GET /api/v1/team-users está disponible,<br>
+        Cuando se consulta un proyecto que no tiene usuarios asignados,<br>
+        Entonces el sistema retorna 200 OK con un arreglo vacío.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS46</strong></td>
+      <td>Endpoint POST TeamUser</td>
+      <td>Como usuario developer, quiero implementar el endpoint de asignación de usuarios a proyectos mediante POST a /api/v1/team-users para agregar miembros al equipo de obra.</td>
+      <td>
+        <strong>Escenario 1: Usuario asignado exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/team-users está disponible,<br>
+        Cuando se envía un payload con projectId, userId y role,<br>
+        Entonces el sistema asigna el usuario al proyecto, establece el estado "ACTIVE" y retorna 201 Created con el ID de la asignación.<br><br>
+        <strong>Escenario 2: Usuario ya asignado al proyecto</strong><br>
+        Dado que el endpoint POST /api/v1/team-users está disponible,<br>
+        Cuando se intenta asignar un usuario que ya está registrado en el proyecto,<br>
+        Entonces el sistema retorna 400 Bad Request indicando que el usuario ya está asignado.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS47</strong></td>
+      <td>Endpoint PATCH Activate TeamUser</td>
+      <td>Como usuario developer, quiero implementar el endpoint de activación de usuarios de proyecto mediante PATCH a /api/v1/team-users/{id}/activate para reactivar el acceso de un miembro del equipo.</td>
+      <td>
+        <strong>Escenario 1: Usuario activado exitosamente</strong><br>
+        Dado que el endpoint PATCH /api/v1/team-users/{id}/activate está disponible,<br>
+        Cuando se envía una solicitud con un ID de asignación válido,<br>
+        Entonces el sistema actualiza el estado del usuario a "ACTIVE" y retorna 200 OK con los datos actualizados.<br><br>
+        <strong>Escenario 2: Asignación no encontrada</strong><br>
+        Dado que el endpoint PATCH /api/v1/team-users/{id}/activate está disponible,<br>
+        Cuando se envía una solicitud con un ID de asignación inexistente,<br>
+        Entonces el sistema retorna 404 Not Found indicando que la asignación no fue encontrada.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS48</strong></td>
+      <td>Endpoint PATCH Deactivate TeamUser</td>
+      <td>Como usuario developer, quiero implementar el endpoint de desactivación de usuarios de proyecto mediante PATCH a /api/v1/team-users/{id}/deactivate para revocar el acceso de un miembro del equipo.</td>
+      <td>
+        <strong>Escenario 1: Usuario desactivado exitosamente</strong><br>
+        Dado que el endpoint PATCH /api/v1/team-users/{id}/deactivate está disponible,<br>
+        Cuando se envía una solicitud con un ID de asignación válido,<br>
+        Entonces el sistema actualiza el estado del usuario a "INACTIVE" y retorna 200 OK con los datos actualizados.<br><br>
+        <strong>Escenario 2: Asignación no encontrada</strong><br>
+        Dado que el endpoint PATCH /api/v1/team-users/{id}/deactivate está disponible,<br>
+        Cuando se envía una solicitud con un ID de asignación inexistente,<br>
+        Entonces el sistema retorna 404 Not Found indicando que la asignación no fue encontrada.
+      </td>
+      <td><strong>EP02</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS49</strong></td>
+      <td>Setup TeamWorkers API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio de trabajadores de obra con su controlador, servicio y repositorio para gestionar el personal y maquinaria asignada.</td>
+      <td>
+        <strong>Escenario 1: Dominio inicializado correctamente</strong><br>
+        Dado que la arquitectura base del módulo logístico está definida,<br>
+        Cuando se inicializa el dominio de TeamWorkers,<br>
+        Entonces los controladores de gestión de trabajadores quedan disponibles y la base de datos refleja las tablas de trabajadores y asignación de maquinaria.<br><br>
+        <strong>Escenario 2: Esquema de base de datos incoherente</strong><br>
+        Dado que se inicializa el dominio de TeamWorkers,<br>
+        Cuando el esquema de base de datos no coincide con las entidades definidas,<br>
+        Entonces el sistema lanza una excepción de migración e impide el inicio del contexto.
+      </td>
+      <td><strong>EP03</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS50</strong></td>
+      <td>Endpoint GET TeamWorkers by Project</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de trabajadores mediante GET a /api/v1/team-workers para listar el personal de una obra.</td>
+      <td>
+        <strong>Escenario 1: Trabajadores encontrados</strong><br>
+        Dado que el endpoint GET /api/v1/team-workers está disponible,<br>
+        Cuando se envía una solicitud con el projectId,<br>
+        Entonces el sistema retorna 200 OK con el listado de trabajadores asignados al proyecto, incluyendo su especialidad y maquinaria asignada.<br><br>
+        <strong>Escenario 2: Proyecto sin trabajadores asignados</strong><br>
+        Dado que el endpoint GET /api/v1/team-workers está disponible,<br>
+        Cuando se consulta un proyecto que no tiene trabajadores registrados,<br>
+        Entonces el sistema retorna 200 OK con un arreglo vacío.
+      </td>
+      <td><strong>EP03</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS51</strong></td>
+      <td>Endpoint GET TeamWorker by ID</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de un trabajador específico mediante GET a /api/v1/team-workers/{teamWorkerId} para obtener sus datos completos.</td>
+      <td>
+        <strong>Escenario 1: Trabajador encontrado</strong><br>
+        Dado que el endpoint GET /api/v1/team-workers/{teamWorkerId} está disponible,<br>
+        Cuando se envía una solicitud con un ID de trabajador válido,<br>
+        Entonces el sistema retorna 200 OK con los datos completos del trabajador y su maquinaria asignada.<br><br>
+        <strong>Escenario 2: Trabajador no encontrado</strong><br>
+        Dado que el endpoint GET /api/v1/team-workers/{teamWorkerId} está disponible,<br>
+        Cuando se envía una solicitud con un ID de trabajador inexistente,<br>
+        Entonces el sistema retorna 404 Not Found indicando que el trabajador no fue encontrado.
+      </td>
+      <td><strong>EP03</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS52</strong></td>
+      <td>Endpoint POST TeamWorker</td>
+      <td>Como usuario developer, quiero implementar el endpoint de registro de trabajadores mediante POST a /api/v1/team-workers para añadir personal a una obra.</td>
+      <td>
+        <strong>Escenario 1: Trabajador registrado exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/team-workers está disponible,<br>
+        Cuando se envía un payload con projectId, fullName, specialty y contactInfo,<br>
+        Entonces el sistema guarda el trabajador, lo asigna al proyecto y retorna 201 Created con el ID del trabajador.<br><br>
+        <strong>Escenario 2: Campos obligatorios ausentes</strong><br>
+        Dado que el endpoint POST /api/v1/team-workers está disponible,<br>
+        Cuando se envía una solicitud sin incluir el campo fullName o projectId,<br>
+        Entonces el sistema retorna 400 Bad Request indicando los campos requeridos faltantes.
+      </td>
+      <td><strong>EP03</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS53</strong></td>
+      <td>Endpoint DELETE TeamWorker</td>
+      <td>Como usuario developer, quiero implementar el endpoint de eliminación de trabajadores mediante DELETE a /api/v1/team-workers/{teamWorkerId} para remover personal de una obra.</td>
+      <td>
+        <strong>Escenario 1: Trabajador eliminado exitosamente</strong><br>
+        Dado que el endpoint DELETE /api/v1/team-workers/{teamWorkerId} está disponible,<br>
+        Cuando se envía una solicitud con un ID de trabajador válido,<br>
+        Entonces el sistema elimina al trabajador del proyecto y retorna 204 No Content.<br><br>
+        <strong>Escenario 2: Trabajador no encontrado</strong><br>
+        Dado que el endpoint DELETE /api/v1/team-workers/{teamWorkerId} está disponible,<br>
+        Cuando se envía una solicitud con un ID de trabajador inexistente,<br>
+        Entonces el sistema retorna 404 Not Found indicando que el trabajador no fue encontrado.
+      </td>
+      <td><strong>EP03</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS54</strong></td>
+      <td>Endpoint POST Assign Machinery</td>
+      <td>Como usuario developer, quiero implementar el endpoint de asignación de maquinaria mediante POST a /api/v1/team-workers/{teamWorkerId}/machineries para vincular equipos a trabajadores.</td>
+      <td>
+        <strong>Escenario 1: Maquinaria asignada exitosamente</strong><br>
+        Dado que el endpoint POST /api/v1/team-workers/{teamWorkerId}/machineries está disponible,<br>
+        Cuando se envía un payload con machineryId y fullName,<br>
+        Entonces el sistema vincula la maquinaria al trabajador y retorna 200 OK con los datos actualizados del trabajador.<br><br>
+        <strong>Escenario 2: Trabajador no encontrado</strong><br>
+        Dado que el endpoint POST /api/v1/team-workers/{teamWorkerId}/machineries está disponible,<br>
+        Cuando se envía una solicitud con un ID de trabajador inexistente,<br>
+        Entonces el sistema retorna 404 Not Found indicando que el trabajador no fue encontrado.
+      </td>
+      <td><strong>EP03</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TS55</strong></td>
+      <td>Endpoint DELETE Remove Machinery</td>
+      <td>Como usuario developer, quiero implementar el endpoint de remoción de maquinaria mediante DELETE a /api/v1/team-workers/{teamWorkerId}/machineries/{machineryId} para desvincular equipos de trabajadores.</td>
+      <td>
+        <strong>Escenario 1: Maquinaria removida exitosamente</strong><br>
+        Dado que el endpoint DELETE /api/v1/team-workers/{teamWorkerId}/machineries/{machineryId} está disponible,<br>
+        Cuando se envía una solicitud con IDs válidos de trabajador y maquinaria,<br>
+        Entonces el sistema desvincula la maquinaria del trabajador y retorna 200 OK con los datos actualizados del trabajador.<br><br>
+        <strong>Escenario 2: Asignación no encontrada</strong><br>
+        Dado que el endpoint DELETE /api/v1/team-workers/{teamWorkerId}/machineries/{machineryId} está disponible,<br>
+        Cuando se envía una solicitud con una maquinaria no asignada al trabajador,<br>
+        Entonces el sistema retorna 400 Bad Request indicando que la maquinaria no está asignada al trabajador.
+      </td>
+      <td><strong>EP03</strong></td>
+    </tr>
   </tbody>
 </table>
-
 
 ## 3.2. Impact Mapping
 
