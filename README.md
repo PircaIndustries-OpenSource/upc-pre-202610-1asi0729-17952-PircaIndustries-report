@@ -6077,6 +6077,90 @@ A continuación, se presentan las evidencias de ejecución correspondientes a la
 <br>
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+<br>
+
+##### Bounded Context: Authentication and Identity
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Authentication.jpeg?raw=true" alt="Imagen del Endpoint Auth">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Identity.jpeg?raw=true" alt="Imagen del Endpoint Identity">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Authentication Login.jpeg?raw=true" alt="Imagen del Endpoint Auth Login">
+<br>
+
+Servicios para la seguridad y el control de acceso. Procesan registro (`sign-up`) y autenticación (`log-in`), gestionando tokens JWT y recuperación de roles de usuario.
+<br>
+
+##### Bounded Context: Project Management
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Projects.jpeg?raw=true" alt="Imagen del Endpoint Projects">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Projects Items.jpeg?raw=true" alt="Imagen del Endpoint Projects Items">
+<br>
+
+Control del ciclo de vida operativo de obras. Inicializa proyectos con metadatos base y permite la gestión de fases y componentes constructivos mediante operaciones REST.
+
+##### Bounded Context: Logistics and Supplies
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Material 1.jpeg?raw=true" alt="Imagen del Endpoint Material 1">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Material 2.jpeg?raw=true" alt="Imagen del Endpoint Material 2">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Material 3.jpeg?raw=true" alt="Imagen del Endpoint Material 3">
+<br>
+
+Arquitectura para control de inventarios, catálogos, proveedores y solicitudes de materiales. Garantiza la trazabilidad de la cadena de suministro desde la adquisición hasta la disponibilidad en almacén.
+
+##### Bounded Context: Budget Management
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Budget.jpeg?raw=true" alt="Imagen del Endpoint Budget">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Budget Expenses.jpeg?raw=true" alt="Imagen del Endpoint Budget Expenses">
+<br>
+
+Control financiero de recursos económicos por partida. Gestiona presupuestos base, gastos ejecutados y extensiones, validando reglas de negocio ante sobregiros.
+
+##### Bounded Context: Construction Progress Tracking
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Progress.jpeg?raw=true" alt="Imagen del Endpoint Progress">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Progress Post.jpeg?raw=true" alt="Imagen del Endpoint Progress Post">
+<br>
+
+Medición e histórico del cumplimiento físico. Implementa sincronización jerárquica para calcular porcentajes de avance acumulado de hitos macro basados en reportes diarios.
+
+##### Bounded Context: Team and Resource Allocation
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Team Controller.jpeg?raw=true" alt="Imagen del Endpoint Team Controller">
+<br>
+
+Administración de capital humano y maquinaria. Permite la asignación de recursos a proyectos, gestión de estados de actividad y consulta de disponibilidad de personal.
+
+##### Bounded Context: Document and Digital Signature Control
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Document.jpeg?raw=true" alt="Imagen del Endpoint Document">
+<br>
+
+Control de almacenamiento y firma digital de actas. Gestiona el flujo de firmas mediante tokens de verificación, garantizando la integridad documental.
+
+##### Bounded Context: IoT Monitoring (Sensores)
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Sensor 1.jpeg?raw=true" alt="Imagen del Endpoint Sensor 1">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Sensor 2.jpeg?raw=true" alt="Imagen del Endpoint Sensor 2">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Endpoint Sensor 3.jpeg?raw=true" alt="Imagen del Endpoint Sensor 3">
+<br>
+
+Servicios de ingesta de telemetría IoT. Monitorean condiciones de curado de concreto, ubicación geográfica, nivel de tolvas y vibraciones sísmicas, disparando alertas de seguridad.
+
+##### Bounded Context: Especificación de Schemas / DTOs
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Documentation/Schemas.jpeg?raw=true" alt="Imagen del Schemas">
+<br>
+
+Implementación de DTOs para el desacoplamiento de capas. Garantizan validación de tipos de datos y restricciones de formato, asegurando la integridad del dominio al recibir peticiones externas.
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
