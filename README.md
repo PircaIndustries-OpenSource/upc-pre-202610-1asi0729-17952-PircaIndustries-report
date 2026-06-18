@@ -6049,35 +6049,54 @@ A continuación, se presentan las evidencias de ejecución correspondientes a la
 </div>
 <br>
 
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/hopper-watches-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 16">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/seismic-control-sensors-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 17">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/geolocalization-sensors-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 18">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/concrete-curing-sensors-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 19">
+</div>
+<br>
+
 - **Schemas:**
 
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-1.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 16">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-1.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 20">
 </div>
 <br>
 
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-2.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 17">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-2.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 21">
 </div>
 <br>
 
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-3.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 18">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-3.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 22">
 </div>
 <br>
 
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-4.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 19">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-4.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 23">
 </div>
 <br>
 
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-5.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 20">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-5.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 24">
 </div>
 <br>
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
-<br>
 
 ##### Bounded Context: Authentication and Identity
 
