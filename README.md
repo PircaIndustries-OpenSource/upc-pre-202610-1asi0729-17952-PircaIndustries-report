@@ -6773,7 +6773,7 @@ Enlace: [Video-About-The-Product](https://upcedupe-my.sharepoint.com/:v:/g/perso
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/evidence.png?raw=true" alt="Video about the product">
  </div>
 
-Enlace: [Video-About-The-Product](https://youtu.be/8uU4LrdlupU)
+Enlace: [Video-About-The-Product](https://youtu.be/7jvSf3lRIfc)
 
 ---
 
@@ -6831,7 +6831,7 @@ Enlace: [Needfinding](https://upcedupe-my.sharepoint.com/:v:/g/personal/u2022241
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/evidence.png?raw=true" alt="Video about the product">
  </div>
 
- Enlace: [AV2-About-The-product](https://youtu.be/8uU4LrdlupU)
+ Enlace: [AV2-About-The-product](https://youtu.be/7jvSf3lRIfc)
 
  ## Exposure Video AV1
   <div align="center">
