@@ -5730,6 +5730,8 @@ La prioridad estratégica de este tercer sprint consistió en la implementación
 
 Durante el Sprint 3 se realizó el despliegue del backend de Kipu en una máquina virtual de Azure. A continuación, se presentan las evidencias del proceso de deployment, desde la configuración inicial hasta la puesta en producción del servicio.
 
+[Backend Deployment](http://158.23.163.220/swagger-ui/index.html#/)
+
 <div align="center">
     <b>Creación de la carpeta .github/workflows para los pipelines de CI/CD</b>
     <br>
