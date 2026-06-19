@@ -255,11 +255,10 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
 + **Evidencias de colaboración y commits - Github:**
     * **Análiticos de colaboración** <br><br>
         + **Pulse Image of Github Insights**
-        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-1.png?raw=true"></div><br><br>
-
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-1.png?raw=true)
 
         + **Contributors Image of Github Insights**
-        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-2.png?raw=true"></div><br><br>
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-2.png?raw=true)
 
 
     * **Commits**
@@ -267,27 +266,17 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
          A continuacion se muestran algunos commits realizados en este entrega de TB1.
 
         + **Marcelo Pareja**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Marcelo-Commits.png?raw=true" >
-            </div><br>
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Marcelo-Commits.png?raw=true)
 
         + **Neo Ramos**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Neo-Commits.png?raw=true">
-            </div><br>
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Neo-Commits.png?raw=true)
 
         + **Paula Montoya**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Paula-Commits.png?raw=true">
-            </div><br>
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Paula-Commits.png?raw=true)  
         + **Jhony Francia**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Jhony-Commits.png?raw=true">
-            </div><br>
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Jhony-Commits.png?raw=true)  
         + **Diego Ramos**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Diego-Commits.png?raw=true">
-            </div><br><br>
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Diego-Commits.png?raw=true)  <br>
 
 <strong>*Entrega TP1:*</strong>
 
@@ -297,16 +286,16 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
 + **Evidencias de colaboración y commits - Github:**
     * **Análiticos de colaboración** <br><br>
         + **Pulse Image of Github Insights - Frontend**
-        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/frontend-pulse-tp1.png?raw=true"></div><br>
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/frontend-pulse-tp1.png?raw=true)
 
-		+ **Pulse Image of Github Insights - Report**
-        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/report-pulse-tp1.png?raw=true"></div><br><br>
+        + **Pulse Image of Github Insights - Report**
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/report-pulse-tp1.png?raw=true)
 
-		+ **Contributors Image of Github Insights - Frontend**
-        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/frontend-commits-tp1.png?raw=true"></div><br>
+        + **Contributors Image of Github Insights - Frontend**
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/frontend-commits-tp1.png?raw=true)
 
         + **Contributors Image of Github Insights - Report**
-        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/report-commits-tp1.png?raw=true"></div><br><br>
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/report-commits-tp1.png?raw=true)
 
 
     * **Commits**
@@ -314,54 +303,34 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
          A continuacion se muestran algunos commits realizados en este entrega de TP1.
 			
         + **Marcelo Pareja - Frontend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/marcelo-frontend-tp1.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/marcelo-frontend-tp1.png?raw=true)
+
         + **Marcelo Pareja - Report**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/marcelo-report-tp1.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/marcelo-report-tp1.png?raw=true)
+
         + **Neo Ramos - Frontend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/neo-frontend-tp1.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/neo-frontend-tp1.png?raw=true)
+
         + **Neo Ramos - Report**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/neo-report-tp1.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/neo-report-tp1.png?raw=true)
+
         + **Paula Montoya - Frontend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/paula-frontend-tp1.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/paula-frontend-tp1.png?raw=true)
+
         + **Paula Montoya - Report**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/paula-report-tp1.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/paula-report-tp1.png?raw=true)
+
         + **Jhony Francia - Frontend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/manuel-frontend-tp1.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/manuel-frontend-tp1.png?raw=true)
+
         + **Jhony Francia - Report**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/manuel-report-tp1.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/manuel-report-tp1.png?raw=true)
+
         + **Diego Ramos - Frontend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/diego-frontend-tp1.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/diego-frontend-tp1.png?raw=true)
+
         + **Diego Ramos - Report**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/diego-report-tp1.png?raw=true" >
-            </div><br><br>
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/report/diego-report-tp1.png?raw=true)  <br>
 
 <strong>*Entrega AV2:*</strong>
 
@@ -371,101 +340,71 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
 + **Evidencias de colaboración y commits - Github:**
     * **Análiticos de colaboración** <br><br>
         + **Pulse Image of Github Insights - Backend**
-        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/backend/backend-pulse-av2.png?raw=true"></div><br>
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/backend/backend-pulse-av2.png?raw=true)
 
         + **Pulse Image of Github Insights - Frontend**
-        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/frontend/frontend-pulse-av2.png?raw=true"></div><br>
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/frontend/frontend-pulse-av2.png?raw=true)
 
-		+ **Pulse Image of Github Insights - Report**
-        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/report-pulse-av2.png?raw=true"></div><br><br>
+        + **Pulse Image of Github Insights - Report**
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/report-pulse-av2.png?raw=true)
 
         + **Contributors Image of Github Insights - Backend**
-        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/backend/backend-commits-av2.png?raw=true"></div><br>
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/backend/backend-commits-av2.png?raw=true)
 
-		+ **Contributors Image of Github Insights - Frontend**
-        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/frontend/frontend-commits-av2.png?raw=true"></div><br>
+        + **Contributors Image of Github Insights - Frontend**
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/frontend/frontend-commits-av2.png?raw=true)
 
         + **Contributors Image of Github Insights - Report**
-        <div align="center"><img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/report-commits-av2.png?raw=true"></div><br><br>
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/report-commits-av2.png?raw=true)
 
     * **Commits**
 
          A continuacion se muestran algunos commits realizados en este entrega de AV2.
 
         + **Marcelo Pareja - Backend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/backend/marcelo-backend-av2.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/backend/marcelo-backend-av2.png?raw=true)
+
         + **Marcelo Pareja - Frontend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/frontend/marcelo-frontend-av2.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/frontend/marcelo-frontend-av2.png?raw=true)
+
         + **Marcelo Pareja - Report**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/marcelo-report-av2.png?raw=true" >
-            </div><br>
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/marcelo-report-av2.png?raw=true)
 
         + **Neo Ramos - Backend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/backend/neo-backend-av2.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/backend/neo-backend-av2.png?raw=true)
+
         + **Neo Ramos - Frontend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/frontend/neo-frontend-av2.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/frontend/neo-frontend-av2.png?raw=true)
+
         + **Neo Ramos - Report**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/neo-report-av2.png?raw=true" >
-            </div><br>
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/neo-report-av2.png?raw=true)
 
         + **Paula Montoya - Backend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/backend/paula-backend-av2.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/backend/paula-backend-av2.png?raw=true)
+
         + **Paula Montoya - Frontend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/frontend/paula-frontend-av2.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/frontend/paula-frontend-av2.png?raw=true)
+
         + **Paula Montoya - Report**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/paula-report-av2.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/paula-report-av2.png?raw=true)
+
         + **Jhony Francia - Backend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/backend/manuel-backend-av2.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/backend/manuel-backend-av2.png?raw=true)
+
         + **Jhony Francia - Frontend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/frontend/manuel-frontend-av2.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/frontend/manuel-frontend-av2.png?raw=true)
+
         + **Jhony Francia - Report**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/manuel-report-av2.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/manuel-report-av2.png?raw=true)
+
         + **Diego Ramos - Backend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/backend/diego-backend-av2.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/backend/diego-backend-av2.png?raw=true)
+
         + **Diego Ramos - Frontend**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/frontend/diego-frontend-av2.png?raw=true" >
-            </div><br>
-			
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/frontend/diego-frontend-av2.png?raw=true)
+
         + **Diego Ramos - Report**
-            <div style="display: flex; align-items: center;">
-            <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/diego-report-av2.png?raw=true" >
-            </div><br><br>
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/diego-report-av2.png?raw=true)  <br>
 
 
 
@@ -686,7 +625,7 @@ Entendemos que el éxito de una construcción depende de la exactitud de los pre
 
 * **Visión:**  La visión de PircaIndustries es posicionarse como la plataforma líder en gestión de proyectos arquitectónicos en la región, impulsando la digitalización completa del sector construcción. Nos proyectamos como el estándar tecnológico donde la eficiencia, el control de presupuestos y la supervisión de avances en tiempo real permitan construir ciudades de manera más organizada, colaborativa y tecnológicamente avanzada.
 
-* **Valores:**  
+* **Valores:**
 
   * **Transparencia Operativa:** Creemos en la visibilidad total de los datos. Facilitamos que la información de costos, materiales y tiempos sea clara y accesible para todos los responsables, construyendo confianza en cada proyecto.
 
@@ -1765,11 +1704,9 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
 
 * **Worksite:** The physical location where the project is executed. It is the operational context where progress, materials, incidents, and field activities are recorded.
 
-* **Blueprint:** The approved technical drawing used as the reference for execution in the field. A blueprint can have multiple versions, and only the latest approved version should be considered valid for construction.
+* **Technical Dossier:** The full set of formal documents required to support, approve, and legalize a project. It usually includes specifications, descriptive reports, approvals, and other control documents.
 
-* **Technical Dossier:** The full set of formal documents required to support, approve, and legalize a project. It usually includes blueprints, specifications, descriptive reports, approvals, and other control documents.
-
-* **Site Manager:** The professional responsible for supervising the execution of the worksite. This role validates progress, checks that the work follows the approved blueprint, and raises material or operational requests when needed.
+* **Site Manager:** The professional responsible for supervising the execution of the worksite. This role validates progress and raises material or operational requests when needed.
 
 * **Logistics Officer:** The person in charge of supplying the worksite with materials, tools, and equipment. This role manages stock, coordinates purchases, and responds to material requests from the field.
 
@@ -1823,7 +1760,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
 
 * **Offline:** The status assigned to a sensor or device when it stops sending data within the expected time window.
 
-* **Version:** The numbered iteration of a controlled document, especially a blueprint, used to distinguish the latest approved content from previous drafts.
+* **Version:** The numbered iteration of a controlled document used to distinguish the latest approved content from previous drafts.
 
 * **Approval:** The formal confirmation that authorizes a document, request, or action to move forward in the project flow.
 
@@ -1842,11 +1779,11 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
 | **EP04** | **Monitoreo IoT y automatización de obra**                  | Como gestor de obra, quiero integrar sensores IoT de bajo costo a Kipu para automatizar la detección de condiciones críticas y el control de inventario, reduciendo la dependencia de registros manuales.               | **Escenario 1: Registro de lecturas de sensores** <br>Dado que un sensor IoT envía datos a la plataforma, <br>Cuando el gateway recibe la medición, <br>Entonces el sistema almacena la lectura con timestamp y la asocia al proyecto y ubicación correspondiente. <br><br> **Escenario 2: Alerta por superación de umbral** <br>Dado que un sensor supera el umbral configurado (ej. temperatura > 35°C), <br>Cuando el sistema procesa la lectura, <br>Entonces envía una alerta push/email al responsable y registra el evento en el historial. <br><br> **Escenario 3: Dashboard de estado de sensores** <br>Dado que el usuario accede al módulo IoT, <br>Cuando visualiza el panel principal, <br>Entonces el sistema muestra la ubicación de cada sensor, su última lectura y su estado (Normal/Alerta/Offline).                                                                                                                                                                  |
 | **EP05** | **Administración, soberanía y extensibilidad open source**  | Como administrador o desarrollador, quiero gestionar la infraestructura y escalar el sistema mediante código abierto, exportando datos e integrando plugins externos.                                                   | **Escenario 1: Exportación total** <br>Exportación total de datos en formatos abiertos (.csv, .json) para respaldo. <br><br> **Escenario 2: Integración de plugins** <br>Integración de plugins externos mediante API para nuevas funcionalidades. <br><br> **Escenario 3: Auditoría** <br>Logs de auditoría de sistema para rastrear cambios en la configuración base.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **EP06** | **Landing y captación de leads**                            | Como visitante de la pagina de Kipu, quiero comprender rápidamente la propuesta de valor y contar con rutas claras de contacto, registro o solicitud de demo para evaluar y adoptar la plataforma.                      | **Escenario 1: Propuesta de valor visible** <br>Dado que un visitante accede a la landing, <br>Cuando se carga el Hero Section, <br>Entonces visualiza propuesta de valor, funcionalidades clave y un CTA primario. <br><br> **Escenario 2: Contenido por segmento** <br>Dado que el visitante pertenece a gestión operativa o logística, <br>Cuando navega por la landing, <br>Entonces encuentra contenido específico para su perfil con CTA contextualizados. <br><br> **Escenario 3: Conversión y contacto** <br>Dado que el visitante desea continuar, <br>Cuando usa formularios o botones de registro/demo, <br>Entonces el sistema registra la interacción y lo redirige al flujo correspondiente sin errores.                                                                                                                                                                                                                                                                   |
-| **EP07** | **Gestión y Control de Documentación Técnica (Blueprints)** | Como Gestor Operativo de Obra** y **Equipo de Diseño, quiero centralizar, versionar y visualizar planos para asegurar que la ejecución se base en información aprobada y vigente, eliminando errores por obsolescencia. | **Escenario 1: Control de Vigencia** <br>Dado que existen múltiples versiones de un mismo plano, <br>Cuando el profesional accede a la lista, <br>Entonces el sistema resalta únicamente la versión más reciente como "Vigente". <br><br>**Escenario 2: Organización por Especialidad** <br>Dado que el proyecto cuenta con múltiples ramas técnicas, <br>Cuando el profesional navega por el módulo, <br>Entonces el sistema permite agrupar los archivos por especialidad (Estructuras, Sanitarias, Eléctricas, etc.).                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 <br><br>
 
 **USER STORIES**
+
 <table>
   <thead>
     <tr>
@@ -2033,27 +1970,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>Escenario 1</strong><br>Dado que un equipo emite coordenadas constantes,<br>Cuando el Equipo de Logística consulta la herramienta de rastreo,<br>Entonces el sistema proyecta la localización precisa de forma continua.<br><br><strong>Escenario 2:</strong><br>Dado que el Equipo de Logística delimitó el área autorizada,<br>Cuando el equipo transmite coordenadas externas a la zona permitida,<br>Entonces el sistema dispara notificaciones urgentes advirtiendo la sustracción.</td>
       <td><strong>EP04</strong></td>
     </tr>
-    <tr>
-      <td><strong>US-26</strong></td>
-      <td>Visualizar historial de versiones de plano</td>
-      <td>Como Gestor Operativo, quiero visualizar el registro de versiones de un plano para entender la evolución del diseño.</td>
-      <td><strong>Escenario 1:</strong><br>Dado que el Gestor Operativo revisa los anexos estructurales,<br>Cuando solicita examinar la trazabilidad de un diseño,<br>Entonces el sistema desglosa todas sus iteraciones y responsabilidades históricas.</td>
-      <td><strong>EP07</strong></td>
-    </tr>
-    <tr>
-      <td><strong>US-27</strong></td>
-      <td>Subir nueva versión de plano</td>
-      <td>Como Gestor Operativo, quiero cargar actualizaciones de los planos para que el equipo en campo trabaje con la información final.</td>
-      <td><strong>Escenario 1:</strong><br>Dado que el Gestor Operativo efectúa correcciones sobre un diseño,<br>Cuando provee la iteración mejorada del archivo,<br>Entonces el sistema eleva el nivel de vigencia y relega al anterior a estatus obsoleto.</td>
-      <td><strong>EP07</strong></td>
-    </tr>
-    <tr>
-      <td><strong>US-28</strong></td>
-      <td>Descargar plano para uso sin conectividad</td>
-      <td>Como Gestor Operativo, quiero guardar planos en mi dispositivo para consultarlos en zonas sin conectividad (sótanos).</td>
-      <td><strong>Escenario 1:</strong><br>Dado que el Gestor Operativo prevé adentrarse en zonas incomunicadas,<br>Cuando demanda la extracción preventiva de la documentación,<br>Entonces el sistema empaqueta los archivos garantizando su lectura sin dependencia de red.</td>
-      <td><strong>EP07</strong></td>
-    </tr>
+
     <tr>
       <td><strong>US-29</strong></td>
       <td>Landing page - Visualización de propuesta de valor</td>
@@ -2096,27 +2013,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>Escenario 1</strong><br>Dado que el visitante evalúa sus alternativas,<br>Cuando selecciona iniciar el uso del software o agendar una cita,<br>Entonces el sistema procesa la intención dirigiéndolo al flujo preciso.<br><br><strong>Escenario 2:</strong><br>Dado que el visitante concluye su revisión de todo el sitio,<br>Cuando se sitúa en la parte inferior,<br>Entonces el sistema mantiene latentes las opciones de conversión.</td>
       <td><strong>EP06</strong></td>
     </tr>
-    <tr>
-      <td><strong>US-35</strong></td>
-      <td>Registrar anotaciones gráficas en plano</td>
-      <td>Como Gestor Operativo, quiero realizar anotaciones gráficas sobre el plano para reportar errores de diseño detectados en campo.</td>
-      <td><strong>Escenario 1:</strong><br>Dado que el Gestor Operativo evalúa la factibilidad de un trazo,<br>Cuando adjunta precisiones de discrepancia técnica,<br>Entonces el sistema indexa el apunte preservando el documento original.</td>
-      <td><strong>EP07</strong></td>
-    </tr>
-    <tr>
-      <td><strong>US-36</strong></td>
-      <td>Filtrar planos por especialidad técnica</td>
-      <td>Como Gestor Operativo, quiero segmentar la lista de archivos por rama técnica para localizar información crítica rápidamente.</td>
-      <td><strong>Escenario 1:</strong><br>Dado que coexisten distintas disciplinas en el proyecto,<br>Cuando el Gestor Operativo delimita su interés a una rama específica,<br>Entonces el sistema discrimina e ignora la documentación ajena a dicha solicitud.</td>
-      <td><strong>EP07</strong></td>
-    </tr>
-    <tr>
-      <td><strong>US-37</strong></td>
-      <td>Ordenar planos cronológicamente</td>
-      <td>Como Equipo de Logística, quiero organizar los documentos por fecha de carga para identificar los últimos requerimientos técnicos.</td>
-      <td><strong>Escenario 1</strong><br>Dado que el Equipo de Logística evalúa las exigencias documentales,<br>Cuando aplica un criterio de orden temporal,<br>Entonces el sistema altera la presentación priorizando lo más reciente.</td>
-      <td><strong>EP07</strong></td>
-    </tr>
+
     <tr>
       <td><strong>US-38</strong></td>
       <td>Exportar dossier de calidad en PDF</td>
@@ -3471,238 +3368,316 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
+
+    <tr>
       <td style="text-align: center;">56</td>
       <td><strong>TS31</strong></td>
-      <td>Setup Blueprints API Domain</td>
-      <td>Como usuario developer, quiero inicializar el dominio documental de planos con su controlador, servicio y repositorio para gestionar versiones de documentos técnicos.</td>
-      <td style="text-align: center;">3</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">57</td>
-      <td><strong>TS32</strong></td>
-      <td>Endpoint POST Blueprint</td>
-      <td>Como usuario developer, quiero implementar el endpoint de subida de planos mediante POST a /api/v1/blueprints para que el equipo trabaje siempre con la versión vigente.</td>
-      <td style="text-align: center;">2</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">58</td>
-      <td><strong>TS34</strong></td>
-      <td>Endpoint GET Blueprint</td>
-      <td>Como usuario developer, quiero implementar el endpoint de listado de planos mediante GET a /api/v1/blueprints para permitir filtrado por especialidad técnica.</td>
-      <td style="text-align: center;">2</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">59</td>
-      <td><strong>TS33</strong></td>
-      <td>Endpoint GET Blueprint Download</td>
-      <td>Como usuario developer, quiero implementar el endpoint de descarga de planos mediante GET a /api/v1/blueprints/{id}/download para que el Gestor Operativo pueda consultar planos en zonas sin conectividad.</td>
-      <td style="text-align: center;">2</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">60</td>
-      <td><strong>US-27</strong></td>
-      <td>Subir nueva versión de plano</td>
-      <td>Como Gestor Operativo, quiero cargar actualizaciones de los planos para que el equipo en campo trabaje con la información final.</td>
-      <td style="text-align: center;">3</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">61</td>
-      <td><strong>TS35</strong></td>
-      <td>Endpoint GET Blueprint Versions</td>
-      <td>Como usuario developer, quiero implementar el endpoint de historial de versiones mediante GET a /api/v1/blueprints/{id}/versions para que el equipo pueda rastrear la evolución del diseño.</td>
-      <td style="text-align: center;">2</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">62</td>
-      <td><strong>US-26</strong></td>
-      <td>Visualizar historial de versiones de plano</td>
-      <td>Como Gestor Operativo, quiero visualizar el registro de versiones de un plano para entender la evolución del diseño.</td>
-      <td style="text-align: center;">2</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">63</td>
-      <td><strong>US-28</strong></td>
-      <td>Descargar plano para uso sin conectividad</td>
-      <td>Como Gestor Operativo, quiero guardar planos en mi dispositivo para consultarlos en zonas sin conectividad (sótanos).</td>
-      <td style="text-align: center;">3</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">64</td>
-      <td><strong>TS36</strong></td>
-      <td>Endpoint POST Blueprint Annotations</td>
-      <td>Como usuario developer, quiero implementar el endpoint de anotaciones en planos mediante POST a /api/v1/blueprints/{id}/annotations para registrar observaciones de campo sobre los documentos.</td>
-      <td style="text-align: center;">2</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">65</td>
-      <td><strong>US-35</strong></td>
-      <td>Registrar anotaciones gráficas en plano</td>
-      <td>Como Gestor Operativo, quiero realizar anotaciones gráficas sobre el plano para reportar errores de diseño detectados en campo.</td>
-      <td style="text-align: center;">5</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">66</td>
-      <td><strong>TS37</strong></td>
-      <td>Endpoint GET Blueprint Annotations</td>
-      <td>Como usuario developer, quiero implementar el endpoint de consulta de anotaciones mediante GET a /api/v1/blueprints/{id}/annotations para visualizar las observaciones de campo sin alterar el plano original.</td>
-      <td style="text-align: center;">2</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">67</td>
-      <td><strong>US-36</strong></td>
-      <td>Filtrar planos por especialidad técnica</td>
-      <td>Como Gestor Operativo, quiero segmentar la lista de archivos por rama técnica para localizar información crítica rápidamente.</td>
-      <td style="text-align: center;">2</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">68</td>
-      <td><strong>US-37</strong></td>
-      <td>Ordenar planos cronológicamente</td>
-      <td>Como Equipo de Logística, quiero organizar los documentos por fecha de carga para identificar los últimos requerimientos técnicos.</td>
-      <td style="text-align: center;">1</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">69</td>
-      <td><strong>TS38</strong></td>
       <td>Setup RNC API Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de incidencias de calidad con su controlador, servicio y repositorio para gestionar los Resultados No Conformes de obra.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">70</td>
-      <td><strong>TS39</strong></td>
+      <td style="text-align: center;">57</td>
+      <td><strong>TS32</strong></td>
       <td>Endpoint POST RNC</td>
       <td>Como usuario developer, quiero implementar el endpoint de registro de fallas técnicas mediante POST a /api/v1/rnc para alertar al equipo de diseño con evidencia fotográfica.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">71</td>
-      <td><strong>TS40</strong></td>
+      <td style="text-align: center;">58</td>
+      <td><strong>TS33</strong></td>
       <td>Endpoint GET RNC</td>
       <td>Como usuario developer, quiero implementar el endpoint de consulta de incidencias mediante GET a /api/v1/rnc para permitir la revisión y subsanación de errores de calidad.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">72</td>
+      <td style="text-align: center;">59</td>
       <td><strong>US-02</strong></td>
       <td>Registrar Resultado No Conforme</td>
       <td>Como Gestor Operativo, quiero registrar un RNC con evidencia fotográfica para que el equipo de diseño sea alertado y subsane el error de inmediato.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">73</td>
-      <td><strong>US-10</strong></td>
-      <td>Visualizar dashboard de control del proyecto</td>
-      <td>Como Gestor Operativo, deseo acceder a un resumen consolidado de la obra para identificar desviaciones en el plan sin procesar datos de forma manual.</td>
-      <td style="text-align: center;">8</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">74</td>
-      <td><strong>TS41</strong></td>
-      <td>Setup Signatures API Domain</td>
-      <td>Como usuario developer, quiero inicializar el dominio de firmas digitales con su controlador, servicio y repositorio para validar legalmente el cierre de actas de conformidad.</td>
-      <td style="text-align: center;">5</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">75</td>
-      <td><strong>TS42</strong></td>
-      <td>Endpoint POST Signature</td>
-      <td>Como usuario developer, quiero implementar el endpoint de sellado digital de documentos mediante POST a /api/v1/signatures para formalizar el cierre de actas con respaldo legal.</td>
+      <td style="text-align: center;">60</td>
+      <td><strong>TS34</strong></td>
+      <td>Setup Documents API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio de documentos con su controlador, servicio y repositorio para gestionar la creación, firma y consulta de documentos técnicos.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
-      <td style="text-align: center;">76</td>
-      <td><strong>TS43</strong></td>
-      <td>Endpoint GET Signature</td>
-      <td>Como usuario developer, quiero implementar el endpoint de consulta de estado de firmas mediante GET a /api/v1/signatures/records/{recordId} para verificar quién ha aprobado el cierre de una etapa técnica.</td>
+      <td style="text-align: center;">61</td>
+      <td><strong>TS35</strong></td>
+      <td>Endpoint POST Document</td>
+      <td>Como usuario developer, quiero implementar el endpoint de creación de documentos mediante POST a /api/v1/documents.</td>
       <td style="text-align: center;">2</td>
     </tr>
     <tr>
-      <td style="text-align: center;">77</td>
+      <td style="text-align: center;">62</td>
+      <td><strong>TS36</strong></td>
+      <td>Endpoint GET Documents</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de documentos mediante GET a /api/v1/documents.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">63</td>
+      <td><strong>TS37</strong></td>
+      <td>Endpoint GET Pending Documents</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de documentos pendientes mediante GET a /api/v1/documents/pending.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">64</td>
+      <td><strong>TS38</strong></td>
+      <td>Endpoint GET Signed Documents</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de documentos firmados mediante GET a /api/v1/documents/signed.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">65</td>
+      <td><strong>TS39</strong></td>
+      <td>Endpoint PATCH Sign Document</td>
+      <td>Como usuario developer, quiero implementar el endpoint de firma de documentos mediante PATCH a /api/v1/documents/sign/{id}.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">66</td>
+      <td><strong>TS40</strong></td>
+      <td>Endpoint GET Signature Export</td>
+      <td>Como usuario developer, quiero implementar el endpoint de exportación del dossier de firmas mediante GET a /api/v1/signatures/export/{projectId}.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">67</td>
       <td><strong>US-06</strong></td>
       <td>Firmar actas digitalmente con token</td>
       <td>Como Gestor Operativo, quiero firmar actas de conformidad con un código de verificación para asegurar la validez legal del cierre de etapa.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">78</td>
-      <td><strong>TS44</strong></td>
-      <td>Endpoint GET Signature Export</td>
-      <td>Como usuario developer, quiero implementar el endpoint de exportación del dossier de firmas mediante GET a /api/v1/signatures/export/{projectId} para facilitar la entrega formal del proyecto.</td>
-      <td style="text-align: center;">3</td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">79</td>
+      <td style="text-align: center;">68</td>
       <td><strong>US-38</strong></td>
       <td>Exportar dossier de calidad en PDF</td>
-      <td>Como Gestor Operativo, quiero exportar un archivo PDF que contenga todo el historial de firmas electrónicas y aprobaciones de una etapa constructiva, para facilitar la entrega del proyecto a la municipalidad o al cliente final.</td>
+      <td>Como Gestor Operativo, quiero exportar un archivo PDF que contenga todo el historial de firmas electrónicas y aprobaciones de una etapa constructiva.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">80</td>
-      <td><strong>TS45</strong></td>
+      <td style="text-align: center;">69</td>
+      <td><strong>TS41</strong></td>
       <td>Setup IoT Telemetry Domain</td>
       <td>Como usuario developer, quiero inicializar el dominio de telemetría IoT con su controlador, servicio y repositorio para recibir y almacenar datos de sensores en obra.</td>
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-      <td style="text-align: center;">81</td>
-      <td><strong>TS46</strong></td>
+      <td style="text-align: center;">70</td>
+      <td><strong>TS42</strong></td>
       <td>Endpoint POST IoT</td>
-      <td>Como usuario developer, quiero implementar el endpoint de registro de mediciones de sensores mediante POST a /api/v1/iot/telemetry para disparar alertas de seguridad automáticas en obra.</td>
+      <td>Como usuario developer, quiero implementar el endpoint de registro de mediciones de sensores mediante POST.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">71</td>
+      <td><strong>TS43</strong></td>
+      <td>Endpoint GET IoT</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de historial de sensores mediante GET.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">72</td>
+      <td><strong>US-22</strong></td>
+      <td>Monitorear temperatura y humedad para curado de concreto</td>
+      <td>Como Gestor Operativo, quiero recibir alertas automáticas cuando las condiciones ambientales no sean óptimas para el curado del concreto.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">73</td>
+      <td><strong>US-23</strong></td>
+      <td>Monitorear vibraciones en edificios colindantes</td>
+      <td>Como Gestor Operativo, quiero recibir alertas en tiempo real cuando los sensores de vibración detecten movimientos peligrosos.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">74</td>
+      <td><strong>US-24</strong></td>
+      <td>Alertar nivel crítico de materiales en tolvas</td>
+      <td>Como Equipo de Logística, quiero recibir alertas automáticas cuando el nivel de agregados en las tolvas esté por debajo del mínimo.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">75</td>
+      <td><strong>US-25</strong></td>
+      <td>Geolocalizar equipos de alto valor en obra</td>
+      <td>Como Equipo de Logística, quiero rastrear la ubicación de equipos de alto valor mediante sensores GPS.</td>
+      <td style="text-align: center;">8</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">76</td>
+      <td><strong>TS44</strong></td>
+      <td>Setup TeamUsers API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio de usuarios de proyecto con su controlador, servicio y repositorio para gestionar la asignación de usuarios a obras.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">77</td>
+      <td><strong>TS45</strong></td>
+      <td>Endpoint GET TeamUsers by Project</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de usuarios de proyecto mediante GET a /api/v1/team-users.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">78</td>
+      <td><strong>TS46</strong></td>
+      <td>Endpoint POST TeamUser</td>
+      <td>Como usuario developer, quiero implementar el endpoint de asignación de usuarios a proyectos mediante POST a /api/v1/team-users.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">79</td>
+      <td><strong>TS47</strong></td>
+      <td>Endpoint PATCH Activate TeamUser</td>
+      <td>Como usuario developer, quiero implementar el endpoint de activación de usuarios de proyecto mediante PATCH a /api/v1/team-users/{id}/activate.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">80</td>
+      <td><strong>TS48</strong></td>
+      <td>Endpoint PATCH Deactivate TeamUser</td>
+      <td>Como usuario developer, quiero implementar el endpoint de desactivación de usuarios de proyecto mediante PATCH a /api/v1/team-users/{id}/deactivate.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">81</td>
+      <td><strong>TS49</strong></td>
+      <td>Setup TeamWorkers API Domain</td>
+      <td>Como usuario developer, quiero inicializar el dominio de trabajadores de obra con su controlador, servicio y repositorio.</td>
       <td style="text-align: center;">3</td>
     </tr>
     <tr>
       <td style="text-align: center;">82</td>
-      <td><strong>TS47</strong></td>
-      <td>Endpoint GET IoT</td>
-      <td>Como usuario developer, quiero implementar el endpoint de consulta de historial de sensores mediante GET a /api/v1/iot/telemetry/{sensorId} para mostrar gráficos de monitoreo en tiempo real.</td>
-      <td style="text-align: center;">3</td>
+      <td><strong>TS50</strong></td>
+      <td>Endpoint GET TeamWorkers by Project</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de trabajadores mediante GET a /api/v1/team-workers.</td>
+      <td style="text-align: center;">2</td>
     </tr>
     <tr>
       <td style="text-align: center;">83</td>
-      <td><strong>US-22</strong></td>
-      <td>Monitorear temperatura y humedad para curado de concreto</td>
-      <td>Como Gestor Operativo, quiero recibir alertas automáticas cuando las condiciones ambientales no sean óptimas para el curado del concreto, para evitar fisuras y garantizar la calidad estructural.</td>
-      <td style="text-align: center;">5</td>
+      <td><strong>TS51</strong></td>
+      <td>Endpoint GET TeamWorker by ID</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de un trabajador específico mediante GET a /api/v1/team-workers/{teamWorkerId}.</td>
+      <td style="text-align: center;">2</td>
     </tr>
     <tr>
       <td style="text-align: center;">84</td>
-      <td><strong>US-23</strong></td>
-      <td>Monitorear vibraciones en edificios colindantes</td>
-      <td>Como Gestor Operativo, quiero recibir alertas en tiempo real cuando los sensores de vibración detecten movimientos peligrosos durante excavaciones, para evitar daños estructurales a propiedades vecinas.</td>
-      <td style="text-align: center;">5</td>
+      <td><strong>TS52</strong></td>
+      <td>Endpoint POST TeamWorker</td>
+      <td>Como usuario developer, quiero implementar el endpoint de registro de trabajadores mediante POST a /api/v1/team-workers.</td>
+      <td style="text-align: center;">2</td>
     </tr>
     <tr>
       <td style="text-align: center;">85</td>
-      <td><strong>US-24</strong></td>
-      <td>Alertar nivel crítico de materiales en tolvas</td>
-      <td>Como Equipo de Logística, quiero recibir alertas automáticas cuando el nivel de agregados (arena, piedra) en las tolvas esté por debajo del mínimo, para solicitar reabastecimiento antes de que se agote.</td>
-      <td style="text-align: center;">5</td>
+      <td><strong>TS53</strong></td>
+      <td>Endpoint DELETE TeamWorker</td>
+      <td>Como usuario developer, quiero implementar el endpoint de eliminación de trabajadores mediante DELETE a /api/v1/team-workers/{teamWorkerId}.</td>
+      <td style="text-align: center;">2</td>
     </tr>
     <tr>
       <td style="text-align: center;">86</td>
-      <td><strong>US-25</strong></td>
-      <td>Geolocalizar equipos de alto valor en obra</td>
-      <td>Como Equipo de Logística, quiero rastrear la ubicación de equipos de alto valor (vibrador de concreto, estación total) mediante sensores GPS, para prevenir robos y optimizar su asignación en obra.</td>
-      <td style="text-align: center;">8</td>
+      <td><strong>TS54</strong></td>
+      <td>Endpoint POST Assign Machinery</td>
+      <td>Como usuario developer, quiero implementar el endpoint de asignación de maquinaria mediante POST a /api/v1/team-workers/{teamWorkerId}/machineries.</td>
+      <td style="text-align: center;">2</td>
     </tr>
     <tr>
       <td style="text-align: center;">87</td>
-      <td><strong>US-12</strong></td>
-      <td>Exportar base de datos del proyecto</td>
-      <td>Como Gestor Operativo, quiero exportar la información del proyecto en formatos abiertos (.csv, .json) para garantizar la soberanía de los datos.</td>
-      <td style="text-align: center;">3</td>
+      <td><strong>TS55</strong></td>
+      <td>Endpoint DELETE Remove Machinery</td>
+      <td>Como usuario developer, quiero implementar el endpoint de remoción de maquinaria mediante DELETE a /api/v1/team-workers/{teamWorkerId}/machineries/{machineryId}.</td>
+      <td style="text-align: center;">2</td>
     </tr>
     <tr>
       <td style="text-align: center;">88</td>
+      <td><strong>US-10</strong></td>
+      <td>Visualizar dashboard de control del proyecto</td>
+      <td>Como Gestor Operativo, deseo acceder a un resumen consolidado de la obra para identificar desviaciones en el plan sin procesar datos de forma manual.</td>
+      <td style="text-align: center;">8</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">89</td>
+      <td><strong>US-04</strong></td>
+      <td>Alertar stock crítico automáticamente</td>
+      <td>Como Equipo de Logística, quiero recibir notificaciones cuando el inventario sea bajo para evitar paralizar la construcción.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">90</td>
+      <td><strong>US-05</strong></td>
+      <td>Validar presupuesto en solicitud de material</td>
+      <td>Como Equipo de Logística, quiero que el sistema bloquee pedidos que excedan el presupuesto meta para evitar pérdidas.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">91</td>
+      <td><strong>US-15</strong></td>
+      <td>Alertar desviación presupuestal</td>
+      <td>Como Equipo de Logística, quiero recibir notificaciones si el gasto real supera el presupuesto meta para tomar medidas correctivas.</td>
+      <td style="text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">92</td>
+      <td><strong>TS20</strong></td>
+      <td>Endpoint POST Material Waste</td>
+      <td>Como usuario developer, quiero implementar el endpoint de registro de mermas mediante POST a /api/v1/materials/waste.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">93</td>
+      <td><strong>TS21</strong></td>
+      <td>Endpoint GET Material Waste</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta de mermas mediante GET a /api/v1/materials/waste.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">94</td>
+      <td><strong>US-13</strong></td>
+      <td>Registrar merma de materiales</td>
+      <td>Como Equipo de Logística, quiero registrar la merma de materiales para ajustar el stock real y analizar la eficiencia de los recursos.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">95</td>
+      <td><strong>TS22</strong></td>
+      <td>Endpoint POST Tools Assignment</td>
+      <td>Como usuario developer, quiero implementar el endpoint de asignación de herramientas mediante POST a /api/v1/materials/tools-assignments.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">96</td>
+      <td><strong>TS23</strong></td>
+      <td>Endpoint GET Tools Assignments</td>
+      <td>Como usuario developer, quiero implementar el endpoint de consulta del historial de asignaciones de herramientas mediante GET.</td>
+      <td style="text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">97</td>
+      <td><strong>US-17</strong></td>
+      <td>Controlar herramientas asignadas por operario</td>
+      <td>Como Equipo de Logística, quiero registrar las herramientas eléctricas asignadas a un obrero específico.</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">98</td>
+      <td><strong>US-12</strong></td>
+      <td>Exportar base de datos del proyecto</td>
+      <td>Como Gestor Operativo, quiero exportar la información del proyecto en formatos abiertos (.csv, .json).</td>
+      <td style="text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">99</td>
       <td><strong>US-16</strong></td>
       <td>Activar plugins del sistema</td>
       <td>Como Gestor Operativo, quiero habilitar módulos adicionales para extender las funciones básicas del sistema.</td>
       <td style="text-align: center;">8</td>
     </tr>
-  </tbody>
-</table>
+
 
 ---
 # Capítulo IV: Product Design
@@ -3797,9 +3772,9 @@ En Kipu, aplicaremos sistemas de organización que reflejan la estructura lógic
 **Esquemas de categorización por contenido:**
 - **Por Tópicos:** El contenido se organiza según los *Bounded Contexts* identificados: Planificación, Logística, Finanzas, Documentación Técnica y Ejecución de Campo.
 
-- **Según audiencia:** Nuestra interfaz se adaptará de manera automática de acuerdo al tipo de vista de acuerdo al rol del usuario. Por ejemplo, el Almacenero visualiza categorías referentes al stock y movimiento de carga en el almacén, mientras que el Arquitecto accede prioritariamente a planos y RFIs.
+- **Según audiencia:** Nuestra interfaz se adaptará de manera automática de acuerdo al tipo de vista de acuerdo al rol del usuario. Por ejemplo, el Almacenero visualiza categorías referentes al stock y movimiento de carga en el almacén, mientras que el Arquitecto accede prioritariamente a RFIs.
 
-- **Cronológico:** Será aplicada a la Bitácora de la Obra y al Historial de Versiones de los Planos, de esa manera se permite la evolución lineal de los proyectos.
+- **Cronológico:** Será aplicada a la Bitácora de la Obra y al Historial de Versiones, de esa manera se permite la evolución lineal de los proyectos.
 
 - **Alfabético:** Es usado en el directorio de subcontratistas y proveedores para facilitar la búsqueda en listas extensas.
 
@@ -3808,7 +3783,7 @@ El sistema de etiquetado de Kipu utiliza terminología estándar de la industria
 
 - **Inicio/Dashboard:** Panel de control con la vista general del estado de la obra.
 
-- **Expediente Técnico:** Sección que agrupa planos, memorias descriptivas y especificaciones.
+- **Expediente Técnico:** Sección que agrupa memorias descriptivas y especificaciones técnicas.
 
 - **Logística e Insumos:** Etiquetas relacionadas con el flujo de materiales (Pedidos, Almacén, Stock).
 
@@ -3833,11 +3808,11 @@ El objetivo es captar tráfico interesado en soluciones tecnológicas para la co
     ```
 * **Descripción:**
     ```html
-    <meta name="description" content="Centraliza la gestión de tu obra con Kipu. Control de presupuestos, trazabilidad de planos y logística en una plataforma Open Source diseñada para constructoras modernas."/>
+    <meta name="description" content="Centraliza la gestión de tu obra con Kipu. Control de presupuestos, trazabilidad documental y logística en una plataforma Open Source diseñada para constructoras modernas."/>
     ```
 * **Palabras clave (Keywords):**
     ```html
-    <meta name="keywords" content="gestión de construcción, software obra civil, control de presupuestos, trazabilidad de planos, Lean Construction, ERP construcción, Open Source, PircaIndustries"/>
+    <meta name="keywords" content="gestión de construcción, software obra civil, control de presupuestos, trazabilidad documental, Lean Construction, ERP construcción, Open Source, PircaIndustries"/>
     ```
 * **Autor:**
     ```html
@@ -3879,9 +3854,9 @@ Aquí el enfoque cambia hacia la seguridad, la autoría y evitar que datos sensi
 ### 4.2.4. Searching Systems.
 Dada la cantidad de alta densidad de datos en construcción. Para garantizar una experiencia de búsqueda eficiente y satisfactoria para los usuarios en Kipu, un sistema de búsqueda robusto con varias opciones y filtros será implementado.
 
-- **Búsqueda Global con Autocompletado:** Se contará con un campo presente en el header que buscará en planos, partidas y requerimientos de manera simultánea. Además, contará con sugerencias de búsqueda.
+- **Búsqueda Global con Autocompletado:** Se contará con un campo presente en el header que buscará en partidas y requerimientos de manera simultánea. Además, contará con sugerencias de búsqueda.
 
-- **Filtros avanzados:** Los usuarios podrán buscar planos filtrando sus búsquedas mediante categorías. Por ejemplo: *Especialidad*, *Estado* o *Fecha de Vigencia*.
+- **Filtros avanzados:** Los usuarios podrán buscar documentos filtrando sus búsquedas mediante categorías. Por ejemplo: *Especialidad*, *Estado* o *Fecha de Vigencia*.
 
 - **Búsqueda por atributos de Stock:** Se permitirá filtrar materiales por *Estado de Stock*, ya sean "Crítico" u "Óptimo", o *Proveedor* de los mismos.
 
@@ -4006,12 +3981,6 @@ A continuación, presentaremos los wireframes de nuestra aplicación web, acompa
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Wireframes/Wireframe-13.png?raw=true"  alt="wireframes-13">
 </div><br>
 
-- **Planos:** reúne los wireframes vinculados a la gestión documental técnica, permitiendo versionar, consultar y organizar planos para asegurar que el equipo trabaje siempre con la información vigente.<br><br>
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Wireframes/Wireframe-14.png?raw=true"  alt="wireframes-14">
-</div><br>
-
 - **Firmas:** contempla el flujo de validación y aprobación de documentos o entregables, incorporando mecanismos de conformidad digital para mantener respaldo y trazabilidad en los cierres de etapa.<br><br>
 
 <div align="center">
@@ -4065,11 +4034,6 @@ A continuación, presentaremos los wireframes de nuestra aplicación web, acompa
 <b>Wireframes de la sección Presupuesto </b><br>
 <div align="center">
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Wireframes/Wireframe-mobile-7.png?raw=true">
-</div><br>
-
-<b>Wireframes de la sección Planos </b><br>
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Wireframes/Wireframe-mobile-8.png?raw=true">
 </div><br>
 
 <b>Wireframes de la sección IoT Monitoring </b><br>
@@ -4134,13 +4098,7 @@ A continuación, presentaremos los wireframes de nuestra aplicación web, acompa
 
 ---
 
-## Planos
 
-**User Goal 6:** Como profesional técnico, quiero subir, consultar, versionar y organizar los planos del proyecto, aplicando filtros por categoría o especialidad y descargándolos para uso offline cuando sea necesario, para asegurar que todos los involucrados trabajen con la versión vigente y evitar errores por desactualización.
-
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Wireflow/Planos.png?raw=true">
-
----
 
 ## Firmas
 
@@ -4242,13 +4200,6 @@ Enlace de <a href="https://www.figma.com/design/YozJtIsGkKkhXZA5kArMvL/Kipu---Op
 
 ---
 
-## Planos
-
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Mockups/Planos/Planos 1.jpeg?raw=true">
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Mockups/Planos/Planos 2.jpeg?raw=true">
-
----
-
 ## Equipo
 
 <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Mockups/Equipo.jpeg?raw=true">
@@ -4327,12 +4278,6 @@ Enlace de <a href="https://www.figma.com/design/YozJtIsGkKkhXZA5kArMvL/Kipu---Op
 
 ---
 
-## Planos
-
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Mockups/Mobile/Planos 1.jpeg?raw=true">
-
----
-
 ## Presupuesto
 
 <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Mockups/Mobile/Presupuesto 1.jpeg?raw=true">
@@ -4353,243 +4298,7 @@ Enlace de <a href="https://www.figma.com/design/YozJtIsGkKkhXZA5kArMvL/Kipu---Op
 
 A continuación, se presentarán los diagramas de flujo de usuarios relacionados con nuestros objetivos de usuario.
 
-**User Goal 1: Gestionar planos vigentes y trazables**
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/User-Flow-Diagram/User-flow-1.png?raw=true" alt="userflow 1">
-</div><br>
-
-Como profesional tecnico, quiero consultar, filtrar, versionar y descargar planos aprobados para ejecutar la obra con informacion actualizada. Flujo esperado (happy path): el usuario ingresa al modulo Planos, aplica filtros por especialidad o estado, abre la version vigente y la descarga si requiere uso offline. Flujos alternativos (unhappy paths): si el archivo no existe, esta obsoleto o el usuario no tiene permisos de carga/edicion, el sistema muestra una alerta, restringe la accion y redirige a la version valida o solicita autorizacion.<br><br>
-
-
-**User Goal 2: Registrar y consultar avances de obra**
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/User-Flow-Diagram/User-flow-2.png?raw=true" alt="userflow 2">
-</div><br>
-
-Como supervisor de campo, quiero registrar el avance porcentual de actividades y revisar su historial para comparar ejecucion real versus planificacion. Flujo esperado (happy path): el usuario selecciona proyecto y actividad, registra porcentaje, fecha y observaciones, y el sistema actualiza el estado y timeline de avances. Flujos alternativos (unhappy paths): si el porcentaje ingresado es invalido, faltan datos obligatorios o hay conflicto de edicion simultanea, el sistema bloquea el guardado, informa la inconsistencia y mantiene la ultima version confirmada.<br><br>
-
-**User Goal 3: Monitorear condiciones criticas mediante IoT**
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/User-Flow-Diagram/User-flow-3.png?raw=true" alt="userflow 3">
-</div><br><br>
-
-Como gestor tecnico, quiero visualizar lecturas de sensores y recibir alertas automaticas para anticipar riesgos en obra. Flujo esperado (happy path): el usuario accede al panel IoT, revisa variables en tiempo real (por ejemplo temperatura, vibracion o stock), y el sistema destaca valores dentro de umbrales configurados. Flujos alternativos (unhappy paths): si un sensor deja de reportar, supera umbrales o hay perdida temporal de conectividad, el sistema genera alerta, registra el evento y sugiere acciones de verificacion manual o escalamiento.<br><br>
-
-**User Goal 4: Formalizar aprobaciones con firmas digitales**
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/User-Flow-Diagram/User-flow-4.png?raw=true" alt="userflow 4">
-</div><br><br>
-
-Como responsable autorizado, quiero firmar y validar documentos digitalmente para cerrar hitos de obra con respaldo y trazabilidad. Flujo esperado (happy path): el usuario revisa el documento, autentica su identidad, firma y el sistema registra sello de tiempo y estado de aprobacion. Flujos alternativos (unhappy paths): si la validacion de identidad falla, el certificado no es valido o el documento ya fue firmado/bloqueado, el sistema cancela la operacion, conserva el estado previo y notifica el motivo del rechazo.<br><br>
-
-**User Goal 5: Supervisar KPIs desde el dashboard principal**
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/User-Flow-Diagram/User-flow-5.png?raw=true" alt="userflow 5">
-</div><br><br>
-
-Como lider de proyecto, quiero revisar indicadores clave consolidados para tomar decisiones operativas y financieras oportunas. Flujo esperado (happy path): el usuario entra al Dashboard, consulta tarjetas y graficos de avance, costos, alertas y productividad, y navega a detalle por modulo. Flujos alternativos (unhappy paths): si hay ausencia de datos, filtros incompatibles o demora en la carga, el sistema muestra estados vacios controlados, mensajes explicativos y opciones para reintentar o ajustar filtros.
-<br><br>
-
-
-**User Goal 6: Administrar proyectos y su ciclo de vida**
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/User-Flow-Diagram/User-flow-6.png?raw=true" alt="userflow 6">
-</div><br><br>
-
-Como gestor o administrador, quiero crear, editar y organizar proyectos con su informacion base para mantener control centralizado de las obras. Flujo esperado (happy path): el usuario registra un proyecto con nombre, ubicacion, responsable y estado, y luego actualiza su progreso general durante la ejecucion. Flujos alternativos (unhappy paths): si existe duplicidad de nombre, faltan campos obligatorios o se intenta editar un proyecto archivado, el sistema rechaza el cambio y muestra reglas de validacion antes de permitir continuar.<br><br>
-
-
-**User Goal 7: Reportar y dar seguimiento a no conformidades (RNC)**
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/User-Flow-Diagram/User-flow-7.png?raw=true" alt="userflow 7">
-</div><br><br>
-
-Como encargado de calidad, quiero registrar no conformidades con evidencia para asegurar su seguimiento hasta el cierre. Flujo esperado (happy path): el usuario crea una RNC, adjunta evidencia (foto/descripcion), asigna responsable y fecha objetivo, y el sistema monitorea estados (abierta, en proceso, cerrada). Flujos alternativos (unhappy paths): si la evidencia es insuficiente, la asignacion es invalida o se intenta cerrar sin accion correctiva, el sistema impide el cambio de estado y solicita completar la informacion requerida.<br><br>
-
-
-**User Goal 8: Gestionar miembros y roles del equipo**
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/User-Flow-Diagram/User-flow-8.png?raw=true" alt="userflow 8">
-</div><br><br>
-
-Como administrador del proyecto, quiero asignar usuarios y permisos por rol para proteger informacion sensible y ordenar responsabilidades. Flujo esperado (happy path): el usuario invita integrantes, define rol (administrador, supervisor, tecnico, etc.) y el sistema habilita vistas y acciones segun permisos. Flujos alternativos (unhappy paths): si el correo no existe, el rol es incompatible o se intenta remover al ultimo administrador activo, el sistema bloquea la accion y muestra las restricciones de seguridad correspondientes.<br><br>
-
-**User Goal 9: Solicitar y controlar materiales de obra**
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/User-Flow-Diagram/User-flow-9.png?raw=true" alt="userflow 9">
-</div><br><br>
-
-Como usuario de campo o logistica, quiero generar solicitudes de materiales y seguir su estado para evitar quiebres de stock en actividades criticas. Flujo esperado (happy path): el usuario crea solicitud con item, cantidad y fecha requerida, el sistema la enruta para aprobacion y actualiza su estado (pendiente, aprobada, atendida). Flujos alternativos (unhappy paths): si la cantidad supera limites, el item no existe o la solicitud se registra fuera de plazo, el sistema notifica observaciones, propone ajustes y evita el envio hasta corregir los datos.<br><br>
-
-**User Goal 10: Controlar desviaciones del presupuesto**
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/User-Flow-Diagram/User-flow-10.png?raw=true">
-</div><br><br>
-
-Como responsable financiero, quiero comparar presupuesto planificado versus gasto ejecutado para detectar desviaciones y tomar medidas preventivas. Flujo esperado (happy path): el usuario selecciona proyecto/partida, revisa montos y variaciones, y recibe alertas cuando se aproxima o excede el umbral definido. Flujos alternativos (unhappy paths): si faltan registros de gasto, existen partidas sin clasificacion o el periodo no tiene datos consolidados, el sistema marca informacion incompleta y restringe conclusiones hasta validar fuentes.
-<br><br>
-
-**User Goal 11: Autenticarse y recuperar acceso de forma segura**
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/User-Flow-Diagram/User-flow-11.png?raw=true">
-</div><br><br>
-
-Como usuario de la plataforma, quiero iniciar sesion, registrarme o recuperar contrasena para acceder de manera segura a los modulos segun mi rol. Flujo esperado (happy path): el usuario ingresa credenciales validas o completa registro, confirma identidad y el sistema redirige al espacio autorizado. Flujos alternativos (unhappy paths): si las credenciales son incorrectas, el correo no esta verificado o el token de recuperacion expira, el sistema deniega acceso, informa el motivo y ofrece pasos para reintento o recuperacion controlada.<br><br>
-
-Enlace: [User Flows en Figma](https://www.figma.com/design/ujIfDaSyMq2l7D57x9o7Mg/Kipu---Open-Source-User-Flow-Diagrams?node-id=0-1&t=rKnflS8isW55iskc-1)<br><br>
-
-## 4.5. Web Applications Prototyping.
-
-El siguiente prototipo interactivo fue construido a partir de los mockups documentados previamente. Su objetivo es demostrar los flujos de usuario principales antes de iniciar la etapa de programación.
-
-## <b>Prototype versión Desktop:</b>
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Prototype/prototype-app.png?raw=true"  alt="prototype desktop">
-</div><br><br>
-
-## <b>Prototype versión Mobile:</b>
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources//Prototype/prototype-mobile.png?raw=true"  alt="prototype-mobile">
-</div><br><br>
-
-
-Enlace: [Prototype de la App Web en Figma](https://www.figma.com/design/gpaQ7X5qCv0vvoiS8fUBSD/Kipu---Open-Source-Prototype?node-id=0-1&t=eZiUxCW2ZamuqW0R-1
-)<br><br>
-
-## 4.6. Domain-Driven Software Architecture.
-
-### 4.6.1. Design-Level Event Storming.
-
-
-* **Tablero de Event Storming (Miro):** <a href="https://miro.com/welcomeonboard/a2tTTE15ZU51a3g2N2ZVK0NKcWNyRUJXWFA2dkxTL05nVXpJekpFWjdFZXNRSmhJKzA2U3lKN2djQy8xQjNKYVhnMXZ2OHNNcGREMHpFdDgwK0laWWFpcWdYSW9UWVlKSHRCUEFRdytqVTlkZ2tBWTByZVlpYUFPenVyME1WTjBNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=210928235309" target="_blank" rel="noopener noreferrer">Abrir tablero en Miro</a>
-
-
-<br><br>
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/6e97319737f5bdf7938bf3b9c5ce6490c72ac18e/Resources/Design-LevelEventStorming/VistaGeneral.png?raw=true" alt="Vista Panorámica del Design-Level Event Storming">
-</div>
-<br><br>
-
-### Cost Management Bounded Context
-
-<br><br>
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/7ba2839ffb4e7306bb929549ccca836d035403e5/Resources/Design-LevelEventStorming/CostManagementBoundedContext.png?raw=true" alt="Cost Management Bounded Context Event Storming">
-</div>
-<br><br>
-
-### Document Control Bounded Context
-
-<br><br>
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/7ba2839ffb4e7306bb929549ccca836d035403e5/Resources/Design-LevelEventStorming/DocumentControlBoundedContext.png?raw=true" alt="Document Control Bounded Context">
-</div>
-<br><br>
-
-## Field Supervision Bounded Context
-
-<br><br>
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/7ba2839ffb4e7306bb929549ccca836d035403e5/Resources/Design-LevelEventStorming/FieldSupervisionBoundedContext.png?raw=true" alt="Field Supervision Bounded Context">
-</div>
-<br><br>
-
-## Procurement & SupplyChain Bounded Context
-
-<br><br>
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/7ba2839ffb4e7306bb929549ccca836d035403e5/Resources/Design-LevelEventStorming/Procurement%26SupplyChainBoundedContext.png?raw=true" alt="Procurement & SupplyChain Bounded Context">
-</div>
-<br><br>
-
-## Proyect Management Bounded Context
-
-<br><br>
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/7ba2839ffb4e7306bb929549ccca836d035403e5/Resources/Design-LevelEventStorming/ProyectManagementBoundedContext.png?raw=true" alt="Proyect Management Bounded Context">
-</div>
-<br><br>
-
-## Stakeholder Management Bounded Context
-
-<br><br>
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/7ba2839ffb4e7306bb929549ccca836d035403e5/Resources/Design-LevelEventStorming/StakeholderManagementBoundedContext.png?raw=true" alt="Proyect Management Bounded Context">
-</div>
-<br><br>
-
-### 4.6.2. Software Architecture Context Diagram.
-En este nivel se visualizan los actores principales de la plataforma Kipu: el Operative Manager, el Logistics Team, el Client / Investor y el System Administrator. Asimismo, se detallan las interacciones del sistema principal con los sistemas externos clave para la operación, los cuales incluyen el Hardware IoT (sensores físicos), un MQTT Broker para la gestión de mensajería asíncrona, un Accounting Software para la exportación de reportes de nómina y un Servicio SMTP para el envío de notificaciones y alertas transaccionales.
-
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Domain-Driven-Software-Architecture/SystemContext.svg?raw=true" alt="Imagen del Diagrama de Contexto">
-
-### 4.6.3. Software Architecture Container Diagrams.
-
-En este diagrama se detalla la distribución de la plataforma Kipu basada en una arquitectura de microservicios. Como interfaces de usuario se identifican una Landing Page pública estática desarrollada con HTML, CSS y JS y la Web App (SPA) principal desarrollada con Angular. La comunicación del frontend se centraliza a través de un API Gateway, el cual enruta las peticiones hacia seis microservicios de dominio (Identity, Project, Field, Logistics, Documents e IoT Telemetry) desarrollados en Spring Boot 3 con Java 21. Adicionalmente, se incluye el uso de un Object Storage (MinIO) para el almacenamiento de archivos binarios y pesados (planos, fotos y dossiers), y una Base de Datos MySQL que mantiene la persistencia de datos relacionales con separación lógica de esquemas por microservicio.
-
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Domain-Driven-Software-Architecture/Containers.svg?raw=true" alt="Imagen del Container Diagram">
-
-### 4.6.4. Software Architecture Components Diagrams.
-
-<br>
-
-**Componente Identity**
-
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Domain-Driven-Software-Architecture/Components_Identity.svg?raw=true" alt="Imagen de Componente Identity">
-
-<br>
-
-**Componente Project**
-
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Domain-Driven-Software-Architecture/Components_Project.svg?raw=true" alt="Imagen de Componente Project">
-
-<br>
-
-**Componente Field**
-
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Domain-Driven-Software-Architecture/Components_Field.svg?raw=true" alt="Imagen de Componente Field">
-
-<br>
-
-**Componente Logistics**
-
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Domain-Driven-Software-Architecture/Components_Logistics.svg?raw=true" alt="Imagen de Componente Logistics">
-
-<br>
-
-**Componente Documents**
-
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Domain-Driven-Software-Architecture/Components_Documents.svg?raw=true" alt="Imagen de Componente Documents">
-
-<br>
-
-**Componente IoT Telemetry**
-
-![Texto alternativo](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Domain-Driven-Software-Architecture/Components_IoT.svg?raw=true)
-
-<br>
-
-
-## 4.7. Software Object-Oriented Design.
-### 4.7.1. Class Diagrams.
-
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Diagrams/Class Diagram 2 - Kipu.png?raw=true" alt="Foto de Diagrama de Clases"/>
-
-## 4.8. Database Design.
-### 4.8.1. Database Diagrams.
-
-<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Diagrams/Database Diagram - Kipu.png?raw=true" alt="Foto de Diagrama de Base de Datos"/>
+<!-- User Goal 1 de planos eliminado -->
 
 ---
 # Capítulo V: Product Implementation, Validation & Deployment.
@@ -4641,7 +4350,7 @@ Para abarcar todas las actividades del ciclo de vida del producto digital, el eq
  
   + **Java:** Lenguaje de programación de propósito general orientado a objetos, usado ampliamente para construir servicios backend, APIs y sistemas empresariales robustos que se pueden integrar con tecnologías frontend.<br>https://www.java.com/<br><br> 
  
-  + **Angular Material:** Biblioteca oficial de componentes UI para Angular, basada en Material Design. Proporciona componentes accesibles, consistentes y listos para producción (tablas, formularios, diálogos, navegación y feedback visual), además de utilidades de theming e integración con Angular CDK para construir interfaces escalables y mantenibles.<br>https://material.angular.io/<br><br>  
+  + **Angular Material:** Biblioteca oficial de componentes UI para Angular, basada en Material Design. Proporciona componentes accesibles, consistentes y listos para producción (tablas, formularios, diálogos, navegación y feedback visual), además de utilidades de theming e integración con Angular CDK para construir interfaces escalables y mantenibles.<br>https://material.angular.io/<br><br>
 
 + **Software Testing**<br>Consiste en el proceso de evaluación del software con el fin de comprobar su correcto funcionamiento y nivel de calidad. Incluye la realización de pruebas tanto funcionales como no funcionales para detectar fallos, errores o inconsistencias antes de su implementación final. Su propósito es garantizar que el sistema sea estable, confiable y cumpla con los requisitos definidos.<br><br> 
 
@@ -4999,13 +4708,13 @@ A modo de resumen, la automatización del despliegue funciona de la siguiente ma
 
 Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics definidas en el Product Backlog. La asignación de líderes y colaboradores se ha realizado considerando la responsabilidad real de cada miembro en los distintos aspectos del proyecto, según se documenta en la planificación interna del equipo.
 
-| Team Member (Last Name, First Name) | GitHub Username | EP01 (Cuentas y Acceso) | EP02 (Calidad y KPIs) | EP03 (Suministros y Presupuesto) | EP04 (Monitoreo IoT) | EP05 (Open Source) | EP06 (Landing Page) | EP07 (Documentación Técnica) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Francia Torres, Jhony Manuel | ManuelFT4 | C | L | C | C | C | C | L |
-| Montoya Nina, Paula Fernanda | SeviNyO | C | C | L | C | C | C | C |
-| Pareja Calloapaza, Marcelo Fausto | marc3lllob7 | C | C | C | L | C | L | C |
-| Ramos Hinostroza, Diego Antonio | Kosevy | L | C | C | C | L | C | C |
-| Ramos Mera, Neo Daniel | norahccccc | C | C | C | C | C | C | C |
+| Team Member (Last Name, First Name) | GitHub Username | EP01 (Cuentas y Acceso) | EP02 (Calidad y KPIs) | EP03 (Suministros y Presupuesto) | EP04 (Monitoreo IoT) | EP05 (Open Source) | EP06 (Landing Page) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Francia Torres, Jhony Manuel | ManuelFT4 | C | L | C | C | C | C |
+| Montoya Nina, Paula Fernanda | SeviNyO | C | C | L | C | C | C |
+| Pareja Calloapaza, Marcelo Fausto | marc3lllob7 | C | C | C | L | C | L |
+| Ramos Hinostroza, Diego Antonio | Kosevy | L | C | C | C | L | C |
+| Ramos Mera, Neo Daniel | norahccccc | C | C | C | C | C | C |
 
 **Leyenda:** L = Líder, C = Colaborador
 
@@ -5067,49 +4776,49 @@ El principal logro del Sprint 1 consistió en el despliegue de la versión inici
 	<br>
 	<b>Section Home</b>
 	<br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-home.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Home">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Landing-page/landingpage-home.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Home">
 </div><br><br>
 
 <div align="center">
 	<b>Section Proposal</b>
 	<br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-proposal.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Proposal">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Landing-page/landingpage-proposal.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Proposal">
 </div><br><br>
 
 <div align="center">
 	<b>Section Differences</b>
 	<br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-differences.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Differences">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Landing-page/landingpage-differences.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Differences">
 </div><br><br>
 
 <div align="center">
 	<b>Section Roles</b>
 	<br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-roles.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Roles">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Landing-page/landingpage-roles.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Roles">
 </div><br><br>
 
 <div align="center">
 	<b>Section Members</b>
 	<br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-members.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Members">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Landing-page/landingpage-members.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Members">
 </div><br><br>
 
 <div align="center">
 	<b>Section Plans</b>
 	<br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-plans.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Plans">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Landing-page/landingpage-plans.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Plans">
 </div><br><br>
 
 <div align="center">
 	<b>Section Contact</b>
 	<br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-contact.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Contact">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Landing-page/landingpage-contact.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Contact">
 </div><br><br>
 
 <div align="center">
 	<b>Section Footer</b>
 	<br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Landing-page\landingpage-footer.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Footer">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Landing-page/landingpage-footer.png?raw=true" width="600px" alt="Imagen de la landing page Seccion Footer">
 </div><br><br>
 
 Enlace: [Video del despliegue de la landing page en GitHub Pages]()
@@ -5151,7 +4860,7 @@ Se estableció la organización **PircaIndustries** en GitHub para centralizar l
 * **Landing-Page-Kipu:** Contiene el código fuente estático (HTML, CSS, JS) de la página de aterrizaje.
 * **Acceptance-Test:** Repositorio dedicado exclusivamente a la documentación de pruebas utilizando sintaxis Gherkin.
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Software-Deployment-Evidence\SoftwareDeployment-repositories.png?raw=true" width="600px" alt="Vista general de repositorios de la organización PircaIndustries">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Software-Deployment-Evidence/SoftwareDeployment-repositories.png?raw=true" width="600px" alt="Vista general de repositorios de la organización PircaIndustries">
 	<br>
 	<p>Vista general de la organización PircaIndustries y sus repositorios activos.</p>
 </div>
@@ -5160,7 +4869,7 @@ Se estableció la organización **PircaIndustries** en GitHub para centralizar l
 <br>
 
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Software-Deployment-Evidence\SoftwareDeployment-repositories-landingpage.png?raw=true" width="600px" alt="Vista principal del repositorio Landing-Page-Kipu">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Software-Deployment-Evidence/SoftwareDeployment-repositories-landingpage.png?raw=true" width="600px" alt="Vista principal del repositorio Landing-Page-Kipu">
 	<br>
 	<p>Vista principal del repositorio de la Landing Page, mostrando el código fusionado en la rama principal tras las revisiones.</p>
 </div>
@@ -5178,7 +4887,7 @@ Se estableció la organización **PircaIndustries** en GitHub para centralizar l
 #### 2. Configuración del Flujo de Trabajo (Git Flow)
 Para asegurar que solo el código funcional y aprobado llegue al entorno de producción, se implementó la estrategia de ramificación Git Flow en ambos repositorios. Se configuraron ramas `feature/*` para el desarrollo individual, las cuales se integran mediante Pull Requests hacia `develop`, para finalmente pasar a `main` cuando el incremento está listo para despliegue.
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Software-Deployment-Evidence\SoftwareDeployment-landingpage-branch.png?raw=true" width="600px" alt="Ramas activas en el repositorio Landing-Page-Kipu">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Software-Deployment-Evidence/SoftwareDeployment-landingpage-branch.png?raw=true" width="600px" alt="Ramas activas en el repositorio Landing-Page-Kipu">
 	<br>
 	<p>Ramas activas en el repositorio de la Landing Page, evidenciando el aislamiento de características antes de su integración.</p>
 </div>
@@ -5187,7 +4896,7 @@ Para asegurar que solo el código funcional y aprobado llegue al entorno de prod
 <br>
 
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Software-Deployment-Evidence\SoftwareDeployment-acceptancetest-branch.png?raw=true" width="600px" alt="Ramas activas en el repositorio Acceptance-Test">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Software-Deployment-Evidence/SoftwareDeployment-acceptancetest-branch.png?raw=true" width="600px" alt="Ramas activas en el repositorio Acceptance-Test">
 	<br>
 	<p>Gestión de ramas en el repositorio de pruebas de aceptación, manteniendo sincronía con el desarrollo del Sprint.</p>
 </div>
@@ -5201,7 +4910,7 @@ Para el despliegue continuo y gratuito de la Landing Page, se utilizó el servic
 * **Disponibilidad:** Tras la configuración, el entorno de producción quedó publicado y accesible de forma pública.
 **URL del entorno de producción (Landing Page):** [https://pircaindustries.github.io/Landing-Page-Kipu/](https://pircaindustries.github.io/Landing-Page-Kipu/)
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources\Software-Deployment-Evidence\SoftwareDeployment-landingpage-deployment.png?raw=true" width="600px" alt="Configuración de despliegue en GitHub Pages">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Software-Deployment-Evidence/SoftwareDeployment-landingpage-deployment.png?raw=true" width="600px" alt="Configuración de despliegue en GitHub Pages">
 	<br>
 	<p> Configuración exitosa de GitHub Pages, indicando que el sitio se encuentra "Live" </p>
 </div>
@@ -5285,13 +4994,13 @@ En esta sección se mostarán las estadísticas de colabración de Github de nue
 
 Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics definidas en el Product Backlog. La asignación de líderes y colaboradores se ha realizado considerando la responsabilidad real de cada miembro en los distintos aspectos del proyecto, según se documenta en la planificación interna del equipo.
 
-| Team Member (Last Name, First Name) | GitHub Username | EP01 (Cuentas y Acceso) | EP02 (Calidad y KPIs) | EP03 (Suministros y Presupuesto) | EP04 (Monitoreo IoT) | EP05 (Open Source) | EP06 (Landing Page) | EP07 (Documentación Técnica) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Francia Torres, Jhony Manuel | ManuelFT4 | C | L | C | C | C | C | L |
-| Montoya Nina, Paula Fernanda | SeviNyO | C | C | L | C | L | C | C |
-| Pareja Calloapaza, Marcelo Fausto | marc3lllob7 | C | C | C | L | C | C | C |
-| Ramos Hinostroza, Diego Antonio | Kosevy | L | L | C | C | C | C | C |
-| Ramos Mera, Neo Daniel | norahccccc | L | L | L | C | C | C | C |
+| Team Member (Last Name, First Name) | GitHub Username | EP01 (Cuentas y Acceso) | EP02 (Calidad y KPIs) | EP03 (Suministros y Presupuesto) | EP04 (Monitoreo IoT) | EP05 (Open Source) | EP06 (Landing Page) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Francia Torres, Jhony Manuel | ManuelFT4 | C | L | C | C | C | C |
+| Montoya Nina, Paula Fernanda | SeviNyO | C | C | L | C | L | C |
+| Pareja Calloapaza, Marcelo Fausto | marc3lllob7 | C | C | C | L | C | C |
+| Ramos Hinostroza, Diego Antonio | Kosevy | L | L | C | C | C | C |
+| Ramos Mera, Neo Daniel | norahccccc | L | L | L | C | C | C |
 
 **Leyenda:** L = Líder, C = Colaborador
 
@@ -5916,7 +5625,7 @@ Durante el Sprint 2, el equipo mantuvo un flujo de trabajo colaborativo constant
 A continuación, se presentan las estadísticas de colaboración obtenidas desde los insights de GitHub durante el Sprint 2:
 
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration-Sprint%202/TeamCollaboration%202.png?raw=true" alt="Code Frequency Sprint 2">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration-Sprint%202/Team%20Collaboration%202.png?raw=true" alt="Code Frequency Sprint 2">
     <br>
     <p><strong>Gráfica 1:</strong> Frecuencia de código del Sprint 2, mostrando la evolución de adiciones y eliminaciones durante el periodo de desarrollo.</p>
 </div>
@@ -5924,7 +5633,7 @@ A continuación, se presentan las estadísticas de colaboración obtenidas desde
 <br>
 
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration-Sprint%202/TeamCollaboration.jpg?raw=true" alt="Team Collaboration Insights Sprint 2">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration-Sprint%202/Team%20Collaboration.jpg?raw=true" alt="Team Collaboration Insights Sprint 2">
     <br>
     <p><strong>Gráfica 2:</strong> Resumen de contribuciones por miembro del equipo, reflejando commits realizados y participación activa en el repositorio.</p>
 </div>
@@ -5945,27 +5654,81 @@ A continuación, se presentan las estadísticas de colaboración obtenidas desde
 | **Sprint 2 Review Summary** |Se validó con éxito la navegación del frontend utilizando mock APIs, logrando una experiencia interactiva temprana de los flujos principales (kipu-frontend).|
 | **Sprint 2 Retrospective Summary** | El equipo identificó que la separación por capas facilitó el trabajo en el frontend, lo cual servirá de base para alinear los Bounded Contexts del backend durante el siguiente ciclo.|
 | **Sprint 3 Goal** | Our focus is on integrating the initial Spring Boot backend with our frontend using Domain-Driven Design, while launching the new versions of the Kipu ecosystem. We believe it delivers a reliable, real-data experience and seamless operational connectivity to our users and stakeholders. This will be confirmed when users can execute core operations on the live Web Application successfully consuming the first deployed Web Services, and visitors can access the updated Landing Page in production.|
-| **Sprint 2 Velocity** | 84 Story Points |
-| **Sum of Story Points** |  Story Points |
+| **Sprint 3 Velocity** | 108 Story Points |
+| **Sum of Story Points** | **108 Story Points** |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
 Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics definidas en el Product Backlog. La asignación de líderes y colaboradores se ha realizado considerando la responsabilidad real de cada miembro en los distintos aspectos del proyecto, según se documenta en la planificación interna del equipo.
 
-| Team Member (Last Name, First Name) | GitHub Username | EP01 (Cuentas y Acceso) | EP02 (Calidad, Trazabilidad y Reportes) | EP03 (Suministros y Presupuesto) | EP04 (Monitoreo IoT) | EP05 (Open Source) | EP06 (Landing Page) | EP07 (Documentación Técnica) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Francia Torres, Jhony Manuel | ManuelFT4 | C | L | C | C | C | C | C |
-| Montoya Nina, Paula Fernanda | SeviNyO | C | C | L | C | C | C | C |
-| Pareja Calloapaza, Marcelo Fausto | marc3lllob7 | C | C | C | L | C | C | C |
-| Ramos Hinostroza, Diego Antonio | Kosevy | L | C | C | C | C | C | C |
-| Ramos Mera, Neo Daniel | norahccccc | C | L | C | C | C | C | C |
+| Team Member (Last Name, First Name) | GitHub Username | EP01 (Cuentas y Acceso) | EP02 (Calidad, Trazabilidad y Reportes) | EP03 (Suministros y Presupuesto) | EP04 (Monitoreo IoT) | EP05 (Open Source) | EP06 (Landing Page) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Francia Torres, Jhony Manuel | ManuelFT4 | C | L | C | C | C | C |
+| Montoya Nina, Paula Fernanda | SeviNyO | C | C | L | C | C | C |
+| Pareja Calloapaza, Marcelo Fausto | marc3lllob7 | C | C | C | L | C | C |
+| Ramos Hinostroza, Diego Antonio | Kosevy | L | C | C | C | C | C |
+| Ramos Mera, Neo Daniel | norahccccc | C | L | C | C | C | C |
 
 **Leyenda:** L = Líder, C = Colaborador
 
 #### 5.2.3.3. Sprint Backlog 3.
+
+La prioridad estratégica de este tercer sprint consistió en la implementación de la capa de servicios backend (API REST) utilizando Spring Boot con arquitectura Domain-Driven Design. Cada integrante desarrolló los bounded contexts asignados, exponiendo los endpoints necesarios para que el frontend consuma datos reales.
+
+| Technical Story | Work-Item / Task | | | | | |
+|:---|:---|:---|:---|:---|:---|:---|
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Story Points)** | **Assigned to** |
+| TS34 | Setup Documents API Domain | SCRUM-205 | [TS-34] Setup Documents | Inicializar dominio de documentos con controlador, servicio y repositorio | 3 | Neo Ramos |
+| TS35 | Endpoint POST Document | SCRUM-206 | [TS-35] POST Document | Implementar endpoint POST /api/v1/documents | 2 | Neo Ramos |
+| TS36 | Endpoint GET Documents | SCRUM-207 | [TS-36] GET Documents | Implementar endpoint GET /api/v1/documents | 2 | Neo Ramos |
+| TS37 | Endpoint GET Pending Documents | SCRUM-208 | [TS-37] GET Pending Docs | Implementar endpoint GET /api/v1/documents/pending | 2 | Neo Ramos |
+| TS38 | Endpoint GET Signed Documents | SCRUM-209 | [TS-38] GET Signed Docs | Implementar endpoint GET /api/v1/documents/signed | 2 | Neo Ramos |
+| TS39 | Endpoint PATCH Sign Document | SCRUM-210 | [TS-39] PATCH Sign Doc | Implementar firma digital PATCH /api/v1/documents/sign/{id} | 3 | Neo Ramos |
+| TS44 | Setup TeamUsers API Domain | SCRUM-211 | [TS-44] Setup TeamUsers Domain | Inicializar dominio de usuarios de proyecto con controlador, servicio y repositorio | 3 | Neo Ramos |
+| TS45 | Endpoint GET TeamUsers by Project | SCRUM-212 | [TS-45] GET TeamUsers | Implementar consulta de usuarios de proyecto GET /api/v1/team-users | 2 | Neo Ramos |
+| TS46 | Endpoint POST TeamUser | SCRUM-213 | [TS-46] POST TeamUser | Implementar asignación de usuarios a proyectos POST /api/v1/team-users | 2 | Neo Ramos |
+| TS47 | Endpoint PATCH Activate TeamUser | SCRUM-256 | [TS-47] PATCH Activate TU | Implementar activación de usuario PATCH /api/v1/team-users/{id}/activate | 2 | Neo Ramos |
+| TS48 | Endpoint PATCH Deactivate TeamUser | SCRUM-257 | [TS-48] PATCH Deactivate TU | Implementar desactivación de usuario PATCH /api/v1/team-users/{id}/deactivate | 2 | Neo Ramos |
+| TS49 | Setup TeamWorkers API Domain | SCRUM-258 | [TS-49] Setup Workers Domain | Inicializar dominio de trabajadores de obra con controlador, servicio y repositorio | 3 | Neo Ramos |
+| TS50 | Endpoint GET TeamWorkers by Project | SCRUM-259 | [TS-50] GET TeamWorkers | Implementar consulta de trabajadores GET /api/v1/team-workers | 2 | Neo Ramos |
+| TS51 | Endpoint GET TeamWorker by ID | SCRUM-260 | [TS-51] GET TeamWorker | Implementar consulta de trabajador GET /api/v1/team-workers/{id} | 2 | Neo Ramos |
+| TS52 | Endpoint POST TeamWorker | SCRUM-261 | [TS-52] POST TeamWorker | Implementar registro de trabajadores POST /api/v1/team-workers | 2 | Neo Ramos |
+| TS53 | Endpoint DELETE TeamWorker | SCRUM-262 | [TS-53] DELETE TeamWorker | Implementar eliminación de trabajador DELETE /api/v1/team-workers/{id} | 2 | Neo Ramos |
+| TS54 | Endpoint POST Assign Machinery | SCRUM-263 | [TS-54] POST Assign Machinery | Implementar asignación de maquinaria POST /api/v1/team-workers/{id}/machineries | 2 | Neo Ramos |
+| TS55 | Endpoint DELETE Remove Machinery | SCRUM-264 | [TS-55] DELETE Remove Machinery | Implementar remoción de maquinaria DELETE /api/v1/team-workers/{id}/machineries/{machineryId} | 2 | Neo Ramos |
+| TS01 | Setup User API Domain | SCRUM-214 | [TS-01] Setup User Domain | Inicializar dominio de usuarios con controlador, servicio y repositorio | 3 | Diego Ramos |
+| TS02 | Endpoint POST Auth Login | SCRUM-215 | [TS-02] POST Auth Login | Implementar login con JWT POST /api/v1/auth/login | 2 | Diego Ramos |
+| TS03 | Endpoint POST User | SCRUM-216 | [TS-03] POST User | Implementar registro de usuarios POST /api/v1/users | 2 | Diego Ramos |
+| TS04 | Endpoint GET User | SCRUM-217 | [TS-04] GET User | Implementar consulta de perfil GET /api/v1/users/{id} | 2 | Diego Ramos |
+| TS05 | Endpoint PUT User Roles | SCRUM-218 | [TS-05] PUT User Roles | Implementar asignación de roles PUT /api/v1/users/{id}/roles | 2 | Diego Ramos |
+| TS06 | Setup Projects API Domain | SCRUM-220 | [TS-06] Setup Projects Domain | Inicializar dominio de proyectos con controlador, servicio y repositorio | 3 | Diego Ramos |
+| TS07 | Endpoint POST Project | SCRUM-221 | [TS-07] POST Project | Implementar registro de proyectos POST /api/v1/projects | 2 | Diego Ramos |
+| TS08 | Endpoint GET Project | SCRUM-222 | [TS-08] GET Project | Implementar consulta de proyectos GET /api/v1/projects | 2 | Diego Ramos |
+| TS09 | Endpoint PATCH Project Status | SCRUM-223 | [TS-09] PATCH Project Status | Implementar cambio de estado PATCH /api/v1/projects/{id}/status | 2 | Diego Ramos |
+| TS10 | Endpoint POST Project Items | SCRUM-224 | [TS-10] POST Project Items | Implementar registro de partidas POST /api/v1/projects/{id}/items | 3 | Diego Ramos |
+| TS11 | Endpoint GET Project Items | SCRUM-225 | [TS-11] GET Project Items | Implementar consulta de partidas GET /api/v1/projects/{id}/items | 2 | Diego Ramos |
+| TS12 | Setup Advances API Domain | SCRUM-229 | [TS-12] Setup Advances Domain | Inicializar dominio de avances con controlador, servicio y repositorio | 3 | Manuel Francia |
+| TS13 | Endpoint POST Advance | SCRUM-230 | [TS-13] POST Advance | Implementar registro de avance POST /api/v1/progress | 2 | Manuel Francia |
+| TS14 | Endpoint GET Advance | SCRUM-231 | [TS-14] GET Advance | Implementar consulta de avances GET /api/v1/progress | 2 | Manuel Francia |
+| TS28 | Setup Budget API Domain | SCRUM-233 | [TS-28] Setup Budget Domain | Inicializar dominio financiero con controlador, servicio y repositorio | 3 | Manuel Francia |
+| TS29 | Endpoint POST Budget | SCRUM-234 | [TS-29] POST Budget Expense | Implementar carga de gasto POST /api/v1/budgets/{id}/expenses | 2 | Manuel Francia |
+| TS30 | Endpoint GET Budget | SCRUM-235 | [TS-30] GET Budget | Implementar consulta financiera GET /api/v1/budgets | 2 | Manuel Francia |
+| TS15 | Setup Materials API Domain | SCRUM-237 | [TS-15] Setup Materials Domain | Inicializar dominio de materiales, categorías e inventarios | 3 | Paula Montoya |
+| TS16 | Endpoint GET Material | SCRUM-238 | [TS-16] GET Material Catalog | Implementar consulta de materiales GET /api/v1/material-catalogs | 2 | Paula Montoya |
+| TS17 | Endpoint POST Material Request | SCRUM-239 | [TS-17] POST Material Request | Implementar solicitud de materiales POST /api/v1/material-requests | 2 | Paula Montoya |
+| TS18 | Endpoint GET Material Requests | SCRUM-240 | [TS-18] GET Material Requests | Implementar consulta de solicitudes GET /api/v1/material-requests | 2 | Paula Montoya |
+| TS19 | Endpoint PATCH Request Status | SCRUM-241 | [TS-19] PATCH Request Status | Implementar cambio de estado PATCH /api/v1/material-requests/{id}/status | 2 | Paula Montoya |
+| TS24 | Setup Suppliers API Domain | SCRUM-244 | [TS-24] Setup Suppliers Domain | Inicializar dominio de proveedores | 3 | Paula Montoya |
+| TS25 | Endpoint GET Suppliers | SCRUM-245 | [TS-25] GET Suppliers | Implementar consulta de proveedores GET /api/v1/suppliers | 2 | Paula Montoya |
+| TS26 | Endpoint POST Supplier | SCRUM-246 | [TS-26] POST Supplier | Implementar registro de proveedores POST /api/v1/suppliers | 2 | Paula Montoya |
+| TS27 | Endpoint PUT Supplier | SCRUM-247 | [TS-27] PUT Supplier | Implementar modificación de proveedores PUT /api/v1/suppliers/{id} | 2 | Paula Montoya |
+| TS41 | Setup IoT Telemetry Domain | SCRUM-250 | [TS-41] Setup IoT Domain | Inicializar dominio de telemetría IoT (Hopper, Concrete, Geolocation, Seismic) | 5 | Marcelo Pareja |
+| TS42 | Endpoint POST IoT | SCRUM-251 | [TS-42] POST IoT Sensors | Implementar endpoints POST para sensores IoT | 3 | Marcelo Pareja |
+| TS43 | Endpoint GET IoT | SCRUM-252 | [TS-43] GET IoT Sensors | Implementar endpoints GET para consulta de sensores IoT | 3 | Marcelo Pareja |
+
 #### 5.2.3.4. Development Evidence for Sprint Review.
 #### 5.2.3.5. Execution Evidence for Sprint Review.
-Durante el Sprint 3, el equipo logró el despliegue de una nueva versión de la aplicación web de Kipu. Se implementó el consumo de una API para gestionar los servicios backend, permitiendo el desarrollo paralelo del frontend. Además, se hicieron algunos cambios en la interfaz del frontend. Se completaron los módulos funcionales de Avances, Proyectos, Autenticación (Login/Logout), Monitoreo IoT, Materiales, Firmas Digitales, Gestión de Equipo y Presupuesto. Asimismo, se consolidó la arquitectura de navegación principal, la gestión de rutas y los servicios de consumo de datos.
+Durante el Sprint 3, el equipo logró el despliegue de una nueva versión de la aplicación web de Kipu. Se implementaron los servicios backend (API REST) en Spring Boot con Domain-Driven Design, permitiendo que el frontend consuma datos reales a través de los endpoints documentados. Se completaron los módulos backend de Avances, Proyectos, Autenticación (Login/Logout con JWT), Monitoreo IoT, Materiales/Logística, Firmas Digitales, Gestión de Equipo (Team Users y Team Workers) y Presupuesto. Asimismo, se actualizaron los servicios del frontend para apuntar a la API real, se consolidó la arquitectura de navegación y se documentaron todos los endpoints mediante Swagger/OpenAPI.
 
 A continuación, se presentan las evidencias de ejecución correspondientes a las principales funcionalidades implementadas durante el Sprint 3:
 
@@ -6202,7 +5965,7 @@ En esta sección, se registran y explican las actividades que abarcan las entrev
 3. Si tuviera la oportunidad de cambiar o añadir algo en la landing page o en la aplicación web, ¿qué cambiaría o añadiría?
 4. ¿Cree que la solución presentada facilitará la gestión y el control de sus proyectos de construcción y brindará una mayor trazabilidad a los procesos? ¿Por qué?
 5. Sobre la landing page, ¿considera que cumple su función, la cual es persuadir a los visitantes a registrarse o conocer más sobre Kipu?
-6. Sobre la aplicación web, ¿considera que las secciones de avance de obra, planos, RNC y monitoreo IoT son intuitivas y fáciles de usar? ¿Por qué?
+6. Sobre la aplicación web, ¿considera que las secciones de avance de obra, RNC y monitoreo IoT son intuitivas y fáciles de usar? ¿Por qué?
 7. ¿Usted utilizaría la aplicación web Kipu para gestionar sus proyectos de construcción? ¿Por qué?
 8. ¿Recomendaría a sus colegas arquitectos e ingenieros a utilizar Kipu? ¿Por qué?
 
