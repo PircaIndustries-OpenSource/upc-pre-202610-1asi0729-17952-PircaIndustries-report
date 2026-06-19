@@ -5727,6 +5727,142 @@ La prioridad estratégica de este tercer sprint consistió en la implementación
 | TS43 | Endpoint GET IoT | SCRUM-252 | [TS-43] GET IoT Sensors | Implementar endpoints GET para consulta de sensores IoT | 3 | Marcelo Pareja |
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
+
+Durante el Sprint 3 se realizó el despliegue del backend de Kipu en una máquina virtual de Azure. A continuación, se presentan las evidencias del proceso de deployment, desde la configuración inicial hasta la puesta en producción del servicio.
+
+<div align="center">
+    <b>Creación de la carpeta .github/workflows para los pipelines de CI/CD</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/carpetagithub.jpeg?raw=true" width="600px" alt="Creación de carpeta .github workflows">
+</div>
+<br>
+
+<div align="center">
+    <b>Modificación del archivo application.properties para manejar las variables de entorno</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/applicationpropertiesexport.jpeg?raw=true" width="600px" alt="Modificación application.properties">
+</div>
+<br>
+
+<div align="center">
+    <b>Creación de un tag en Git para identificar la versión del backend desplegada</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/gittag.jpeg?raw=true" width="600px" alt="Git tag">
+</div>
+<br>
+
+<div align="center">
+    <b>Versión del backend subida exitosamente al repositorio remoto en GitHub</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/versionsubidaagithub.jpeg?raw=true" width="600px" alt="Versión subida a GitHub">
+</div>
+<br>
+
+<div align="center">
+    <b>Conexión SSH a la máquina virtual de Azure para iniciar el despliegue</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/sshconectandoseaazure.jpeg?raw=true" width="600px" alt="Conexión SSH a Azure">
+</div>
+<br>
+
+<div align="center">
+    <b>Descarga del artefacto JAR desde el repositorio mediante wget en la VM</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/wgetrepo.jpeg?raw=true" width="600px" alt="Descarga del JAR con wget">
+</div>
+<br>
+
+<div align="center">
+    <b>Exportación de las variables de entorno necesarias para la ejecución del backend</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/exportenvm.jpeg?raw=true" width="600px" alt="Exportación de variables de entorno">
+</div>
+<br>
+
+<div align="center">
+    <b>Verificación de la aplicación Spring Boot ejecutándose correctamente en la VM</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/probandoaplicacioncorriendo.jpeg?raw=true" width="600px" alt="Spring Boot ejecutándose">
+</div>
+<br>
+
+<div align="center">
+    <b>Prueba del acceso a Swagger UI para verificar la documentación de la API</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/probandoswagger.jpeg?raw=true" width="600px" alt="Prueba de Swagger">
+</div>
+<br>
+
+<div align="center">
+    <b>Creación del archivo de servicio systemd con nano para gestionar el backend</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/creandoserviceconnano.jpeg?raw=true" width="600px" alt="Creación del servicio systemd">
+</div>
+<br>
+
+<div align="center">
+    <b>Habilitación del servicio mediante systemctl para inicio automático del backend</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/usandodaemonyenableelservice.jpeg?raw=true" width="600px" alt="Habilitación del servicio">
+</div>
+<br>
+
+<div align="center">
+    <b>Descarga e instalación del servidor Nginx en la máquina virtual</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/descargandonginx.jpeg?raw=true" width="600px" alt="Descarga de Nginx">
+</div>
+<br>
+
+<div align="center">
+    <b>Acceso al archivo de configuración por defecto de Nginx para editarlo</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/accediendoaconfigdenginx.jpeg?raw=true" width="600px" alt="Acceso a configuración de Nginx">
+</div>
+<br>
+
+<div align="center">
+    <b>Modificación de la configuración de Nginx como proxy inverso del backend (1/2)</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/cambiandoconfignginx1.jpeg?raw=true" width="600px" alt="Cambio configuración Nginx 1">
+</div>
+<br>
+
+<div align="center">
+    <b>Configuración adicional del proxy inverso en Nginx (2/2)</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/cambiandoconfignginx2.jpeg?raw=true" width="600px" alt="Cambio configuración Nginx 2">
+</div>
+<br>
+
+<div align="center">
+    <b>Verificación de los cambios realizados en la configuración de Nginx</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/verificandocambiosanginx.jpeg?raw=true" width="600px" alt="Verificación cambios Nginx">
+</div>
+<br>
+
+<div align="center">
+    <b>Reinicio del servicio Nginx para aplicar los cambios de configuración</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/restartnginx.jpeg?raw=true" width="600px" alt="Reinicio de Nginx">
+</div>
+<br>
+
+<div align="center">
+    <b>Acceso exitoso al nuevo servicio backend desplegado en producción</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/accediendoanuevoservice.jpeg?raw=true" width="600px" alt="Acceso al nuevo servicio">
+</div>
+<br>
+
+<div align="center">
+    <b>Código de compilación y archivo YAML del pipeline de CI/CD automatizado</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/buildymlcodigo.jpeg?raw=true" width="600px" alt="Build y YAML de CI/CD">
+</div>
+<br>
+
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 Durante el Sprint 3, el equipo logró el despliegue de una nueva versión de la aplicación web de Kipu. Se implementaron los servicios backend (API REST) en Spring Boot con Domain-Driven Design, permitiendo que el frontend consuma datos reales a través de los endpoints documentados. Se completaron los módulos backend de Avances, Proyectos, Autenticación (Login/Logout con JWT), Monitoreo IoT, Materiales/Logística, Firmas Digitales, Gestión de Equipo (Team Users y Team Workers) y Presupuesto. Asimismo, se actualizaron los servicios del frontend para apuntar a la API real, se consolidó la arquitectura de navegación y se documentaron todos los endpoints mediante Swagger/OpenAPI.
 
