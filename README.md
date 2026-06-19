@@ -6839,3 +6839,10 @@ Enlace: [AV2-About-The-product](https://youtu.be/8uU4LrdlupU)
  </div>
 
  Enlace: [Exposure Video AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417329_upc_edu_pe/IQBMPPQW3NVNQbtikq4Ubr7sAYqcuY_e-EzY_e6VOepahgA?e=yIs0ep&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+## Exposure Video AV2
+  <div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/e429e889692c5e1ae2b81f76133a850f5dd7135e/Resources/Exposure/Exposure-AV2.png?raw=true">
+ </div>
+
+ Enlace: [Exposure Video AV2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQCYduMGbs04Q6Z7iV5PvF7PATTYAW1afK2yVMpzpGBVzUQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NdGJi5)
