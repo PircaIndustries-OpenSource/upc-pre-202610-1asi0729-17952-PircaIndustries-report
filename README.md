@@ -1,35 +1,61 @@
-<div align="center">
+<div align="center" style="text-align: center; width: 100%;">
   <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/UPC_logo_transparente.png?raw=true" alt="Logo-UPC" width="150">
 
-## Universidad Peruana de Ciencias Aplicadas
+  <h2 align="center" style="text-align: center;">Universidad Peruana de Ciencias Aplicadas</h2>
 
-**Ingeniería de Software**
+  <p align="center" style="text-align: center;"><b>Ingeniería de Software</b></p>
 
-**Ciclo:** 2026-10
+  <p align="center" style="text-align: center;"><b>Ciclo:</b> 2026-10</p>
 
-**Curso:** Desarrollo de Aplicaciones Open Source
+  <p align="center" style="text-align: center;"><b>Curso:</b> Desarrollo de Aplicaciones Open Source</p>
 
-**Sección:** 17952
+  <p align="center" style="text-align: center;"><b>Sección:</b> 17952</p>
 
-**Profesor:** Ivan Robles Fernández
+  <p align="center" style="text-align: center;"><b>Profesor:</b> Ivan Robles Fernández</p>
 
-----
-## Informe de Trabajo Final
-### PircaIndustries
+  <hr style="width: 60%; margin: 20px auto;">
 
-### Kipu
-#### Relación de integrantes 
-| Integrante                  | Código         |
-|---------------------------------|----------------|
-| Francia Torres, Jhony Manuel             | u202417329     |
-| Montoya Nina, Paula Fernanda             | u20241d934     |
-| Pareja Calloapaza, Marcelo Fausto        | u202411627     |
-| Ramos Hinostroza, Diego Antonio          | u202224130     |
-| Ramos Mera, Neo Daniel                   | u20241e418     |
+  <h2 align="center" style="text-align: center;">Informe de Trabajo Final</h2>
+  <h3 align="center" style="text-align: center;">PircaIndustries</h3>
+  <h3 align="center" style="text-align: center;">Kipu</h3>
 
+  <h4 align="center" style="text-align: center;">Relación de integrantes</h4>
+
+  <table align="center" style="margin: 0 auto; border-collapse: collapse; text-align: left;">
+    <thead>
+      <tr style="border-bottom: 1px solid #ddd;">
+        <th style="padding: 8px 24px; border: 1px solid #ddd;">Integrante</th>
+        <th style="padding: 8px 24px; border: 1px solid #ddd;">Código</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 8px 24px; border: 1px solid #ddd;">Francia Torres, Jhony Manuel</td>
+        <td style="padding: 8px 24px; border: 1px solid #ddd;">u202417329</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px 24px; border: 1px solid #ddd;">Montoya Nina, Paula Fernanda</td>
+        <td style="padding: 8px 24px; border: 1px solid #ddd;">u20241d934</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px 24px; border: 1px solid #ddd;">Pareja Calloapaza, Marcelo Fausto</td>
+        <td style="padding: 8px 24px; border: 1px solid #ddd;">u202411627</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px 24px; border: 1px solid #ddd;">Ramos Hinostroza, Diego Antonio</td>
+        <td style="padding: 8px 24px; border: 1px solid #ddd;">u202224130</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px 24px; border: 1px solid #ddd;">Ramos Mera, Neo Daniel</td>
+        <td style="padding: 8px 24px; border: 1px solid #ddd;">u20241e418</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br>
+  <h3 align="center" style="text-align: center;">Junio 2026</h3>
+  <br>
 </div>
-
-<br><div align="center"><h3>Junio 2026</h3></div><br>
 <div style="text-align: justify;">
 
 <br><br>
@@ -478,9 +504,9 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
   - [4.8. Database Design.](#48-database-design)
     - [4.8.1. Database Diagrams.](#481-database-diagrams)
 - [Capítulo V: Product Implementation, Validation \& Deployment.](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1 Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1 Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2 Source Code Management](#512-source-code-management)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
@@ -502,6 +528,15 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
       - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3.](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review.](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review.](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint.](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews.](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
@@ -4302,11 +4337,11 @@ A continuación, se presentarán los diagramas de flujo de usuarios relacionados
 
 ---
 # Capítulo V: Product Implementation, Validation & Deployment.
-## 5.1 Software Configuration Management
+## 5.1. Software Configuration Management
 
 En esta sección se establecerán las decisiones, herramientas y convenciones necesarias para mantener el orden y la consistencia del código, siguiendo buenas prácticas y aprovechando los recursos disponibles a lo largo de todo el ciclo de vida del desarrollo de Kipu.
 
-### 5.1.1 Software Development Environment Configuration
+### 5.1.1. Software Development Environment Configuration
 
 Para abarcar todas las actividades del ciclo de vida del producto digital, el equipo utilizará el siguiente conjunto de herramientas tecnológicas, divididas por su propósito de uso:
 
@@ -4366,7 +4401,7 @@ Para abarcar todas las actividades del ciclo de vida del producto digital, el eq
     + **Markdown:** Es un lenguaje de marcado sencillo que facilita la redacción de texto con formato de manera clara y práctica, el cual posteriormente puede transformarse en HTML u otros formatos de visualización. Se utiliza ampliamente en la documentación de proyectos de software gracias a su simplicidad y flexibilidad. Además, permite incorporar elementos básicos de formato, como títulos, listas, enlaces e imágenes, mediante una sintaxis intuitiva y fácil de aprender.<br>https://www.markdownguide.org/getting-started/<br><br>
     + **Microsoft Office 365:** Suite de herramientas de productividad en la nube que incluye aplicaciones como Word, Excel y PowerPoint, utilizadas para la elaboración, edición y gestión de documentación del proyecto. Facilita el trabajo colaborativo, el almacenamiento en línea y el acceso compartido a la información.<br>https://www.microsoft.com/microsoft-365<br><br>
 
-### 5.1.2 Source Code Management
+### 5.1.2. Source Code Management
 
 Con el fin de gestionar adecuadamente la evolución del código fuente, se ha optado por implementar la metodología Git Flow. Este enfoque se basa en el uso de múltiples ramas para organizar y controlar los cambios durante el desarrollo. En términos generales, se mantiene una rama principal denominada main, la cual contiene versiones estables del proyecto en momentos específicos. Paralelamente, se utiliza una rama de desarrollo donde se integran nuevas funcionalidades sin comprometer la estabilidad de la versión principal. Esto permite continuar con la construcción de la landing page mientras se prueban y validan los cambios incorporados en el entorno de desarrollo.
 
@@ -4990,7 +5025,7 @@ En esta sección se mostarán las estadísticas de colabración de Github de nue
   </tbody>
 </table>
 
-#### 5.2.2.2 Aspect Leaders and Collaborators.
+#### 5.2.2.2. Aspect Leaders and Collaborators.
 
 Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics definidas en el Product Backlog. La asignación de líderes y colaboradores se ha realizado considerando la responsabilidad real de cada miembro en los distintos aspectos del proyecto, según se documenta en la planificación interna del equipo.
 
@@ -5004,7 +5039,7 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
 
 **Leyenda:** L = Líder, C = Colaborador
 
-#### 5.2.2.3 Sprint Backlog 2
+#### 5.2.2.3. Sprint Backlog 2
 La prioridad estratégica de este segundo sprint consiste en el lanzamiento de la versión inicial de la plataforma web de Kipu. Para garantizar su operatividad, nos enfocaremos en el desarrollo y consumo de fake APIs simuladas, integrando únicamente las funcionalidades críticas que aseguren un despliegue exitoso y funcional en esta etapa.
 
 Enlace: [Sprint Backlog 2 en Jira](https://pircaindustries-opensource.atlassian.net/jira/software/projects/SCRUM/boards/1)<br><br>
@@ -5302,7 +5337,7 @@ Enlace: [Sprint Backlog 2 en Jira](https://pircaindustries-opensource.atlassian.
 </table>
 ---
 
-#### 5.2.2.4 Development Evidence for Sprint Review
+#### 5.2.2.4. Development Evidence for Sprint Review
 |Repo       | Branch                    | Commit Id  | Date                      | Subject                                       | Body                                    |
 |-----------|---------------------------|------------|---------------------------|-----------------------------------------------|-----------------------------------------|
 |Branch:... |                           | ebcd0744d8 | Tue May 12 20:46:02 20... | feat(iot-monitoring): add i18n for iot mon... |                                         |
@@ -5618,6 +5653,12 @@ Durante el Sprint 2, el esfuerzo técnico del equipo se concentró exclusivament
 | /api/v1/team-workers              | POST       | Registrar trabajador                  | Body (WorkerEntity)     | 201 Created|
 | /api/v1/team-workers/{id}         | DELETE     | Eliminar trabajador                   | id (Path)               | 200 OK     |
 
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+El despliegue de la aplicación web durante el Sprint 2 se realizó de forma exitosa en la plataforma Firebase Hosting.
+
+**URL de la aplicación web desplegada (Sprint 2):** [https://kipu-frontend-42d0d.web.app/](https://kipu-frontend-42d0d.web.app/)
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 2, el equipo mantuvo un flujo de trabajo colaborativo constante a través de la organización en GitHub. Se utilizaron ramas `feature/*` para el desarrollo de nuevas funcionalidades, las cuales fueron integradas a la rama `develop` mediante Pull Requests revisados por al menos dos miembros del equipo. Las tareas fueron gestionadas en el tablero de Trello, actualizando el estado de cada work-item a medida que avanzaba su implementación.
@@ -5642,7 +5683,7 @@ A continuación, se presentan las estadísticas de colaboración obtenidas desde
 
 ---
 ### 5.2.3. Sprint 3
-#### 5.2.3.1.Spring Planning 3.
+#### 5.2.3.1. Sprint Planning 3.
 
 | Sprint # | Sprint 3 |
 |----------|----------|
@@ -6620,7 +6661,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
   </div>
 * **Recomendación:** <br><span style="color: blue;">Marcar la sección "Attach Document" como obligatoria (agregando el asterisco * junto al título) y validar en el formulario que exista al menos un archivo cargado antes de habilitar el botón "Create Document".</span>
 
-## 5.4 Video About-The-Product
+## 5.4. Video About-the-Product.
 
 **TB1**
   <div align="center">
