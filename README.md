@@ -6769,11 +6769,11 @@ Enlace: [Video-About-The-Product](https://upcedupe-my.sharepoint.com/:v:/g/perso
 
 **AV2**
 
-
-
+  <div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/evidence.png?raw=true" alt="Video about the product">
+ </div>
 
 Enlace: [Video-About-The-Product](https://youtu.be/8uU4LrdlupU)
-
 
 ---
 
@@ -6827,11 +6827,11 @@ Enlace: [Needfinding](https://upcedupe-my.sharepoint.com/:v:/g/personal/u2022241
 
  Enlace: [AV1-Video-About-The-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e418_upc_edu_pe/IQDBalITrUJdTpO4tJlzmhfuAW9MYd3ovTAOnPt0rp0mPQ8?e=aAluj4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-  <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/220f8507c20bd1633016aed00afeccb62ebfc250/Resources/Video-About-The-Product/Video-About-The-Product-image-AV2.png?raw=true" alt="Video about the product">
+   <div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/evidence.png?raw=true" alt="Video about the product">
  </div>
 
-Enlace: [AV2-About-The-product](https://youtu.be/8uU4LrdlupU)
+ Enlace: [AV2-About-The-product](https://youtu.be/8uU4LrdlupU)
 
  ## Exposure Video AV1
   <div align="center">
