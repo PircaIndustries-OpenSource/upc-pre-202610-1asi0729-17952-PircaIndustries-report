@@ -6779,7 +6779,39 @@ Enlace: [Video-About-The-Product](https://youtu.be/7jvSf3lRIfc)
 
 # Conclusiones
 
+## **Conclusiones del Proyecto**
 
+* **Solución a una problemática crítica del sector:** El proyecto aborda de manera efectiva las deficiencias administrativas y operativas de las PYMES constructoras. Estas empresas suelen sufrir pérdidas financieras, multas elevadas, riesgos legales por falta de trazabilidad y errores técnicos debido al uso de herramientas dispersas o registros manuales en hojas de cálculo.
+
+
+* **Propuesta de valor clara y centralizada:** **Kipu** destaca por unificar el seguimiento de KPIs operativos en tiempo real (como el PPC o Porcentaje de Plan Completado) , el control de inventarios , la gestión de presupuestos y personal , y un flujo de firmas digitales con mecanismos de conformidad para el respaldo en cierres de etapas. Esto proporciona a los usuarios control total sobre la rentabilidad y calidad técnica de sus obras.
+
+
+* **Validación positiva por parte del segmento objetivo:** Las entrevistas realizadas a profesionales clave del rubro (ingenieros civiles, asistentes de almacén y administradores) demostraron una alta aceptación del producto. Los usuarios validaron la utilidad de la bitácora fotográfica para el monitoreo minucioso de avances y la precisión de las tablas de requerimientos para mitigar los errores humanos al digitar datos.
+
+
+* **Trabajo colaborativo eficiente:** A través de metodologías ágiles divididas en Sprints y usando herramientas como Discord y GitHub, el equipo logró una distribución equitativa de la carga de trabajo. Consiguieron estructurar con éxito desde el análisis Lean UX y el diseño arquitectónico (Domain-Driven Design) hasta el despliegue funcional en entornos frontend y backend distribuidos.
+
+
+
+---
+
+## **Recomendaciones del Proyecto**
+
+* 
+**Mejoras en la experiencia de usuario en campo (UX/UI):** Implementar una funcionalidad de zoom para las imágenes integradas dentro de los reportes y la bitácora fotográfica. Esta mejora responde directamente al feedback de los ingenieros civiles entrevistados para optimizar la visualización de los detalles de la obra directamente en el terreno.
+
+
+* 
+**Optimización del módulo logístico:** Incorporar una función que guarde y muestre un historial de cotizaciones previas con diferentes proveedores dentro de las tablas de requerimiento de materiales. Esto agilizará la toma de decisiones y facilitará comparativas rápidas de precios en tiempo real para el área de adquisiciones.
+
+
+* 
+**Robustecer la validación de formularios (Control de Errores):** Atender de inmediato los hallazgos de las auditorías del sistema. Específicamente, en el flujo de validación y aprobación, se recomienda marcar la sección de adjuntar documentos (*"Attach Document"*) como obligatoria y restringir el botón de creación (*"Create Document"*) hasta que el archivo esté cargado, evitando así la generación de actas de firma vacías.
+
+
+* 
+**Mantener un diseño adaptado al entorno laboral:** Continuar priorizando interfaces con opciones de modo oscuro y estructuras limpias/minimalistas. Dado que muchos usuarios finales consultan la aplicación bajo condiciones de alta luminosidad solar en las obras de construcción, un diseño simple evita cuellos de botella en la lectura rápida de datos.
 
 # Bibliografía
 Aquise, J., Bustamante, G. y Cáceres, M. (2021). Control de Calidad y su Impacto en los Indicadores de Desempeño Financiero y Operativo (KPIs) de una Pequeña Empresa Constructora en el Sur del Perú. [Tesis de maestría, Universidad Peruana de Ciencias Aplicadas]. Repositorio académico UPC. https://repositorioacademico.upc.edu.pe/handle/10757/672148
