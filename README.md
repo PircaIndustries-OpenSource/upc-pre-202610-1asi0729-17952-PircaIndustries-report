@@ -6772,6 +6772,8 @@ Enlace: [Video-About-The-Product](https://upcedupe-my.sharepoint.com/:v:/g/perso
 ---
 
 
+Enlace: [Video-About-The-Product](https://youtu.be/8uU4LrdlupU)
+
 
 # Conclusiones
 
@@ -6822,6 +6824,8 @@ Enlace: [Needfinding](https://upcedupe-my.sharepoint.com/:v:/g/personal/u2022241
  </div>
 
  Enlace: [Video-About-The-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e418_upc_edu_pe/IQDBalITrUJdTpO4tJlzmhfuAW9MYd3ovTAOnPt0rp0mPQ8?e=aAluj4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+ [AV2-About-The-product](https://youtu.be/8uU4LrdlupU)
 
  ## Exposure Video AV1
   <div align="center">
