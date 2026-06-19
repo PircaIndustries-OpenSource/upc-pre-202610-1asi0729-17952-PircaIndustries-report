@@ -6798,20 +6798,16 @@ Enlace: [Video-About-The-Product](https://youtu.be/7jvSf3lRIfc)
 
 ## **Recomendaciones del Proyecto**
 
-* 
-**Mejoras en la experiencia de usuario en campo (UX/UI):** Implementar una funcionalidad de zoom para las imágenes integradas dentro de los reportes y la bitácora fotográfica. Esta mejora responde directamente al feedback de los ingenieros civiles entrevistados para optimizar la visualización de los detalles de la obra directamente en el terreno.
+* **Mejoras en la experiencia de usuario en campo (UX/UI):** Implementar una funcionalidad de zoom para las imágenes integradas dentro de los reportes y la bitácora fotográfica. Esta mejora responde directamente al feedback de los ingenieros civiles entrevistados para optimizar la visualización de los detalles de la obra directamente en el terreno.
 
 
-* 
-**Optimización del módulo logístico:** Incorporar una función que guarde y muestre un historial de cotizaciones previas con diferentes proveedores dentro de las tablas de requerimiento de materiales. Esto agilizará la toma de decisiones y facilitará comparativas rápidas de precios en tiempo real para el área de adquisiciones.
+* **Optimización del módulo logístico:** Incorporar una función que guarde y muestre un historial de cotizaciones previas con diferentes proveedores dentro de las tablas de requerimiento de materiales. Esto agilizará la toma de decisiones y facilitará comparativas rápidas de precios en tiempo real para el área de adquisiciones.
 
 
-* 
-**Robustecer la validación de formularios (Control de Errores):** Atender de inmediato los hallazgos de las auditorías del sistema. Específicamente, en el flujo de validación y aprobación, se recomienda marcar la sección de adjuntar documentos (*"Attach Document"*) como obligatoria y restringir el botón de creación (*"Create Document"*) hasta que el archivo esté cargado, evitando así la generación de actas de firma vacías.
+* **Robustecer la validación de formularios (Control de Errores):** Atender de inmediato los hallazgos de las auditorías del sistema. Específicamente, en el flujo de validación y aprobación, se recomienda marcar la sección de adjuntar documentos (*"Attach Document"*) como obligatoria y restringir el botón de creación (*"Create Document"*) hasta que el archivo esté cargado, evitando así la generación de actas de firma vacías.
 
 
-* 
-**Mantener un diseño adaptado al entorno laboral:** Continuar priorizando interfaces con opciones de modo oscuro y estructuras limpias/minimalistas. Dado que muchos usuarios finales consultan la aplicación bajo condiciones de alta luminosidad solar en las obras de construcción, un diseño simple evita cuellos de botella en la lectura rápida de datos.
+* **Mantener un diseño adaptado al entorno laboral:** Continuar priorizando interfaces con opciones de modo oscuro y estructuras limpias/minimalistas. Dado que muchos usuarios finales consultan la aplicación bajo condiciones de alta luminosidad solar en las obras de construcción, un diseño simple evita cuellos de botella en la lectura rápida de datos.
 
 # Bibliografía
 Aquise, J., Bustamante, G. y Cáceres, M. (2021). Control de Calidad y su Impacto en los Indicadores de Desempeño Financiero y Operativo (KPIs) de una Pequeña Empresa Constructora en el Sur del Perú. [Tesis de maestría, Universidad Peruana de Ciencias Aplicadas]. Repositorio académico UPC. https://repositorioacademico.upc.edu.pe/handle/10757/672148
