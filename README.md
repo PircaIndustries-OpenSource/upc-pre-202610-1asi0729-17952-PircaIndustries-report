@@ -6370,17 +6370,17 @@ Durante el Sprint 3 se realizó el despliegue del backend de Kipu en una máquin
 
 | Sprint # | Sprint 4 |
 |----------|----------|
-| **Date** | 2026-06-23 |
-| **Time** | 07:30 PM |
+| **Date** | 2026-06-04 |
+| **Time** | 8:00 PM |
 | **Location** | Reunión virtual mediante Discord |
-| **Prepared By** | Ramos Hinostroza, Diego Antonio / Ramos Mera, Neo Daniel |
+| **Prepared By** | Montoya Nina, Paula Fernanda / Ramos Mera, Neo Daniel |
 | **Attendees** | Francia Torres, Jhony Manuel / Montoya Nina, Paula Fernanda / Pareja Calloapaza, Marcelo Fausto / Ramos Hinostroza, Diego Antonio / Ramos Mera, Neo Daniel |
-| **Sprint 3 Review Summary** | Se completó la implementación de los servicios backend (API REST) en Spring Boot con Domain-Driven Design, incluyendo los bounded contexts de Identity, Projects, Progress, Budget, Logistics, IoT Monitoring, Documents y Team. Todos los endpoints fueron documentados mediante Swagger/OpenAPI y el backend fue desplegado exitosamente en Azure con Nginx como proxy inverso. |
-| **Sprint 3 Retrospective Summary** | El equipo identificó que la arquitectura DDD facilitó la organización del código y la separación por bounded contexts. Para el próximo sprint se planea reforzar la seguridad con IAM/JWT, mejorar la internacionalización y realizar el despliegue SSL. |
-| **Sprint 4 Goal** | Our focus is on hardening the security and infrastructure of the Kipu ecosystem. We will implement IAM enhancements including JWT validation and OTP email flows, complete the SSL certificate deployment for HTTPS, improve internationalization (i18n), and perform cross-origin and deployment fixes. This will be confirmed when the application runs securely under HTTPS with robust authentication and a polished user experience. |
-| **Sprint 4 Velocity** | TBD Story Points |
-| **Sum of Story Points** | **TBD Story Points** |
-
+| **Sprint 3 Review Summary** | Se desplegó la versión inicial del backend en .NET, documentada con Swagger, y conectada al frontend desplegado en Vercel, permitiendo ejecutar operaciones core de manera satisfactoria. Se validó la integración completa de los principales Bounded Contexts. |
+| **Sprint 3 Retrospective Summary** | Se completó la implementación de los principales Bounded Contexts del backend (.NET) y su integración con el frontend, logrando un flujo funcional. Se resaltó la efectividad de la arquitectura Domain‑Driven Design y la clara separación de capas. Como oportunidad de mejora se identificó la necesidad de automatizar más pruebas y optimizar el pipeline de despliegue continuo para el backend. |
+| **Sprint 4 Goal** | Our focus is on completing the waste and machinery management aggregates and refining the Identity and Access Management module. We believe it delivers a fully operational logistics module and reliable tool tracking to Logistics Teams and Operations Managers. This will be confirmed when users can register material waste, update stock automatically, assign tools to workers, and the IAM module demonstrates improved security and performance. |
+| **Sprint 4 Velocity** | 22 Story Points |
+| **Sum of Story Points** | 22 Story Points |
+ 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
 Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics definidas en el Product Backlog, con un enfoque principal en la validación y mejora de los aspectos de seguridad (IAM/JWT), infraestructura (SSL) y calidad del software.
@@ -6399,7 +6399,153 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
 
 #### 5.2.4.3. Sprint Backlog 4.
 
-*(Por completar durante el Sprint 4)*
+<table>
+<thead>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estim<br>ation (Story Points)</td>
+    <td>Assigned to</td>
+    <td>Status (To-do / InProcess / ToReview / Done)</td>
+  </tr>
+  <!-- US-11 -->
+  <tr>
+    <td rowspan="2">US-11</td>
+    <td rowspan="2">Asignar roles a usuarios (IAM)</td>
+    <td>TS56</td>
+    <td>Refinamiento de lógica IAM</td>
+    <td>Mejorar la lógica de autenticación y manejo de roles en el backend (.NET).</td>
+    <td>3</td>
+    <td>Diego Antonio Ramos Hinostroza</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>TS57</td>
+    <td>Optimización de Seguridad y Rendimiento IAM</td>
+    <td>Ajustar validaciones y consultas del módulo IAM para mejorar seguridad y performance.</td>
+    <td>1</td>
+    <td>Diego Antonio Ramos Hinostroza</td>
+    <td>To-do</td>
+  </tr>
+  <!-- US-13 -->
+  <tr>
+    <td rowspan="3">US-13</td>
+    <td rowspan="3">Registrar merma de materiales</td>
+    <td>TS58</td>
+    <td>Setup Materials Waste API Domain</td>
+    <td>Inicializar el dominio de merma con controlador, servicio y repositorio.</td>
+    <td>3</td>
+    <td>Pareja Calloapaza, Marcelo Fausto</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>TS20</td>
+    <td>Endpoint POST Material Waste</td>
+    <td>Implementar registro de mermas mediante POST /api/v1/materials/waste.</td>
+    <td>2</td>
+    <td>Pareja Calloapaza, Marcelo Fausto</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>TS21</td>
+    <td>Endpoint GET Material Waste</td>
+    <td>Implementar consulta de mermas mediante GET /api/v1/materials/waste.</td>
+    <td>2</td>
+    <td>Pareja Calloapaza, Marcelo Fausto<td>
+    <td>To-do</td>
+  </tr>
+  <!-- US-16 -->
+  <tr>
+    <td rowspan="2">US-16</td>
+    <td rowspan="2">Controlar herramientas asignadas por operario</td>
+    <td>TS22</td>
+    <td>Endpoint POST Tools Assignment (Maquinaria)</td>
+    <td>Implementar asignación de herramientas mediante POST /api/v1/materials/tools-assignments.</td>
+    <td>2</td>
+    <td>Paula Fernanda Montoya Nina y Neo Daniel Ramos Mera</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>TS23</td>
+    <td>Endpoint GET Tools Assignments</td>
+    <td>Implementar consulta del historial de asignaciones mediante GET /api/v1/materials/tools-assignments.</td>
+    <td>2</td>
+    <td>Paula Fernanda Montoya Nina y Neo Daniel Ramos Mera</td>
+    <td>To-do</td>
+  </tr>
+  <!-- US-02 -->
+  <tr>
+    <td>US-02</td>
+    <td>Registrar Resultado No Conforme</td>
+    <td>TS31</td>
+    <td>Setup RNC API Domain (.NET)</td>
+    <td>Inicializar el dominio de incidencias de calidad con su controlador, servicio y repositorio para gestionar los Resultados No Conformes de obra.</td>
+    <td>3</td>
+    <td>Jhony Manuel Francia Torres</td>
+    <td>To-do</td>
+  </tr>
+  <!-- US-36 -->
+  <tr>
+    <td rowspan="6">US-36</td>
+    <td rowspan="6">Aseguramiento de Calidad y Despliegue General</td>
+    <td>TS59</td>
+    <td>Revisión de Código: Avances y Presupuesto</td>
+    <td>Code review y mejoras menores sobre el Bounded Context de Avances y Presupuesto.</td>
+    <td>1</td>
+    <td>Jhony Manuel Francia Torres</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>TS60</td>
+    <td>Revisión de Código: Logística y Proveedores</td>
+    <td>Code review y mejoras menores sobre el Bounded Context de Logística y Proveedores.</td>
+    <td>1</td>
+    <td>Paula Fernanda Montoya Nina</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>TS61</td>
+    <td>Revisión de Código: Documentos y Equipo de Trabajo</td>
+    <td>Code review y mejoras menores sobre el Bounded Context de Documentos y Team Workers.</td>
+    <td>1</td>
+    <td>Neo Daniel Ramos Mera</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>TS62</td>
+    <td>Actualización de Despliegue Backend</td>
+    <td>Subir a producción las últimas actualizaciones del backend</td>
+    <td>1</td>
+    <td>Neo Daniel Ramos Mera</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>TS63</td>
+    <td>Actualización de Despliegue Frontend</td>
+    <td>Subir a producción la versión final de la aplicación web</td>
+    <td>1</td>
+    <td>Diego Antonio Ramos Hinostroza</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>TS64</td>
+    <td>Revisión de Código: IAM</td>
+    <td>Code review y mejoras menores sobre el Bounded Context de IAM.</td>
+    <td>1</td>
+    <td>Pareja Calloapaza, Marcelo Fausto</td>
+    <td>To-do</td>
+  </tr>
+</tbody>
+</table>
 
 #### 5.2.4.4. Development Evidence for Sprint Review.
 
