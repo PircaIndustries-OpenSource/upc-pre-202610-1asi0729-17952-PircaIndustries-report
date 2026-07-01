@@ -1994,7 +1994,6 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>Escenario 1</strong><br>Dado que un equipo emite coordenadas constantes,<br>Cuando el Equipo de Logística consulta la herramienta de rastreo,<br>Entonces el sistema proyecta la localización precisa de forma continua.<br><br><strong>Escenario 2:</strong><br>Dado que el Equipo de Logística delimitó el área autorizada,<br>Cuando el equipo transmite coordenadas externas a la zona permitida,<br>Entonces el sistema dispara notificaciones urgentes advirtiendo la sustracción.</td>
       <td><strong>EP04</strong></td>
     </tr>
-
     <tr>
       <td><strong>US-29</strong></td>
       <td>Landing page - Visualización de propuesta de valor</td>
@@ -2037,7 +2036,6 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td><strong>Escenario 1</strong><br>Dado que el visitante evalúa sus alternativas,<br>Cuando selecciona iniciar el uso del software o agendar una cita,<br>Entonces el sistema procesa la intención dirigiéndolo al flujo preciso.<br><br><strong>Escenario 2:</strong><br>Dado que el visitante concluye su revisión de todo el sitio,<br>Cuando se sitúa en la parte inferior,<br>Entonces el sistema mantiene latentes las opciones de conversión.</td>
       <td><strong>EP06</strong></td>
     </tr>
-
     <tr>
       <td><strong>US-38</strong></td>
       <td>Exportar dossier de calidad en PDF</td>
