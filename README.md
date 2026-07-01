@@ -6357,8 +6357,8 @@ Durante el Sprint 3 se realizó el despliegue del backend de Kipu en una máquin
 | **Location** | Reunión virtual mediante Discord |
 | **Prepared By** | Montoya Nina, Paula Fernanda / Ramos Mera, Neo Daniel |
 | **Attendees** | Francia Torres, Jhony Manuel / Montoya Nina, Paula Fernanda / Pareja Calloapaza, Marcelo Fausto / Ramos Hinostroza, Diego Antonio / Ramos Mera, Neo Daniel |
-| **Sprint 3 Review Summary** | Se desplegó la versión inicial del backend en .NET, documentada con Swagger, y conectada al frontend desplegado en Vercel, permitiendo ejecutar operaciones core de manera satisfactoria. Se validó la integración completa de los principales Bounded Contexts. |
-| **Sprint 3 Retrospective Summary** | Se completó la implementación de los principales Bounded Contexts del backend (.NET) y su integración con el frontend, logrando un flujo funcional. Se resaltó la efectividad de la arquitectura Domain‑Driven Design y la clara separación de capas. Como oportunidad de mejora se identificó la necesidad de automatizar más pruebas y optimizar el pipeline de despliegue continuo para el backend. |
+| **Sprint 3 Review Summary** | Se desplegó la versión inicial del backend, documentada con Swagger, y conectada al frontend desplegado en Vercel, permitiendo ejecutar operaciones core de manera satisfactoria. Se validó la integración completa de los principales Bounded Contexts. |
+| **Sprint 3 Retrospective Summary** | Se completó la implementación de los principales Bounded Contexts del backend y su integración con el frontend, logrando un flujo funcional. Se resaltó la efectividad de la arquitectura Domain‑Driven Design y la clara separación de capas. Como oportunidad de mejora se identificó la necesidad de automatizar más pruebas y optimizar el pipeline de despliegue continuo para el backend. |
 | **Sprint 4 Goal** | Our focus is on completing the waste and machinery management aggregates and refining the Identity and Access Management module. We believe it delivers a fully operational logistics module and reliable tool tracking to Logistics Teams and Operations Managers. This will be confirmed when users can register material waste, update stock automatically, assign tools to workers, and the IAM module demonstrates improved security and performance. |
 | **Sprint 4 Velocity** | 22 Story Points |
 | **Sum of Story Points** | 22 Story Points |
@@ -6405,7 +6405,7 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
     <td rowspan="2">Asignar roles a usuarios (IAM)</td>
     <td>TS56</td>
     <td>Refinamiento de lógica IAM</td>
-    <td>Mejorar la lógica de autenticación y manejo de roles en el backend (.NET).</td>
+    <td>Mejorar la lógica de autenticación y manejo de roles en el backend.</td>
     <td>3</td>
     <td>Diego Antonio Ramos Hinostroza</td>
     <td>To-do</td>
@@ -6469,7 +6469,7 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
     <td>US-02</td>
     <td>Registrar Resultado No Conforme</td>
     <td>TS31</td>
-    <td>Setup RNC API Domain (.NET)</td>
+    <td>Setup RNC API Domain</td>
     <td>Inicializar el dominio de incidencias de calidad con su controlador, servicio y repositorio para gestionar los Resultados No Conformes de obra.</td>
     <td>3</td>
     <td>Jhony Manuel Francia Torres</td>
