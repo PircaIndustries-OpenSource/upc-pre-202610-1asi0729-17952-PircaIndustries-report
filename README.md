@@ -3392,8 +3392,6 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td style="text-align: center;">5</td>
     </tr>
     <tr>
-
-    <tr>
       <td style="text-align: center;">56</td>
       <td><strong>TS31</strong></td>
       <td>Setup RNC API Domain</td>
@@ -3701,7 +3699,8 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
       <td>Como Gestor Operativo, quiero habilitar módulos adicionales para extender las funciones básicas del sistema.</td>
       <td style="text-align: center;">8</td>
     </tr>
-
+  </tbody>
+</table>
 
 ---
 # Capítulo IV: Product Design
