@@ -6442,7 +6442,7 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
     <td>Endpoint GET Material Waste</td>
     <td>Implementar consulta de mermas mediante GET /api/v1/materials/waste.</td>
     <td>2</td>
-    <td>Pareja Calloapaza, Marcelo Fausto<td>
+    <td>Pareja Calloapaza, Marcelo Fausto</td>
     <td>To-do</td>
   </tr>
   <!-- US-16 -->
