@@ -6495,7 +6495,7 @@ Durante el Sprint 4, el equipo mantuvo un flujo de trabajo colaborativo constant
 A continuación, se presentan las estadísticas de colaboración obtenidas desde los insights de GitHub durante el Sprint 4:
 
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration-Sprint4/Team-Collaboration-4-1.png?raw=true" alt="Code Frequency Sprint 4">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration-Sprint-4/Team-Collaboration-4-1.png?raw=true" alt="Code Frequency Sprint 4">
     <br>
     <p><strong>Gráfica 1:</strong> Frecuencia de código del Sprint 4, mostrando la evolución de adiciones y eliminaciones durante el periodo de desarrollo.</p>
 </div>
@@ -6503,7 +6503,7 @@ A continuación, se presentan las estadísticas de colaboración obtenidas desde
 <br>
 
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration-Sprint4/Team-Collaboration-4-2.png?raw=true" alt="Team Collaboration Insights Sprint 4">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration-Sprint-4/Team-Collaboration-4-2.png?raw=true" alt="Team Collaboration Insights Sprint 4">
     <br>
     <p><strong>Gráfica 2:</strong> Resumen de contribuciones por miembro del equipo, reflejando commits realizados y participación activa en el repositorio.</p>
 </div>
