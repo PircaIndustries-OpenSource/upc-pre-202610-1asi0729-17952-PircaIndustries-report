@@ -1,35 +1,62 @@
-<div align="center">
-  <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/UPC_logo_transparente.png?raw=true" alt="Logo-UPC" width="150">
+<div align="center" style="text-align: center; width: 100%;">
+  <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/UPC_logo_transparente.png?raw=true" alt="Logo-UPC" width="150" style="display: block; margin: 0 auto 20px auto;">
 
-## Universidad Peruana de Ciencias Aplicadas
+  <h2 align="center" style="text-align: center; margin: 10px 0;">Universidad Peruana de Ciencias Aplicadas</h2>
 
-**Ingeniería de Software**
+  <p align="center" style="text-align: center; margin: 5px 0;"><strong>Ingeniería de Software</strong></p>
 
-**Ciclo:** 2026-10
+  <p align="center" style="text-align: center; margin: 5px 0;"><strong>Ciclo:</strong> 2026-10</p>
 
-**Curso:** Desarrollo de Aplicaciones Open Source
+  <p align="center" style="text-align: center; margin: 5px 0;"><strong>Curso:</strong> Desarrollo de Aplicaciones Open Source</p>
 
-**Sección:** 17952
+  <p align="center" style="text-align: center; margin: 5px 0;"><strong>Sección:</strong> 17952</p>
 
-**Profesor:** Ivan Robles Fernández
+  <p align="center" style="text-align: center; margin: 5px 0;"><strong>Profesor:</strong> Ivan Robles Fernández</p>
 
-----
-## Informe de Trabajo Final
-### PircaIndustries
+  <hr style="width: 100%; border: 1px solid #ddd; margin: 20px 0;">
+  
+  <h2 align="center" style="text-align: center; margin: 10px 0;">Informe de Trabajo Final</h2>
+  <h3 align="center" style="text-align: center; margin: 5px 0;">PircaIndustries</h3>
 
-### Kipu
-#### Relación de integrantes 
-| Integrante                  | Código         |
-|---------------------------------|----------------|
-| Francia Torres, Jhony Manuel             | u202417329     |
-| Montoya Nina, Paula Fernanda             | u20241d934     |
-| Pareja Calloapaza, Marcelo Fausto        | u202411627     |
-| Ramos Hinostroza, Diego Antonio          | u202224130     |
-| Ramos Mera, Neo Daniel                   | u20241e418     |
-
+  <h3 align="center" style="text-align: center; margin: 5px 0;">Kipu</h3>
+  <br>
+  <h4 align="center" style="text-align: center; margin: 10px 0;">Relación de integrantes</h4>
+  
+  <table align="center" style="margin: 0 auto; border-collapse: collapse; text-align: left;">
+    <thead>
+      <tr style="border-bottom: 2px solid #ddd;">
+        <th style="padding: 8px 20px; font-weight: bold;">Integrante</th>
+        <th style="padding: 8px 20px; font-weight: bold;">Código</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid #ddd;">
+        <td style="padding: 8px 20px;">Francia Torres, Jhony Manuel</td>
+        <td style="padding: 8px 20px;">u202417329</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #ddd;">
+        <td style="padding: 8px 20px;">Montoya Nina, Paula Fernanda</td>
+        <td style="padding: 8px 20px;">u20241d934</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #ddd;">
+        <td style="padding: 8px 20px;">Pareja Calloapaza, Marcelo Fausto</td>
+        <td style="padding: 8px 20px;">u202411627</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #ddd;">
+        <td style="padding: 8px 20px;">Ramos Hinostroza, Diego Antonio</td>
+        <td style="padding: 8px 20px;">u202224130</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #ddd;">
+        <td style="padding: 8px 20px;">Ramos Mera, Neo Daniel</td>
+        <td style="padding: 8px 20px;">u20241e418</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <br><br>
+  <h3 align="center" style="text-align: center; margin: 20px 0;">Julio 2026</h3>
 </div>
-
-<br><div align="center"><h3>Junio 2026</h3></div><br>
+<br>
 <div style="text-align: justify;">
 
 <br><br>
@@ -222,6 +249,18 @@
         <td>Todos</td>
         <td>Se agregó el Sprint 3</td>
       </tr>
+      <tr>
+        <td>2.2.0</td>
+        <td>30/06/2026</td>
+        <td>Diego Ramos</td>
+        <td>Se agregó Análisis Integrador de la Validación y Decisiones de Diseño</td>
+      </tr>
+      <tr>
+        <td>2.2.1</td>
+        <td>01/07/2026</td>
+        <td>Todos</td>
+        <td>Se agregó el Sprint 4</td>
+      </tr>
     </tbody>
   </table>
 </div>
@@ -235,7 +274,7 @@ URL de la Organización de Github del equipo PircaIndustries: [PircaIndustries](
 
 URL del Repositorio del Project Report: [kipu-report](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report)
 
-URL del Repositorio de la Landing Page: [kipu-landingpage](https://github.com/PircaIndustries-OpenSource/landing-page-Kipu)
+URL del Repositorio de la Landing Page: [kipu-landing-page](https://github.com/PircaIndustries-OpenSource/landing-page-Kipu)
 
 URL del Repositorio del Frontend: [kipu-frontend](https://github.com/PircaIndustries-OpenSource/frontend-kipu)
 
@@ -243,9 +282,11 @@ URL del Repositorio del Backend: [kipu-backend](https://github.com/PircaIndustri
 
 URL del Repositorio del trabajo de Responsabilidad Social: [java-fundamentals-course-PircaIndustries](https://github.com/PircaIndustries-OpenSource/java-fundamentals-course-PircaIndustries)
 
-URL de la Landing Page desplegada: [kipu-landingpage](https://pircaindustries-opensource.github.io/landing-page-Kipu/)
+URL de la Landing Page desplegada: [kipu-landing-page](https://pircaindustries-opensource.github.io/landing-page-Kipu/)
 
-URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.web.app/)
+URL de la Aplicación Web desplegada: [kipu-web-app](https://kipu-frontend-42d0d.web.app/)
+
+URL del Backend desplegado: [kipu-web-service](https://kipu-api-os.duckdns.org/swagger-ui/index.html)
 
 <strong>*Entrega AV1:*</strong>
 
@@ -278,10 +319,10 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
         + **Diego Ramos**
             ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/Insight-Diego-Commits.png?raw=true)  <br>
 
-<strong>*Entrega TP1:*</strong>
+<strong>*Entrega TB1:*</strong>
 
 + Desarrollo de Actividades
-    Para el entregable TP1, el equipo utilizó Discord en todas sus reuniones y coordinaciones por consenso general. La carga de trabajo del informe se distribuyó equitativamente con plazos adecuados. Finalmente, las sesiones presenciales fueron clave para obtener retroalimentación del docente y resolver dudas, optimizando el avance frente a los horarios limitados del grupo.
+    Para el entregable TB1, el equipo utilizó Discord en todas sus reuniones y coordinaciones por consenso general. La carga de trabajo del informe se distribuyó equitativamente con plazos adecuados. Finalmente, las sesiones presenciales fueron clave para obtener retroalimentación del docente y resolver dudas, optimizando el avance frente a los horarios limitados del grupo.
 
 + **Evidencias de colaboración y commits - Github:**
     * **Análiticos de colaboración** <br><br>
@@ -300,7 +341,7 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
 
     * **Commits**
 
-         A continuacion se muestran algunos commits realizados en este entrega de TP1.
+         A continuacion se muestran algunos commits realizados en este entrega de TB1.
 			
         + **Marcelo Pareja - Frontend**
             ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TP1/frontend/marcelo-frontend-tp1.png?raw=true)
@@ -406,7 +447,79 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
         + **Diego Ramos - Report**
             ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/AV2/report/diego-report-av2.png?raw=true)  <br>
 
+<strong>*Entrega TB2:*</strong>
 
++ Desarrollo de Actividades
+    Para el entregable TB2, el equipo se reunió mediante Discord para organizar el trabajo y asignar las tareas pendientes de cada miembro. Se avanzó con actividades pendientes tanto de este entregable como las mejoras sugeridas por el docente en el entregable anterior enfocadas en el desarrollo final del backend y ajustes al frontend.
+
++ **Evidencias de colaboración y commits - Github:**
+    * **Análiticos de colaboración** <br><br>
+        + **Pulse Image of Github Insights - Backend**
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/backend/backend-pulse-tb2.png?raw=true)
+
+        + **Pulse Image of Github Insights - Frontend**
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/frontend/frontend-pulse-tb2.png?raw=true)
+
+        + **Pulse Image of Github Insights - Report**
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/report/report-pulse-tb2.png?raw=true)
+
+        + **Contributors Image of Github Insights - Backend**
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/backend/backend-commits-tb2.png?raw=true)
+
+        + **Contributors Image of Github Insights - Frontend**
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/frontend/frontend-commits-tb2.png?raw=true)
+
+        + **Contributors Image of Github Insights - Report**
+        ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/report/report-commits-tb2.png?raw=true)
+
+    * **Commits**
+
+         A continuacion se muestran algunos commits realizados en este entrega de TB2.
+
+        + **Marcelo Pareja - Backend**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/backend/marcelo-backend-tb2.png?raw=true)
+
+        + **Marcelo Pareja - Frontend**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/frontend/marcelo-frontend-tb2.png?raw=true)
+
+        + **Marcelo Pareja - Report**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/report/marcelo-report-tb2.png?raw=true)
+
+        + **Neo Ramos - Backend**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/backend/neo-backend-tb2.png?raw=true)
+
+        + **Neo Ramos - Frontend**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/frontend/neo-frontend-tb2.png?raw=true)
+
+        + **Neo Ramos - Report**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/report/neo-report-tb2.png?raw=true)
+
+        + **Paula Montoya - Backend**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/backend/paula-backend-tb2.png?raw=true)
+
+        + **Paula Montoya - Frontend**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/frontend/paula-frontend-tb2.png?raw=true)
+
+        + **Paula Montoya - Report**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/report/paula-report-tb2.png?raw=true)
+
+        + **Jhony Francia - Backend**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/backend/manuel-backend-tb2.png?raw=true)
+
+        + **Jhony Francia - Frontend**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/frontend/manuel-frontend-tb2.png?raw=true)
+
+        + **Jhony Francia - Report**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/report/manuel-report-tb2.png?raw=true)
+
+        + **Diego Ramos - Backend**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/backend/diego-backend-tb2.png?raw=true)
+
+        + **Diego Ramos - Frontend**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/frontend/diego-frontend-tb2.png?raw=true)
+
+        + **Diego Ramos - Report**
+            ![](https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Collaboration-Insights/TB2/report/diego-report-tb2.png?raw=true)  <br>
 
 ---
 
@@ -502,6 +615,24 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
       - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Spring Planning 3.](#5231spring-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review.](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review.](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint.](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4.](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4.](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review.](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review.](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review.](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review.](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint.](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews.](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
@@ -535,36 +666,36 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td colspan="3" align = "justify">
       <h3>Francia Torres, Jhony Manuel</h3>
         <b>AV1</b><p>Sustentación de la problemática y el Solution Profile. Exposición de User Stories y el análisis de Needfinding. Presentación técnica del diseño orientado a objetos y arquitectura de base de datos. Demostración oral (Keynote) de la implementación y despliegue de servicios.</p>
-        <b>TP1</b><p>Sustentación del progreso de la interfaz de usuario para el módulo de Avances y Presupuesto en el Sprint Review. Exposición oral sobre la implementación de la estrategia de internacionalización (i18n) a nivel global de la aplicación web y soporte en la demostración del despliegue frontend.</p>
+        <b>TB1</b><p>Sustentación del progreso de la interfaz de usuario para el módulo de Avances y Presupuesto en el Sprint Review. Exposición oral sobre la implementación de la estrategia de internacionalización (i18n) a nivel global de la aplicación web y soporte en la demostración del despliegue frontend.</p>
         <b>AV2</b><p>Exposición técnica del diseño arquitectónico del backend para el componente de Avances y Presupuesto. Presentación de los controladores y servicios REST desarrollados durante el Sprint 3 y sustentación oral del proceso de integración continua con el entorno cloud.</p>
         <b>TF1</b><p></p>
       <h3>Montoya Nina, Paula Fernanda</h3>
         <b>AV1</b><p>Comunicación de la visión del producto mediante User Stories. Presentación del Product Backlog y guías de estilo visual. Explicación oral de la arquitectura de software (Domain-Driven Design). Sustentación de la planificación y ejecución del Sprint 1.</p>
-        <b>TP1</b><p>Exposición del diseño funcional y la navegación interactiva de las vistas del módulo de Logística en el frontend. Presentación oral de la reutilización de componentes UI comunes y soporte en la explicación del flujo de trabajo de despliegue en producción.</p>
+        <b>TB1</b><p>Exposición del diseño funcional y la navegación interactiva de las vistas del módulo de Logística en el frontend. Presentación oral de la reutilización de componentes UI comunes y soporte en la explicación del flujo de trabajo de despliegue en producción.</p>
         <b>AV2</b><p>Sustentación de la lógica de negocio y arquitectura de capas para el módulo de Logística en el backend. Explicación oral de los contratos de servicio (APIs) y participación en la exposición del plan de despliegue de la infraestructura de servicios web.</p>
-        <b>TF1</b><p></p>
+        <b>TB2</b><p></p>
       <h3>Pareja Calloapaza, Marcelo Fausto</h3>
         <b>AV1</b><p>Exposición del análisis competitivo y Big Picture EventStorming. Sustentación oral de la arquitectura de información. Presentación del prototipado interactivo de la aplicación web. Reporte oral de evidencias de desarrollo para el Sprint Review.</p>
-        <b>TP1</b><p>Demostración interactiva de la interfaz de usuario para el módulo de Monitoreo IoT en el frontend. Exposición oral sobre la renderización dinámica de componentes gráficos para telemetría y soporte en la presentación técnica de la arquitectura frontend general.</p>
+        <b>TB1</b><p>Demostración interactiva de la interfaz de usuario para el módulo de Monitoreo IoT en el frontend. Exposición oral sobre la renderización dinámica de componentes gráficos para telemetría y soporte en la presentación técnica de la arquitectura frontend general.</p>
         <b>AV2</b><p>Presentación técnica del procesamiento de datos y lógica de backend para el módulo de Monitoreo IoT. Explicación oral de la persistencia de datos históricos de sensores y sustentación de la infraestructura de red requerida para el despliegue del backend.</p>
-        <b>TF1</b><p></p>
+        <b>TB2</b><p></p>
       <h3>Ramos Hinostroza, Diego Antonio</h3>
         <b>AV1</b><p>Comunicación de segmentos objetivo y resultados de entrevistas. Explicación del lenguaje ubicuo y configuración de software. Sustentación de la gestión de configuración y despliegue (Deployment). Presentación de resultados de ejecución y documentación de servicios del Sprint.</p>
-        <b>TP1</b><p>Exposición técnica de la estructura base del frontend y las configuraciones de diseño globales. Presentación oral del flujo de navegación y rutas protegidas implementadas para los módulos de IAM (Identity & Access Management) y Gestión de Proyectos.</p>
+        <b>TB1</b><p>Exposición técnica de la estructura base del frontend y las configuraciones de diseño globales. Presentación oral del flujo de navegación y rutas protegidas implementadas para los módulos de IAM (Identity & Access Management) y Gestión de Proyectos.</p>
         <b>AV2</b><p>Sustentación oral del sistema de autenticación, autorización y seguridad (IAM) en el backend, junto al módulo de Proyectos. Explicación detallada del diseño de base de datos relacional y los esquemas de seguridad presentados en el Sprint Review 3.</p>
-        <b>TF1</b><p></p>
+        <b>TB2</b><p></p>
       <h3>Ramos Mera, Neo Daniel</h3>
         <b>AV1</b><p>Exposición del proceso Lean UX y el Impact Mapping. Presentación de los requisitos de usuario (User Stories). Sustentación del diseño de interfaz de usuario (UI) de la Landing Page. Demostración de la implementación frontend y validación de interacción.</p>
-        <b>TP1</b><p>Sustentación oral de las interfaces de usuario del módulo de Trabajadores y Usuarios en el frontend. Demostración del comportamiento adaptativo (responsive design) de los formularios y reporte del cumplimiento de estándares visuales y de internacionalización en el Sprint 2.</p>
+        <b>TB1</b><p>Sustentación oral de las interfaces de usuario del módulo de Trabajadores y Usuarios en el frontend. Demostración del comportamiento adaptativo (responsive design) de los formularios y reporte del cumplimiento de estándares visuales y de internacionalización en el Sprint 2.</p>
         <b>AV2</b><p>Exposición de los endpoints y lógica del backend relacionados con el control de Usuarios y Trabajadores. Presentación técnica de las mejoras visuales iterativas aplicadas sobre el frontend y sustentación de la consistencia de datos entre interfaces y APIs web.</p>
-        <b>TF1</b><p></p>
+        <b>TB2</b><p></p>
           <br>
       </td>
       <td colspan="3">
         <b>AV1</b><p>Se logró identificar correctamente la problemática y los segmentos objetivo, comunicando la base del proyecto con claridad. Los artefactos de requerimientos (User Stories y Backlog) cumplen con las convenciones de lenguaje y estructura solicitadas. El diseño técnico y la arquitectura demuestran una aplicación correcta de principios de ingeniería y estándares visuales. La solución final fue implementada y documentada siguiendo el flujo de trabajo (GitFlow) y validada satisfactoriamente con los usuarios.</p>
-        <b>TP1</b><p>El equipo demostró efectividad al comunicar oralmente la evolución visual y funcional del sistema en el Sprint Review. La exposición de las interfaces frontend parametrizadas por módulos individuales, junto con la justificación de las configuraciones compartidas e internacionalización (i18n), evidenció solvencia técnica y claridad expositiva para audiencias tanto de negocio como de desarrollo.</p>
+        <b>TB1</b><p>El equipo demostró efectividad al comunicar oralmente la evolución visual y funcional del sistema en el Sprint Review. La exposición de las interfaces frontend parametrizadas por módulos individuales, junto con la justificación de las configuraciones compartidas e internacionalización (i18n), evidenció solvencia técnica y claridad expositiva para audiencias tanto de negocio como de desarrollo.</p>
         <b>AV2</b><p>Se sustentó de manera precisa y articulada el diseño arquitectónico de servicios backend distribuidos y la integración con el cliente cloud. El equipo comunicó fluidamente los contratos de API RESTful, el flujo de seguridad (IAM) y la infraestructura en la nube, traduciendo de forma oral decisiones de ingeniería de datos a criterios evaluativos formales.</p>
-        <b>TF1</b><p></p>
+        <b>TB2</b><p></p>
       </td>
     </tr>
     <tr>
@@ -572,34 +703,34 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td colspan="3" align = "justify">
       <h3>Francia Torres, Jhony Manuel</h3>
         <b>AV1</b><p>Documentación detallada del perfil de solución y Needfinding. Redacción de User Stories siguiendo estándares técnicos. Elaboración de diagramas de diseño orientado a objetos y esquema de BD. Documentación técnica de la implementación y evidencias del Sprint.</p>
-        <b>TP1</b><p>Redacción técnica del módulo de Avances y Presupuesto en el frontend. Estructuración y redacción formal de los archivos de localización JSON para el soporte multiidioma (i18n) global del proyecto y registro técnico en el Sprint 2 Backlog.</p>
+        <b>TB1</b><p>Redacción técnica del módulo de Avances y Presupuesto en el frontend. Estructuración y redacción formal de los archivos de localización JSON para el soporte multiidioma (i18n) global del proyecto y registro técnico en el Sprint 2 Backlog.</p>
         <b>AV2</b><p>Documentación de especificaciones de diseño de persistencia y API Contracts (Swagger) para el módulo de Avances y Presupuesto backend. Redacción de los reportes técnicos y diagramas entidad-relación actualizados para el reporte del Sprint 3.</p>
-        <b>TF1</b><p></p>
+        <b>TB2</b><p></p>
       <h3>Montoya Nina, Paula Fernanda</h3>
         <b>AV1</b><p>Redacción del Backlog y especificaciones de guías de estilo. Documentación escrita de la arquitectura de software. Elaboración de reportes de Sprint Planning y Sprint Backlog. Registro escrito de las evidencias de desarrollo y cumplimiento de objetivos.</p>
-        <b>TP1</b><p>Elaboración de las especificaciones de interfaz de usuario y flujos lógicos para el módulo de Logística frontend. Registro escrito de las actas de Sprint Planning, criterios de aceptación formalizados y documentación del Sprint 2 Backlog.</p>
+        <b>TB1</b><p>Elaboración de las especificaciones de interfaz de usuario y flujos lógicos para el módulo de Logística frontend. Registro escrito de las actas de Sprint Planning, criterios de aceptación formalizados y documentación del Sprint 2 Backlog.</p>
 		<b>AV2</b><p>Redacción de la sección de arquitectura de software enfocada en el dominio de Logística en el backend. Documentación escrita de los contratos de integración de servicios e hitos de cumplimiento del Sprint Backlog 3.</p>
         <b>TF1</b><p></p>
       <h3>Pareja Calloapaza, Marcelo Fausto</h3>
         <b>AV1</b><p>Documentación del análisis de competidores y diagramas de arquitectura de información. Redacción de artefactos de EventStorming y requisitos. Elaboración de la documentación de diseño UX/UI. Reporte técnico final de implementación y validación de servicios.</p>
-        <b>TP1</b><p>Documentación del flujo de datos en tiempo real y arquitectura de componentes para el módulo frontend de Monitoreo IoT. Redacción de guías en Markdown para el despliegue del entorno cliente y documentación de Pull Requests en el repositorio.</p>
+        <b>TB1</b><p>Documentación del flujo de datos en tiempo real y arquitectura de componentes para el módulo frontend de Monitoreo IoT. Redacción de guías en Markdown para el despliegue del entorno cliente y documentación de Pull Requests en el repositorio.</p>
         <b>AV2</b><p>Redacción técnica de las especificaciones de consumo de datos y contratos API para Monitoreo IoT backend. Elaboración escrita del manual de despliegue técnico del backend sobre servidores basados en Linux y nubes comerciales.</p>
         <b>TF1</b><p></p>
       <h3>Ramos Hinostroza, Diego Antonio</h3>
         <b>AV1</b><p>Documentación de segmentos objetivo y transcripción de entrevistas. Definición escrita del Ubiquitous Language y manuales de configuración. Documentación de endpoints (RESTful) y manual de despliegue. Reporte escrito de Team Collaboration Insights y ejecución de Sprint.</p>
-        <b>TP1</b><p>Redacción del documento técnico base de configuración arquitectónica del frontend. Documentación escrita de los flujos de seguridad del módulo IAM y especificaciones técnicas de la lógica del componente de Gestión de Proyectos.</p>
+        <b>TB1</b><p>Redacción del documento técnico base de configuración arquitectónica del frontend. Documentación escrita de los flujos de seguridad del módulo IAM y especificaciones técnicas de la lógica del componente de Gestión de Proyectos.</p>
         <b>AV2</b><p>Redacción de la documentación técnica de esquemas de seguridad, tokens de acceso y flujos de autorización para el backend de IAM y Proyectos. Elaboración de scripts documentados de base de datos y diagramas lógicos de almacenamiento relacional.</p>
         <b>TF1</b><p></p>
       <h3>Ramos Mera, Neo Daniel</h3>
         <b>AV1</b><p>Documentación del proceso Lean UX Canvas e Impact Mapping. Documentación del proceso Lean UX Canvas e Impact Mapping. Documentación del diseño visual y prototipado de la aplicación. Registro de evidencias de desarrollo y reporte de validación del Frontend.</p>
-        <b>TP1</b><p>Redacción de la especificación técnica de vistas y layouts adaptativos para el módulo de Usuarios y Trabajadores en el frontend. Registro formalizado de evidencias de desarrollo de componentes visuales y reporte de pruebas de interfaz del Sprint 2.</p>
+        <b>TB1</b><p>Redacción de la especificación técnica de vistas y layouts adaptativos para el módulo de Usuarios y Trabajadores en el frontend. Registro formalizado de evidencias de desarrollo de componentes visuales y reporte de pruebas de interfaz del Sprint 2.</p>
         <b>AV2</b><p>Documentación de las especificaciones del API y modelos de datos del backend para el módulo de Usuarios y Trabajadores. Redacción de la guía de control de cambios estéticos frontend y reporte escrito de la validación cruzada entre capas.</p>
         <b>TF1</b><p></p>
   <br>
       </td>
       <td colspan="3">
         <b>AV1</b><p>Se logró identificar correctamente la problemática y los segmentos objetivo, comunicando la base del proyecto con claridad. Los artefactos de requerimientos (User Stories y Backlog) cumplen con las convenciones de lenguaje y estructura solicitadas. El diseño técnico y la arquitectura demuestran una aplicación correcta de principios de ingeniería y estándares visuales. La solución final fue implementada y documentada siguiendo el flujo de trabajo (GitFlow) y validada satisfactoriamente con los usuarios.</p>
-        <b>TP1</b><p>La documentación del frontend y los artefactos de gestión ágil para el Sprint 2 mantuvieron consistencia técnica y claridad de lenguaje. Los archivos de recursos compartidos de internacionalización (i18n), el Sprint Backlog y los archivos descriptivos del repositorio comunican con precisión los requerimientos funcionales a un nivel comprensible para el equipo de ingeniería.</p>
+        <b>TB1</b><p>La documentación del frontend y los artefactos de gestión ágil para el Sprint 2 mantuvieron consistencia técnica y claridad de lenguaje. Los archivos de recursos compartidos de internacionalización (i18n), el Sprint Backlog y los archivos descriptivos del repositorio comunican con precisión los requerimientos funcionales a un nivel comprensible para el equipo de ingeniería.</p>
         <b>AV2</b><p>Se estructuraron rigurosamente los contratos de API y las especificaciones técnicas del backend mediante documentación formal de código y diagramas de arquitectura de software. Los manuales de configuración de red, scripts de bases de datos y especificaciones de seguridad (IAM) se redactaron siguiendo estándares formales legibles para ingenieros de desarrollo y operaciones cloud.</p>
         <b>TF1</b><p></p>
       </td>
@@ -6081,6 +6212,32 @@ Implementación de DTOs para el desacoplamiento de capas. Garantizan validación
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
+---
+### 5.2.4. Sprint 4
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 4, el equipo mantuvo un flujo de trabajo colaborativo constante a través de la organización en GitHub. Se utilizaron ramas `feature/*` para el desarrollo de nuevas funcionalidades, las cuales fueron integradas a la rama `develop` mediante Pull Requests revisados por al menos dos miembros del equipo. Las tareas fueron gestionadas en el tablero de Trello, actualizando el estado de cada work-item a medida que avanzaba su implementación.
+
+A continuación, se presentan las estadísticas de colaboración obtenidas desde los insights de GitHub durante el Sprint 4:
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration-Sprint4/Team-Collaboration-4-1.png?raw=true" alt="Code Frequency Sprint 4">
+    <br>
+    <p><strong>Gráfica 1:</strong> Frecuencia de código del Sprint 4, mostrando la evolución de adiciones y eliminaciones durante el periodo de desarrollo.</p>
+</div>
+
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/TeamCollaboration-Sprint4/Team-Collaboration-4-2.png?raw=true" alt="Team Collaboration Insights Sprint 4">
+    <br>
+    <p><strong>Gráfica 2:</strong> Resumen de contribuciones por miembro del equipo, reflejando commits realizados y participación activa en el repositorio.</p>
+</div>
+
+<br>
+
+
 ## 5.3. Validation Interviews.
 
 En esta sección, se registran y explican las actividades que abarcan las entrevistas de validación durante el desarrollo de nuestro proyecto. El objetivo principal de realizar estas entrevistas de validación es obtener retroalimentación, comprender las necesidades y expectativas de los usuarios, así como validar o refutar las hipótesis sobre el producto. Para lograr esto, haremos que nuestros entrevistados de ambos segmentos interactúen con la landing page y la aplicación web de Kipu.
@@ -6757,6 +6914,61 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Auditoria/problema15.png?raw=true" alt="Evidencia Problema 15" width="800">
   </div>
 * **Recomendación:** <br><span style="color: blue;">Marcar la sección "Attach Document" como obligatoria (agregando el asterisco * junto al título) y validar en el formulario que exista al menos un archivo cargado antes de habilitar el botón "Create Document".</span>
+
+<br>
+
+#### 5.3.3.1. Análisis Integrador de la Validación y Decisiones de Diseño.
+
+**Análisis de Patrones, Impacto y Justificaciones de Evolución de Producto**
+
+
+El proceso de validación con los usuarios finales de ambos segmentos objetivos y las auditorías heurísticas permitieron recopilar una gran cantidad de retroalimentación cualitativa y cuantitativa. Para dotar de mayor solidez a la evolución del producto y justificar las decisiones de diseño tomadas, se consolidaron los resultados mediante la identificación de patrones, la priorización de los hallazgos y la fundamentación técnica de cada decisión adoptada.
+
+
+#### 5.3.4.1. Patrones Comunes Identificados entre los Usuarios
+
+A partir del análisis cruzado de las respuestas obtenidas en las 6 entrevistas de validación realizadas a ingenieros de campo, gestores de proyectos, asistentes de almacén y administradores, se identificaron los siguientes patrones recurrentes:
+
+1. **Necesidad de Adaptabilidad Ambiental en Campo (Patrón de Entorno de Trabajo):**
+   Tanto los ingenieros de campo (Juan Macedo) como los supervisores recalcaron las dificultades de lectura en pantallas debido al brillo solar y el entorno de obra. Esto se asocia directamente con la demanda de un **modo oscuro nativo y de alto contraste** y layouts minimalistas. Los usuarios de oficina (Eliud López, Jacqueline Herrera), en cambio, priorizaron paneles densos tipo Dashboard para un monitoreo global rápido.
+2. **Preocupación por la Asincronía y el Control de Tiempos Límite (Patrón de Trazabilidad):**
+   Los asistentes de almacén y gestores de proyectos manifestaron frustración ante la falta de sincronización inmediata y la ausencia de alertas cuando vencen los plazos de entrega o las firmas de actas de conformidad. La necesidad de contar con notificaciones push o alertas visibles se consolidó como un factor crítico para evitar retrasos logísticos y contractuales.
+3. **Preferencia por la Reducción de Carga Cognitiva mediante Componentes Estructurados (Patrón de Usabilidad):**
+   Los usuarios en general rechazaron el ingreso de texto libre en campos técnicos (por ejemplo, en el registro de unidades de medida de los sensores o en la selección de filtros de daltonismo). Coincidieron en que los selectores predefinidos y menús desplegables minimizan los errores humanos de digitación rápida y aceleran los procesos operativos diarios bajo presión.
+4. **Validación de la Bitácora Fotográfica como Eje Central de Confianza (Patrón de Comunicación):**
+   La bitácora de obra con evidencia visual fue unánimemente elogiada por el segmento 1. Sin embargo, todos apuntaron a que las imágenes estáticas sin capacidad de zoom dificultan el análisis de detalles técnicos críticos de la construcción, restando eficiencia al monitoreo a distancia.
+
+#### 5.3.4.2. Priorización de Hallazgos según su Impacto
+
+Para ordenar el esfuerzo de desarrollo y estructurar el roadmap de mejoras, se categorizaron y priorizaron los 15 problemas identificados en la evaluación heurística, basándose en la probabilidad de ocurrencia y el nivel de bloqueo que causan en el flujo de trabajo:
+
+| Prioridad | Impacto | Severidad Promedio | Hallazgos Asociados (Evaluación Heurística) | Razón de la Priorización |
+| :---: | :--- | :---: | :--- | :--- |
+| **Alta** | **Crítico (Bloquea el negocio o el acceso)** | **4.0** | Problema #2 (Botón de ingreso no funciona)<br>Problema #10 (Pérdida de solicitudes al refrescar)<br>Problema #13 (Ausencia de roles para deshabilitar cuentas) | Impiden completar las tareas principales del producto (acceder al sistema, registrar transacciones de forma persistente, o resguardar la seguridad de cuentas administrativas). |
+| **Media** | **Mayor (Dificulta el flujo operativo o el uso en campo)** | **3.0** | Problema #1 (Falta de responsividad en landing)<br>Problema #3 (Falta de responsividad en web app)<br>Problema #6 (Pérdida del proyecto seleccionado)<br>Problema #9 (Selector de fechas sin restricción)<br>Problema #15 (Documento obligatorio para firma) | Afectan la experiencia de usuario en dispositivos móviles en el campo, obligan a repetir tareas innecesarias (reselección de proyecto), o permiten errores operativos lógicos (fechas de entrega pasadas o firmas sin archivo). |
+| **Baja** | **Menor / Cosmético (Detalles visuales o de consistencia)** | **2.0** | Problema #4 (Ajustes de daltonismo en listas)<br>Problema #5 (Clima en inglés)<br>Problema #7 (Barra de presupuesto verde a pesar de sobrecostos)<br>Problema #8 (Fecha de registro de proveedores vacía)<br>Problema #11 (Categorías sin traducción)<br>Problema #12 (Falta de redirección al guardar)<br>Problema #14 (Unidades de sensores en texto libre) | Generan confusión visual momentánea o inconsistencia lingüística, pero no detienen la operación del sistema ni bloquean la realización de las tareas. |
+
+#### 5.3.4.3. Justificación de las Decisiones de Diseño Adoptadas
+
+La retroalimentación de las validaciones y auditorías sustentó de manera directa la evolución de la interfaz y las capacidades lógicas de Kipu. A continuación, se justifican las principales decisiones de diseño aplicadas sobre el prototipo y la aplicación web:
+
+* **Decisión 1: Reemplazo de listas por Dropdowns en Ajustes de Daltonismo (Problema #4):**
+  * *Justificación:* Al listar verticalmente cada filtro, la pantalla de accesibilidad se volvía innecesariamente densa. El dropdown agrupa los filtros bajo un mismo componente de selección única, mejorando el orden espacial de la interfaz y la estética de la app.
+* **Decisión 2: Implementación de la persistencia del proyecto activo en `localStorage` (Problema #6):**
+  * *Justificación:* Los usuarios finales abren múltiples pestañas o refrescan la página por problemas de red en la obra. Al persistir el ID del proyecto en el navegador, evitamos la frustración de perder el contexto de trabajo y tener que reseleccionar el proyecto activo en cada recarga.
+* **Decisión 3: Modificación del semáforo de color y métrica del Presupuesto (Problema #7):**
+  * *Justificación:* Una barra de progreso verde al 102% comunicaba erróneamente un estado óptimo de la obra. Se rediseñó el componente para cambiar a color rojo al superar el 100% de ejecución y se reemplazó el texto contradictorio "Available" por "Excedido en S/ XX" para ofrecer un feedback visual honesto sobre el estado financiero.
+* **Decisión 4: Restricción del selector de fechas futuras (Problema #9):**
+  * *Justificación:* Permitir solicitudes con fecha de entrega pasadas generaba incoherencias logísticas en el backend. Restringir el calendario para inhabilitar fechas anteriores al día de mañana previene errores operativos y protege la integridad de los datos de la cadena de suministro.
+* **Decisión 5: Flujo de redirección obligatoria tras crear solicitud (Problema #12):**
+  * *Justificación:* Dejar al usuario en el formulario limpio tras el envío del modal generaba la falsa impresión de que la tarea no se había completado. Redirigir automáticamente a la vista general de solicitudes cierra el ciclo conceptual de la tarea.
+* **Decisión 6: Restricción del campo "Unit" de sensores IoT a un selector estricto (Problema #14):**
+  * *Justificación:* El ingreso de texto libre permitía introducir caracteres inválidos (ej. "dd"), rompiendo el renderizado de gráficos de telemetría. Al acotar las unidades a un dropdown predefinido, garantizamos que el sistema interprete y dibuje los datos con precisión matemática.
+* **Decisión 7: Obligatoriedad de adjuntos en firmas digitales (Problema #15):**
+  * *Justificación:* Permitir solicitudes de firma sin archivo adjunto creaba un vacío operativo y legal. El sistema ahora bloquea la habilitación del botón "Create Document" si el input de archivo está vacío, asegurando que se firme un documento real.
+
+
+<br>
 
 ## 5.4 Video About-The-Product
 
