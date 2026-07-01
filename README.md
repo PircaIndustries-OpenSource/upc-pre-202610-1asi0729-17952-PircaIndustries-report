@@ -2986,7 +2986,7 @@ En esta sección se define el glosario de terminos y conceptos fundamentales del
 
 ## 3.3. Product Backlog
 <br>
-<td><p><a target="_blank" href="https://pircaindustries-opensource.atlassian.net/?continue=https%3A%2F%2Fpircaindustries-opensource.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10000&atlOrigin=eyJpIjoiNDMyMTY5ZGU2MGJlNGMyZjhjMzAwN2YyMzQyM2ExMWQiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9" title="Title">Enlace público del Product Backlog (Jira)</a></p></td>
+[Enlace público del Product Backlog (Jira)](https://pircaindustries-opensource.atlassian.net/?continue=https%3A%2F%2Fpircaindustries-opensource.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10000&atlOrigin=eyJpIjoiNDMyMTY5ZGU2MGJlNGMyZjhjMzAwN2YyMzQyM2ExMWQiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9)
 
 
 <br>
