@@ -222,6 +222,12 @@
         <td>Todos</td>
         <td>Se agregó el Sprint 3</td>
       </tr>
+      <tr>
+        <td>2.2.0</td>
+        <td>30/06/2026</td>
+        <td>Neo Ramos</td>
+        <td>Se agregó el Sprint 4 con la estructura completa de secciones, la tabla de Aspect Leaders y Collaborators, y la evidencia de deployment SSL (Certbot + DuckDNS + HTTPS). Se corrigió la inconsistencia de numeración del Sprint 3 moviendo el contenido de deployment de 5.2.3.4 a 5.2.3.7 y agregando la tabla de commits del backend en 5.2.3.4.</td>
+      </tr>
     </tbody>
   </table>
 </div>
@@ -502,6 +508,24 @@ URL de la Aplicación Web desplegada: [kipu-webapp](https://kipu-frontend-42d0d.
       - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3.](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review.](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review.](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint.](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4.](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4.](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review.](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review.](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review.](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review.](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint.](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews.](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
@@ -5728,142 +5752,139 @@ La prioridad estratégica de este tercer sprint consistió en la implementación
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 
-Durante el Sprint 3 se realizó el despliegue del backend de Kipu en una máquina virtual de Azure. A continuación, se presentan las evidencias del proceso de deployment, desde la configuración inicial hasta la puesta en producción del servicio.
+Durante el Sprint 3, el equipo se enfocó en la implementación de la capa de servicios backend (API REST) utilizando Spring Boot con arquitectura Domain-Driven Design. Cada integrante desarrolló los bounded contexts asignados, desde la configuración inicial del proyecto hasta la exposición de los endpoints documentados. A continuación, se presentan los commits más representativos del repositorio backend durante este sprint.
 
-[Backend Deployment](http://158.23.163.220/swagger-ui/index.html#/)
-
-<div align="center">
-    <b>Creación de la carpeta .github/workflows para los pipelines de CI/CD</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/carpetagithub.jpeg?raw=true" width="600px" alt="Creación de carpeta .github workflows">
-</div>
-<br>
-
-<div align="center">
-    <b>Modificación del archivo application.properties para manejar las variables de entorno</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/applicationpropertiesexport.jpeg?raw=true" width="600px" alt="Modificación application.properties">
-</div>
-<br>
-
-<div align="center">
-    <b>Creación de un tag en Git para identificar la versión del backend desplegada</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/gittag.jpeg?raw=true" width="600px" alt="Git tag">
-</div>
-<br>
-
-<div align="center">
-    <b>Versión del backend subida exitosamente al repositorio remoto en GitHub</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/versionsubidaagithub.jpeg?raw=true" width="600px" alt="Versión subida a GitHub">
-</div>
-<br>
-
-<div align="center">
-    <b>Conexión SSH a la máquina virtual de Azure para iniciar el despliegue</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/sshconectandoseaazure.jpeg?raw=true" width="600px" alt="Conexión SSH a Azure">
-</div>
-<br>
-
-<div align="center">
-    <b>Descarga del artefacto JAR desde el repositorio mediante wget en la VM</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/wgetrepo.jpeg?raw=true" width="600px" alt="Descarga del JAR con wget">
-</div>
-<br>
-
-<div align="center">
-    <b>Exportación de las variables de entorno necesarias para la ejecución del backend</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/exportenvm.jpeg?raw=true" width="600px" alt="Exportación de variables de entorno">
-</div>
-<br>
-
-<div align="center">
-    <b>Verificación de la aplicación Spring Boot ejecutándose correctamente en la VM</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/probandoaplicacioncorriendo.jpeg?raw=true" width="600px" alt="Spring Boot ejecutándose">
-</div>
-<br>
-
-<div align="center">
-    <b>Prueba del acceso a Swagger UI para verificar la documentación de la API</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/probandoswagger.jpeg?raw=true" width="600px" alt="Prueba de Swagger">
-</div>
-<br>
-
-<div align="center">
-    <b>Creación del archivo de servicio systemd con nano para gestionar el backend</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/creandoserviceconnano.jpeg?raw=true" width="600px" alt="Creación del servicio systemd">
-</div>
-<br>
-
-<div align="center">
-    <b>Habilitación del servicio mediante systemctl para inicio automático del backend</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/usandodaemonyenableelservice.jpeg?raw=true" width="600px" alt="Habilitación del servicio">
-</div>
-<br>
-
-<div align="center">
-    <b>Descarga e instalación del servidor Nginx en la máquina virtual</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/descargandonginx.jpeg?raw=true" width="600px" alt="Descarga de Nginx">
-</div>
-<br>
-
-<div align="center">
-    <b>Acceso al archivo de configuración por defecto de Nginx para editarlo</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/accediendoaconfigdenginx.jpeg?raw=true" width="600px" alt="Acceso a configuración de Nginx">
-</div>
-<br>
-
-<div align="center">
-    <b>Modificación de la configuración de Nginx como proxy inverso del backend (1/2)</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/cambiandoconfignginx1.jpeg?raw=true" width="600px" alt="Cambio configuración Nginx 1">
-</div>
-<br>
-
-<div align="center">
-    <b>Configuración adicional del proxy inverso en Nginx (2/2)</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/cambiandoconfignginx2.jpeg?raw=true" width="600px" alt="Cambio configuración Nginx 2">
-</div>
-<br>
-
-<div align="center">
-    <b>Verificación de los cambios realizados en la configuración de Nginx</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/verificandocambiosanginx.jpeg?raw=true" width="600px" alt="Verificación cambios Nginx">
-</div>
-<br>
-
-<div align="center">
-    <b>Reinicio del servicio Nginx para aplicar los cambios de configuración</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/restartnginx.jpeg?raw=true" width="600px" alt="Reinicio de Nginx">
-</div>
-<br>
-
-<div align="center">
-    <b>Acceso exitoso al nuevo servicio backend desplegado en producción</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/accediendoanuevoservice.jpeg?raw=true" width="600px" alt="Acceso al nuevo servicio">
-</div>
-<br>
-
-<div align="center">
-    <b>Código de compilación y archivo YAML del pipeline de CI/CD automatizado</b>
-    <br>
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/buildymlcodigo.jpeg?raw=true" width="600px" alt="Build y YAML de CI/CD">
-</div>
-<br>
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| PircaIndustries-OpenSource/backend-kipu | develop | acb16ae | Feat: Add backend Spring Boot IAM service | N/A | 2026-05-20 |
+| PircaIndustries-OpenSource/backend-kipu | feature/logistics | dde43da | feat: implement logistics module with suppliers and material-requests management | N/A | 2026-06-13 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 3e52bd8 | feat: added documents, team users and team workers bounded context | N/A | 2026-06-13 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 41518de | Feat: Add Identity endpoints and Project domain | N/A | 2026-06-14 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 8fcfdd1 | feat: added security exceptions | N/A | 2026-06-14 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 85a9721 | feat: added validations to dtos | N/A | 2026-06-14 |
+| PircaIndustries-OpenSource/backend-kipu | develop | d7b88c8 | chore: add spring profiles | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | cd44015 | chore: add dependencies | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 08c4b0f | feat(shared): add snake case with pluralized table physical naming strategy class | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | c371dbe | feat(shared): add auditable abstract persistence entity abstract class | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | db9fd01 | feat(shared): add abstract domain aggregate root abstract class | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | a079e9e | feat(shared): add application error record | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | c83bcb2 | feat(shared): add error and message resource records | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 15d0d29 | feat(shared): add error response assembler final class | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | c3de840 | feat(shared): add response entity assembler final class | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 486b600 | feat(shared): modify global exception handler class | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 03a35ec | feat(iotmonitoring.concretecuring): add temperature value object | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | bfb61cd | feat(iotmonitoring-concretecuring): add percentage value object | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | ca518db | feat(iotmonitoring.concretecuring): add concrete curing sensor state enum | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 53c2aaf | feat(iotmonitoring.concretecuring): add concrete curing sensor aggregate | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | a4b500e | feat(iotmonitoring.concretecuring): add create concrete curing sensor command record | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 12f55c5 | feat(iotmonitoring.concretecuring): add concrete curing sensor created event record | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | b57f3b2 | feat(iotmonitoring.concretecuring): add concrete curing sensor repository and get all concrete curing sensor queries | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | f6bf9d2 | feat(iotmonitoring.concretecuring): add get concrete curing sensor by sensor id query | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 0a3db29 | feat(iotmonitoring.concretecuring): add get concrete curing sensor by id query | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | cf53325 | feat(iotmonitoring.concretecuring): add temperature persistence embeddable class | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 6c1a1db | feat(iotmonitoring.concretecuring): add humidity persistence converter class | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 0a01d0e | feat(iotmonitoring.concretecuring): add curing sensor state persistence converter | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 1d861fe | feat(iotmonitoring.concretecuring): add jpa concrete curing sensor persistence entity | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | f6d3b4d | feat(iotmonitoring.concretecuring): add concrete curing sensor persistance assembler | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 9a353c2 | feat(iotmonitoring.concretecuring): add concrete curing sensor persistence repository | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | b831bd0 | feat(iotmonitoring.concretecuring): add concrete curing sensor repository implementation | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 6e71245 | feat(iotmonitoring.concretecuring): add concrete curing sensor command service | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 94b4521 | feat(iotmonitoring.concretecuring): add concrete curing sensor command service implementation | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | b08aed7 | feat(iotmonitoring.concretecuring): add concrete curing sensor query service interface | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 3368a60 | feat(iotmonitoring.concretecuring): add concrete curing sensor query service implementation | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | ceab660 | feat(iotmonitoring.concretecuring): add concrete curing sensor created integration event record | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | f45a00a | feat(iotmonitoring.concretecuring): add concrete curing sensor created event handler | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | d1f19d9 | feat(iotmonitoring.concretecuring): add concrete curing sensor context acl facade | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 418eec8 | feat(iotmonitoring.concretecuring): add concrete curing sensor context facade implementation | N/A | 2026-06-15 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 9816453 | feat(iotmonitoring.concretecuring): add create concrete curing sensor resource dto | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 2cfb7d2 | feat(iotmonitoring.concretecuring): add concrete curing sensor resource | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 18d5160 | feat(iotmonitoring.concretecuring): add concrete curing sensor command from resource assembler | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 8fd36ab | feat(iotmonitoring.concretecuring): add concrete curing sensor resource from entity assembler | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 135e837 | feat(iotmonitoring.concretecuring): add concrete curing sensors REST controller | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | e611e6c | chore: add dependency | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 5035c4d | feat(iotmonitoring.geolocalization): add coordinates record value object | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 10b3223 | feat(iotmonitoring.geolocalization): add create geolocalization sensor command | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 9c4bda7 | feat(iotmonitoring.geolocalization): add geolocalization sensot state enum | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 88aa7b6 | feat(iot-monitoring: add geolocalization sensor aggregate root. | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 1dd0d4e | feat(iotmonitoring.geolocalization): add geolocalization sensor created event record | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 59abe82 | feat(iotmonitoring.geolocalization): add geolocalization sensor repository abstract port for contracts | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | dbb3afb | feat(iotmonitoring.geolocalization): add get all geolocalization sensors query | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | b96e745 | feat(iotmonitoring.geolocalization): add get geolocalization sensor by id query | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | c600943 | feat(iotmonitoring.geolocalization): add get geolocalization sensor by sensor id query | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 7789b89 | feat(iotmonitoring.geolocalization): add geolocalization sensor state persistence converter | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 66f07c0 | feat(iotmonitoring.geolocalization): add geolocalization sensor jpa persistence entity | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 02d3f18 | feat(iotmonitoring.geolocalization): add geolocalization sensor persistence assembler | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 7e4dbfa | feat(iotmonitoring.geolocalization): add geolocalization sensor persistence spring data repository | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 4474c16 | feat(iotmonitoring.geolocalization): add geolocalization sensor repository implementation adapter | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 36aa5a2 | feat(iotmonitoring.geolocalization): add geolocalization sensor command service port | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 5641e45 | feat(iotmonitoring.geolocalization): add geolocalization sensor command service implementation final class | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 225355f | feat(iotmonitoring.geolocalization): add geolocalization sensor query service contract for read queries | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 3634323 | feat(iotmonitoring.geolocalization): add geolocalization sensor query service implementation | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 6ad724b | feat(iotmonitoring.geolocalization): add geolocalization sensor created integration event | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 3aba6e7 | feat(iotmonitoring.geolocalization): add geolocalization sensor created event handler for domain events | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | a302b5c | feat(iotmonitoring.geolocalization): add geolocalization sensor context acl facade | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 844fda6 | feat(iotmonitoring.geolocalization): add geolocalization sensor context acl facade implementation | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | f9dc175 | feat(iotmonitoring.geolocalization): add create geolocalization sensor resource | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 2dcd0d9 | feat(iotmonitoring.geolocalization): add geolocalization sensor resource | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | cd65314 | feat(iotmonitoring.geolocalization): add create geolocalization sensor command from resource assembler | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 39feec1 | feat(iotmonitoring.geolocalization): add geolocalization sensor resource from entity assembler | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 99fbc1b | feat(iotmonitoring.geolocalization): add geolocalization sensors REST controller | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | c1fc232 | feat(iotmonitoring.hopperwatch): add value objects (hopper measurement and hopper sensor state) and create hopper watch sensor command | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | e8ac037 | feat(iotmonitoring.hopperwatch): add hopper watch sensor aggregate | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 55f0ca8 | feat(iotmonitoring.hopperwatch): add hopper watch sensor created event | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 73a5db4 | feat(iotmonitoring.hopperwatch): add hopper watch sensor repository port | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 75b2605 | feat(iotmonitoring.hopperwatch): add get all hopper watch sensors query | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | b1d87f3 | feat(iotmonitoring.hopperwatch): add get hopper watch sensor by sensor id query | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 815a9a3 | feat(iotmonitoring.hopperwatch): add get hopper watch sensor by id query | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 8fdd1b7 | feat(iotmonitoring.hopperwatch): add get hopper watch sensors by project id query | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 3a3e191 | feat(iotmonitoring.hopperwatch): add hopper measurement persistence embeddable | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | b21da4e | feat(iotmonitoring.hopperwatch): add hopper sensor state persistence converter | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 8b9d88c | feat(iotmonitoring.hopperwatch): add hopper watch sensor persistence entity | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | f077336 | feat(iotmonitoring.hopperwatch): add hopper watch sensor persistence assembler | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 6dc940e | feat(iotmonitoring.hopperwatch): add hopper watch sensor persistence repository | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 1abc4f1 | feat(iotmonitoring.hopperwatch): add hopper watch sensor repository adapter | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 852325b | feat(iotmonitoring.hopperwatch): add hopper watch sensor command service and implementation | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | c275db5 | feat(iotmonitoring.hopperwatch): add hopper watch sensor query service | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 8f41f2e | feat(iotmonitoring.hopperwatch): add hopper watch sensor query service implementation | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 6404bc3 | feat(iotmonitoring.hopperwatch): add hopper watch sensor created integration event | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 93e1d2d | feat(iotmonitoring.hopperwatch): add hopper watch sensor created event handler | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | b97989c | feat(iotmonitoring.hopperwatch): add hopper watch sensor context facade | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | c6a86aa | feat(iotmonitoring.hopperwatch): add hopper watch sensor context facade implementation | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | fc2f489 | feat(iotmonitoring.hopperwatch): add hopper watch sensor resource and create hopper watch sensor resource | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | d87bf65 | feat(iotmonitoring.hopperwatch): add create hopper watch sensor command from resource assembler | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 7889bdb | feat(iotmonitoring.hopperwatch): add hopper watch sensor resource from entity assembler | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 809c88b | feat(iotmonitoring.hopperwatch): add hopper watch sensor controller | N/A | 2026-06-16 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 48874ad | feat(iotmonitoring.seismiccontrol): add seismic telemetry and sensor id value objects | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | a5f914c | feat(iotmonitoring.seismiccontrol): add seismic control sensor state | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 89254ca | feat(iotmonitoring.seismiccontrol): add seismic control sensor aggregate and create seismic control sensor command command | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 982a4cb | feat(iotmonitoring.seismiccontrol): add seismic control sensor created event | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 6f3240c | feat(iotmonitoring.seismiccontrol): add get all get by sensor id and get by id queries for seismic control | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 42854e9 | feat(iotmonitoring.seismiccontrol): add seismic control sensor repository | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | d8a438c | feat(iotmonitoring.seismiccontrol): add seismic telemetry persistence embeddable | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 21ae623 | feat(iotmonitoring.seismiccontrol): add sensor id persistence converter embeddable | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 27a5f29 | feat: restore mysql configuration and finalize progress/budget modules | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | bc373ea | feat(iotmonitoring.seismiccontrol): add seismic control sensor persistence entity | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 47c0792 | feat(iotmonitoring.seismiccontrol): add seismic control sensor persistence assembler | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | d9c218b | feat(iotmonitoring.seismiccontrol): add seismic control sensor persistence repository and repository impl. | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 7497d78 | feat(iotmonitoring.seismiccontrol): add seismic control sensor command service | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | ac42f18 | feat(iotmonitoring.seismiccontrol): add seismic control sensor command service impl. | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 43d8b95 | feat(iotmonitoring.seismiccontrol): add seismic control sensor query service | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 99a7d73 | feat(iotmonitoring.seismiccontrol): add seismic control sensor query service impl. | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | febb313 | feat(iotmonitoring.seismiccontrol): add seismic control sensor creates integration event | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | ac35b8b | feat(iotmonitoring.seismiccontrol): add seismic control sensor created event handler | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 12a11fd | feat(iotmonitoring.seismiccontrol): add seismic control sensors context facade | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 425df9e | feat(iotmonitoring.seismiccontrol): add seismic control sensors context facade impl. | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 841a18a | feat(iotmonitoring.seismiccontrol): add create seismic control sensor resource | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 3ccbc37 | feat(iotmonitoring.seismiccontrol): add seismic control sensor resource | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 956061a | feat(iotmonitoring.seismiccontrol): add create seismic control sensor command from resource assembler | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 9fa4a0b | feat(iotmonitoring.seismiccontrol): add seismic control sensor resource from entity assembler | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | bffdc43 | feat(iotmonitoring.seismiccontrol): add seismic control sensors controller | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 17e24f3 | feat: add local cross origin controls to budget and progress context handlers | N/A | 2026-06-17 |
+| PircaIndustries-OpenSource/backend-kipu | feature/UpdateLogistics | a3d2251 | feat: Update Logistics v1 | N/A | 2026-06-18 |
+| PircaIndustries-OpenSource/backend-kipu | develop | a3e8afe | feat(iotmonitoring): add some changes | N/A | 2026-06-18 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 4532421 | feat(iotmonitoring): add POSTs and DELETEs for hopper and seismic sensors | N/A | 2026-06-18 |
+| PircaIndustries-OpenSource/backend-kipu | develop | 7dbb721 | feat(iotmonitoring): add POSTs and DELETEs for geolocalization and concrete curing sensors | N/A | 2026-06-18 |
+| PircaIndustries-OpenSource/backend-kipu | develop | ac570dd | feat: added deployment features | N/A | 2026-06-18 |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 Durante el Sprint 3, el equipo logró el despliegue de una nueva versión de la aplicación web de Kipu. Se implementaron los servicios backend (API REST) en Spring Boot con Domain-Driven Design, permitiendo que el frontend consuma datos reales a través de los endpoints documentados. Se completaron los módulos backend de Avances, Proyectos, Autenticación (Login/Logout con JWT), Monitoreo IoT, Materiales/Logística, Firmas Digitales, Gestión de Equipo (Team Users y Team Workers) y Presupuesto. Asimismo, se actualizaron los servicios del frontend para apuntar a la API real, se consolidó la arquitectura de navegación y se documentaron todos los endpoints mediante Swagger/OpenAPI.
@@ -6079,7 +6100,274 @@ Servicios de ingesta de telemetría IoT. Monitorean condiciones de curado de con
 Implementación de DTOs para el desacoplamiento de capas. Garantizan validación de tipos de datos y restricciones de formato, asegurando la integridad del dominio al recibir peticiones externas.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 3 se realizó el despliegue del backend de Kipu en una máquina virtual de Azure. A continuación, se presentan las evidencias del proceso de deployment, desde la configuración inicial hasta la puesta en producción del servicio.
+
+[Backend Deployment](http://158.23.163.220/swagger-ui/index.html#/)
+
+<div align="center">
+    <b>Creación de la carpeta .github/workflows para los pipelines de CI/CD</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/carpetagithub.jpeg?raw=true" width="600px" alt="Creación de carpeta .github workflows">
+</div>
+<br>
+
+<div align="center">
+    <b>Modificación del archivo application.properties para manejar las variables de entorno</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/applicationpropertiesexport.jpeg?raw=true" width="600px" alt="Modificación application.properties">
+</div>
+<br>
+
+<div align="center">
+    <b>Creación de un tag en Git para identificar la versión del backend desplegada</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/gittag.jpeg?raw=true" width="600px" alt="Git tag">
+</div>
+<br>
+
+<div align="center">
+    <b>Versión del backend subida exitosamente al repositorio remoto en GitHub</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/versionsubidaagithub.jpeg?raw=true" width="600px" alt="Versión subida a GitHub">
+</div>
+<br>
+
+<div align="center">
+    <b>Conexión SSH a la máquina virtual de Azure para iniciar el despliegue</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/sshconectandoseaazure.jpeg?raw=true" width="600px" alt="Conexión SSH a Azure">
+</div>
+<br>
+
+<div align="center">
+    <b>Descarga del artefacto JAR desde el repositorio mediante wget en la VM</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/wgetrepo.jpeg?raw=true" width="600px" alt="Descarga del JAR con wget">
+</div>
+<br>
+
+<div align="center">
+    <b>Exportación de las variables de entorno necesarias para la ejecución del backend</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/exportenvm.jpeg?raw=true" width="600px" alt="Exportación de variables de entorno">
+</div>
+<br>
+
+<div align="center">
+    <b>Verificación de la aplicación Spring Boot ejecutándose correctamente en la VM</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/probandoaplicacioncorriendo.jpeg?raw=true" width="600px" alt="Spring Boot ejecutándose">
+</div>
+<br>
+
+<div align="center">
+    <b>Prueba del acceso a Swagger UI para verificar la documentación de la API</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/probandoswagger.jpeg?raw=true" width="600px" alt="Prueba de Swagger">
+</div>
+<br>
+
+<div align="center">
+    <b>Creación del archivo de servicio systemd con nano para gestionar el backend</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/creandoserviceconnano.jpeg?raw=true" width="600px" alt="Creación del servicio systemd">
+</div>
+<br>
+
+<div align="center">
+    <b>Habilitación del servicio mediante systemctl para inicio automático del backend</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/usandodaemonyenableelservice.jpeg?raw=true" width="600px" alt="Habilitación del servicio">
+</div>
+<br>
+
+<div align="center">
+    <b>Descarga e instalación del servidor Nginx en la máquina virtual</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/descargandonginx.jpeg?raw=true" width="600px" alt="Descarga de Nginx">
+</div>
+<br>
+
+<div align="center">
+    <b>Acceso al archivo de configuración por defecto de Nginx para editarlo</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/accediendoaconfigdenginx.jpeg?raw=true" width="600px" alt="Acceso a configuración de Nginx">
+</div>
+<br>
+
+<div align="center">
+    <b>Modificación de la configuración de Nginx como proxy inverso del backend (1/2)</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/cambiandoconfignginx1.jpeg?raw=true" width="600px" alt="Cambio configuración Nginx 1">
+</div>
+<br>
+
+<div align="center">
+    <b>Configuración adicional del proxy inverso en Nginx (2/2)</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/cambiandoconfignginx2.jpeg?raw=true" width="600px" alt="Cambio configuración Nginx 2">
+</div>
+<br>
+
+<div align="center">
+    <b>Verificación de los cambios realizados en la configuración de Nginx</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/verificandocambiosanginx.jpeg?raw=true" width="600px" alt="Verificación cambios Nginx">
+</div>
+<br>
+
+<div align="center">
+    <b>Reinicio del servicio Nginx para aplicar los cambios de configuración</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/restartnginx.jpeg?raw=true" width="600px" alt="Reinicio de Nginx">
+</div>
+<br>
+
+<div align="center">
+    <b>Acceso exitoso al nuevo servicio backend desplegado en producción</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/accediendoanuevoservice.jpeg?raw=true" width="600px" alt="Acceso al nuevo servicio">
+</div>
+<br>
+
+<div align="center">
+    <b>Código de compilación y archivo YAML del pipeline de CI/CD automatizado</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Deployment-Backend/buildymlcodigo.jpeg?raw=true" width="600px" alt="Build y YAML de CI/CD">
+</div>
+<br>
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+---
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4.
+
+| Sprint # | Sprint 4 |
+|----------|----------|
+| **Date** | 2026-06-23 |
+| **Time** | 07:30 PM |
+| **Location** | Reunión virtual mediante Discord |
+| **Prepared By** | Ramos Hinostroza, Diego Antonio / Ramos Mera, Neo Daniel |
+| **Attendees** | Francia Torres, Jhony Manuel / Montoya Nina, Paula Fernanda / Pareja Calloapaza, Marcelo Fausto / Ramos Hinostroza, Diego Antonio / Ramos Mera, Neo Daniel |
+| **Sprint 3 Review Summary** | Se completó la implementación de los servicios backend (API REST) en Spring Boot con Domain-Driven Design, incluyendo los bounded contexts de Identity, Projects, Progress, Budget, Logistics, IoT Monitoring, Documents y Team. Todos los endpoints fueron documentados mediante Swagger/OpenAPI y el backend fue desplegado exitosamente en Azure con Nginx como proxy inverso. |
+| **Sprint 3 Retrospective Summary** | El equipo identificó que la arquitectura DDD facilitó la organización del código y la separación por bounded contexts. Para el próximo sprint se planea reforzar la seguridad con IAM/JWT, mejorar la internacionalización y realizar el despliegue SSL. |
+| **Sprint 4 Goal** | Our focus is on hardening the security and infrastructure of the Kipu ecosystem. We will implement IAM enhancements including JWT validation and OTP email flows, complete the SSL certificate deployment for HTTPS, improve internationalization (i18n), and perform cross-origin and deployment fixes. This will be confirmed when the application runs securely under HTTPS with robust authentication and a polished user experience. |
+| **Sprint 4 Velocity** | TBD Story Points |
+| **Sum of Story Points** | **TBD Story Points** |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics definidas en el Product Backlog, con un enfoque principal en la validación y mejora de los aspectos de seguridad (IAM/JWT), infraestructura (SSL) y calidad del software.
+
+| Team Member (Last Name, First Name) | GitHub Username | EP01 (Cuentas y Acceso) | EP02 (Calidad, Trazabilidad y Reportes) | EP03 (Suministros y Presupuesto) | EP04 (Monitoreo IoT) | EP05 (Open Source) | EP06 (Landing Page) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Francia Torres, Jhony Manuel | ManuelFT4 | C | C | C | C | C | C |
+| Montoya Nina, Paula Fernanda | SeviNyO | C | C | L | C | C | C |
+| Pareja Calloapaza, Marcelo Fausto | marc3lllob7 | C | C | C | L | C | C |
+| Ramos Hinostroza, Diego Antonio | Kosevy | L | C | C | C | C | C |
+| Ramos Mera, Neo Daniel | norahccccc | C | L | C | C | C | C |
+
+**Leyenda:** L = Líder, C = Colaborador
+
+**Nota:** En este Sprint 4, Diego Ramos (Kosevy) lidera la EP01 (Cuentas y Acceso) con la implementación y validación de IAM/JWT, incluyendo flujo de OTP email y seguridad de autenticación. Los demás miembros del equipo colaboran en mejoras puntuales según sea necesario en sus respectivos bounded contexts.
+
+#### 5.2.4.3. Sprint Backlog 4.
+
+*(Por completar durante el Sprint 4)*
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+*(Por completar durante el Sprint 4)*
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+*(Por completar durante el Sprint 4)*
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+*(Por completar durante el Sprint 4)*
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 4 se realizó la configuración del certificado SSL para el dominio de Kipu, permitiendo habilitar HTTPS en el servidor de producción. A continuación, se presentan las evidencias del proceso de deployment SSL, desde la configuración del DNS hasta la verificación del certificado.
+
+<div align="center">
+    <b>Configuración de la IP pública en DuckDNS para asociar el dominio</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/SSLDeploymentEvidence/poniendoipenduckdns.jpg?raw=true" width="600px" alt="Configuración de IP en DuckDNS">
+</div>
+<br>
+
+<div align="center">
+    <b>Verificación de que el DNS resuelve correctamente el dominio</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/SSLDeploymentEvidence/probandoeldns.jpg?raw=true" width="600px" alt="Prueba de DNS">
+</div>
+<br>
+
+<div align="center">
+    <b>Conexión SSH a la máquina virtual para iniciar la configuración SSL</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/SSLDeploymentEvidence/conectandomealamaquina.jpg?raw=true" width="600px" alt="Conexión SSH a la máquina">
+</div>
+<br>
+
+<div align="center">
+    <b>Instalación de Certbot en el servidor para la generación del certificado SSL</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/SSLDeploymentEvidence/instalandocertbot.jpg?raw=true" width="600px" alt="Instalación de Certbot">
+</div>
+<br>
+
+<div align="center">
+    <b>Instalación de las dependencias necesarias para Certbot</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/SSLDeploymentEvidence/instalandodependenciasdelcertbot.jpg?raw=true" width="600px" alt="Instalación de dependencias de Certbot">
+</div>
+<br>
+
+<div align="center">
+    <b>Aceptación de los términos y condiciones de Certbot para continuar con la generación del certificado</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/SSLDeploymentEvidence/aceptandoterminosdelcertbot.jpg?raw=true" width="600px" alt="Aceptación de términos de Certbot">
+</div>
+<br>
+
+<div align="center">
+    <b>Generación exitosa del certificado SSL mediante Certbot</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/SSLDeploymentEvidence/certificadodelcertbotcompletado.jpg?raw=true" width="600px" alt="Certificado SSL completado">
+</div>
+<br>
+
+<div align="center">
+    <b>Configuración del firewall para permitir el puerto 443 (HTTPS)</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/SSLDeploymentEvidence/permitiendopuerto443httpsenelfirewall.jpg?raw=true" width="600px" alt="Permitir puerto 443 en firewall">
+</div>
+<br>
+
+<div align="center">
+    <b>Actualización del archivo de configuración de Nginx con el nuevo dominio y certificado SSL</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/SSLDeploymentEvidence/actualizandoelnombredeservidordelnginx.jpg?raw=true" width="600px" alt="Actualización de configuración de Nginx">
+</div>
+<br>
+
+<div align="center">
+    <b>Verificación de que HTTPS está funcionando correctamente en el dominio</b>
+    <br>
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/SSLDeploymentEvidence/comprobandosslcorrectamente.jpg?raw=true" width="600px" alt="Verificación de HTTPS">
+</div>
+<br>
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+*(Por completar durante el Sprint 4)*
 
 ## 5.3. Validation Interviews.
 
