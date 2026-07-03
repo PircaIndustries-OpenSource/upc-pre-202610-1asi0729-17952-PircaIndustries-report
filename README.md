@@ -6454,7 +6454,7 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
     <td>Inicializar el dominio de merma con controlador, servicio y repositorio.</td>
     <td>3</td>
     <td>Pareja Calloapaza, Marcelo Fausto</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>TS20</td>
@@ -6462,7 +6462,7 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
     <td>Implementar registro de mermas mediante POST /api/v1/materials/waste.</td>
     <td>2</td>
     <td>Pareja Calloapaza, Marcelo Fausto</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <tr>
     <td>TS21</td>
@@ -6470,7 +6470,7 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
     <td>Implementar consulta de mermas mediante GET /api/v1/materials/waste.</td>
     <td>2</td>
     <td>Pareja Calloapaza, Marcelo Fausto</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
   <!-- US-16 -->
   <tr>
