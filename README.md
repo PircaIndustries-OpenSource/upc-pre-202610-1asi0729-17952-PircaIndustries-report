@@ -705,34 +705,34 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>AV1</b><p>Documentación detallada del perfil de solución y Needfinding. Redacción de User Stories siguiendo estándares técnicos. Elaboración de diagramas de diseño orientado a objetos y esquema de BD. Documentación técnica de la implementación y evidencias del Sprint.</p>
         <b>TB1</b><p>Redacción técnica del módulo de Avances y Presupuesto en el frontend. Estructuración y redacción formal de los archivos de localización JSON para el soporte multiidioma (i18n) global del proyecto y registro técnico en el Sprint 2 Backlog.</p>
         <b>AV2</b><p>Documentación de especificaciones de diseño de persistencia y API Contracts (Swagger) para el módulo de Avances y Presupuesto backend. Redacción de los reportes técnicos y diagramas entidad-relación actualizados para el reporte del Sprint 3.</p>
-        <b>TB2</b><p></p>
+        <b>TB2</b><p>Sustentación final de la arquitectura escalable de servicios en la nube. Demostración integral de la integración del backend con el frontend y presentación de los resultados finales del proyecto en el Demo Day.</p>
       <h3>Montoya Nina, Paula Fernanda</h3>
         <b>AV1</b><p>Redacción del Backlog y especificaciones de guías de estilo. Documentación escrita de la arquitectura de software. Elaboración de reportes de Sprint Planning y Sprint Backlog. Registro escrito de las evidencias de desarrollo y cumplimiento de objetivos.</p>
         <b>TB1</b><p>Elaboración de las especificaciones de interfaz de usuario y flujos lógicos para el módulo de Logística frontend. Registro escrito de las actas de Sprint Planning, criterios de aceptación formalizados y documentación del Sprint 2 Backlog.</p>
 		<b>AV2</b><p>Redacción de la sección de arquitectura de software enfocada en el dominio de Logística en el backend. Documentación escrita de los contratos de integración de servicios e hitos de cumplimiento del Sprint Backlog 3.</p>
-        <b>TF1</b><p></p>
+		<b>TB2</b><p>Exposición de la visión estratégica del producto consolidado. Sustentación de la gestión ágil a lo largo de todo el ciclo de vida del proyecto y cierre del Sprint final ante evaluadores.</p>
       <h3>Pareja Calloapaza, Marcelo Fausto</h3>
         <b>AV1</b><p>Documentación del análisis de competidores y diagramas de arquitectura de información. Redacción de artefactos de EventStorming y requisitos. Elaboración de la documentación de diseño UX/UI. Reporte técnico final de implementación y validación de servicios.</p>
         <b>TB1</b><p>Documentación del flujo de datos en tiempo real y arquitectura de componentes para el módulo frontend de Monitoreo IoT. Redacción de guías en Markdown para el despliegue del entorno cliente y documentación de Pull Requests en el repositorio.</p>
         <b>AV2</b><p>Redacción técnica de las especificaciones de consumo de datos y contratos API para Monitoreo IoT backend. Elaboración escrita del manual de despliegue técnico del backend sobre servidores basados en Linux y nubes comerciales.</p>
-        <b>TF1</b><p></p>
+	    <b>TB2</b><p>Presentación técnica detallada de la estabilidad del despliegue y la optimización del rendimiento en el entorno de producción. Exposición de las lecciones aprendidas y el impacto técnico de las soluciones implementadas.</p>
       <h3>Ramos Hinostroza, Diego Antonio</h3>
         <b>AV1</b><p>Documentación de segmentos objetivo y transcripción de entrevistas. Definición escrita del Ubiquitous Language y manuales de configuración. Documentación de endpoints (RESTful) y manual de despliegue. Reporte escrito de Team Collaboration Insights y ejecución de Sprint.</p>
         <b>TB1</b><p>Redacción del documento técnico base de configuración arquitectónica del frontend. Documentación escrita de los flujos de seguridad del módulo IAM y especificaciones técnicas de la lógica del componente de Gestión de Proyectos.</p>
         <b>AV2</b><p>Redacción de la documentación técnica de esquemas de seguridad, tokens de acceso y flujos de autorización para el backend de IAM y Proyectos. Elaboración de scripts documentados de base de datos y diagramas lógicos de almacenamiento relacional.</p>
-        <b>TF1</b><p></p>
+	    <b>TB2</b><p>Sustentación de la seguridad integral del sistema, incluyendo la protección de datos y autenticación final. Exposición de los Insights de colaboración del equipo y la retrospectiva del rendimiento durante el proyecto.</p>
       <h3>Ramos Mera, Neo Daniel</h3>
         <b>AV1</b><p>Documentación del proceso Lean UX Canvas e Impact Mapping. Documentación del proceso Lean UX Canvas e Impact Mapping. Documentación del diseño visual y prototipado de la aplicación. Registro de evidencias de desarrollo y reporte de validación del Frontend.</p>
         <b>TB1</b><p>Redacción de la especificación técnica de vistas y layouts adaptativos para el módulo de Usuarios y Trabajadores en el frontend. Registro formalizado de evidencias de desarrollo de componentes visuales y reporte de pruebas de interfaz del Sprint 2.</p>
         <b>AV2</b><p>Documentación de las especificaciones del API y modelos de datos del backend para el módulo de Usuarios y Trabajadores. Redacción de la guía de control de cambios estéticos frontend y reporte escrito de la validación cruzada entre capas.</p>
-        <b>TF1</b><p></p>
+	    <b>TF1</b><p>Demostración de la experiencia de usuario final (UI/UX) consolidada y las interfaces de gestión. Exposición de la consistencia visual y funcional del sistema tras las iteraciones de mejora continua.</p>
   <br>
       </td>
       <td colspan="3">
         <b>AV1</b><p>Se logró identificar correctamente la problemática y los segmentos objetivo, comunicando la base del proyecto con claridad. Los artefactos de requerimientos (User Stories y Backlog) cumplen con las convenciones de lenguaje y estructura solicitadas. El diseño técnico y la arquitectura demuestran una aplicación correcta de principios de ingeniería y estándares visuales. La solución final fue implementada y documentada siguiendo el flujo de trabajo (GitFlow) y validada satisfactoriamente con los usuarios.</p>
         <b>TB1</b><p>La documentación del frontend y los artefactos de gestión ágil para el Sprint 2 mantuvieron consistencia técnica y claridad de lenguaje. Los archivos de recursos compartidos de internacionalización (i18n), el Sprint Backlog y los archivos descriptivos del repositorio comunican con precisión los requerimientos funcionales a un nivel comprensible para el equipo de ingeniería.</p>
         <b>AV2</b><p>Se estructuraron rigurosamente los contratos de API y las especificaciones técnicas del backend mediante documentación formal de código y diagramas de arquitectura de software. Los manuales de configuración de red, scripts de bases de datos y especificaciones de seguridad (IAM) se redactaron siguiendo estándares formales legibles para ingenieros de desarrollo y operaciones cloud.</p>
-        <b>TF1</b><p></p>
+        <b>TB2</b><p>La documentación del proyecto ha alcanzado un estándar profesional, reflejando tanto la profundidad técnica como la claridad conceptual. Se han integrado todos los entregables, manuales y análisis de desempeño en un informe cohesivo que sirve como referencia técnica y administrativa del producto final desarrollado.</p>
       </td>
     </tr>
   </tbody>
