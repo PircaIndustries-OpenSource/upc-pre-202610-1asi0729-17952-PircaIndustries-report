@@ -5858,6 +5858,12 @@ La prioridad estratégica de este tercer sprint consistió en la implementación
 
 Durante el Sprint 3, el equipo se enfocó en la implementación de la capa de servicios backend (API REST) utilizando Spring Boot con arquitectura Domain-Driven Design. Cada integrante desarrolló los bounded contexts asignados, desde la configuración inicial del proyecto hasta la exposición de los endpoints documentados. A continuación, se presentan los commits más representativos del repositorio backend durante este sprint.
 
+La traza de cambios registrada en el repositorio evidencia la adopción rigurosa de principios de **Domain-Driven Design (DDD)** y **Arquitectura Hexagonal (Ports & Adapters)** para garantizar un desacoplamiento efectivo entre la lógica de negocio y la infraestructura. Al analizar el historial de commits, se puede verificar la implementación de elementos tácticos clave:
+
+* **Aislamiento del Dominio y Capa ACL:** Commits como el `d1f19d9` y `418eec8` muestran la creación de fachadas *Anti-Corruption Layer (ACL)* para el ecosistema IoT, asegurando que los subsistemas externos no contaminen el modelo interno.
+* **Raíces de Agregación y Objetos de Valor:** Cambios como el `db9fd01` (*abstract domain aggregate root*) y los objetos de valor inmutables (`Temperature`, `Coordinates`, `Percentage`) demuestran que las validaciones y reglas de consistencia quedan centralizadas en el dominio, evitando el antipatrón de *Primitive Obsession*.
+* **Persistencia Desacoplada:** El mapeo relacional se maneja mediante entidades JPA independientes de las entidades de dominio, utilizando ensambladores de persistencia (como en el commit `f6d3b4d`) y aplicando una estrategia compartida de nomenclatura física (*snake_case* y tablas pluralizadas en el commit `08c4b0f`).
+
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | PircaIndustries-OpenSource/backend-kipu | develop | acb16ae | Feat: Add backend Spring Boot IAM service | N/A | 2026-05-20 |
@@ -5997,23 +6003,34 @@ A continuación, se presentan las evidencias de ejecución correspondientes a la
 
 - **Swagger:**
 
+Las interfaces expuestas y documentadas en la consola de Swagger no solo representan puntos de acceso técnicos, sino que resuelven directamente las necesidades operativas del negocio de Kipu. A nivel de arquitectura de API, cada controlador responde a un propósito específico:
+
+* **Ecosistema IoT (`concrete-curing`, `geolocalization`, `hopper-watches`, `seismic-control`):** Resuelven la necesidad de procesar, validar e inyectar telemetría de hardware en tiempo real (como temperatura del concreto o alertas sísmicas) directamente en los frentes de obra.
+
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/authentication-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 1">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/hopper-watches-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 16">
 </div>
 <br>
 
 <div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/budget-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 2">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/seismic-control-sensors-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 17">
 </div>
 <br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/geolocalization-sensors-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 18">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/concrete-curing-sensors-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 19">
+</div>
+<br>
+
+* **Logística y Materiales (`suppliers`, `materials-request`, `material-inventories`):** Mitigan el desabastecimiento en los proyectos mediante flujos formales de solicitudes y control estricto de catálogos de insumos.
 
 <div align="center">
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/document-controller-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 3">
-</div>
-<br>
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/identity-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 4">
 </div>
 <br>
 
@@ -6037,6 +6054,14 @@ A continuación, se presentan las evidencias de ejecución correspondientes a la
 </div>
 <br>
 
+* **Gestión de Obra (`projects`, `budget`, `progress`):** Permiten al frontend renderizar la trazabilidad del rendimiento físico-financiero y la auditoría del presupuesto asignado.
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/budget-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 2">
+</div>
+<br>
+
+
 <div align="center">
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/progress-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 9">
 </div>
@@ -6049,6 +6074,18 @@ A continuación, se presentan las evidencias de ejecución correspondientes a la
 
 <div align="center">
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/projects-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 11">
+</div>
+<br>
+
+* **Seguridad (`authentication`, `identity`):** Centralizan el control de accesos mediante tokens JWT (`Bearer`), protegiendo los endpoints del negocio contra peticiones no autorizadas.
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/authentication-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 1">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/identity-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 4">
 </div>
 <br>
 
@@ -6069,26 +6106,6 @@ A continuación, se presentan las evidencias de ejecución correspondientes a la
 
 <div align="center">
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/users-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 15">
-</div>
-<br>
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/hopper-watches-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 16">
-</div>
-<br>
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/seismic-control-sensors-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 17">
-</div>
-<br>
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/geolocalization-sensors-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 18">
-</div>
-<br>
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/concrete-curing-sensors-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 19">
 </div>
 <br>
 
@@ -6118,6 +6135,16 @@ A continuación, se presentan las evidencias de ejecución correspondientes a la
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/schemas-5.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 24">
 </div>
 <br>
+
+**Sustento Técnico de los Schemas y Flujo de Verificación:**
+
+Como se aprecia en las capturas de pantalla de los componentes de respuesta (*Schemas*), el backend expone estructuras de datos (DTOs) que procesan de forma estricta las reglas de negocio antes de persistir o retornar información. 
+
+Para comprobar la correcta integración del flujo, el evaluador puede realizar la validación mediante la misma consola interactiva de Swagger: 
+
+1. Autenticarse en el endpoint `POST /api/v1/authentication/sign-in` para obtener el token JWT.
+2. Registrar dicho token en el botón superior **"Authorize"** mediante el formato `Bearer <token>` para desbloquear las rutas protegidas.
+3. Realizar peticiones de prueba (p. ej., un `POST` en `/api/v1/concrete-curing-sensors` simulando la llegada de datos de un sensor) y comprobar que el sistema procesa la validación del DTO y retorna un estado `201 Created`, lo que confirma la interoperabilidad asíncrona completa entre la base de datos MySQL, el dominio en Spring Boot y las llamadas del frontend.
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
