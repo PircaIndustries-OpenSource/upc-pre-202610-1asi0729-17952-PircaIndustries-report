@@ -6027,7 +6027,7 @@ Las interfaces expuestas y documentadas en la consola de Swagger no solo represe
 </div>
 <br>
 
-* **Logística y Materiales (`suppliers`, `materials-request`, `material-inventories`):** Mitigan el desabastecimiento en los proyectos mediante flujos formales de solicitudes y control estricto de catálogos de insumos.
+* **Logística y Materiales (`suppliers`, `materials-request`, `material-inventories`, `material-catalogs`, `material-categories`, `document-controller`):** Mitigan el desabastecimiento en los proyectos mediante flujos formales de solicitudes y control estricto de catálogos de insumos.
 
 <div align="center">
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/document-controller-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 3">
@@ -6059,7 +6059,7 @@ Las interfaces expuestas y documentadas en la consola de Swagger no solo represe
 </div>
 <br>
 
-* **Gestión de Obra (`projects`, `budget`, `progress`):** Permiten al frontend renderizar la trazabilidad del rendimiento físico-financiero y la auditoría del presupuesto asignado.
+* **Gestión de Obra (`projects`, `budget`, `progress`, `project-items`):** Permiten al frontend renderizar la trazabilidad del rendimiento físico-financiero y la auditoría del presupuesto asignado.
 
 <div align="center">
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/budget-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 2">
@@ -6081,7 +6081,7 @@ Las interfaces expuestas y documentadas en la consola de Swagger no solo represe
 </div>
 <br>
 
-* **Seguridad (`authentication`, `identity`):** Centralizan el control de accesos mediante tokens JWT (`Bearer`), protegiendo los endpoints del negocio contra peticiones no autorizadas.
+* **Seguridad (`authentication`, `identity`, `team-users`, `team-workers`, `users`):** Centralizan el control de accesos mediante tokens JWT (`Bearer`), protegiendo los endpoints del negocio contra peticiones no autorizadas.
 
 <div align="center">
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/authentication-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 1">
