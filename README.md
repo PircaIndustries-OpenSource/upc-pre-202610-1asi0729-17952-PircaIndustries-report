@@ -637,6 +637,7 @@ URL del Backend desplegado: [kipu-web-service](https://kipu-api-os.duckdns.org/s
     - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
+      - [5.3.3.1. Análisis Integrador de la Validación y Decisiones de Diseño](#5331-análisis-integrador-de-la-validación-y-decisiones-de-diseño)
   - [5.4. Video About-the-Product.](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
@@ -6644,7 +6645,7 @@ Durante el Sprint 4 se realizó la configuración del certificado SSL para el do
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 4, el equipo mantuvo un flujo de trabajo colaborativo constante a través de la organización en GitHub. Se utilizaron ramas `feature/*` para el desarrollo de nuevas funcionalidades, las cuales fueron integradas a la rama `develop` mediante Pull Requests revisados por al menos dos miembros del equipo. Las tareas fueron gestionadas en el tablero de Trello, actualizando el estado de cada work-item a medida que avanzaba su implementación.
+Durante el Sprint 4, el equipo mantuvo un flujo de trabajo colaborativo constante a través de la organización en GitHub. Se utilizaron ramas `feature/*` para el desarrollo de nuevas funcionalidades, las cuales fueron integradas a la rama `develop` mediante Pull Requests revisados por al menos dos miembros del equipo. Las tareas fueron gestionadas en Jira Software, actualizando el estado de cada work-item a medida que avanzaba su implementación.
 
 A continuación, se presentan las estadísticas de colaboración obtenidas desde los insights de GitHub durante el Sprint 4:
 
