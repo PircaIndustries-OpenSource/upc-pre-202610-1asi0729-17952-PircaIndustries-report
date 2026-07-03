@@ -6054,13 +6054,17 @@ Las interfaces expuestas y documentadas en la consola de Swagger no solo represe
 </div>
 <br>
 
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/suppliers-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 12">
+</div>
+<br>
+
 * **Gestión de Obra (`projects`, `budget`, `progress`):** Permiten al frontend renderizar la trazabilidad del rendimiento físico-financiero y la auditoría del presupuesto asignado.
 
 <div align="center">
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/budget-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 2">
 </div>
 <br>
-
 
 <div align="center">
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/progress-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 9">
@@ -6086,11 +6090,6 @@ Las interfaces expuestas y documentadas en la consola de Swagger no solo represe
 
 <div align="center">
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/identity-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 4">
-</div>
-<br>
-
-<div align="center">
-    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/SwaggerEvidence/suppliers-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 3 - 12">
 </div>
 <br>
 
