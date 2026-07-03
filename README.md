@@ -6558,7 +6558,50 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
 
 #### 5.2.4.4. Development Evidence for Sprint Review.
 
-*(Por completar durante el Sprint 4)*
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| PircaIndustries-OpenSource/backend-kipu |  | ab410ac | feat: Add OTP email flow and project user fallback | Introduces email-based OTP support by adding a mail dependency, new EmailService and OtpService classes, and a new OTP REST controller for generate/validate endpoints. Password updates now trigger a confirmation email, and application properties were switched to H2 defaults with SMTP mail settings.
+
+Project APIs were updated to accept optional `createdBy` values in create/list requests, falling back to the authenticated user (or `anonymousUser` if unavailable). Identity registration now wraps errors with additional local file logging for debugging.
+ | 2026-06-28 |
+| PircaIndustries-OpenSource/backend-kipu |  | dea5b01 | feat: Add OTP email flow and project user fallback | Merge pull request #8 from PircaIndustries-OpenSource/feature/projects-management | 2026-06-28 |
+| PircaIndustries-OpenSource/backend-kipu |  | 332c5ad | feat: Add machinery, progress, invitations, and file upload features | Introduce new modules for logistics machinery management, project progress photo tracking, and team invitations. Add Cloudinary integration for file uploads. Implement user list endpoint and project deletion functionality. Switch database from in-memory to file-based H2 for persistence. Enable JPA auditing and update security configuration to allow public access to new endpoints.
+ | 2026-06-30 |
+| PircaIndustries-OpenSource/backend-kipu |  | 3451350 | feat: Add machinery, progress, invitations, and file upload features | Merge pull request #9 from PircaIndustries-OpenSource/feature/projects-management | 2026-06-30 |
+| PircaIndustries-OpenSource/backend-kipu |  | 7bfec83 | feat: Refresh embedded database snapshot | Updates the H2 database file and removes the stale lock artifact.
+ | 2026-06-30 |
+| PircaIndustries-OpenSource/backend-kipu |  | ffbd005 | feat: Refresh embedded database snapshot |  Merge pull request #10 from PircaIndustries-OpenSource/feature/projects-management | 2026-06-30 |
+| PircaIndustries-OpenSource/backend-kipu |  | 4c1a2e4 | feat: machinery ddd |  | 2026-07-01 |
+| PircaIndustries-OpenSource/backend-kipu |  | e1182d2 | teamusers fix |  | 2026-07-01 |
+| PircaIndustries-OpenSource/backend-kipu |  | 3966097 | temp |  | 2026-07-03 |
+| PircaIndustries-OpenSource/backend-kipu |  | e1cab93 | Merge branch 'main' of https://github.com/PircaIndustries-OpenSource/backend-kipu into develop |  | 2026-07-03 |
+| PircaIndustries-OpenSource/backend-kipu |  | ff4f6e3 | test2 |  | 2026-07-03 |
+| PircaIndustries-OpenSource/backend-kipu |  (HEAD -> develop, origin/main, origin/develop, origin/HEAD, main) | eeaf7d3 | feat: add materials waste backend configuration for frontend connection. |  | 2026-07-03 |
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| PircaIndustries-OpenSource/frontend-kipu |  | e702e29 | feat: UI responsiveness, accessibility & feature fixes | Large set of UI and behavior improvements: add geofence zoom controls and zoomLevel handling; budget page shows overrun state with new translation and getAbs helper; make many pages responsive (mobile cards, tables, layout) and add mobile sidebar/drawer with header toggle; clear project state on logout; require attachment in signature flow and file input handler; set minDate for request create and navigate after success; refine component CSS and add language-switcher styles; revamp styles.css for accessibility/high-contrast and enforce light theme; update mock DB and i18n strings.
+ | 2026-06-27 |
+| PircaIndustries-OpenSource/frontend-kipu |  | 1a58252 | Merge pull request #42 from PircaIndustries-OpenSource/feature/projects-management | feat: UI responsiveness, accessibility & feature fixes | 2026-06-27 |
+| PircaIndustries-OpenSource/frontend-kipu |  | 7e7b8c7 | feat: Add OTP login and project scoping | Adds email OTP generation/validation for login and password reset, updates the auth screens to use the new verification flow, and localizes the new loading/error copy. Also scopes projects to the current user, normalizes new project dates/budgets, and maps sidebar roles to the new USER/ADMIN values.
+ | 2026-06-28 |
+| PircaIndustries-OpenSource/frontend-kipu |  | 4fef44f | Merge pull request #43 from PircaIndustries-OpenSource/feature/projects-management | feat: Add OTP login and project scoping | 2026-06-28 |
+| PircaIndustries-OpenSource/frontend-kipu |  | c7ed540 | feat: Update API host and copy fixes | Switch the production API base URLs to the new server, correct the Spanish resend-code message, and fix the reduced-motion settings text class typo.
+ | 2026-06-29 |
+| PircaIndustries-OpenSource/frontend-kipu |  | 9a56fbe | feat: Update API host and copy fixes |  Merge pull request #44 from PircaIndustries-OpenSource/feature/projects-management | 2026-06-29 |
+| PircaIndustries-OpenSource/frontend-kipu |  | 5745713 | feat: Add invitations, uploads, and progress photos | Introduce invitations and file upload features and enhance per-project reactivity across stores. Adds a new InvitationPage route/component, invitation API methods, and InvitationEntity; notification service now fetches pending invitations and creates notifications with routes. Add UploadService and integrate it into project creation, progress photo upload, and request attachments. Add ProgressPhotoEntity, API endpoints, and store methods plus UI support for uploading, editing and deleting photos. Make multiple stores (progress, iot-monitoring, logistics, documents, team stores, etc.) reactively load data when a project is selected via effects. Misc: i18n additions for project cover image, UI/UX tweaks (inventory empty state, suppliers button, verification back link), minor API/console message refinements, and environment endpoint updates for users/invitations.
+ | 2026-06-30 |
+| PircaIndustries-OpenSource/frontend-kipu |  | c918d20 | feat: Potential fix for pull request finding 'Unused variable, import, function or class' | Co-authored-by: Copilot Autofix powered by AI <223894421+github-code-quality[bot]@users.noreply.github.com> | 2026-06-30 |
+| PircaIndustries-OpenSource/frontend-kipu |  | adcd197 | feat: Add invitations, uploads, and progress photos | Merge pull request #45 from PircaIndustries-OpenSource/feature/projects-management | 2026-06-30 |
+| PircaIndustries-OpenSource/frontend-kipu |  | 7d559da | feat: Update frontend docs and API config | Refresh the README to match the current Angular/mock-server workflow and Firebase deployment steps. Update the production environment to use the new DuckDNS API host, and remove an unused import in the auth store.
+ | 2026-06-30 |
+| PircaIndustries-OpenSource/frontend-kipu |  | 76eb188 | Merge branch 'feature/projects-management' of https://github.com/PircaIndustries-OpenSource/frontend-kipu into feature/projects-management |  | 2026-06-30 |
+| PircaIndustries-OpenSource/frontend-kipu |  | 6a7f506 | feat: Update frontend documentation and API configuration |  Merge pull request #46 from PircaIndustries-OpenSource/feature/projects-management | 2026-06-30 |
+| PircaIndustries-OpenSource/frontend-kipu |  | 361364e | machinery fix |  | 2026-07-01 |
+| PircaIndustries-OpenSource/frontend-kipu |  | 80368a4 | teamusers fix |  | 2026-07-01 |
+| PircaIndustries-OpenSource/frontend-kipu |  (HEAD -> main, origin/main) | ccd0941 | team fix |  | 2026-07-01 |
+
+
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
