@@ -6137,13 +6137,13 @@ Las interfaces expuestas y documentadas en la consola de Swagger no solo represe
 
 **Sustento Técnico de los Schemas y Flujo de Verificación:**
 
-Como se aprecia en las capturas de pantalla de los componentes de respuesta (*Schemas*), el backend expone estructuras de datos (DTOs) que procesan de forma estricta las reglas de negocio antes de persistir o retornar información. 
+Como se aprecia en las capturas de pantalla de los componentes de respuesta (*Schemas*), el backend expone estructuras de datos orientadas a la transferencia de información (DTOs - Data Transfer Objects) fuertemente tipadas. Estas estructuras procesan de forma estricta las reglas de negocio y restricciones de validación antes de persistir o retornar información a las capas externas, reflejando una correspondencia exacta con los objetos de valor (*Value Objects*) y agregados definidos en el núcleo del dominio de Kipu.
 
-Para comprobar la correcta integración del flujo, el evaluador puede realizar la validación mediante la misma consola interactiva de Swagger: 
+Para comprobar la correcta integración y el comportamiento síncrono de este ecosistema de servicios, el evaluador puede realizar la validación técnica funcional siguiendo este flujo lógico directamente desde la interfaz interactiva de Swagger:
 
-1. Autenticarse en el endpoint `POST /api/v1/authentication/sign-in` para obtener el token JWT.
-2. Registrar dicho token en el botón superior **"Authorize"** mediante el formato `Bearer <token>` para desbloquear las rutas protegidas.
-3. Realizar peticiones de prueba (p. ej., un `POST` en `/api/v1/concrete-curing-sensors` simulando la llegada de datos de un sensor) y comprobar que el sistema procesa la validación del DTO y retorna un estado `201 Created`, lo que confirma la interoperabilidad asíncrona completa entre la base de datos MySQL, el dominio en Spring Boot y las llamadas del frontend.
+1. **Autenticación y Obtención de Credenciales:** Ejecutar una petición `POST` hacia el endpoint `/api/v1/authentication/sign-in` enviando las credenciales de prueba válidas en el cuerpo de la solicitud. El sistema procesará la identidad y retornará un token de acceso basado en el estándar JSON Web Token (JWT).
+2. **Autorización de la Sesión en la Consola:** Copiar el token generado en el paso anterior, hacer clic en el botón **"Authorize"** ubicado en la esquina superior derecha de la interfaz de Swagger, e ingresar el valor en el campo de texto utilizando el esquema de autenticación estándar: `Bearer <token_generado>`. Esto habilitará de forma segura los permisos de acceso a los recursos protegidos del backend.
+3. **Inyección y Procesamiento de Datos (Simulación IoT/Negocio):** Dirigirse a cualquiera de los controladores del dominio de telemetría o logística (por ejemplo, `POST /api/v1/concrete-curing-sensors`) y enviar un cuerpo de petición que cumpla con las restricciones del *Schema* expuesto. Una respuesta exitosa con código de estado HTTP `201 Created` confirmará que el flujo de datos ha transitado correctamente por la capa de control, ha superado las validaciones del dominio en Spring Boot y se ha completado su persistencia final en el servidor de base de datos relacional MySQL.
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
