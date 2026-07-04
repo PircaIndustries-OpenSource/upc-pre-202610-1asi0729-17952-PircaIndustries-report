@@ -6632,10 +6632,20 @@ La documentación interactiva de la API en Swagger expone los nuevos controlador
 </div>
 <br>
 
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint4Evidence/SwaggerEvidence/materials-waste-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 4 - Materials Waste Controller">
+</div>
+<br>
+
 * **Colaboración y Progreso (`invitation-controller`, `progress-photos`):** Gestiona de forma segura el ciclo de vida de las invitaciones de nuevos miembros al equipo y el almacenamiento indexado de las capturas de avance físico en la obra.
 
 <div align="center">
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint4Evidence/SwaggerEvidence/invitation-controller-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 4 - Invitation Controller">
+</div>
+<br>
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint4Evidence/SwaggerEvidence/progress-photos-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 4 - Progress Photos Controller">
 </div>
 <br>
 
