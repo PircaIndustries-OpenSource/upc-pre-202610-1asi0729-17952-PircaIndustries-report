@@ -6610,7 +6610,76 @@ La evidencia técnica del Sprint 4 demuestra una evolución hacia una arquitectu
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
-*(Por completar durante el Sprint 4)*
+Durante el Sprint 4, el equipo consolidó el despliegue de la versión estable de Kipu, integrando flujos avanzados de seguridad y capacidades multimedia. A nivel de backend, se expandió el modelo de Domain-Driven Design (DDD) para soportar la gestión de activos y la verificación de identidad multifactor. En el frontend, se transformó la interfaz de usuario en un ecosistema totalmente accesible, responsivo y reactivo que consume en tiempo real los nuevos endpoints desplegados en el servidor de producción (DuckDNS).
+
+A continuación, se presentan las evidencias de ejecución correspondientes a las principales funcionalidades e interfaces implementadas durante el Sprint 4:
+
+- **Swagger (Backend API REST):**
+
+La documentación interactiva de la API en Swagger expone los nuevos controladores desarrollados para mitigar riesgos de seguridad y automatizar la gestión operativa en los frentes de obra:
+
+* **Seguridad Avanzada y Autenticación (`otp-controller`):** Resuelve la necesidad de verificar la identidad del usuario mediante el flujo síncrono de contraseñas de un solo uso (OTP) enviadas por correo electrónico, protegiendo las acciones críticas como el inicio de sesión y el restablecimiento de credenciales.
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint4Evidence/SwaggerEvidence/otp-controller-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 4 - OTP Controller">
+</div>
+<br>
+
+* **Logística, Activos y Desperdicios (`machinery-controller`, `materials-waste-backend`):** Permite el control y auditoría del estado de la maquinaria pesada en obra y la configuración técnica para el registro del descarte de materiales.
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint4Evidence/SwaggerEvidence/machinery-controller-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 4 - Machinery Controller">
+</div>
+<br>
+
+* **Colaboración y Progreso (`invitation-controller`, `progress-photos`):** Gestiona de forma segura el ciclo de vida de las invitaciones de nuevos miembros al equipo y el almacenamiento indexado de las capturas de avance físico en la obra.
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint4Evidence/SwaggerEvidence/invitation-controller-swagger.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 4 - Invitation Controller">
+</div>
+<br>
+
+- **Interfaces de Usuario y Responsividad (Frontend):**
+
+Las capturas de la aplicación web demuestran la fidelidad del diseño adaptativo y los flujos funcionales de cara al usuario final:
+
+* **Flujo de Verificación OTP y Alta Accesibilidad:** Vista de las pantallas de autenticación integrando los campos de código de verificación y la aplicación de la hoja de estilos de alto contraste orientada a entornos de alta luminosidad (frentes de obra).
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint4Evidence/UIEvidence/otp-login-responsive.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 4 - Login OTP y Accesibilidad">
+</div>
+<br>
+
+* **Panel de Control Responsivo y Carga Reactiva:** Evidencia del comportamiento del menú lateral (*sidebar drawer*) en dispositivos móviles y la actualización automática de datos de monitoreo IoT, presupuestos y logística disparada por efectos al seleccionar un proyecto específico.
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint4Evidence/UIEvidence/dashboard-responsive-view.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 4 - Dashboard Responsivo">
+</div>
+<br>
+
+* **Gestión Multimedia e Invitaciones:** Interfaz del módulo de carga fotográfica sincronizado con Cloudinary y el buzón interactivo de notificaciones para la aceptación de invitaciones de proyectos.
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint4Evidence/UIEvidence/invitations-and-uploads.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 4 - Invitaciones y Multimedia">
+</div>
+<br>
+
+- **Schemas:**
+
+<div align="center">
+    <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint4Evidence/SwaggerEvidence/schemas-otp-machinery.png?raw=true" width="600px" alt="Evidencia ejecución Sprint 4 - Schemas de Dominio">
+</div>
+<br>
+
+**Sustento Técnico de los Schemas y Flujo de Verificación:**
+
+Como se aprecia en las capturas de pantalla de los componentes de respuesta (*Schemas*), el backend expone estructuras de datos orientadas a la transferencia de información (DTOs) fuertemente tipadas. Estas estructuras procesan e interceptan las solicitudes mediante anotaciones de validación antes de delegar el flujo a los servicios del dominio.
+
+Para comprobar la correcta integración transaccional y el comportamiento asíncrono de los servicios externos (Cloudinary y Servidor SMTP), el evaluador puede realizar la validación técnica funcional siguiendo este flujo lógico en la consola interactiva:
+
+1. **Generación y Validación del Desafío OTP:** Ejecutar una petición `POST` hacia `/api/v1/otp/generate` indicando el correo electrónico del usuario. El sistema instanciará de manera interna el `EmailService` para despachar el código numérico de acceso mediante el protocolo seguro de correo. Posteriormente, se consume el endpoint `/api/v1/otp/validate` para dar de alta el estado verificado de la sesión.
+2. **Persistencia Local y Auditoría:** Al registrar un nuevo activo a través de `POST /api/v1/machinery`, la capa de persistencia procesa la solicitud sobre la base de datos de archivos H2. La habilitación de **JPA Auditing** inyecta automáticamente los metadatos de auditoría, capturando el usuario autenticado (o aplicando el *fallback* a `anonymousUser` en caso de accesos externos autorizados).
+3. **Carga y Vinculación de Activos Multimedia:** Al invocar los servicios de carga desde el frontend, el componente interactúa directamente con el `UploadService`. Este último realiza la transmisión asíncrona del archivo hacia los servidores optimizados de **Cloudinary**, retornando una URL segura tipada en el *Schema* que se almacena inmediatamente en el registro del progreso fotográfico de la obra.
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
