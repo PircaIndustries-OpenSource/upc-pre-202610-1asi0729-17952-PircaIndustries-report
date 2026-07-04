@@ -6558,6 +6558,12 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
 
 #### 5.2.4.4. Development Evidence for Sprint Review.
 
+Durante el Sprint 4, el equipo de desarrollo se centró en tres pilares estratégicos: seguridad reforzada, gestión colaborativa de proyectos y optimización de activos multimedia. La implementación de un flujo de autenticación basado en OTP (One-Time Password), la integración de servicios en la nube para carga de archivos (Cloudinary) y la mejora en la reactividad del frontend, consolidan a Kipu como una plataforma escalable y lista para entornos de producción.
+
+A continuación, se detalla la trazabilidad del desarrollo mediante el registro de commits:
+
+**Backend Development: Core Services & Security Integration**
+
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | PircaIndustries-OpenSource/backend-kipu |  | ab410ac | feat: Add OTP email flow and project user fallback | Introduces email-based OTP support by adding a mail dependency, new EmailService and OtpService classes, and a new OTP REST controller for generate/validate endpoints. Password updates now trigger a confirmation email, and application properties were switched to H2 defaults with SMTP mail settings. Project APIs were updated to accept optional `createdBy` values in create/list requests, falling back to the authenticated user (or `anonymousUser` if unavailable). Identity registration now wraps errors with additional local file logging for debugging. | 2026-06-28 |
@@ -6572,6 +6578,8 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
 | PircaIndustries-OpenSource/backend-kipu |  | e1cab93 | Merge branch 'main' of https://github.com/PircaIndustries-OpenSource/backend-kipu into develop |  | 2026-07-03 |
 | PircaIndustries-OpenSource/backend-kipu |  | ff4f6e3 | test2 |  | 2026-07-03 |
 | PircaIndustries-OpenSource/backend-kipu |  (HEAD -> develop, origin/main, origin/develop, origin/HEAD, main) | eeaf7d3 | feat: add materials waste backend configuration for frontend connection. |  | 2026-07-03 |
+
+**Frontend Development: UI/UX & Responsive Ecosystem**
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -6591,7 +6599,14 @@ Durante este Sprint, el equipo ha organizado el trabajo en base a las Epics defi
 | PircaIndustries-OpenSource/frontend-kipu |  | 80368a4 | teamusers fix |  | 2026-07-01 |
 | PircaIndustries-OpenSource/frontend-kipu |  (HEAD -> main, origin/main) | ccd0941 | team fix |  | 2026-07-01 |
 
+**Sustento Técnico y Validación de Integración:**
 
+La evidencia técnica del Sprint 4 demuestra una evolución hacia una arquitectura más resiliente y segura. La migración de una base de datos en memoria a una persistente basada en archivos, junto con la configuración de protocolos SMTP para la seguridad de cuentas, garantiza que la plataforma cumpla con los requisitos de fiabilidad exigidos para entornos productivos.
+
+*   **Seguridad:** El flujo de autenticación ahora exige verificación por correo (OTP), mitigando accesos no autorizados mediante una capa adicional de validación antes de la emisión del token JWT.
+*   **Colaboración:** La implementación del nuevo módulo de **Invitaciones** permite un control granular de quién accede a qué proyecto, cumpliendo con la necesidad de gestión multi-usuario escalable.
+*   **Rendimiento:** El frontend ahora gestiona reactivamente la carga de datos (`effects` que cargan stores al seleccionar proyectos), lo que reduce el tráfico de red innecesario y mejora la experiencia de usuario (UX) en dispositivos con diversas capacidades.
+*   **Gestión de Activos:** La integración de `UploadService` con **Cloudinary** descentraliza la carga de archivos, optimizando el almacenamiento y permitiendo una gestión eficiente de evidencias fotográficas de progreso.
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
