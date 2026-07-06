@@ -6774,6 +6774,138 @@ Para comprobar la correcta integración transaccional y el comportamiento asínc
 * **Implementación**: Utiliza un enfoque RESTful mediante `NonConformityRecordsController`, aplicando patrones DDD para separar la lógica de dominio de la infraestructura de persistencia.
 * **Verificación**: El módulo se verifica mediante peticiones API estandarizadas, retornando códigos de estado HTTP adecuados (ej. 201 Created para registros nuevos).
 
+| Bounded Context | Endpoint | Método | Acción / Descripción | Parámetros |
+| :--- | :--- | :--- | :--- | :--- |
+| **Progress** | /api/v1/progress/{id} | GET | Obtener un registro de progreso específico por su identificador único | id (Path) |
+| **Progress** | /api/v1/progress/{id} | PUT | Modificar métricas y datos operativos en una línea de progreso existente | id (Path), Body |
+| **Progress** | /api/v1/progress/{id} | DELETE | Eliminar del sistema un registro de progreso no verificado o incorrecto | id (Path) |
+| **Progress** | /api/v1/progress | GET | Listar registros de seguimiento de progreso filtrados por el identificador del espacio de trabajo del proyecto | - |
+| **Progress** | /api/v1/progress | POST | Crear una nueva línea de progreso principal del proyecto o una entrada de sub-avance jerárquica | Body |
+| **Progress** | /api/v1/progress/parent/{parentId} | GET | Buscar todos los sub-avances que pertenecen a un nodo padre de actividad principal | parentId (Path) |
+| **Progress Photos** | /api/v1/progress/photos | GET | Listar fotos del proyecto | projectId (Query) |
+| **Progress Photos** | /api/v1/progress/photos | POST | Subir y crear una nueva foto de progreso | Body |
+| **Progress Photos** | /api/v1/progress/photos/{id} | PUT | Actualizar título o metadatos de una foto | id (Path), Body |
+| **Progress Photos** | /api/v1/progress/photos/{id} | DELETE | Eliminar foto de progreso del sistema | id (Path) |
+| **Hopper Watches** | /api/v1/hopper-watches/{hopperWatchId} | GET | Obtener monitoreo de tolva por ID | hopperWatchId (Path) |
+| **Hopper Watches** | /api/v1/hopper-watches/{hopperWatchId} | PUT | Actualizar monitor de control de tolva | hopperWatchId (Path), Body |
+| **Hopper Watches** | /api/v1/hopper-watches/{hopperWatchId} | DELETE | Eliminar monitor de control de tolva | hopperWatchId (Path) |
+| **Hopper Watches** | /api/v1/hopper-watches | GET | Obtener todas las tolvas registradas | - |
+| **Hopper Watches** | /api/v1/hopper-watches | POST | Crear un nuevo monitor de control de tolva | Body |
+| **Hopper Watches** | /api/v1/hopper-watches/project/{projectId} | GET | Listar todas las tolvas por ID de Proyecto | projectId (Path) |
+| **Non-Conformity Records** | /api/v1/non-conformity-records/{rncId}/assignee | PUT | Asignar un Registro de No Conformidad (RNC) a un usuario | rncId (Path), Body |
+| **Non-Conformity Records** | /api/v1/non-conformity-records | GET | Obtener todos los Registros de No Conformidad por ID de Proyecto | - |
+| **Non-Conformity Records** | /api/v1/non-conformity-records | POST | Crear un nuevo Registro de No Conformidad (RNC) | Body |
+| **Non-Conformity Records** | /api/v1/non-conformity-records/{rncId}/solution-notes | PATCH | Añadir notas de solución a un Registro de No Conformidad | rncId (Path), Body |
+| **Non-Conformity Records** | /api/v1/non-conformity-records/{rncId} | GET | Obtener un Registro de No Conformidad por ID | rncId (Path) |
+| **Project Items** | /api/v1/projects/{id}/items | GET | Obtener lista de partidas (ítems) para un proyecto | id (Path) |
+| **Project Items** | /api/v1/projects/{id}/items | POST | Registrar partidas de proyecto en el catálogo del proyecto | id (Path), Body |
+| **Users** | /api/v1/users/{id}/roles | PUT | Actualizar rol de usuario (restringido solo a ADMIN) | id (Path), Body |
+| **Users** | /api/v1/users | GET | Obtener todos los usuarios de la plataforma | - |
+| **Users** | /api/v1/users | POST | Crear un nuevo perfil de registro de usuario | Body |
+| **Users** | /api/v1/users/{id} | GET | Obtener detalles del perfil de usuario por ID | id (Path) |
+| **OTP** | /api/v1/identity/otp/validate | POST | Valida un código OTP de 6 dígitos para un usuario | Body |
+| **OTP** | /api/v1/identity/otp/generate | POST | Genera un código OTP de 6 dígitos y lo envía por correo electrónico | Body |
+| **Seismic Control Sensors** | /api/v1/seismic-control-sensors/{seismicControlSensorId} | GET | Obtener sensor de control sísmico por ID | seismicControlSensorId (Path) |
+| **Seismic Control Sensors** | /api/v1/seismic-control-sensors/{seismicControlSensorId} | PUT | Actualizar nodo de sensor de control sísmico | seismicControlSensorId (Path), Body |
+| **Seismic Control Sensors** | /api/v1/seismic-control-sensors/{seismicControlSensorId} | DELETE | Eliminar sensor de control sísmico | seismicControlSensorId (Path) |
+| **Seismic Control Sensors** | /api/v1/seismic-control-sensors | GET | Obtener todos los sensores de control sísmico | - |
+| **Seismic Control Sensors** | /api/v1/seismic-control-sensors | POST | Crear un nuevo nodo de sensor de control sísmico | Body |
+| **Seismic Control Sensors** | /api/v1/seismic-control-sensors/project/{projectId} | GET | Obtener todos los sensores de control sísmico por ID de Proyecto | projectId (Path) |
+| **Geolocalization Sensors** | /api/v1/geolocalization-sensors/{geolocalizationSensorId} | GET | Obtener sensor de geolocalización por ID | geolocalizationSensorId (Path) |
+| **Geolocalization Sensors** | /api/v1/geolocalization-sensors/{geolocalizationSensorId} | PUT | Actualizar sensor de geolocalización | geolocalizationSensorId (Path), Body |
+| **Geolocalization Sensors** | /api/v1/geolocalization-sensors/{geolocalizationSensorId} | DELETE | Eliminar sensor de geolocalización | geolocalizationSensorId (Path) |
+| **Geolocalization Sensors** | /api/v1/geolocalization-sensors | GET | Obtener todos los sensores de geolocalización | - |
+| **Geolocalization Sensors** | /api/v1/geolocalization-sensors | POST | Crear un nuevo sensor de geolocalización | Body |
+| **Geolocalization Sensors** | /api/v1/geolocalization-sensors/project/{projectId} | GET | Listar todos los sensores de geolocalización por ID de Proyecto | projectId (Path) |
+| **Machinery** | /api/v1/machinery | GET | Obtener maquinaria por ID de proyecto | - |
+| **Machinery** | /api/v1/machinery | POST | Crear una nueva entrada de maquinaria en obra | Body |
+| **Machinery** | /api/v1/machinery/{id} | GET | Obtener registro de maquinaria por ID | id (Path) |
+| **Machinery** | /api/v1/machinery/{id} | DELETE | Eliminar una entrada de maquinaria | id (Path) |
+| **Machinery** | /api/v1/machinery/{id} | PATCH | Actualizar parcialmente una entrada de maquinaria | id (Path), Body |
+| **Machinery Catalog** | /api/v1/machinery-catalog | GET | Listar catálogo global de equipos y maquinaria | - |
+| **Machinery Catalog** | /api/v1/machinery-catalog | POST | Crear nuevo modelo de equipo en el catálogo | Body |
+| **Machinery Catalog** | /api/v1/machinery-catalog/{id} | GET | Detalle de equipo del catálogo por ID | id (Path) |
+| **Machinery Catalog** | /api/v1/machinery-catalog/{id} | DELETE | Eliminar equipo del catálogo general | id (Path) |
+| **Concrete Curing** | /api/v1/concrete-curing-sensors | GET | Listar sensores de curado de concreto | - |
+| **Concrete Curing** | /api/v1/concrete-curing-sensors | POST | Registrar nuevo sensor de curado de concreto | Body |
+| **Concrete Curing** | /api/v1/concrete-curing-sensors/{id} | GET | Detalle de sensor de curado por ID | id (Path) |
+| **Concrete Curing** | /api/v1/concrete-curing-sensors/{id} | PUT | Actualizar nodo de sensor de curado | id (Path), Body |
+| **Concrete Curing** | /api/v1/concrete-curing-sensors/{id} | DELETE | Eliminar sensor de curado de concreto | id (Path) |
+| **Concrete Curing** | /api/v1/concrete-curing-sensors/proj/{id} | GET | Listar sensores de curado asignados a un proyecto | id (Path) |
+| **Logistics** | /api/v1/material-wastes | GET | Listar reportes de desperdicios de materiales | - |
+| **Logistics** | /api/v1/material-wastes | POST | Registrar un nuevo reporte de desperdicio de material | Body |
+| **Logistics** | /api/v1/material-wastes/{id} | GET | Detalle de reporte de desperdicio por ID | id (Path) |
+| **Logistics** | /api/v1/material-wastes/{id} | PUT | Actualizar reporte de desperdicio de material | id (Path), Body |
+| **Logistics** | /api/v1/material-wastes/{id} | DELETE | Eliminar reporte de desperdicio de material | id (Path) |
+| **Logistics** | /api/v1/material-categories | GET | Listar categorías de materiales | - |
+| **Logistics** | /api/v1/material-categories | POST | Crear nueva categoría de material | Body |
+| **Logistics** | /api/v1/material-categories/{id} | GET | Detalle de categoría de material por ID | id (Path) |
+| **Logistics** | /api/v1/material-catalogs | GET | Listar catálogo maestro de materiales | - |
+| **Logistics** | /api/v1/material-catalogs | POST | Añadir material al catálogo maestro | Body |
+| **Logistics** | /api/v1/material-catalogs/{id} | GET | Detalle de material en catálogo por ID | id (Path) |
+| **Logistics** | /api/v1/material-inventories | GET | Listar estados de inventarios de materiales | - |
+| **Logistics** | /api/v1/material-inventories | POST | Registrar nuevo inventario o stock de material | Body |
+| **Logistics** | /api/v1/material-inventories/{id} | GET | Detalle de inventario de material por ID | id (Path) |
+| **Logistics** | /api/v1/material-requests | GET | Listar solicitudes de materiales | - |
+| **Logistics** | /api/v1/material-requests | POST | Crear una nueva solicitud de materiales de obra | Body |
+| **Logistics** | /api/v1/material-requests/{id} | GET | Detalle de solicitud de materiales por ID | id (Path) |
+| **Logistics** | /api/v1/material-requests/{id} | PUT | Reemplazo completo de una solicitud de materiales | id (Path), Body |
+| **Logistics** | /api/v1/material-requests/{id} | PATCH | Actualización parcial de datos en solicitud de materiales | id (Path), Body |
+| **Logistics** | /api/v1/material-requests/{id}/status | PATCH | Actualizar estado específico de una solicitud de material | id (Path), Body |
+| **Suppliers** | /api/v1/suppliers | GET | Listar proveedores registrados | - |
+| **Suppliers** | /api/v1/suppliers | POST | Registrar un nuevo proveedor en el sistema | Body |
+| **Suppliers** | /api/v1/suppliers/{id} | GET | Obtener detalle de un proveedor por ID | id (Path) |
+| **Suppliers** | /api/v1/suppliers/{id} | PUT | Reemplazo completo del registro de un proveedor | id (Path), Body |
+| **Suppliers** | /api/v1/suppliers/{id} | DELETE | Eliminar proveedor del sistema | id (Path) |
+| **Suppliers** | /api/v1/suppliers/{id} | PATCH | Actualización parcial de información de un proveedor | id (Path), Body |
+| **Suppliers** | /api/v1/suppliers/by-ruc | GET | Buscar proveedor mediante su número de RUC | ruc (Query) |
+| **Suppliers** | /api/v1/suppliers/by-active-status | GET | Filtrar y listar únicamente proveedores activos | - |
+| **Suppliers** | /api/v1/supplier-offers | GET | Listar ofertas presentadas por proveedores | - |
+| **Suppliers** | /api/v1/supplier-offers | POST | Registrar una nueva oferta de proveedor | Body |
+| **Suppliers** | /api/v1/supplier-offers/{id} | GET | Detalle de una oferta de proveedor por ID | id (Path) |
+| **Suppliers** | /api/v1/supplier-offers/{id} | PUT | Actualizar información de oferta de proveedor | id (Path), Body |
+| **Suppliers** | /api/v1/supplier-offers/{id} | DELETE | Eliminar oferta de proveedor del sistema | id (Path) |
+| **Projects** | /api/v1/projects | GET | Listar proyectos de construcción activos | - |
+| **Projects** | /api/v1/projects | POST | Registrar o crear un nuevo proyecto | Body |
+| **Projects** | /api/v1/projects/{id} | GET | Obtener el detalle completo de un proyecto por ID | id (Path) |
+| **Projects** | /api/v1/projects/{id} | DELETE | Eliminar proyecto del sistema | id (Path) |
+| **Projects** | /api/v1/projects/{id} | PATCH | Actualizar parcialmente el estado u otros campos del proyecto | id (Path), Body |
+| **Projects** | /api/v1/projects/{id}/status | PATCH | Modificar el estado del proyecto según criterios de negocio (Gherkin) | id (Path), Body |
+| **Identity** | /api/v1/auth/login | POST | Autenticación de usuario e inicio de sesión con JWT | Body |
+| **Identity** | /api/v1/identity | GET | Consultar existencia o registro de usuario por Email | email (Query) |
+| **Identity** | /api/v1/identity | POST | Registrar un nuevo perfil de identidad base | Body |
+| **Identity** | /api/v1/identity/{id} | PATCH | Restablecer contraseña de cuenta de usuario | id (Path), Body |
+| **Invitations** | /api/v1/invitations | POST | Generar y enviar una nueva invitación a la plataforma | Body |
+| **Invitations** | /api/v1/invitations/{id} | GET | Detalle de una invitación enviada por ID | id (Path) |
+| **Invitations** | /api/v1/invitations/{id}/reject | PUT | Rechazar formalmente una invitación de plataforma | id (Path) |
+| **Invitations** | /api/v1/invitations/{id}/accept | PUT | Aceptar formalmente una invitación de plataforma | id (Path) |
+| **Invitations** | /api/v1/invitations/user/{email} | GET | Consultar invitaciones asociadas a un correo electrónico | email (Path) |
+| **Invitations** | /api/v1/invitations/by-project | GET | Listar invitaciones activas pertenecientes a un proyecto | - |
+| **Team** | /api/v1/team-workers | GET | Listar operarios y obreros asignados a equipos | - |
+| **Team** | /api/v1/team-workers | POST | Registrar un nuevo operario en el equipo de trabajo | Body |
+| **Team** | /api/v1/team-workers/{id} | GET | Obtener perfil detallado de un operario por ID | id (Path) |
+| **Team** | /api/v1/team-workers/{id} | DELETE | Dar de baja o eliminar operario del sistema | id (Path) |
+| **Team** | /api/v1/team-workers/{id}/machineries | POST | Asignar control de maquinaria pesada a un operario | id (Path), Body |
+| **Team** | /api/v1/team-workers/{id}/machineries/{mid} | DELETE | Remover la asignación de maquinaria de un operario | ids (Path) |
+| **Team** | /api/v1/team-users | GET | Listar usuarios que integran los equipos técnicos | - |
+| **Team** | /api/v1/team-users | POST | Añadir un usuario al equipo de trabajo de obra | Body |
+| **Team** | /api/v1/team-users/{id} | DELETE | Remover usuario del equipo | id (Path) |
+| **Team** | /api/v1/team-users/{id}/role | PATCH | Actualizar rol del usuario dentro del equipo de obra | id (Path), Body |
+| **Team** | /api/v1/team-users/{id}/deactivate | PATCH | Desactivar temporal o permanentemente a un usuario del equipo | id (Path) |
+| **Team** | /api/v1/team-users/{id}/activate | PATCH | Reactivar a un usuario suspendido dentro del equipo | id (Path) |
+| **Team** | /api/v1/team-users/active | GET | Listar únicamente los usuarios de equipo en estado Activo | - |
+| **Budget** | /api/v1/budgets | GET | Listar los presupuestos financieros de obras | - |
+| **Budget** | /api/v1/budgets/{id} | GET | Obtener desglose de presupuesto detallado por ID | id (Path) |
+| **Budget** | /api/v1/budgets/{id}/extensions | POST | Registrar inyección de capital o extensión presupuestaria | id (Path), Body |
+| **Budget** | /api/v1/budgets/{id}/expenses | POST | Registrar egreso, gasto o salida de dinero imputada a la obra | id (Path), Body |
+| **Documents** | /api/v1/documents | GET | Listar todos los documentos de obra subidos | - |
+| **Documents** | /api/v1/documents | POST | Crear y registrar un nuevo documento en el sistema de gestión | Body |
+| **Documents** | /api/v1/documents/{id}/send-code | POST | Enviar código de verificación por correo/SMS para firma | id (Path), Body |
+| **Documents** | /api/v1/documents/sign/{id} | PATCH | Estampar firma digital en el documento mediante código validado | id (Path), Body |
+| **Documents** | /api/v1/documents/signed | GET | Listar únicamente documentos que ya cuentan con firmas completas | - |
+| **Documents** | /api/v1/documents/pending | GET | Listar documentos pendientes que requieren firma | - |
+| **Uploads** | /api/v1/uploads | POST | Subir archivos binarios (imágenes/PDFs) a almacenamiento Cloudinary | Body |
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
 Durante el Sprint 4 se realizó la configuración del certificado SSL para el dominio de Kipu, permitiendo habilitar HTTPS en el servidor de producción. A continuación, se presentan las evidencias del proceso de deployment SSL, desde la configuración del DNS hasta la verificación del certificado.
