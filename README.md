@@ -6693,7 +6693,86 @@ Para comprobar la correcta integración transaccional y el comportamiento asínc
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
-*(Por completar durante el Sprint 4)*
+# 5.2.4.6. Services Documentation Evidence
+
+### Bounded Context: Quality Management (RNC)
+
+
+* **Propósito**: Resuelve la gestión de incidentes de calidad en obra, permitiendo documentar y hacer seguimiento riguroso de las no conformidades.
+* **Implementación**: Utiliza un enfoque RESTful mediante `NonConformityRecordsController`, aplicando patrones DDD para separar la lógica de dominio de la infraestructura de persistencia.
+* **Verificación**: El módulo se verifica mediante peticiones API estandarizadas, retornando códigos de estado HTTP adecuados (ej. 201 Created para registros nuevos).
+
+### Bounded Context: Progress
+
+### Módulo 1: Project Management (Núcleo)
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Project Management - 1.jpeg?raw=true" alt="Imagen del Endpoint Project">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Project Management - 2.jpeg?raw=true" alt="Imagen del Endpoint Project">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Project Management - 3.jpeg?raw=true" alt="Imagen del Endpoint Progress">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Project Management - 4.jpeg?raw=true" alt="Imagen del Endpoint Progress">
+<br>
+* **Propósito**: Gestión del ciclo de vida del proyecto, incluyendo la catalogación de partidas y el seguimiento en tiempo real del progreso operativo mediante fotos y nodos jerárquicos. Asegura la sincronización entre la ejecución planificada y el avance real en obra.
+
+### Módulo 2: IoT & Telemetry (Monitorización)
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger IoT and Telemetry - 1.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger IoT and Telemetry - 2.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger IoT and Telemetry - 3.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+* **Propósito**: Capa de servicios de telemetría para dispositivos IoT industriales. Estos servicios gestionan el ciclo de vida, estado e ingesta de datos en tiempo real de sensores críticos en sitio, garantizando la seguridad estructural y la visibilidad operativa.
+
+### Módulo 3: Supply Chain & Logistics (Operaciones)
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Supply Chain and Logistics - 1.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Supply Chain and Logistics - 2.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Supply Chain and Logistics - 3.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Supply Chain and Logistics - 4.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Supply Chain and Logistics - 5.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Supply Chain and Logistics - 6.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Supply Chain and Logistics - 7.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+* **Propósito**: Motor integral de logística y adquisiciones. Gestiona el ciclo de vida completo de materiales y maquinaria: desde la catalogación y estado de inventario hasta el despacho de solicitudes, reportes de desperdicios e integración con proveedores para la optimización de costos.
+
+### Módulo 4: Identity & Team (Seguridad)
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Identity and Team - 1.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Identity and Team - 2.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Identity and Team - 3.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Identity and Team - 4.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Identity and Team - 5.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+* **Propósito**: Sistema centralizado de gestión de identidad y acceso (IAM). Maneja la autenticación segura de usuarios (JWT), el control de acceso basado en roles (RBAC) y la colaboración de equipos a través de flujos de trabajo de invitación para proyectos de construcción multiusuario.
+
+### Módulo 5: Financials & Documentation (Administración)
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Financials and Documentation - 1.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Financials and Documentation - 2.jpeg?raw=true" alt="Imagen del Endpoint IoT and Telemetry">
+<br>
+* **Propósito**: Supervisión financiera y módulo de documentación digital. Proporciona seguimiento de costos operativos mediante la manipulación de líneas base presupuestarias y flujos de trabajo de firma/verificación documental segura para el cumplimiento normativo.
+
+### Módulo 6: Quality Management (RNC)
+
+<img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Swagger Screenshots Services Documentation Evidence/Swagger Quality Management.jpeg?raw=true" alt="Imagen del Endpoint RNC">
+<br>
+* **Propósito**: Resuelve la gestión de incidentes de calidad en obra, permitiendo documentar y hacer seguimiento riguroso de las no conformidades (RNC).
+* **Implementación**: Utiliza un enfoque RESTful mediante `NonConformityRecordsController`, aplicando patrones DDD para separar la lógica de dominio de la infraestructura de persistencia.
+* **Verificación**: El módulo se verifica mediante peticiones API estandarizadas, retornando códigos de estado HTTP adecuados (ej. 201 Created para registros nuevos).
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
