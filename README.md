@@ -7878,4 +7878,4 @@ Enlace: [Needfinding](https://upcedupe-my.sharepoint.com/:v:/g/personal/u2022241
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Exposure/Exposure-TB2.png?raw=true">
  </div>
 
- Enlace: [Exposure Video TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQCW0-7L2VghT6Hvn4vlfMbOASZaOC2kDxAXG1op2UASioA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=o6j6Ym)
+ Enlace: [Exposure Video TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417329_upc_edu_pe/IQBHBh4dPgjsSbckjN7J0-k0AbY4wughOT3T_lMmjS8gxaw?e=XC9a0z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
