@@ -7770,6 +7770,16 @@ Enlace: [Video-About-The-Product](https://youtu.be/7jvSf3lRIfc)
 
 * **Trabajo colaborativo eficiente:** A través de metodologías ágiles divididas en Sprints y usando herramientas como Discord y GitHub, el equipo logró una distribución equitativa de la carga de trabajo. Consiguieron estructurar con éxito desde el análisis Lean UX y el diseño arquitectónico (Domain-Driven Design) hasta el despliegue funcional en entornos frontend y backend distribuidos.
 
+Tras finalizar el ciclo de vida del proyecto Kipu, podemos concluir los siguientes puntos clave basados en la contrastación entre nuestras hipótesis iniciales y los resultados obtenidos:
+
+* **Validación de Hipótesis Lean UX:** Inicialmente, asumimos que los usuarios tendrían dificultades para gestionar procesos de construcción de forma digital. Tras las sesiones de validación, confirmamos que la barrera no era tecnológica, sino de usabilidad. Al simplificar los flujos mediante Wireflows claros, logramos una adopción temprana superior a la proyectada en nuestro Lean UX Canvas.
+
+* **Cumplimiento de los Objetivos de Negocio (SMART):** Los Business Goals planteados en el Impact Mapping se han cumplido satisfactoriamente. La arquitectura orientada a servicios (RESTful API) permitió que la escalabilidad del sistema fuera consistente con el crecimiento de usuarios, alcanzando las métricas de rendimiento establecidas en el Sprint 4.
+
+* **Madurez Arquitectónica:** La transición de un modelo monolítico hacia una arquitectura basada en Bounded Contexts (Domain-Driven Design) fue la decisión correcta. Esto no solo facilitó la integración de nuevos servicios externos (Cloudinary, servicios de correo para OTP), sino que redujo la deuda técnica al aislar los dominios de Identity, Progress y Logistics.
+
+* **Calidad de Software:** La implementación de estándares de documentación mediante OpenAPI y la cobertura de pruebas garantizó que el producto final no solo sea funcional, sino mantenible y conforme a los estándares industriales requeridos por el curso.
+
 
 
 ---
@@ -7786,6 +7796,16 @@ Enlace: [Video-About-The-Product](https://youtu.be/7jvSf3lRIfc)
 
 
 * **Mantener un diseño adaptado al entorno laboral:** Continuar priorizando interfaces con opciones de modo oscuro y estructuras limpias/minimalistas. Dado que muchos usuarios finales consultan la aplicación bajo condiciones de alta luminosidad solar en las obras de construcción, un diseño simple evita cuellos de botella en la lectura rápida de datos.
+
+Para asegurar la sostenibilidad del modelo de negocio de Kipu más allá de este curso, recomendamos:
+
+* **Evolución del Roadmap:** Priorizar la implementación de un motor de analítica predictiva en el módulo de Machinery y Budget. Los datos recolectados durante este Sprint 4 sientan la base perfecta para optimizar costos operativos de forma automática.
+
+* **Mejora de la Experiencia Móvil:** Aunque el diseño es responsive, recomendamos migrar el Frontend hacia una estrategia Mobile-First más profunda, optimizando los recursos de red para condiciones de baja conectividad en zonas de obra.
+
+* **Seguridad Avanzada:** Implementar una capa adicional de seguridad mediante Rate Limiting en los endpoints de autenticación y OTP para prevenir ataques de fuerza bruta, siguiendo las buenas prácticas de seguridad de Spring Boot.
+
+* **Internacionalización:** Continuar con el despliegue de las traducciones i18n configuradas, asegurando que todos los mensajes de error y validaciones del API sean claros para ambos segmentos objetivo (en_US y es_419).
 
 # Bibliografía
 Aquise, J., Bustamante, G. y Cáceres, M. (2021). Control de Calidad y su Impacto en los Indicadores de Desempeño Financiero y Operativo (KPIs) de una Pequeña Empresa Constructora en el Sur del Perú. [Tesis de maestría, Universidad Peruana de Ciencias Aplicadas]. Repositorio académico UPC. https://repositorioacademico.upc.edu.pe/handle/10757/672148
