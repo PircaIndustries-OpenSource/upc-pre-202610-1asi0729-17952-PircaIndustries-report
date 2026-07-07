@@ -7780,6 +7780,7 @@ Tras finalizar el ciclo de vida del proyecto Kipu, podemos concluir los siguient
 
 * **Calidad de Software:** La implementación de estándares de documentación mediante OpenAPI y la cobertura de pruebas garantizó que el producto final no solo sea funcional, sino mantenible y conforme a los estándares industriales requeridos por el curso.
 
+[Video-About-The-Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQA3R9wxbafQTb0r2bSE-NvlAfRyyrXHnzT0EblgtCJMA98?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lpbvO9)
 
 
 ---
@@ -7846,13 +7847,14 @@ Enlace: [Prototype](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e418
 
 Enlace: [Needfinding](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQBASIok4fI2QITwCQkC2WtxAVcYx3LosMbC302QOoOJsI8?e=8sKoWg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-## Video-About-The-Product
+## Video-About-The-Product AV1
   <div align="center">
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/220f8507c20bd1633016aed00afeccb62ebfc250/Resources/Video-About-The-Product/Video-About-The-Product-image.png?raw=true" alt="Video about the product">
  </div>
 
  Enlace: [AV1-Video-About-The-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e418_upc_edu_pe/IQDBalITrUJdTpO4tJlzmhfuAW9MYd3ovTAOnPt0rp0mPQ8?e=aAluj4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+## Video-About-The-Product AV2
    <div align="center">
     <img src="https://github.com/PircaIndustries-OpenSource/upc-pre-202610-1asi0729-17952-PircaIndustries-report/blob/main/Resources/Sprint3Evidence/evidence.png?raw=true" alt="Video about the product">
  </div>
