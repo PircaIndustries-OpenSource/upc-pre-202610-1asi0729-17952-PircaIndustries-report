@@ -7879,3 +7879,11 @@ Enlace: [Needfinding](https://upcedupe-my.sharepoint.com/:v:/g/personal/u2022241
  </div>
 
  Enlace: [Exposure Video TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417329_upc_edu_pe/IQBHBh4dPgjsSbckjN7J0-k0AbY4wughOT3T_lMmjS8gxaw?e=XC9a0z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+ ## Video About The Team
+
+ <div align="center">
+    <img src="./Resources/AboutTheTeam/about-the-team-tb2.png" alt="Video about the team">
+ </div>
+
+ Enlace: [Video-About-The-Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224130_upc_edu_pe/IQA3R9wxbafQTb0r2bSE-NvlAfRyyrXHnzT0EblgtCJMA98?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lpbvO9)
